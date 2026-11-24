@@ -46,3 +46,4 @@ Source URL for every raw binary file (gitignored). Generated 2026-11-24.
 - `data/raw/manual/infosys_2019.pdf` ← supplied by user from infosys.com (2026-11-24)
 - `data/raw/manual/infosys_2024.pdf` ← supplied by user from infosys.com (2026-11-24)
 - `data/raw/manual/infosys_2027.pdf` ← supplied by user from infosys.com (2026-11-24)
+- `data/raw/manual/infosys/infosys_q{2,4}fy{16..26}.pdf` (20 files) ← supplied by user from infosys.com (2026-11-24); quarter verified from table dates. Round 1 files are duplicated in `infosys/`.

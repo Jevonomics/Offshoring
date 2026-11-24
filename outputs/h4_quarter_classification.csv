@@ -1,0 +1,56 @@
+firm,fiscal_label,cal_quarter_end,headcount_total,net,attrition_pct,attrition_definition,hire_rate_ann,base_hire,base_attr,layoff_window,class
+HCLTech,Q4FY24,2024-03-31,227481.0,2725.0,12.4,attrition_ltm,17.22,26.3,16.91,False,no decline
+HCLTech,Q1FY25,2024-06-30,219401.0,-8080.0,12.8,attrition_ltm,-1.66,26.3,16.91,False,decline from low hiring (attrition normal or low)
+HCLTech,Q2FY25,2024-09-30,218621.0,-780.0,12.9,attrition_ltm,11.48,26.3,16.91,False,decline from low hiring (attrition normal or low)
+HCLTech,Q3FY25,2024-12-31,220755.0,2134.0,13.2,attrition_ltm,17.09,26.3,16.91,False,no decline
+HCLTech,Q4FY25,2025-03-31,223420.0,2665.0,13.0,attrition_ltm,17.8,26.3,16.91,False,no decline
+HCLTech,Q1FY26,2025-06-30,223151.0,-269.0,12.8,attrition_ltm,12.32,26.3,16.91,False,decline from low hiring (attrition normal or low)
+HCLTech,Q2FY26,2025-09-30,226640.0,3489.0,12.6,attrition_ltm,18.81,26.3,16.91,False,no decline
+HCLTech,Q3FY26,2025-12-31,226379.0,-261.0,12.4,attrition_ltm,11.94,26.3,16.91,False,decline from low hiring (attrition normal or low)
+HCLTech,Q4FY26,2026-03-31,227181.0,802.0,12.5,attrition_ltm,13.91,26.3,16.91,False,no decline
+HCLTech,Q1FY27,2026-06-30,223889.0,-3292.0,12.7,attrition_ltm,6.86,26.3,16.91,False,decline from low hiring (attrition normal or low)
+HCLTech,Q2FY27,2026-09-30,230339.0,6450.0,12.8,attrition_ltm,24.16,26.3,16.91,False,no decline
+Infosys,Q4FY24,2024-03-31,317240.0,-5423.0,12.6,attrition[Voluntary Attrition % (LTM - IT Services)],5.82,26.31,20.26,False,decline from low hiring (attrition normal or low)
+Infosys,Q1FY25,2024-06-30,315332.0,-1908.0,12.7,attrition[Voluntary Attrition % (LTM - IT Services)],10.29,26.31,20.26,False,decline from low hiring (attrition normal or low)
+Infosys,Q2FY25,2024-09-30,317788.0,2456.0,12.9,attrition[Voluntary Attrition % (LTM - IT Services)],16.0,26.31,20.26,False,no decline
+Infosys,Q3FY25,2024-12-31,323379.0,5591.0,13.7,attrition[Voluntary Attrition % (LTM - IT Services)],20.68,26.31,20.26,False,no decline
+Infosys,Q4FY25,2025-03-31,323578.0,199.0,14.1,attrition[Voluntary Attrition % (LTM - IT Services)],14.35,26.31,20.26,False,no decline
+Infosys,Q1FY26,2025-06-30,323788.0,210.0,14.4,attrition[Voluntary Attrition % (LTM - IT Services)],14.66,26.31,20.26,False,no decline
+Infosys,Q2FY26,2025-09-30,331991.0,8203.0,14.3,attrition[Voluntary Attrition % (LTM - IT Services)],24.31,26.31,20.26,False,no decline
+Infosys,Q3FY26,2025-12-31,337034.0,5043.0,12.3,attrition[Voluntary Attrition % (LTM - IT Services)],18.33,26.31,20.26,False,no decline
+Infosys,Q4FY26,2026-03-31,328594.0,-8440.0,12.6,attrition[Voluntary Attrition % (LTM - IT Services)],2.46,26.31,20.26,False,decline from low hiring (attrition normal or low)
+Infosys,Q1FY27,2026-06-30,328062.0,-532.0,13.0,attrition[Voluntary Attrition % (LTM - IT Services)],12.35,26.31,20.26,False,decline from low hiring (attrition normal or low)
+Infosys,Q2FY27,2026-09-30,332542.0,4480.0,12.7,attrition[Voluntary Attrition % (LTM - IT Services)],18.13,26.31,20.26,False,no decline
+TCS,Q4FY24,2024-03-31,601546.0,-1759.0,12.5,attrition_ltm_it,11.33,17.6,11.39,False,decline with unusually high attrition
+TCS,Q1FY25,2024-06-30,606998.0,5452.0,12.1,attrition_ltm_it,15.71,17.6,11.39,False,no decline
+TCS,Q2FY25,2024-09-30,612724.0,5726.0,12.3,attrition_ltm_it,16.06,17.6,11.39,False,no decline
+TCS,Q3FY25,2024-12-31,607354.0,-5370.0,13.0,attrition_ltm_it,9.48,17.6,11.39,False,decline with unusually high attrition
+TCS,Q4FY25,2025-03-31,607979.0,625.0,13.3,attrition_ltm_it,13.71,17.6,11.39,False,no decline
+TCS,Q1FY26,2025-06-30,613069.0,5090.0,13.8,attrition_ltm_it,17.13,17.6,11.39,False,no decline
+TCS,Q2FY26,2025-09-30,593314.0,-19755.0,13.3,attrition_ltm_it_voluntary,0.2,17.6,11.39,True,decline during announced layoff
+TCS,Q3FY26,2025-12-31,582163.0,-11151.0,13.5,attrition_ltm_it_voluntary,5.91,17.6,11.39,True,decline during announced layoff
+TCS,Q4FY26,2026-03-31,584519.0,2356.0,13.7,attrition_ltm_it_voluntary,15.32,17.6,11.39,True,no decline
+TCS,Q1FY27,2026-06-30,593798.0,9279.0,13.6,attrition_ltm_it_voluntary,19.9,17.6,11.39,False,no decline
+TCS,Q2FY27,2026-09-30,598056.0,4258.0,13.3,attrition_ltm_it_voluntary,16.16,17.6,11.39,False,no decline
+TechM,Q4FY24,2024-03-31,145455.0,-795.0,10.0,attrition_ltm_it,7.82,24.68,18.93,False,decline from low hiring (attrition normal or low)
+TechM,Q1FY25,2024-06-30,147620.0,2165.0,10.1,attrition_ltm_it,16.01,24.68,18.93,False,no decline
+TechM,Q2FY25,2024-09-30,154273.0,6653.0,10.6,attrition_ltm_it,28.23,24.68,18.93,False,no decline
+TechM,Q3FY25,2024-12-31,150488.0,-3785.0,11.2,attrition_ltm_it,1.26,24.68,18.93,False,decline from low hiring (attrition normal or low)
+TechM,Q4FY25,2025-03-31,148731.0,-1757.0,11.8,attrition_ltm_it,7.1,24.68,18.93,False,decline from low hiring (attrition normal or low)
+TechM,Q1FY26,2025-06-30,148517.0,-214.0,12.6,attrition_ltm_it,12.02,24.68,18.93,False,decline from low hiring (attrition normal or low)
+TechM,Q2FY26,2025-09-30,152714.0,4197.0,12.8,attrition_ltm_it,23.95,24.68,18.93,False,no decline
+TechM,Q3FY26,2025-12-31,149616.0,-3098.0,12.3,attrition_ltm_it,4.1,24.68,18.93,False,decline from low hiring (attrition normal or low)
+TechM,Q4FY26,2026-03-31,147623.0,-1993.0,12.1,attrition_ltm_it,6.74,24.68,18.93,False,decline from low hiring (attrition normal or low)
+TechM,Q1FY27,2026-06-30,146760.0,-863.0,11.8,attrition_ltm_it,9.45,24.68,18.93,False,decline from low hiring (attrition normal or low)
+TechM,Q2FY27,2026-09-30,152206.0,5446.0,11.7,attrition_ltm_it,26.27,24.68,18.93,False,no decline
+Wipro,Q4FY24,2024-03-31,232614.0,-7041.0,14.2,attrition_ltm_it_voluntary,2.27,21.51,16.68,False,decline from low hiring (attrition normal or low)
+Wipro,Q1FY25,2024-06-30,232911.0,297.0,14.1,attrition_ltm_it_voluntary,14.61,21.51,16.68,False,no decline
+Wipro,Q2FY25,2024-09-30,233889.0,978.0,14.5,attrition_ltm_it_voluntary,16.18,21.51,16.68,False,no decline
+Wipro,Q3FY25,2024-12-31,232732.0,-1157.0,15.3,attrition_ltm_it_voluntary,13.32,21.51,16.68,False,decline from low hiring (attrition normal or low)
+Wipro,Q4FY25,2025-03-31,233346.0,614.0,15.0,attrition_ltm_it_voluntary,16.05,21.51,16.68,False,no decline
+Wipro,Q1FY26,2025-06-30,233232.0,-114.0,15.1,attrition_ltm_it_voluntary,14.9,21.51,16.68,False,decline from low hiring (attrition normal or low)
+Wipro,Q2FY26,2025-09-30,235492.0,2260.0,14.9,attrition_ltm_it_voluntary,18.76,21.51,16.68,False,no decline
+Wipro,Q3FY26,2025-12-31,242021.0,6529.0,14.2,attrition_ltm_it_voluntary,25.14,21.51,16.68,False,no decline
+Wipro,Q4FY26,2026-03-31,242156.0,135.0,13.8,attrition_ltm_it_voluntary,14.02,21.51,16.68,False,no decline
+Wipro,Q1FY27,2026-06-30,243044.0,888.0,13.9,attrition_ltm_it_voluntary,15.36,21.51,16.68,False,no decline
+Wipro,Q2FY27,2026-09-30,236328.0,-6716.0,13.8,attrition_ltm_it_voluntary,2.59,21.51,16.68,False,decline from low hiring (attrition normal or low)

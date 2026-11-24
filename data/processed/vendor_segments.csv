@@ -1919,10 +1919,10 @@ HCLTech,2015-06-30,Q1FY16,service_line,Infrastructure Services,35.3,542.7375,dat
 HCLTech,2015-09-30,Q2FY16,service_line,Engineering and R&D Services,19.2,296.544,data/raw/hcltech/releases/2016-17__hcl_tech_q2_2017_investor_release.pdf
 HCLTech,2015-09-30,Q2FY16,region,Americas,58.7,906.6215000000001,data/raw/hcltech/releases/2016-17__hcl_tech_q2_2017_investor_release.pdf
 HCLTech,2015-09-30,Q2FY16,region,Europe,31.7,489.6065,data/raw/hcltech/releases/2016-17__hcl_tech_q2_2017_investor_release.pdf
-HCLTech,2015-09-30,Q2FY16,service_line,Business Services,5.3,81.85849999999999,data/raw/hcltech/releases/2016-17__hcl_tech_q2_2017_investor_release.pdf
+HCLTech,2015-09-30,Q2FY16,region,RoW,9.6,148.272,data/raw/hcltech/releases/2016-17__hcl_tech_q2_2017_investor_release.pdf
 HCLTech,2015-09-30,Q2FY16,service_line,Application Services,40.4,623.978,data/raw/hcltech/releases/2016-17__hcl_tech_q2_2017_investor_release.pdf
 HCLTech,2015-09-30,Q2FY16,service_line,Infrastructure Services,35.1,542.1195,data/raw/hcltech/releases/2016-17__hcl_tech_q2_2017_investor_release.pdf
-HCLTech,2015-09-30,Q2FY16,region,RoW,9.6,148.272,data/raw/hcltech/releases/2016-17__hcl_tech_q2_2017_investor_release.pdf
+HCLTech,2015-09-30,Q2FY16,service_line,Business Services,5.3,81.85849999999999,data/raw/hcltech/releases/2016-17__hcl_tech_q2_2017_investor_release.pdf
 HCLTech,2015-12-31,Q3FY16,service_line,Engineering and R&D Services,18.6,291.2946,data/raw/hcltech/releases/2016-17__hcl_tech_q3_2017_investor_release.pdf
 HCLTech,2015-12-31,Q3FY16,service_line,Business Services,5.5,86.1355,data/raw/hcltech/releases/2016-17__hcl_tech_q3_2017_investor_release.pdf
 HCLTech,2015-12-31,Q3FY16,region,Americas,61.0,955.3209999999999,data/raw/hcltech/releases/2016-17__hcl_tech_q3_2017_investor_release.pdf
@@ -1952,71 +1952,71 @@ HCLTech,2016-09-30,Q2FY17,region,RoW,8.8,151.57120000000003,data/raw/hcltech/rel
 HCLTech,2016-09-30,Q2FY17,service_line,Application Services,37.8,651.0672,data/raw/hcltech/releases/2017-18__hcl_tech_q2_2018_investor_release.pdf
 HCLTech,2016-09-30,Q2FY17,service_line,Infrastructure Services,40.3,694.1272,data/raw/hcltech/releases/2017-18__hcl_tech_q2_2018_investor_release.pdf
 HCLTech,2016-12-31,Q3FY17,service_line,Engineering and R&D Services,18.6,324.6258,data/raw/hcltech/releases/2017-18__hcl_tech_q3_2018_investor_release.pdf
+HCLTech,2016-12-31,Q3FY17,service_line,Infrastructure Services,39.8,694.6293999999999,data/raw/hcltech/releases/2017-18__hcl_tech_q3_2018_investor_release.pdf
 HCLTech,2016-12-31,Q3FY17,region,Americas,61.9,1080.3407,data/raw/hcltech/releases/2017-18__hcl_tech_q3_2018_investor_release.pdf
 HCLTech,2016-12-31,Q3FY17,region,Europe,29.6,516.6088000000001,data/raw/hcltech/releases/2017-18__hcl_tech_q3_2018_investor_release.pdf
+HCLTech,2016-12-31,Q3FY17,service_line,Application Services,37.5,654.4875,data/raw/hcltech/releases/2017-18__hcl_tech_q3_2018_investor_release.pdf
 HCLTech,2016-12-31,Q3FY17,service_line,Business Services,4.0,69.812,data/raw/hcltech/releases/2017-18__hcl_tech_q3_2018_investor_release.pdf
 HCLTech,2016-12-31,Q3FY17,region,RoW,8.5,148.3505,data/raw/hcltech/releases/2017-18__hcl_tech_q3_2018_investor_release.pdf
-HCLTech,2016-12-31,Q3FY17,service_line,Application Services,37.5,654.4875,data/raw/hcltech/releases/2017-18__hcl_tech_q3_2018_investor_release.pdf
-HCLTech,2016-12-31,Q3FY17,service_line,Infrastructure Services,39.8,694.6293999999999,data/raw/hcltech/releases/2017-18__hcl_tech_q3_2018_investor_release.pdf
 HCLTech,2017-03-31,Q4FY17,service_line,Engineering and R&D Services,20.5,372.44399999999996,data/raw/hcltech/releases/2017-18__hcl_tech_q4_2018_investor_release.pdf
 HCLTech,2017-03-31,Q4FY17,service_line,Business Services,3.9,70.8552,data/raw/hcltech/releases/2017-18__hcl_tech_q4_2018_investor_release.pdf
 HCLTech,2017-03-31,Q4FY17,region,Americas,62.6,1137.3168,data/raw/hcltech/releases/2017-18__hcl_tech_q4_2018_investor_release.pdf
 HCLTech,2017-03-31,Q4FY17,region,Europe,27.7,503.25359999999995,data/raw/hcltech/releases/2017-18__hcl_tech_q4_2018_investor_release.pdf
-HCLTech,2017-03-31,Q4FY17,service_line,Application Services,36.8,668.5824,data/raw/hcltech/releases/2017-18__hcl_tech_q4_2018_investor_release.pdf
-HCLTech,2017-03-31,Q4FY17,service_line,Infrastructure Services,38.8,704.9183999999999,data/raw/hcltech/releases/2017-18__hcl_tech_q4_2018_investor_release.pdf
 HCLTech,2017-03-31,Q4FY17,region,RoW,9.7,176.22959999999998,data/raw/hcltech/releases/2017-18__hcl_tech_q4_2018_investor_release.pdf
+HCLTech,2017-03-31,Q4FY17,service_line,Infrastructure Services,38.8,704.9183999999999,data/raw/hcltech/releases/2017-18__hcl_tech_q4_2018_investor_release.pdf
+HCLTech,2017-03-31,Q4FY17,service_line,Application Services,36.8,668.5824,data/raw/hcltech/releases/2017-18__hcl_tech_q4_2018_investor_release.pdf
 HCLTech,2017-06-30,Q1FY18,service_line,Engineering and R&D Services,21.5,405.103,data/raw/hcltech/releases/2018-19__hcl_tech_q1_2019_investor_release.pdf
+HCLTech,2017-06-30,Q1FY18,service_line,Business Services,3.6,67.83120000000001,data/raw/hcltech/releases/2018-19__hcl_tech_q1_2019_investor_release.pdf
 HCLTech,2017-06-30,Q1FY18,region,Americas,62.8,1183.2776000000001,data/raw/hcltech/releases/2018-19__hcl_tech_q1_2019_investor_release.pdf
 HCLTech,2017-06-30,Q1FY18,region,Europe,27.4,516.2707999999999,data/raw/hcltech/releases/2018-19__hcl_tech_q1_2019_investor_release.pdf
-HCLTech,2017-06-30,Q1FY18,service_line,Business Services,3.6,67.83120000000001,data/raw/hcltech/releases/2018-19__hcl_tech_q1_2019_investor_release.pdf
-HCLTech,2017-06-30,Q1FY18,region,RoW,9.8,184.6516,data/raw/hcltech/releases/2018-19__hcl_tech_q1_2019_investor_release.pdf
 HCLTech,2017-06-30,Q1FY18,service_line,Application Services,36.3,683.9646,data/raw/hcltech/releases/2018-19__hcl_tech_q1_2019_investor_release.pdf
 HCLTech,2017-06-30,Q1FY18,service_line,Infrastructure Services,38.6,727.3012,data/raw/hcltech/releases/2018-19__hcl_tech_q1_2019_investor_release.pdf
+HCLTech,2017-06-30,Q1FY18,region,RoW,9.8,184.6516,data/raw/hcltech/releases/2018-19__hcl_tech_q1_2019_investor_release.pdf
 HCLTech,2017-09-30,Q2FY18,service_line,Engineering and R&D Services,22.0,424.16,data/raw/hcltech/releases/2018-19__hcl_tech_q2_2019_investor_release.pdf
 HCLTech,2018-06-30,Q1FY19,service_line,Business Services,5.2,106.834,data/raw/hcltech/releases/2018-19__hcl_tech_q2_2019_investor_release.pdf
-HCLTech,2017-09-30,Q2FY18,service_line,Business Services,3.6,69.408,data/raw/hcltech/releases/2018-19__hcl_tech_q2_2019_investor_release.pdf
 HCLTech,2017-09-30,Q2FY18,region,Americas,62.4,1203.072,data/raw/hcltech/releases/2018-19__hcl_tech_q2_2019_investor_release.pdf
 HCLTech,2017-09-30,Q2FY18,region,Europe,29.1,561.0480000000001,data/raw/hcltech/releases/2018-19__hcl_tech_q2_2019_investor_release.pdf
-HCLTech,2017-09-30,Q2FY18,region,RoW,8.5,163.88000000000002,data/raw/hcltech/releases/2018-19__hcl_tech_q2_2019_investor_release.pdf
-HCLTech,2017-09-30,Q2FY18,service_line,Infrastructure Services,38.5,742.28,data/raw/hcltech/releases/2018-19__hcl_tech_q2_2019_investor_release.pdf
-HCLTech,2018-06-30,Q1FY19,service_line,Application Services,34.0,698.5300000000001,data/raw/hcltech/releases/2018-19__hcl_tech_q2_2019_investor_release.pdf
-HCLTech,2018-06-30,Q1FY19,service_line,Infrastructure Services,36.2,743.729,data/raw/hcltech/releases/2018-19__hcl_tech_q2_2019_investor_release.pdf
+HCLTech,2017-09-30,Q2FY18,service_line,Business Services,3.6,69.408,data/raw/hcltech/releases/2018-19__hcl_tech_q2_2019_investor_release.pdf
 HCLTech,2017-09-30,Q2FY18,service_line,Application Services,35.9,692.1519999999999,data/raw/hcltech/releases/2018-19__hcl_tech_q2_2019_investor_release.pdf
+HCLTech,2018-06-30,Q1FY19,service_line,Application Services,34.0,698.5300000000001,data/raw/hcltech/releases/2018-19__hcl_tech_q2_2019_investor_release.pdf
+HCLTech,2017-09-30,Q2FY18,service_line,Infrastructure Services,38.5,742.28,data/raw/hcltech/releases/2018-19__hcl_tech_q2_2019_investor_release.pdf
+HCLTech,2018-06-30,Q1FY19,service_line,Infrastructure Services,36.2,743.729,data/raw/hcltech/releases/2018-19__hcl_tech_q2_2019_investor_release.pdf
+HCLTech,2017-09-30,Q2FY18,region,RoW,8.5,163.88000000000002,data/raw/hcltech/releases/2018-19__hcl_tech_q2_2019_investor_release.pdf
 HCLTech,2017-12-31,Q3FY18,service_line,Engineering and R&D Services,24.2,480.97499999999997,data/raw/hcltech/releases/2018-19__hcl_tech_q3_2019_investor_release.pdf
 HCLTech,2018-09-30,Q2FY19,service_line,Business Services,5.4,113.32440000000001,data/raw/hcltech/releases/2018-19__hcl_tech_q3_2019_investor_release.pdf
-HCLTech,2018-09-30,Q2FY19,service_line,Infrastructure Services,36.0,755.496,data/raw/hcltech/releases/2018-19__hcl_tech_q3_2019_investor_release.pdf
+HCLTech,2017-12-31,Q3FY18,service_line,Business Services,3.7,73.53750000000001,data/raw/hcltech/releases/2018-19__hcl_tech_q3_2019_investor_release.pdf
 HCLTech,2017-12-31,Q3FY18,region,Americas,63.5,1262.0625,data/raw/hcltech/releases/2018-19__hcl_tech_q3_2019_investor_release.pdf
 HCLTech,2017-12-31,Q3FY18,region,Europe,28.7,570.4124999999999,data/raw/hcltech/releases/2018-19__hcl_tech_q3_2019_investor_release.pdf
-HCLTech,2017-12-31,Q3FY18,service_line,Business Services,3.7,73.53750000000001,data/raw/hcltech/releases/2018-19__hcl_tech_q3_2019_investor_release.pdf
-HCLTech,2018-09-30,Q2FY19,service_line,Application Services,33.1,694.6366,data/raw/hcltech/releases/2018-19__hcl_tech_q3_2019_investor_release.pdf
-HCLTech,2017-12-31,Q3FY18,service_line,Infrastructure Services,36.7,729.4125000000001,data/raw/hcltech/releases/2018-19__hcl_tech_q3_2019_investor_release.pdf
 HCLTech,2017-12-31,Q3FY18,region,RoW,7.9,157.0125,data/raw/hcltech/releases/2018-19__hcl_tech_q3_2019_investor_release.pdf
+HCLTech,2017-12-31,Q3FY18,service_line,Infrastructure Services,36.7,729.4125000000001,data/raw/hcltech/releases/2018-19__hcl_tech_q3_2019_investor_release.pdf
+HCLTech,2018-09-30,Q2FY19,service_line,Application Services,33.1,694.6366,data/raw/hcltech/releases/2018-19__hcl_tech_q3_2019_investor_release.pdf
+HCLTech,2018-09-30,Q2FY19,service_line,Infrastructure Services,36.0,755.496,data/raw/hcltech/releases/2018-19__hcl_tech_q3_2019_investor_release.pdf
 HCLTech,2017-12-31,Q3FY18,service_line,Application Services,35.3,701.5875,data/raw/hcltech/releases/2018-19__hcl_tech_q3_2019_investor_release.pdf
 HCLTech,2018-03-31,Q4FY18,service_line,Engineering and R&D Services,24.1,491.158,data/raw/hcltech/releases/2018-19__hcl_tech_q4_2019_investor_release.pdf
 HCLTech,2019-03-31,Q4FY19,service_line,Business Services,4.5,102.501,data/raw/hcltech/releases/2018-19__hcl_tech_q4_2019_investor_release.pdf
 HCLTech,2018-12-31,Q3FY19,service_line,Business Services,5.0,110.075,data/raw/hcltech/releases/2018-19__hcl_tech_q4_2019_investor_release.pdf
-HCLTech,2019-03-31,Q4FY19,service_line,Infrastructure Services,38.9,886.0642000000001,data/raw/hcltech/releases/2018-19__hcl_tech_q4_2019_investor_release.pdf
-HCLTech,2018-03-31,Q4FY18,service_line,Business Services,3.9,79.482,data/raw/hcltech/releases/2018-19__hcl_tech_q4_2019_investor_release.pdf
-HCLTech,2018-03-31,Q4FY18,region,Americas,61.6,1255.408,data/raw/hcltech/releases/2018-19__hcl_tech_q4_2019_investor_release.pdf
 HCLTech,2018-03-31,Q4FY18,region,Europe,30.0,611.4,data/raw/hcltech/releases/2018-19__hcl_tech_q4_2019_investor_release.pdf
-HCLTech,2018-03-31,Q4FY18,region,RoW,8.5,173.23000000000002,data/raw/hcltech/releases/2018-19__hcl_tech_q4_2019_investor_release.pdf
+HCLTech,2019-03-31,Q4FY19,service_line,Infrastructure Services,38.9,886.0642000000001,data/raw/hcltech/releases/2018-19__hcl_tech_q4_2019_investor_release.pdf
+HCLTech,2018-03-31,Q4FY18,region,Americas,61.6,1255.408,data/raw/hcltech/releases/2018-19__hcl_tech_q4_2019_investor_release.pdf
+HCLTech,2018-03-31,Q4FY18,service_line,Business Services,3.9,79.482,data/raw/hcltech/releases/2018-19__hcl_tech_q4_2019_investor_release.pdf
 HCLTech,2018-03-31,Q4FY18,service_line,Application Services,34.7,707.186,data/raw/hcltech/releases/2018-19__hcl_tech_q4_2019_investor_release.pdf
 HCLTech,2018-12-31,Q3FY19,service_line,Application Services,32.0,704.48,data/raw/hcltech/releases/2018-19__hcl_tech_q4_2019_investor_release.pdf
 HCLTech,2019-03-31,Q4FY19,service_line,Application Services,32.6,742.5628,data/raw/hcltech/releases/2018-19__hcl_tech_q4_2019_investor_release.pdf
 HCLTech,2018-03-31,Q4FY18,service_line,Infrastructure Services,37.3,760.174,data/raw/hcltech/releases/2018-19__hcl_tech_q4_2019_investor_release.pdf
 HCLTech,2018-12-31,Q3FY19,service_line,Infrastructure Services,37.5,825.5625,data/raw/hcltech/releases/2018-19__hcl_tech_q4_2019_investor_release.pdf
+HCLTech,2018-03-31,Q4FY18,region,RoW,8.5,173.23000000000002,data/raw/hcltech/releases/2018-19__hcl_tech_q4_2019_investor_release.pdf
 HCLTech,2019-03-31,Q4FY19,service_line,Products & Platforms,7.6,173.11280000000002,data/raw/hcltech/releases/2019-20__hcl_tech_q1_2020_investor_release.pdf
 HCLTech,2018-06-30,Q1FY19,service_line,Products & Platforms,7.8,160.251,data/raw/hcltech/releases/2019-20__hcl_tech_q1_2020_investor_release.pdf
-HCLTech,2018-06-30,Q1FY19,service_line,Engineering and R&D Services,17.3,355.42850000000004,data/raw/hcltech/releases/2019-20__hcl_tech_q1_2020_investor_release.pdf
+HCLTech,2019-03-31,Q4FY19,service_line,Engineering and R&D Services,16.6,378.11480000000006,data/raw/hcltech/releases/2019-20__hcl_tech_q1_2020_investor_release.pdf
 HCLTech,2018-06-30,Q1FY19,region,Americas,64.5,1325.1525000000001,data/raw/hcltech/releases/2019-20__hcl_tech_q1_2020_investor_release.pdf
 HCLTech,2019-03-31,Q4FY19,region,Americas,62.9,1432.7362,data/raw/hcltech/releases/2019-20__hcl_tech_q1_2020_investor_release.pdf
 HCLTech,2018-06-30,Q1FY19,region,Europe,28.1,577.3145000000001,data/raw/hcltech/releases/2019-20__hcl_tech_q1_2020_investor_release.pdf
 HCLTech,2019-03-31,Q4FY19,region,Europe,29.7,676.5066,data/raw/hcltech/releases/2019-20__hcl_tech_q1_2020_investor_release.pdf
 HCLTech,2018-06-30,Q1FY19,region,RoW,7.5,154.0875,data/raw/hcltech/releases/2019-20__hcl_tech_q1_2020_investor_release.pdf
-HCLTech,2019-03-31,Q4FY19,service_line,IT and Business Services,75.8,1726.5724000000002,data/raw/hcltech/releases/2019-20__hcl_tech_q1_2020_investor_release.pdf
-HCLTech,2019-03-31,Q4FY19,service_line,Engineering and R&D Services,16.6,378.11480000000006,data/raw/hcltech/releases/2019-20__hcl_tech_q1_2020_investor_release.pdf
 HCLTech,2019-03-31,Q4FY19,region,RoW,7.4,168.55720000000002,data/raw/hcltech/releases/2019-20__hcl_tech_q1_2020_investor_release.pdf
 HCLTech,2018-06-30,Q1FY19,service_line,IT and Business Services,74.9,1538.8205000000003,data/raw/hcltech/releases/2019-20__hcl_tech_q1_2020_investor_release.pdf
+HCLTech,2019-03-31,Q4FY19,service_line,IT and Business Services,75.8,1726.5724000000002,data/raw/hcltech/releases/2019-20__hcl_tech_q1_2020_investor_release.pdf
+HCLTech,2018-06-30,Q1FY19,service_line,Engineering and R&D Services,17.3,355.42850000000004,data/raw/hcltech/releases/2019-20__hcl_tech_q1_2020_investor_release.pdf
 HCLTech,2019-06-30,Q1FY20,service_line,Products & Platforms,7.8,184.36079999999998,data/raw/hcltech/releases/2019-20__hcl_tech_q2_2020_investor_release.pdf
 HCLTech,2018-09-30,Q2FY19,service_line,Products & Platforms,8.7,182.57819999999998,data/raw/hcltech/releases/2019-20__hcl_tech_q2_2020_investor_release.pdf
 HCLTech,2018-09-30,Q2FY19,service_line,Engineering and R&D Services,17.5,367.25499999999994,data/raw/hcltech/releases/2019-20__hcl_tech_q2_2020_investor_release.pdf
@@ -2030,29 +2030,29 @@ HCLTech,2018-09-30,Q2FY19,service_line,IT and Business Services,73.8,1548.766799
 HCLTech,2019-06-30,Q1FY20,service_line,IT and Business Services,75.3,1779.7908,data/raw/hcltech/releases/2019-20__hcl_tech_q2_2020_investor_release.pdf
 HCLTech,2019-06-30,Q1FY20,region,Europe,25.9,612.1724,data/raw/hcltech/releases/2019-20__hcl_tech_q2_2020_investor_release.pdf
 HCLTech,2018-12-31,Q3FY19,service_line,Products & Platforms,8.9,195.9335,data/raw/hcltech/releases/2019-20__hcl_tech_q3_2020_investor_release.pdf
-HCLTech,2018-12-31,Q3FY19,region,Europe,28.2,620.823,data/raw/hcltech/releases/2019-20__hcl_tech_q3_2020_investor_release.pdf
+HCLTech,2018-12-31,Q3FY19,service_line,Engineering and R&D Services,17.1,376.4565,data/raw/hcltech/releases/2019-20__hcl_tech_q3_2020_investor_release.pdf
 HCLTech,2018-12-31,Q3FY19,region,Americas,64.4,1417.766,data/raw/hcltech/releases/2019-20__hcl_tech_q3_2020_investor_release.pdf
+HCLTech,2018-12-31,Q3FY19,region,Europe,28.2,620.823,data/raw/hcltech/releases/2019-20__hcl_tech_q3_2020_investor_release.pdf
 HCLTech,2018-12-31,Q3FY19,region,RoW,7.3,160.7095,data/raw/hcltech/releases/2019-20__hcl_tech_q3_2020_investor_release.pdf
 HCLTech,2018-12-31,Q3FY19,service_line,IT and Business Services,74.0,1629.11,data/raw/hcltech/releases/2019-20__hcl_tech_q3_2020_investor_release.pdf
-HCLTech,2018-12-31,Q3FY19,service_line,Engineering and R&D Services,17.1,376.4565,data/raw/hcltech/releases/2019-20__hcl_tech_q3_2020_investor_release.pdf
 HCLTech,2020-03-31,Q4FY20,service_line,Products & Platforms,13.1,333.1854,data/raw/hcltech/releases/2020-21__hcl_tech_q1_2021_investor_release.pdf
+HCLTech,2020-03-31,Q4FY20,region,Americas,63.4,1612.5156000000002,data/raw/hcltech/releases/2020-21__hcl_tech_q1_2021_investor_release.pdf
+HCLTech,2020-03-31,Q4FY20,region,RoW,7.8,198.3852,data/raw/hcltech/releases/2020-21__hcl_tech_q1_2021_investor_release.pdf
 HCLTech,2020-03-31,Q4FY20,service_line,Engineering and R&D Services,16.3,414.5742,data/raw/hcltech/releases/2020-21__hcl_tech_q1_2021_investor_release.pdf
 HCLTech,2020-03-31,Q4FY20,service_line,IT and Business Services,70.6,1795.6404,data/raw/hcltech/releases/2020-21__hcl_tech_q1_2021_investor_release.pdf
-HCLTech,2020-03-31,Q4FY20,region,Americas,63.4,1612.5156000000002,data/raw/hcltech/releases/2020-21__hcl_tech_q1_2021_investor_release.pdf
 HCLTech,2020-03-31,Q4FY20,region,Europe,28.7,729.9558,data/raw/hcltech/releases/2020-21__hcl_tech_q1_2021_investor_release.pdf
-HCLTech,2020-03-31,Q4FY20,region,RoW,7.8,198.3852,data/raw/hcltech/releases/2020-21__hcl_tech_q1_2021_investor_release.pdf
 HCLTech,2019-09-30,Q2FY20,service_line,Products & Platforms,11.7,290.81519999999995,data/raw/hcltech/releases/2020-21__hcl_tech_q2_2021_investor_release.pdf
 HCLTech,2020-06-30,Q1FY21,service_line,Products & Platforms,13.8,325.059,data/raw/hcltech/releases/2020-21__hcl_tech_q2_2021_investor_release.pdf
-HCLTech,2020-06-30,Q1FY21,service_line,Engineering and R&D Services,16.0,376.88,data/raw/hcltech/releases/2020-21__hcl_tech_q2_2021_investor_release.pdf
 HCLTech,2019-09-30,Q2FY20,service_line,Engineering and R&D Services,16.9,420.06639999999993,data/raw/hcltech/releases/2020-21__hcl_tech_q2_2021_investor_release.pdf
+HCLTech,2020-06-30,Q1FY21,service_line,Engineering and R&D Services,16.0,376.88,data/raw/hcltech/releases/2020-21__hcl_tech_q2_2021_investor_release.pdf
 HCLTech,2020-06-30,Q1FY21,service_line,IT and Business Services,70.2,1653.5610000000001,data/raw/hcltech/releases/2020-21__hcl_tech_q2_2021_investor_release.pdf
 HCLTech,2019-09-30,Q2FY20,region,Americas,64.4,1600.7264,data/raw/hcltech/releases/2020-21__hcl_tech_q2_2021_investor_release.pdf
 HCLTech,2020-06-30,Q1FY21,region,Americas,63.7,1500.4535,data/raw/hcltech/releases/2020-21__hcl_tech_q2_2021_investor_release.pdf
-HCLTech,2020-06-30,Q1FY21,region,Europe,28.3,666.6065000000001,data/raw/hcltech/releases/2020-21__hcl_tech_q2_2021_investor_release.pdf
+HCLTech,2019-09-30,Q2FY20,region,Europe,28.2,700.9391999999999,data/raw/hcltech/releases/2020-21__hcl_tech_q2_2021_investor_release.pdf
 HCLTech,2019-09-30,Q2FY20,region,RoW,7.4,183.9344,data/raw/hcltech/releases/2020-21__hcl_tech_q2_2021_investor_release.pdf
 HCLTech,2020-06-30,Q1FY21,region,RoW,8.0,188.44,data/raw/hcltech/releases/2020-21__hcl_tech_q2_2021_investor_release.pdf
 HCLTech,2019-09-30,Q2FY20,service_line,IT and Business Services,71.4,1774.7184000000002,data/raw/hcltech/releases/2020-21__hcl_tech_q2_2021_investor_release.pdf
-HCLTech,2019-09-30,Q2FY20,region,Europe,28.2,700.9391999999999,data/raw/hcltech/releases/2020-21__hcl_tech_q2_2021_investor_release.pdf
+HCLTech,2020-06-30,Q1FY21,region,Europe,28.3,666.6065000000001,data/raw/hcltech/releases/2020-21__hcl_tech_q2_2021_investor_release.pdf
 HCLTech,2019-12-31,Q3FY20,service_line,Products & Platforms,13.1,333.1854,data/raw/hcltech/releases/2020-21__hcl_tech_q3_2021_investor_release.pdf
 HCLTech,2020-09-30,Q2FY21,service_line,Products & Platforms,13.5,338.391,data/raw/hcltech/releases/2020-21__hcl_tech_q3_2021_investor_release.pdf
 HCLTech,2020-09-30,Q2FY21,service_line,Engineering and R&D Services,15.7,393.5362,data/raw/hcltech/releases/2020-21__hcl_tech_q3_2021_investor_release.pdf
@@ -2067,117 +2067,113 @@ HCLTech,2019-12-31,Q3FY20,service_line,IT and Business Services,70.2,1785.466800
 HCLTech,2020-09-30,Q2FY21,region,Europe,28.4,711.8743999999999,data/raw/hcltech/releases/2020-21__hcl_tech_q3_2021_investor_release.pdf
 HCLTech,2020-12-31,Q3FY21,service_line,Products & Platforms,14.1,368.94059999999996,data/raw/hcltech/releases/2021-22__HCL_Tech_Q3_FY22_Investor_Release.pdf
 HCLTech,2020-12-31,Q3FY21,service_line,Engineering and R&D Services,15.5,405.573,data/raw/hcltech/releases/2021-22__HCL_Tech_Q3_FY22_Investor_Release.pdf
-HCLTech,2020-12-31,Q3FY21,region,RoW,8.0,209.328,data/raw/hcltech/releases/2021-22__HCL_Tech_Q3_FY22_Investor_Release.pdf
 HCLTech,2020-12-31,Q3FY21,service_line,IT and Business Services,70.4,1842.0864000000001,data/raw/hcltech/releases/2021-22__HCL_Tech_Q3_FY22_Investor_Release.pdf
 HCLTech,2020-12-31,Q3FY21,region,Americas,62.5,1635.375,data/raw/hcltech/releases/2021-22__HCL_Tech_Q3_FY22_Investor_Release.pdf
 HCLTech,2020-12-31,Q3FY21,region,Europe,29.5,771.8969999999999,data/raw/hcltech/releases/2021-22__HCL_Tech_Q3_FY22_Investor_Release.pdf
+HCLTech,2020-12-31,Q3FY21,region,RoW,8.0,209.328,data/raw/hcltech/releases/2021-22__HCL_Tech_Q3_FY22_Investor_Release.pdf
+HCLTech,2021-12-31,Q3FY22,service_line,Engineering and R&D Services,15.9,473.4225,data/raw/hcltech/releases/2021-22__HCL_Tech_Q4_FY22_Investor_Release.pdf
+HCLTech,2022-03-31,Q4FY22,service_line,Engineering and R&D Services,16.4,490.8683999999999,data/raw/hcltech/releases/2021-22__HCL_Tech_Q4_FY22_Investor_Release.pdf
 HCLTech,2021-12-31,Q3FY22,service_line,Products & Platforms,13.5,401.96250000000003,data/raw/hcltech/releases/2021-22__HCL_Tech_Q4_FY22_Investor_Release.pdf
 HCLTech,2022-03-31,Q4FY22,service_line,Products & Platforms,10.2,305.2962,data/raw/hcltech/releases/2021-22__HCL_Tech_Q4_FY22_Investor_Release.pdf
+HCLTech,2022-03-31,Q4FY22,service_line,IT and Business Services,73.5,2199.9285,data/raw/hcltech/releases/2021-22__HCL_Tech_Q4_FY22_Investor_Release.pdf
+HCLTech,2021-12-31,Q3FY22,service_line,IT and Business Services,70.6,2102.115,data/raw/hcltech/releases/2021-22__HCL_Tech_Q4_FY22_Investor_Release.pdf
 HCLTech,2021-12-31,Q3FY22,region,RoW,8.7,259.04249999999996,data/raw/hcltech/releases/2021-22__HCL_Tech_Q4_FY22_Investor_Release.pdf
 HCLTech,2021-03-31,Q4FY21,service_line,Products & Platforms,13.3,358.5547,data/raw/hcltech/releases/2021-22__hcl_tech_q1_fy22_investor_release.pdf
 HCLTech,2021-03-31,Q4FY21,service_line,Engineering and R&D Services,14.8,398.99320000000006,data/raw/hcltech/releases/2021-22__hcl_tech_q1_fy22_investor_release.pdf
-HCLTech,2021-03-31,Q4FY21,region,Europe,29.1,784.5069000000001,data/raw/hcltech/releases/2021-22__hcl_tech_q1_fy22_investor_release.pdf
 HCLTech,2021-03-31,Q4FY21,service_line,IT and Business Services,71.9,1938.3521000000003,data/raw/hcltech/releases/2021-22__hcl_tech_q1_fy22_investor_release.pdf
-HCLTech,2021-03-31,Q4FY21,region,Americas,62.0,1671.458,data/raw/hcltech/releases/2021-22__hcl_tech_q1_fy22_investor_release.pdf
 HCLTech,2021-03-31,Q4FY21,region,RoW,8.9,239.93510000000003,data/raw/hcltech/releases/2021-22__hcl_tech_q1_fy22_investor_release.pdf
+HCLTech,2021-03-31,Q4FY21,region,Europe,29.1,784.5069000000001,data/raw/hcltech/releases/2021-22__hcl_tech_q1_fy22_investor_release.pdf
+HCLTech,2021-03-31,Q4FY21,region,Americas,62.0,1671.458,data/raw/hcltech/releases/2021-22__hcl_tech_q1_fy22_investor_release.pdf
+HCLTech,2021-09-30,Q2FY22,service_line,Engineering and R&D Services,15.7,438.13989999999995,data/raw/hcltech/releases/2021-22__hcl_tech_q2_fy22_investor_release_0.pdf
+HCLTech,2021-09-30,Q2FY22,service_line,Products & Platforms,11.7,326.51189999999997,data/raw/hcltech/releases/2021-22__hcl_tech_q2_fy22_investor_release_0.pdf
+HCLTech,2021-06-30,Q1FY22,service_line,Engineering and R&D Services,15.3,416.0988,data/raw/hcltech/releases/2021-22__hcl_tech_q2_fy22_investor_release_0.pdf
+HCLTech,2021-09-30,Q2FY22,service_line,IT and Business Services,72.6,2026.0481999999997,data/raw/hcltech/releases/2021-22__hcl_tech_q2_fy22_investor_release_0.pdf
 HCLTech,2021-06-30,Q1FY22,service_line,Products & Platforms,13.1,356.2676,data/raw/hcltech/releases/2021-22__hcl_tech_q2_fy22_investor_release_0.pdf
 HCLTech,2021-09-30,Q2FY22,region,RoW,8.9,248.37230000000002,data/raw/hcltech/releases/2021-22__hcl_tech_q2_fy22_investor_release_0.pdf
+HCLTech,2021-06-30,Q1FY22,service_line,IT and Business Services,71.6,1947.2335999999998,data/raw/hcltech/releases/2021-22__hcl_tech_q2_fy22_investor_release_0.pdf
 HCLTech,2021-09-30,Q2FY22,region,Europe,28.9,806.5122999999999,data/raw/hcltech/releases/2022-23__HCLTech_Q2_FY23_Investor_Release.pdf
-HCLTech,2022-06-30,Q1FY23,region,ROW,8.0,241.99200000000002,data/raw/hcltech/releases/2022-23__HCLTech_Q2_FY23_Investor_Release.pdf
-HCLTech,2021-09-30,Q2FY22,service_line,IT and Business Services,18.8,524.6515999999999,data/raw/hcltech/releases/2022-23__HCLTech_Q2_FY23_Investor_Release.pdf
-HCLTech,2021-09-30,Q2FY22,service_line,Engineering and R&D Services,19.2,535.8144,data/raw/hcltech/releases/2022-23__HCLTech_Q2_FY23_Investor_Release.pdf
 HCLTech,2021-09-30,Q2FY22,region,ROW,8.3,231.6281,data/raw/hcltech/releases/2022-23__HCLTech_Q2_FY23_Investor_Release.pdf
-HCLTech,2022-09-30,Q2FY23,service_line,Products & Platforms,20.3,625.6663,data/raw/hcltech/releases/2022-23__HCLTech_Q2_FY23_Investor_Release.pdf
-HCLTech,2022-06-30,Q1FY23,service_line,Products & Platforms,22.5,680.6025000000001,data/raw/hcltech/releases/2022-23__HCLTech_Q2_FY23_Investor_Release.pdf
-HCLTech,2021-09-30,Q2FY22,service_line,Products & Platforms,19.2,535.8144,data/raw/hcltech/releases/2022-23__HCLTech_Q2_FY23_Investor_Release.pdf
 HCLTech,2021-09-30,Q2FY22,region,Americas,62.8,1752.5595999999998,data/raw/hcltech/releases/2022-23__HCLTech_Q2_FY23_Investor_Release.pdf
-HCLTech,2022-12-31,Q3FY23,region,ROW,7.4,240.05600000000004,data/raw/hcltech/releases/2022-23__HCLTech_Q3_FY23_Investor_Release.pdf
-HCLTech,2021-12-31,Q3FY22,service_line,IT and Business Services,16.6,494.26500000000004,data/raw/hcltech/releases/2022-23__HCLTech_Q3_FY23_Investor_Release.pdf
-HCLTech,2022-09-30,Q2FY23,service_line,IT and Business Services,16.7,514.7107,data/raw/hcltech/releases/2022-23__HCLTech_Q3_FY23_Investor_Release.pdf
-HCLTech,2022-12-31,Q3FY23,service_line,IT and Business Services,16.8,544.9920000000001,data/raw/hcltech/releases/2022-23__HCLTech_Q3_FY23_Investor_Release.pdf
-HCLTech,2021-12-31,Q3FY22,service_line,Engineering and R&D Services,18.4,547.86,data/raw/hcltech/releases/2022-23__HCLTech_Q3_FY23_Investor_Release.pdf
-HCLTech,2022-12-31,Q3FY23,service_line,Engineering and R&D Services,21.6,700.7040000000001,data/raw/hcltech/releases/2022-23__HCLTech_Q3_FY23_Investor_Release.pdf
+HCLTech,2022-06-30,Q1FY23,region,ROW,8.0,241.99200000000002,data/raw/hcltech/releases/2022-23__HCLTech_Q2_FY23_Investor_Release.pdf
 HCLTech,2021-12-31,Q3FY22,region,Americas,63.4,1887.7350000000001,data/raw/hcltech/releases/2022-23__HCLTech_Q3_FY23_Investor_Release.pdf
 HCLTech,2022-09-30,Q2FY23,region,Americas,64.8,1997.2008,data/raw/hcltech/releases/2022-23__HCLTech_Q3_FY23_Investor_Release.pdf
 HCLTech,2022-12-31,Q3FY23,region,Americas,63.5,2059.94,data/raw/hcltech/releases/2022-23__HCLTech_Q3_FY23_Investor_Release.pdf
-HCLTech,2021-12-31,Q3FY22,region,Europe,28.7,854.5424999999999,data/raw/hcltech/releases/2022-23__HCLTech_Q3_FY23_Investor_Release.pdf
 HCLTech,2022-09-30,Q2FY23,region,Europe,27.5,847.5775000000001,data/raw/hcltech/releases/2022-23__HCLTech_Q3_FY23_Investor_Release.pdf
 HCLTech,2022-12-31,Q3FY23,region,Europe,29.1,944.0040000000001,data/raw/hcltech/releases/2022-23__HCLTech_Q3_FY23_Investor_Release.pdf
 HCLTech,2021-12-31,Q3FY22,region,ROW,7.9,235.2225,data/raw/hcltech/releases/2022-23__HCLTech_Q3_FY23_Investor_Release.pdf
+HCLTech,2021-12-31,Q3FY22,region,Europe,28.7,854.5424999999999,data/raw/hcltech/releases/2022-23__HCLTech_Q3_FY23_Investor_Release.pdf
+HCLTech,2022-12-31,Q3FY23,region,ROW,7.4,240.05600000000004,data/raw/hcltech/releases/2022-23__HCLTech_Q3_FY23_Investor_Release.pdf
 HCLTech,2022-09-30,Q2FY23,region,ROW,7.7,237.3217,data/raw/hcltech/releases/2022-23__HCLTech_Q3_FY23_Investor_Release.pdf
-HCLTech,2022-09-30,Q2FY23,service_line,Engineering and R&D Services,21.4,659.5694,data/raw/hcltech/releases/2022-23__HCLTech_Q3_FY23_Investor_Release.pdf
-HCLTech,2021-06-30,Q1FY22,region,RoW,8.3,225.7268,data/raw/hcltech/releases/2022-23__HCL_Tech_Q1_FY23_Investor_Release.pdf
-HCLTech,2022-03-31,Q4FY22,region,RoW,8.2,245.43419999999995,data/raw/hcltech/releases/2022-23__HCL_Tech_Q1_FY23_Investor_Release.pdf
 HCLTech,2022-06-30,Q1FY23,region,RoW,8.0,241.99200000000002,data/raw/hcltech/releases/2022-23__HCL_Tech_Q1_FY23_Investor_Release.pdf
+HCLTech,2022-03-31,Q4FY22,region,RoW,8.2,245.43419999999995,data/raw/hcltech/releases/2022-23__HCL_Tech_Q1_FY23_Investor_Release.pdf
+HCLTech,2021-06-30,Q1FY22,region,RoW,8.3,225.7268,data/raw/hcltech/releases/2022-23__HCL_Tech_Q1_FY23_Investor_Release.pdf
 HCLTech,2022-06-30,Q1FY23,region,Europe,27.8,840.9222000000001,data/raw/hcltech/releases/2022-23__HCL_Tech_Q1_FY23_Investor_Release.pdf
-HCLTech,2022-03-31,Q4FY22,region,Europe,28.7,859.0197,data/raw/hcltech/releases/2022-23__HCL_Tech_Q1_FY23_Investor_Release.pdf
 HCLTech,2021-06-30,Q1FY22,region,Europe,28.6,777.8056,data/raw/hcltech/releases/2022-23__HCL_Tech_Q1_FY23_Investor_Release.pdf
+HCLTech,2022-06-30,Q1FY23,region,Americas,64.2,1941.9858000000002,data/raw/hcltech/releases/2022-23__HCL_Tech_Q1_FY23_Investor_Release.pdf
 HCLTech,2022-03-31,Q4FY22,region,Americas,63.1,1888.6461,data/raw/hcltech/releases/2022-23__HCL_Tech_Q1_FY23_Investor_Release.pdf
 HCLTech,2021-06-30,Q1FY22,region,Americas,63.1,1716.0675999999999,data/raw/hcltech/releases/2022-23__HCL_Tech_Q1_FY23_Investor_Release.pdf
-HCLTech,2022-06-30,Q1FY23,service_line,Engineering and R&D Services,16.6,502.13340000000005,data/raw/hcltech/releases/2022-23__HCL_Tech_Q1_FY23_Investor_Release.pdf
-HCLTech,2022-03-31,Q4FY22,service_line,Engineering and R&D Services,16.4,490.8683999999999,data/raw/hcltech/releases/2022-23__HCL_Tech_Q1_FY23_Investor_Release.pdf
-HCLTech,2021-06-30,Q1FY22,service_line,Engineering and R&D Services,15.3,416.0988,data/raw/hcltech/releases/2022-23__HCL_Tech_Q1_FY23_Investor_Release.pdf
-HCLTech,2022-06-30,Q1FY23,service_line,IT and Business Services,72.8,2202.1272,data/raw/hcltech/releases/2022-23__HCL_Tech_Q1_FY23_Investor_Release.pdf
-HCLTech,2022-03-31,Q4FY22,service_line,IT and Business Services,73.4,2196.9354000000003,data/raw/hcltech/releases/2022-23__HCL_Tech_Q1_FY23_Investor_Release.pdf
-HCLTech,2021-06-30,Q1FY22,service_line,IT and Business Services,71.6,1947.2335999999998,data/raw/hcltech/releases/2022-23__HCL_Tech_Q1_FY23_Investor_Release.pdf
-HCLTech,2022-06-30,Q1FY23,region,Americas,64.2,1941.9858000000002,data/raw/hcltech/releases/2022-23__HCL_Tech_Q1_FY23_Investor_Release.pdf
-HCLTech,2023-03-31,Q4FY23,region,ROW,7.3,236.12579999999997,data/raw/hcltech/releases/2023-24__HCLTech_Q4_FY24_Investor_Release.pdf
-HCLTech,2023-03-31,Q4FY23,service_line,IT and Business Services,17.1,553.1166000000001,data/raw/hcltech/releases/2023-24__HCLTech_Q4_FY24_Investor_Release.pdf
-HCLTech,2023-03-31,Q4FY23,service_line,Engineering and R&D Services,18.8,608.1048,data/raw/hcltech/releases/2023-24__HCLTech_Q4_FY24_Investor_Release.pdf
-HCLTech,2023-03-31,Q4FY23,region,Europe,28.9,934.7993999999999,data/raw/hcltech/releases/2023-24__HCLTech_Q4_FY24_Investor_Release.pdf
-HCLTech,2023-03-31,Q4FY23,service_line,HCLSoftware,23.0,743.958,data/raw/hcltech/releases/2023-24__HCLTech_Q4_FY24_Investor_Release.pdf
+HCLTech,2022-03-31,Q4FY22,region,Europe,28.7,859.0197,data/raw/hcltech/releases/2022-23__HCL_Tech_Q1_FY23_Investor_Release.pdf
 HCLTech,2023-03-31,Q4FY23,region,Americas,63.8,2063.6748,data/raw/hcltech/releases/2023-24__HCLTech_Q4_FY24_Investor_Release.pdf
-HCLTech,2023-06-30,Q1FY24,region,ROW,6.8,217.60000000000002,data/raw/hcltech/releases/2024-25__HCLTech_Q1_FY25_Investor_Release.pdf
-HCLTech,2023-06-30,Q1FY24,service_line,IT and Business Services,16.1,515.2,data/raw/hcltech/releases/2024-25__HCLTech_Q1_FY25_Investor_Release.pdf
-HCLTech,2023-06-30,Q1FY24,service_line,Engineering and R&D Services,16.8,537.6,data/raw/hcltech/releases/2024-25__HCLTech_Q1_FY25_Investor_Release.pdf
-HCLTech,2023-06-30,Q1FY24,service_line,HCLSoftware,22.9,732.8,data/raw/hcltech/releases/2024-25__HCLTech_Q1_FY25_Investor_Release.pdf
+HCLTech,2023-03-31,Q4FY23,region,Europe,28.9,934.7993999999999,data/raw/hcltech/releases/2023-24__HCLTech_Q4_FY24_Investor_Release.pdf
+HCLTech,2023-03-31,Q4FY23,region,ROW,7.3,236.12579999999997,data/raw/hcltech/releases/2023-24__HCLTech_Q4_FY24_Investor_Release.pdf
 HCLTech,2023-06-30,Q1FY24,region,Americas,64.5,2064.0,data/raw/hcltech/releases/2024-25__HCLTech_Q1_FY25_Investor_Release.pdf
 HCLTech,2023-06-30,Q1FY24,region,Europe,28.7,918.4,data/raw/hcltech/releases/2024-25__HCLTech_Q1_FY25_Investor_Release.pdf
+HCLTech,2023-06-30,Q1FY24,region,ROW,6.8,217.60000000000002,data/raw/hcltech/releases/2024-25__HCLTech_Q1_FY25_Investor_Release.pdf
+HCLTech,2024-03-31,Q4FY24,region,ROW [svc],11.5,394.43850000000003,data/raw/hcltech/releases/2024-25__HCLTech_Q4_FY25_Investor_Release.pdf
 HCLTech,2024-03-31,Q4FY24,region,India,3.7,126.90630000000002,data/raw/hcltech/releases/2024-25__HCLTech_Q4_FY25_Investor_Release.pdf
-HCLTech,2024-03-31,Q4FY24,region,USA,58.4,2003.0616,data/raw/hcltech/releases/2024-25__HCLTech_Q4_FY25_Investor_Release.pdf
-HCLTech,2024-03-31,Q4FY24,service_line,IT and Business Services,16.6,569.3634000000001,data/raw/hcltech/releases/2024-25__HCLTech_Q4_FY25_Investor_Release.pdf
-HCLTech,2024-03-31,Q4FY24,service_line,Engineering and R&D Services,19.8,679.1202000000001,data/raw/hcltech/releases/2024-25__HCLTech_Q4_FY25_Investor_Release.pdf
-HCLTech,2024-03-31,Q4FY24,region,ROW,5.9,202.3641,data/raw/hcltech/releases/2024-25__HCLTech_Q4_FY25_Investor_Release.pdf
-HCLTech,2024-03-31,Q4FY24,region,Europe,28.9,991.2411,data/raw/hcltech/releases/2024-25__HCLTech_Q4_FY25_Investor_Release.pdf
+HCLTech,2024-03-31,Q4FY24,service_line,IT and Business Services,74.4,2551.8456000000006,data/raw/hcltech/releases/2024-25__HCLTech_Q4_FY25_Investor_Release.pdf
+HCLTech,2024-03-31,Q4FY24,service_line,Engineering and R&D Services,16.2,555.6438,data/raw/hcltech/releases/2024-25__HCLTech_Q4_FY25_Investor_Release.pdf
+HCLTech,2024-03-31,Q4FY24,service_line,HCLSoftware,9.8,336.1302,data/raw/hcltech/releases/2024-25__HCLTech_Q4_FY25_Investor_Release.pdf
 HCLTech,2024-03-31,Q4FY24,region,Americas,65.2,2236.2948,data/raw/hcltech/releases/2024-25__HCLTech_Q4_FY25_Investor_Release.pdf
-HCLTech,2024-03-31,Q4FY24,service_line,HCLSoftware,20.9,716.8491,data/raw/hcltech/releases/2024-25__HCLTech_Q4_FY25_Investor_Release.pdf
+HCLTech,2024-03-31,Q4FY24,region,Europe,28.9,991.2411,data/raw/hcltech/releases/2024-25__HCLTech_Q4_FY25_Investor_Release.pdf
 HCLTech,2025-03-31,Q4FY25,region,Americas,63.9,2235.222,data/raw/hcltech/releases/2024-25__HCLTech_Q4_FY25_Investor_Release.pdf
-HCLTech,2023-12-31,Q3FY24,region,ROW,6.4,218.56,data/raw/hcltech/releases/2024-25__HCL_Tech_Q3_FY25_Investor_Release_0.pdf
-HCLTech,2023-12-31,Q3FY24,service_line,IT and Business Services,17.1,583.965,data/raw/hcltech/releases/2024-25__HCL_Tech_Q3_FY25_Investor_Release_0.pdf
-HCLTech,2023-12-31,Q3FY24,service_line,Engineering and R&D Services,21.3,727.395,data/raw/hcltech/releases/2024-25__HCL_Tech_Q3_FY25_Investor_Release_0.pdf
+HCLTech,2024-03-31,Q4FY24,region,USA,58.4,2003.0616,data/raw/hcltech/releases/2024-25__HCLTech_Q4_FY25_Investor_Release.pdf
+HCLTech,2024-03-31,Q4FY24,region,Europe [svc],26.5,908.9235000000001,data/raw/hcltech/releases/2024-25__HCLTech_Q4_FY25_Investor_Release.pdf
+HCLTech,2024-03-31,Q4FY24,region,ROW,5.9,202.3641,data/raw/hcltech/releases/2024-25__HCLTech_Q4_FY25_Investor_Release.pdf
+HCLTech,2025-03-31,Q4FY25,region,Europe,29.2,1021.4159999999999,data/raw/hcltech/releases/2024-25__HCLTech_Q4_FY25_Investor_Release.pdf
+HCLTech,2025-03-31,Q4FY25,region,ROW,6.9,241.36200000000002,data/raw/hcltech/releases/2024-25__HCLTech_Q4_FY25_Investor_Release.pdf
+HCLTech,2023-12-31,Q3FY24,service_line,Engineering and R&D Services,16.5,563.475,data/raw/hcltech/releases/2024-25__HCL_Tech_Q3_FY25_Investor_Release_0.pdf
+HCLTech,2023-12-31,Q3FY24,service_line,HCLSoftware,12.0,409.8,data/raw/hcltech/releases/2024-25__HCL_Tech_Q3_FY25_Investor_Release_0.pdf
+HCLTech,2023-12-31,Q3FY24,service_line,IT and Business Services,71.8,2451.97,data/raw/hcltech/releases/2024-25__HCL_Tech_Q3_FY25_Investor_Release_0.pdf
 HCLTech,2024-12-31,Q3FY25,region,Americas,65.5,2314.1150000000002,data/raw/hcltech/releases/2024-25__HCL_Tech_Q3_FY25_Investor_Release_0.pdf
-HCLTech,2023-12-31,Q3FY24,region,Americas,64.5,2202.675,data/raw/hcltech/releases/2024-25__HCL_Tech_Q3_FY25_Investor_Release_0.pdf
 HCLTech,2023-12-31,Q3FY24,region,Europe,29.0,990.3499999999999,data/raw/hcltech/releases/2024-25__HCL_Tech_Q3_FY25_Investor_Release_0.pdf
-HCLTech,2023-12-31,Q3FY24,service_line,HCLSoftware,32.9,1123.5349999999999,data/raw/hcltech/releases/2024-25__HCL_Tech_Q3_FY25_Investor_Release_0.pdf
-HCLTech,2023-09-30,Q2FY24,region,ROW,7.0,225.729,data/raw/hcltech/releases/2024-25__hcl-tech-q2-fy25-investor-release.pdf
+HCLTech,2024-12-31,Q3FY25,region,Europe,28.2,996.3059999999999,data/raw/hcltech/releases/2024-25__HCL_Tech_Q3_FY25_Investor_Release_0.pdf
+HCLTech,2023-12-31,Q3FY24,region,ROW,6.4,218.56,data/raw/hcltech/releases/2024-25__HCL_Tech_Q3_FY25_Investor_Release_0.pdf
+HCLTech,2024-12-31,Q3FY25,region,ROW,6.3,222.579,data/raw/hcltech/releases/2024-25__HCL_Tech_Q3_FY25_Investor_Release_0.pdf
+HCLTech,2023-12-31,Q3FY24,region,Americas,64.5,2202.675,data/raw/hcltech/releases/2024-25__HCL_Tech_Q3_FY25_Investor_Release_0.pdf
 HCLTech,2023-09-30,Q2FY24,service_line,IT and Business Services,74.6,2405.6261999999997,data/raw/hcltech/releases/2024-25__hcl-tech-q2-fy25-investor-release.pdf
-HCLTech,2023-09-30,Q2FY24,service_line,Engineering and R&D Services,19.2,619.1424,data/raw/hcltech/releases/2024-25__hcl-tech-q2-fy25-investor-release.pdf
-HCLTech,2023-09-30,Q2FY24,service_line,HCLSoftware,19.3,622.3670999999999,data/raw/hcltech/releases/2024-25__hcl-tech-q2-fy25-investor-release.pdf
+HCLTech,2023-09-30,Q2FY24,service_line,Engineering and R&D Services,16.1,519.1767,data/raw/hcltech/releases/2024-25__hcl-tech-q2-fy25-investor-release.pdf
+HCLTech,2023-09-30,Q2FY24,service_line,HCLSoftware,9.7,312.79589999999996,data/raw/hcltech/releases/2024-25__hcl-tech-q2-fy25-investor-release.pdf
 HCLTech,2023-09-30,Q2FY24,region,Americas,64.5,2079.9315,data/raw/hcltech/releases/2024-25__hcl-tech-q2-fy25-investor-release.pdf
-HCLTech,2024-06-30,Q1FY25,region,Americas,66.0,2220.2400000000002,data/raw/hcltech/releases/2024-25__hcl-tech-q2-fy25-investor-release.pdf
 HCLTech,2024-09-30,Q2FY25,region,Americas,65.1,2242.6949999999997,data/raw/hcltech/releases/2024-25__hcl-tech-q2-fy25-investor-release.pdf
+HCLTech,2024-06-30,Q1FY25,region,Americas,66.0,2220.2400000000002,data/raw/hcltech/releases/2024-25__hcl-tech-q2-fy25-investor-release.pdf
+HCLTech,2024-09-30,Q2FY25,region,ROW,6.5,223.925,data/raw/hcltech/releases/2024-25__hcl-tech-q2-fy25-investor-release.pdf
+HCLTech,2024-06-30,Q1FY25,region,ROW,6.1,205.204,data/raw/hcltech/releases/2024-25__hcl-tech-q2-fy25-investor-release.pdf
+HCLTech,2023-09-30,Q2FY24,region,ROW,7.0,225.729,data/raw/hcltech/releases/2024-25__hcl-tech-q2-fy25-investor-release.pdf
+HCLTech,2024-06-30,Q1FY25,region,Europe,27.9,938.5559999999999,data/raw/hcltech/releases/2024-25__hcl-tech-q2-fy25-investor-release.pdf
 HCLTech,2023-09-30,Q2FY24,region,Europe,28.5,919.0394999999999,data/raw/hcltech/releases/2024-25__hcl-tech-q2-fy25-investor-release.pdf
+HCLTech,2024-09-30,Q2FY25,region,Europe,28.4,978.3799999999999,data/raw/hcltech/releases/2024-25__hcl-tech-q2-fy25-investor-release.pdf
 HCLTech,2024-09-30,Q2FY25,service_line,IT and Business Services,74.6,2569.97,data/raw/hcltech/releases/2025-26__HCLTech_Q2-FY26-Investor.pdf
 HCLTech,2024-09-30,Q2FY25,service_line,Engineering and R&D Services,15.8,544.3100000000001,data/raw/hcltech/releases/2025-26__HCLTech_Q2-FY26-Investor.pdf
-HCLTech,2024-09-30,Q2FY25,service_line,HCLSoftware,9.9,341.055,data/raw/hcltech/releases/2025-26__HCLTech_Q2-FY26-Investor.pdf
 HCLTech,2024-09-30,Q2FY25,region,USA,58.5,2015.3249999999998,data/raw/hcltech/releases/2025-26__HCLTech_Q2-FY26-Investor.pdf
+HCLTech,2024-09-30,Q2FY25,service_line,HCLSoftware,9.9,341.055,data/raw/hcltech/releases/2025-26__HCLTech_Q2-FY26-Investor.pdf
+HCLTech,2024-09-30,Q2FY25,region,Europe [svc],26.7,919.815,data/raw/hcltech/releases/2025-26__HCLTech_Q2-FY26-Investor.pdf
+HCLTech,2024-09-30,Q2FY25,region,ROW [svc],11.3,389.285,data/raw/hcltech/releases/2025-26__HCLTech_Q2-FY26-Investor.pdf
 HCLTech,2024-09-30,Q2FY25,region,India,3.5,120.57500000000002,data/raw/hcltech/releases/2025-26__HCLTech_Q2-FY26-Investor.pdf
-HCLTech,2024-09-30,Q2FY25,region,ROW,11.3,389.285,data/raw/hcltech/releases/2025-26__HCLTech_Q2-FY26-Investor.pdf
-HCLTech,2024-09-30,Q2FY25,region,Europe,26.7,919.815,data/raw/hcltech/releases/2025-26__HCLTech_Q2-FY26-Investor.pdf
 HCLTech,2024-12-31,Q3FY25,service_line,IT and Business Services,73.0,2579.09,data/raw/hcltech/releases/2025-26__HCLTech_Q3_FY26_Investor_Release.pdf
 HCLTech,2024-12-31,Q3FY25,service_line,Engineering and R&D Services,16.0,565.28,data/raw/hcltech/releases/2025-26__HCLTech_Q3_FY26_Investor_Release.pdf
 HCLTech,2024-12-31,Q3FY25,service_line,HCLSoftware,11.3,399.229,data/raw/hcltech/releases/2025-26__HCLTech_Q3_FY26_Investor_Release.pdf
 HCLTech,2024-12-31,Q3FY25,region,USA,59.5,2102.1349999999998,data/raw/hcltech/releases/2025-26__HCLTech_Q3_FY26_Investor_Release.pdf
-HCLTech,2024-12-31,Q3FY25,region,Europe,26.2,925.6460000000001,data/raw/hcltech/releases/2025-26__HCLTech_Q3_FY26_Investor_Release.pdf
+HCLTech,2024-12-31,Q3FY25,region,Europe [svc],26.2,925.6460000000001,data/raw/hcltech/releases/2025-26__HCLTech_Q3_FY26_Investor_Release.pdf
 HCLTech,2024-12-31,Q3FY25,region,India,3.2,113.056,data/raw/hcltech/releases/2025-26__HCLTech_Q3_FY26_Investor_Release.pdf
-HCLTech,2024-12-31,Q3FY25,region,ROW,11.0,388.63,data/raw/hcltech/releases/2025-26__HCLTech_Q3_FY26_Investor_Release.pdf
+HCLTech,2024-12-31,Q3FY25,region,ROW [svc],11.0,388.63,data/raw/hcltech/releases/2025-26__HCLTech_Q3_FY26_Investor_Release.pdf
 HCLTech,2024-06-30,Q1FY25,service_line,Engineering and R&D Services,15.9,534.876,data/raw/hcltech/releases/2025-26__hcltech-q1-fy26-investor-release.pdf
 HCLTech,2024-06-30,Q1FY25,service_line,HCLSoftware,9.9,333.036,data/raw/hcltech/releases/2025-26__hcltech-q1-fy26-investor-release.pdf
 HCLTech,2024-06-30,Q1FY25,region,USA,59.6,2004.944,data/raw/hcltech/releases/2025-26__hcltech-q1-fy26-investor-release.pdf
 HCLTech,2024-06-30,Q1FY25,service_line,IT and Business Services,74.5,2506.18,data/raw/hcltech/releases/2025-26__hcltech-q1-fy26-investor-release.pdf
-HCLTech,2024-06-30,Q1FY25,region,Europe,25.9,871.2760000000001,data/raw/hcltech/releases/2025-26__hcltech-q1-fy26-investor-release.pdf
+HCLTech,2024-06-30,Q1FY25,region,Europe [svc],25.9,871.2760000000001,data/raw/hcltech/releases/2025-26__hcltech-q1-fy26-investor-release.pdf
 HCLTech,2024-06-30,Q1FY25,region,India,3.5,117.74000000000001,data/raw/hcltech/releases/2025-26__hcltech-q1-fy26-investor-release.pdf
-HCLTech,2024-06-30,Q1FY25,region,ROW,11.0,370.04,data/raw/hcltech/releases/2025-26__hcltech-q1-fy26-investor-release.pdf
+HCLTech,2024-06-30,Q1FY25,region,ROW [svc],11.0,370.04,data/raw/hcltech/releases/2025-26__hcltech-q1-fy26-investor-release.pdf
 HCLTech,2025-03-31,Q4FY25,service_line,IT and Business Services,73.3,2564.034,data/raw/hcltech/releases/2025-26__hcltech-q4-fy26-investor-release.pdf
 HCLTech,2025-12-31,Q3FY26,service_line,IT and Business Services,72.3,2742.339,data/raw/hcltech/releases/2025-26__hcltech-q4-fy26-investor-release.pdf
 HCLTech,2025-03-31,Q4FY25,service_line,Engineering and R&D Services,17.1,598.158,data/raw/hcltech/releases/2025-26__hcltech-q4-fy26-investor-release.pdf
@@ -2185,10 +2181,10 @@ HCLTech,2025-12-31,Q3FY26,service_line,Engineering and R&D Services,16.8,637.224
 HCLTech,2025-03-31,Q4FY25,service_line,HCLSoftware,9.9,346.302,data/raw/hcltech/releases/2025-26__hcltech-q4-fy26-investor-release.pdf
 HCLTech,2025-12-31,Q3FY26,service_line,HCLSoftware,11.2,424.816,data/raw/hcltech/releases/2025-26__hcltech-q4-fy26-investor-release.pdf
 HCLTech,2025-03-31,Q4FY25,region,USA,57.4,2007.8519999999999,data/raw/hcltech/releases/2025-26__hcltech-q4-fy26-investor-release.pdf
-HCLTech,2025-03-31,Q4FY25,region,Europe,27.5,961.95,data/raw/hcltech/releases/2025-26__hcltech-q4-fy26-investor-release.pdf
-HCLTech,2025-12-31,Q3FY26,region,Europe,27.7,1050.6609999999998,data/raw/hcltech/releases/2025-26__hcltech-q4-fy26-investor-release.pdf
-HCLTech,2025-03-31,Q4FY25,region,ROW,12.0,419.76,data/raw/hcltech/releases/2025-26__hcltech-q4-fy26-investor-release.pdf
-HCLTech,2025-12-31,Q3FY26,region,ROW,12.8,485.504,data/raw/hcltech/releases/2025-26__hcltech-q4-fy26-investor-release.pdf
+HCLTech,2025-03-31,Q4FY25,region,Europe [svc],27.5,961.95,data/raw/hcltech/releases/2025-26__hcltech-q4-fy26-investor-release.pdf
+HCLTech,2025-12-31,Q3FY26,region,Europe [svc],27.7,1050.6609999999998,data/raw/hcltech/releases/2025-26__hcltech-q4-fy26-investor-release.pdf
+HCLTech,2025-03-31,Q4FY25,region,ROW [svc],12.0,419.76,data/raw/hcltech/releases/2025-26__hcltech-q4-fy26-investor-release.pdf
+HCLTech,2025-12-31,Q3FY26,region,ROW [svc],12.8,485.504,data/raw/hcltech/releases/2025-26__hcltech-q4-fy26-investor-release.pdf
 HCLTech,2025-03-31,Q4FY25,region,India,3.1,108.438,data/raw/hcltech/releases/2025-26__hcltech-q4-fy26-investor-release.pdf
 HCLTech,2025-12-31,Q3FY26,region,India,3.3,125.16900000000001,data/raw/hcltech/releases/2025-26__hcltech-q4-fy26-investor-release.pdf
 HCLTech,2025-12-31,Q3FY26,region,USA,56.3,2135.459,data/raw/hcltech/releases/2025-26__hcltech-q4-fy26-investor-release.pdf
@@ -2197,13 +2193,13 @@ HCLTech,2025-06-30,Q1FY26,region,USA,56.5,2002.9249999999997,data/raw/hcltech/re
 HCLTech,2026-03-31,Q4FY26,service_line,Engineering and R&D Services,17.0,625.94,data/raw/hcltech/releases/2026-27__HCLTech_Q1_FY27_Investor_Release.pdf
 HCLTech,2026-03-31,Q4FY26,service_line,HCLSoftware,8.3,305.606,data/raw/hcltech/releases/2026-27__HCLTech_Q1_FY27_Investor_Release.pdf
 HCLTech,2025-06-30,Q1FY26,service_line,HCLSoftware,9.3,329.68500000000006,data/raw/hcltech/releases/2026-27__HCLTech_Q1_FY27_Investor_Release.pdf
-HCLTech,2026-03-31,Q4FY26,region,Europe,27.1,997.8220000000001,data/raw/hcltech/releases/2026-27__HCLTech_Q1_FY27_Investor_Release.pdf
-HCLTech,2025-06-30,Q1FY26,region,ROW,11.9,421.855,data/raw/hcltech/releases/2026-27__HCLTech_Q1_FY27_Investor_Release.pdf
-HCLTech,2026-03-31,Q4FY26,region,ROW,13.7,504.4339999999999,data/raw/hcltech/releases/2026-27__HCLTech_Q1_FY27_Investor_Release.pdf
+HCLTech,2026-03-31,Q4FY26,region,Europe [svc],27.1,997.8220000000001,data/raw/hcltech/releases/2026-27__HCLTech_Q1_FY27_Investor_Release.pdf
+HCLTech,2025-06-30,Q1FY26,region,ROW [svc],11.9,421.855,data/raw/hcltech/releases/2026-27__HCLTech_Q1_FY27_Investor_Release.pdf
+HCLTech,2026-03-31,Q4FY26,region,ROW [svc],13.7,504.4339999999999,data/raw/hcltech/releases/2026-27__HCLTech_Q1_FY27_Investor_Release.pdf
 HCLTech,2025-06-30,Q1FY26,region,India,3.3,116.985,data/raw/hcltech/releases/2026-27__HCLTech_Q1_FY27_Investor_Release.pdf
 HCLTech,2026-03-31,Q4FY26,region,India,2.9,106.77799999999999,data/raw/hcltech/releases/2026-27__HCLTech_Q1_FY27_Investor_Release.pdf
 HCLTech,2025-06-30,Q1FY26,service_line,Engineering and R&D Services,17.0,602.6500000000001,data/raw/hcltech/releases/2026-27__HCLTech_Q1_FY27_Investor_Release.pdf
-HCLTech,2025-06-30,Q1FY26,region,Europe,28.3,1003.2350000000001,data/raw/hcltech/releases/2026-27__HCLTech_Q1_FY27_Investor_Release.pdf
+HCLTech,2025-06-30,Q1FY26,region,Europe [svc],28.3,1003.2350000000001,data/raw/hcltech/releases/2026-27__HCLTech_Q1_FY27_Investor_Release.pdf
 HCLTech,2025-06-30,Q1FY26,service_line,IT and Business Services,74.0,2623.3,data/raw/hcltech/releases/2026-27__HCLTech_Q1_FY27_Investor_Release.pdf
 HCLTech,2026-03-31,Q4FY26,service_line,IT and Business Services,75.0,2761.5,data/raw/hcltech/releases/2026-27__HCLTech_Q1_FY27_Investor_Release.pdf
 HCLTech,2026-06-30,Q1FY27,region,USA,56.0,2044.0000000000002,data/raw/hcltech/releases/2026-27__InvestorRelease.pdf
@@ -2215,16 +2211,16 @@ HCLTech,2026-09-30,Q2FY27,service_line,Engineering and R&D Services,16.8,625.632
 HCLTech,2026-06-30,Q1FY27,service_line,Engineering and R&D Services,16.5,602.25,data/raw/hcltech/releases/2026-27__InvestorRelease.pdf
 HCLTech,2026-06-30,Q1FY27,service_line,HCLSoftware,8.6,313.9,data/raw/hcltech/releases/2026-27__InvestorRelease.pdf
 HCLTech,2026-09-30,Q2FY27,region,USA,56.1,2089.164,data/raw/hcltech/releases/2026-27__InvestorRelease.pdf
-HCLTech,2026-06-30,Q1FY27,region,Europe,27.6,1007.4000000000001,data/raw/hcltech/releases/2026-27__InvestorRelease.pdf
-HCLTech,2026-09-30,Q2FY27,region,Europe,26.9,1001.7559999999999,data/raw/hcltech/releases/2026-27__InvestorRelease.pdf
-HCLTech,2025-09-30,Q2FY26,region,ROW,12.4,451.856,data/raw/hcltech/releases/2026-27__InvestorRelease.pdf
-HCLTech,2026-06-30,Q1FY27,region,ROW,13.1,478.15000000000003,data/raw/hcltech/releases/2026-27__InvestorRelease.pdf
-HCLTech,2026-09-30,Q2FY27,region,ROW,13.6,506.46400000000006,data/raw/hcltech/releases/2026-27__InvestorRelease.pdf
+HCLTech,2026-06-30,Q1FY27,region,Europe [svc],27.6,1007.4000000000001,data/raw/hcltech/releases/2026-27__InvestorRelease.pdf
+HCLTech,2026-09-30,Q2FY27,region,Europe [svc],26.9,1001.7559999999999,data/raw/hcltech/releases/2026-27__InvestorRelease.pdf
+HCLTech,2025-09-30,Q2FY26,region,ROW [svc],12.4,451.856,data/raw/hcltech/releases/2026-27__InvestorRelease.pdf
+HCLTech,2026-06-30,Q1FY27,region,ROW [svc],13.1,478.15000000000003,data/raw/hcltech/releases/2026-27__InvestorRelease.pdf
+HCLTech,2026-09-30,Q2FY27,region,ROW [svc],13.6,506.46400000000006,data/raw/hcltech/releases/2026-27__InvestorRelease.pdf
 HCLTech,2025-09-30,Q2FY26,region,India,3.2,116.608,data/raw/hcltech/releases/2026-27__InvestorRelease.pdf
 HCLTech,2026-06-30,Q1FY27,region,India,3.3,120.45,data/raw/hcltech/releases/2026-27__InvestorRelease.pdf
 HCLTech,2026-09-30,Q2FY27,region,India,3.4,126.61600000000001,data/raw/hcltech/releases/2026-27__InvestorRelease.pdf
 HCLTech,2026-09-30,Q2FY27,service_line,IT and Business Services,75.6,2815.3439999999996,data/raw/hcltech/releases/2026-27__InvestorRelease.pdf
-HCLTech,2025-09-30,Q2FY26,region,Europe,28.3,1031.2520000000002,data/raw/hcltech/releases/2026-27__InvestorRelease.pdf
+HCLTech,2025-09-30,Q2FY26,region,Europe [svc],28.3,1031.2520000000002,data/raw/hcltech/releases/2026-27__InvestorRelease.pdf
 HCLTech,2026-06-30,Q1FY27,service_line,IT and Business Services,75.3,2748.45,data/raw/hcltech/releases/2026-27__InvestorRelease.pdf
 HCLTech,2025-09-30,Q2FY26,service_line,IT and Business Services,74.2,2703.848,data/raw/hcltech/releases/2026-27__InvestorRelease.pdf
 Infosys,2014-06-30,Q1FY15,region,North America,60.8,1296.864,data/raw/manual/infosys/infosys_2015.pdf

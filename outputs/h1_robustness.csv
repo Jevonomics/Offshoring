@@ -1,0 +1,73 @@
+country,series,window,year,gap_pct,band,vs_allcountries_pp
+India,CompAndBusiness,2015-22 (main),2024,17.1,above,5.6
+India,CompAndBusiness,2015-22 (main),2025,24.4,above,10.6
+India,CompAndBusiness,2015-21,2024,14.8,inside,-0.3
+India,CompAndBusiness,2015-21,2025,21.7,above,3.7
+India,CompAndBusiness,2015-19,2024,-0.5,inside,-18.8
+India,CompAndBusiness,2015-19,2025,3.5,inside,-18.3
+India,TelecomCompAndInfo,2015-22 (main),2024,25.7,inside,19.1
+India,TelecomCompAndInfo,2015-22 (main),2025,45.1,above,32.0
+India,TelecomCompAndInfo,2015-21,2024,20.7,inside,11.8
+India,TelecomCompAndInfo,2015-21,2025,38.6,above,22.7
+India,TelecomCompAndInfo,2015-19,2024,-10.4,below,-28.5
+India,TelecomCompAndInfo,2015-19,2025,-1.1,inside,-28.2
+India,OtherBusiness,2015-22 (main),2024,0.2,inside,-13.5
+India,OtherBusiness,2015-22 (main),2025,-4.4,inside,-18.4
+India,OtherBusiness,2015-21,2024,-2.4,inside,-20.3
+India,OtherBusiness,2015-21,2025,-7.2,inside,-26.0
+India,OtherBusiness,2015-19,2024,-2.5,inside,-20.9
+India,OtherBusiness,2015-19,2025,-7.4,inside,-26.9
+India,AllTypesOfService,2015-22 (main),2024,22.5,above,-5.3
+India,AllTypesOfService,2015-22 (main),2025,30.6,above,-5.1
+India,AllTypesOfService,2015-21,2024,24.2,inside,-21.5
+India,AllTypesOfService,2015-21,2025,32.7,above,-24.8
+India,AllTypesOfService,2015-19,2024,0.6,inside,-13.5
+India,AllTypesOfService,2015-19,2025,4.6,inside,-15.0
+Philippines,CompAndBusiness,2015-22 (main),2024,-17.9,inside,-29.4
+Philippines,CompAndBusiness,2015-22 (main),2025,-30.3,inside,-44.1
+Philippines,CompAndBusiness,2015-21,2024,1.6,inside,-13.5
+Philippines,CompAndBusiness,2015-21,2025,-11.2,inside,-29.2
+Philippines,CompAndBusiness,2015-19,2024,48.0,above,29.7
+Philippines,CompAndBusiness,2015-19,2025,36.1,inside,14.3
+Philippines,TelecomCompAndInfo,2015-22 (main),2024,-58.5,below,-65.1
+Philippines,TelecomCompAndInfo,2015-22 (main),2025,-59.2,below,-72.3
+Philippines,TelecomCompAndInfo,2015-21,2024,-64.5,below,-73.4
+Philippines,TelecomCompAndInfo,2015-21,2025,-65.8,below,-81.7
+Philippines,TelecomCompAndInfo,2015-19,2024,-50.3,inside,-68.4
+Philippines,TelecomCompAndInfo,2015-19,2025,-49.9,inside,-77.0
+Philippines,OtherBusiness,2015-22 (main),2024,-14.5,inside,-28.2
+Philippines,OtherBusiness,2015-22 (main),2025,-33.0,inside,-47.0
+Philippines,OtherBusiness,2015-21,2024,17.0,inside,-0.9
+Philippines,OtherBusiness,2015-21,2025,-4.0,inside,-22.8
+Philippines,OtherBusiness,2015-19,2024,66.4,above,48.0
+Philippines,OtherBusiness,2015-19,2025,43.1,above,23.6
+Philippines,AllTypesOfService,2015-22 (main),2024,24.6,inside,-3.2
+Philippines,AllTypesOfService,2015-22 (main),2025,18.5,inside,-17.2
+Philippines,AllTypesOfService,2015-21,2024,56.6,above,10.9
+Philippines,AllTypesOfService,2015-21,2025,53.8,above,-3.7
+Philippines,AllTypesOfService,2015-19,2024,19.5,inside,5.4
+Philippines,AllTypesOfService,2015-19,2025,13.4,inside,-6.2
+AllCountries,CompAndBusiness,2015-22 (main),2024,11.5,inside,0.0
+AllCountries,CompAndBusiness,2015-22 (main),2025,13.8,inside,0.0
+AllCountries,CompAndBusiness,2015-21,2024,15.1,inside,0.0
+AllCountries,CompAndBusiness,2015-21,2025,18.0,above,0.0
+AllCountries,CompAndBusiness,2015-19,2024,18.3,above,0.0
+AllCountries,CompAndBusiness,2015-19,2025,21.8,above,0.0
+AllCountries,TelecomCompAndInfo,2015-22 (main),2024,6.6,inside,0.0
+AllCountries,TelecomCompAndInfo,2015-22 (main),2025,13.1,inside,0.0
+AllCountries,TelecomCompAndInfo,2015-21,2024,8.9,inside,0.0
+AllCountries,TelecomCompAndInfo,2015-21,2025,15.9,inside,0.0
+AllCountries,TelecomCompAndInfo,2015-19,2024,18.1,inside,0.0
+AllCountries,TelecomCompAndInfo,2015-19,2025,27.1,inside,0.0
+AllCountries,OtherBusiness,2015-22 (main),2024,13.7,above,0.0
+AllCountries,OtherBusiness,2015-22 (main),2025,14.0,above,0.0
+AllCountries,OtherBusiness,2015-21,2024,17.9,above,0.0
+AllCountries,OtherBusiness,2015-21,2025,18.8,above,0.0
+AllCountries,OtherBusiness,2015-19,2024,18.4,above,0.0
+AllCountries,OtherBusiness,2015-19,2025,19.5,above,0.0
+AllCountries,AllTypesOfService,2015-22 (main),2024,27.8,inside,0.0
+AllCountries,AllTypesOfService,2015-22 (main),2025,35.7,inside,0.0
+AllCountries,AllTypesOfService,2015-21,2024,45.7,above,0.0
+AllCountries,AllTypesOfService,2015-21,2025,57.5,above,0.0
+AllCountries,AllTypesOfService,2015-19,2024,14.1,above,0.0
+AllCountries,AllTypesOfService,2015-19,2025,19.6,above,0.0

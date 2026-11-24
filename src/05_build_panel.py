@@ -31,7 +31,7 @@ reg["label"] = reg.variable.str.split(":").str[1]
 def na_share(g):
     lab = dict(zip(g.label, g.value))
     for k, d in [("North America", "North America"), ("USA", "USA"), ("Americas", "Americas")]:
-        if k in lab: return pd.Series({"na_share_pct": lab[k], "na_definition": d, "europe_share_pct": lab.get("Europe", np.nan)})
+        if k in lab: return pd.Series({"na_share_pct": lab[k], "na_definition": d, "europe_share_pct": lab.get("Europe [svc]" if k == "USA" else "Europe", np.nan)})
     if "Americas 1" in lab and "Americas 2" in lab:
         return pd.Series({"na_share_pct": lab["Americas 1"] + lab["Americas 2"], "na_definition": "Americas 1+2 (SMU)", "europe_share_pct": lab.get("Europe", np.nan)})
     return pd.Series({"na_share_pct": np.nan, "na_definition": None, "europe_share_pct": lab.get("Europe", np.nan)})

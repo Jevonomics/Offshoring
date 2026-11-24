@@ -55,7 +55,3 @@ Years outside ±1%: 0. (Wipro, Infosys, HCLTech, LTI: annual totals not extracte
 - TCS Q3FY06: +10.5% (headcount 62,249)
 - TCS Q4FY09: +10.3% (headcount 143,761)
 - TechM Q2FY22: +11.8% (headcount 141,193)
-
-### Notes on the flagged headcount jumps
-- **TechM, LTI, LTIMindtree, Q2 FY22 (Jul–Sep 2021):** +10–12% in one quarter, during the industry-wide post-COVID hiring surge. TechM also made acquisitions in FY22. This is in the pre-period and is the over-hiring the runbook handles with a robustness check (trend starting 2019 or excluding 2021–22). Not adjusted.
-- **TCS Q4 FY09 (Jan–Mar 2009):** includes TCS's acquisition of Citigroup Global Services (completed Dec 2008). **TCS Q3 FY06:** cause not checked. Both are outside the analysis window (FY16+).

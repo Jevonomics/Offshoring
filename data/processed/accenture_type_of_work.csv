@@ -1,0 +1,44 @@
+quarter_end,file_date,consulting_k,consulting_yago_k,consulting_yoy_usd,consulting_yoy_lc,second_label,managed_k,managed_yago_k,managed_yoy_usd,managed_yoy_lc,source
+2015-08-31,2015-09-24,4159936.0,4016623.0,4.0,14.0,Outsourcing,3728569.0,3760717.0,-1.0,9.0,data/raw/sec/accenture/2015-09-24_acn-83120158xkexhibit.htm
+2015-11-30,2015-12-17,4346054.0,4092893.0,6.0,15.0,Outsourcing,3667109.0,3802822.0,-4.0,5.0,data/raw/sec/accenture/2015-12-17_fy16q1earnings8-kexhibit.htm
+2016-02-29,2016-03-24,4292855.0,3839172.0,12.0,18.0,Outsourcing,3652710.0,3654157.0,0.0,6.0,data/raw/sec/accenture/2016-03-24_fy16q2earnings8-kexhibit.htm
+2016-05-31,2016-06-23,4621267.0,4111914.0,12.0,14.0,Outsourcing,3813490.0,3658468.0,4.0,6.0,data/raw/sec/accenture/2016-06-23_fy16q3earnings8-kexhibit.htm
+2016-08-31,2016-09-29,4607715.0,4159936.0,11.0,13.0,Outsourcing,3881523.0,3728569.0,4.0,6.0,data/raw/sec/accenture/2016-09-29_acn-83120168xkexhibit.htm
+2016-11-30,2016-12-21,4593019.0,4346054.0,6.0,7.0,Outsourcing,3922498.0,3667109.0,7.0,7.0,data/raw/sec/accenture/2016-12-21_fy17q1earnings8-kexhibit.htm
+2017-02-28,2017-03-23,4405985.0,4292855.0,3.0,5.0,Outsourcing,3911686.0,3652710.0,7.0,8.0,data/raw/sec/accenture/2017-03-23_fy17q2earnings8-kexhibit.htm
+2017-05-31,2017-06-22,4820444.0,4621267.0,4.0,6.0,Outsourcing,4046592.0,3813490.0,6.0,7.0,data/raw/sec/accenture/2017-06-22_fy17q3earnings8-kexhibit.htm
+2017-08-31,2017-09-28,4934348.0,4607715.0,7.0,7.0,Outsourcing,4215610.0,3881523.0,9.0,8.0,data/raw/sec/accenture/2017-09-28_acn-83120178xkexhibit.htm
+2017-11-30,2017-12-21,5184427.0,4593019.0,13.0,11.0,Outsourcing,4338795.0,3922498.0,11.0,9.0,data/raw/sec/accenture/2017-12-21_fy18q1earnings8-kexhibit.htm
+2018-02-28,2018-03-22,5158968.0,4405985.0,17.0,11.0,Outsourcing,4426474.0,3911686.0,13.0,8.0,data/raw/sec/accenture/2018-03-22_fy18q2earnings8-kexhibit.htm
+2018-05-31,2018-06-28,5686674.0,4820444.0,18.0,12.0,Outsourcing,4628325.0,4046592.0,14.0,10.0,data/raw/sec/accenture/2018-06-28_fy18q3earnings8-kexhibit.htm
+2018-08-31,2018-09-27,5543913.0,4934348.0,12.0,12.0,Outsourcing,4605874.0,4215610.0,9.0,9.0,data/raw/sec/accenture/2018-09-27_acn-83120188xkexhibit.htm
+2018-11-30,2018-12-20,5967372.0,5544836.0,8.0,10.0,Outsourcing,4638174.0,4339477.0,7.0,9.0,data/raw/sec/accenture/2018-12-20_fy19q1earnings8-kexhibit.htm
+2019-02-28,2019-03-28,5786965.0,5476397.0,6.0,9.0,Outsourcing,4667164.0,4432841.0,5.0,9.0,data/raw/sec/accenture/2019-03-28_fy19q2earnings8-kexhibit.htm
+2019-05-31,2019-06-27,6236630.0,6062696.0,3.0,7.0,Outsourcing,4863058.0,4632300.0,5.0,10.0,data/raw/sec/accenture/2019-06-27_fy19q3earnings8-kexhibit.htm
+2019-08-31,2019-09-26,6186461.0,5894869.0,5.0,7.0,Outsourcing,4869189.0,4609118.0,6.0,8.0,data/raw/sec/accenture/2019-09-26_fy19q4plc8-kexhibit.htm
+2020-05-31,2020-06-25,5997894.0,6236630.0,-4.0,-2.0,Outsourcing,4993411.0,4863058.0,3.0,5.0,data/raw/sec/accenture/2020-06-25_fy20q3earnings8-kexhibit.htm
+2020-08-31,2020-09-24,5680576.0,6186461.0,-8.0,-8.0,Outsourcing,5154695.0,4869189.0,6.0,7.0,data/raw/sec/accenture/2020-09-24_fy20q4plc8-kexhibit.htm
+2020-11-30,2020-12-17,6332572.0,6377251.0,-1.0,-2.0,Outsourcing,5429613.0,4981707.0,9.0,8.0,data/raw/sec/accenture/2020-12-17_fy21q1earnings8-kexhibit.htm
+2021-02-28,2021-03-18,6439392.0,6171303.0,4.0,1.0,Outsourcing,5648733.0,4970202.0,14.0,11.0,data/raw/sec/accenture/2021-03-18_fy21q2earnings8-kexhibit.htm
+2021-05-31,2021-06-24,7260428.0,5997894.0,21.0,16.0,Outsourcing,6003367.0,4993411.0,20.0,16.0,data/raw/sec/accenture/2021-06-24_fy21q3earnings8-kexhibit.htm
+2021-08-31,2021-09-23,7305307.0,5680576.0,29.0,25.0,Outsourcing,6113977.0,5154695.0,19.0,16.0,data/raw/sec/accenture/2021-09-23_fy21q4plc8-kexhibit.htm
+2021-11-30,2021-12-16,8392409.0,6332572.0,33.0,32.0,Outsourcing,6572744.0,5429613.0,21.0,21.0,data/raw/sec/accenture/2021-12-16_fy22q1earnings8-kexhibit.htm
+2022-02-28,2022-03-17,8322202.0,6439392.0,29.0,34.0,Outsourcing,6724491.0,5648733.0,19.0,23.0,data/raw/sec/accenture/2022-03-17_fy22q2earnings8-kexhibit.htm
+2022-05-31,2022-06-23,9032484.0,7260428.0,24.0,30.0,Outsourcing,7126319.0,6003367.0,19.0,23.0,data/raw/sec/accenture/2022-06-23_fy22q3earnings8-kexhibit.htm
+2022-08-31,2022-09-22,8328761.0,7305307.0,14.0,22.0,Outsourcing,7094895.0,6113977.0,16.0,23.0,data/raw/sec/accenture/2022-09-22_fy22q4plc8-kexhibit.htm
+2022-11-30,2022-12-16,8444367.0,8392409.0,1.0,10.0,Managed Services,7303435.0,6572744.0,11.0,20.0,data/raw/sec/accenture/2022-12-16_fy23q1earnings8-kexhibit.htm
+2023-02-28,2023-03-23,8278763.0,8322202.0,-1.0,4.0,Managed Services,7535395.0,6724491.0,12.0,16.0,data/raw/sec/accenture/2023-03-23_fy23q2earnings8-kexhibit.htm
+2023-05-31,2023-06-22,8693030.0,9032484.0,-4.0,-1.0,Managed Services,7871555.0,7126319.0,10.0,13.0,data/raw/sec/accenture/2023-06-22_fy23q3earnings8-kexhibit.htm
+2023-08-31,2023-09-28,8196848.0,8328761.0,-2.0,-2.0,Managed Services,7788352.0,7094895.0,10.0,10.0,data/raw/sec/accenture/2023-09-28_fy23q4plc8-kexhibit.htm
+2023-11-30,2023-12-19,8456506.0,8444367.0,0.0,-2.0,Managed Services,7767797.0,7303435.0,6.0,5.0,data/raw/sec/accenture/2023-12-19_fy24q1earnings8-kexhibit.htm
+2024-02-29,2024-03-21,8021034.0,8278763.0,-3.0,-3.0,Managed Services,7778480.0,7535395.0,3.0,3.0,data/raw/sec/accenture/2024-03-21_fy24q2earnings8-kexhibit.htm
+2024-05-31,2024-06-20,8457169.0,8693030.0,-3.0,-1.0,Managed Services,8009659.0,7871555.0,2.0,4.0,data/raw/sec/accenture/2024-06-20_fy24q3earnings8-kexhibit.htm
+2024-08-31,2024-09-26,8260395.0,8196848.0,1.0,3.0,Managed Services,8145424.0,7788352.0,5.0,7.0,data/raw/sec/accenture/2024-09-26_fy24q4plc8-kexhibit.htm
+2024-11-30,2024-12-19,9045228.0,8456506.0,7.0,6.0,Managed Services,8644317.0,7767797.0,11.0,11.0,data/raw/sec/accenture/2024-12-19_fy25q1earnings8-kexhibit.htm
+2025-02-28,2025-03-20,8282260.0,8021034.0,3.0,6.0,Managed Services,8377041.0,7778480.0,8.0,11.0,data/raw/sec/accenture/2025-03-20_q2fy25earnings8-kexhibit.htm
+2025-05-31,2025-06-20,9007033.0,8457169.0,7.0,6.0,Managed Services,8720838.0,8009659.0,9.0,9.0,data/raw/sec/accenture/2025-06-20_q3fy25earnings8-kexhibit.htm
+2025-08-31,2025-09-25,8772265.0,8260395.0,6.0,3.0,Managed Services,8823995.0,8145424.0,8.0,6.0,data/raw/sec/accenture/2025-09-25_q4fy25earnings8-kexhibit.htm
+2025-11-30,2025-12-18,9414567.0,9045228.0,4.0,3.0,Managed Services,9327558.0,8644317.0,8.0,7.0,data/raw/sec/accenture/2025-12-18_q1fy26earnings8-kexhibit.htm
+2026-02-28,2026-03-19,8859641.0,8282260.0,7.0,3.0,Managed Services,9184425.0,8377041.0,10.0,5.0,data/raw/sec/accenture/2026-03-19_q2fy26earnings8-kexhibit.htm
+2026-05-31,2026-06-18,9328494.0,9007033.0,4.0,1.0,Managed Services,9389650.0,8720838.0,8.0,5.0,data/raw/sec/accenture/2026-06-18_q3fy26earnings8-kexhibit.htm
+2026-08-31,2026-10-01,9280614.0,8772265.0,6.0,7.0,Managed Services,9398496.0,8823995.0,7.0,7.0,data/raw/sec/accenture/2026-10-01_q4fy26earnings8-kexhibit.htm

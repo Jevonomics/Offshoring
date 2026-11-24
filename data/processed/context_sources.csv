@@ -1,0 +1,7 @@
+source,metric,period,value,unit,url,notes
+IBPAP (via Inquirer),Philippines IT-BPM export revenue,2025,40,US$ bn (">40", +5% YoY),https://business.inquirer.net/571179/it-bpm-revenues-top-40b,Industry association figure; headcount ~1.9M (+4%)
+IBPAP (via Philstar),Philippines IT-BPM revenue target,2026,42,US$ bn (target),https://www.philstar.com/business/2025/09/28/2475800/it-bpm-revenues-may-reach-42-billion-2026,Target not outcome
+IBPAP (via GMA),2028 roadmap revision,2028,1.85-2.14,million jobs (down from 2.5M in 2022 roadmap),https://www.gmanetwork.com/news/money/economy/994797/ibpap-cuts-2028-it-bpm-revenue-jobs-forecasts-after-roadmap-review/story/,Forecast cut; date of report not verified
+NASSCOM-Zinnov GCC Landscape 2026,India GCC headcount,FY26,2.36,million (from ~1.9M FY24),https://media.zinnov.com/wp-content/uploads/2026/05/zinnov-nasscom-india-gcc-landscape-report-2026.pdf,Figures via press coverage; PDF not parsed
+NASSCOM-Zinnov GCC Landscape 2026,India GCC revenue,FY26,98.4,US$ bn,https://yourstory.com/enterprise-story/2026/05/gccs-number-touch-2117-in-india-revenue-just-short-of-100-billion,2117 GCCs
+Xpheno (via The Wire),Six-firm headcount,Oct 2025-Oct 2026,822144 -> 797722,persons,https://thewire.in/news/top-six-it-companies-reduce-employee-count-by-24000-hiring-dips,Method unverified; conflicts with firms' own totals (see validation.md)

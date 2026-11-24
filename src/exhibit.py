@@ -107,20 +107,29 @@ class Exhibit:
         probe.remove()
         return lines + [cur]
 
-    def source(self, *paragraphs, size=9.5, credit=None):
-        """Notes and source at the bottom left, first paragraph on top. `credit` goes in the
-        bottom-right corner; the source text wraps short of it."""
-        avail = 1 - 2 * MARGIN / self.w
+    def source(self, *paragraphs, size=9.5, credit=None, gap=0.55):
+        """Notes and source at the bottom left, first paragraph on top, with a small gap between
+        paragraphs. Text uses the full width; only the bottom line, which shares the baseline with
+        `credit` (bottom-right corner), wraps short of it."""
+        full = 1 - 2 * MARGIN / self.w
+        short = full
         if credit:
             t = self.fig.text(1 - MARGIN / self.w, 0.22 / self.h, credit, fontsize=11,
                               weight="semibold", color=INK, ha="right", va="bottom")
-            avail -= self._width(t) + 0.3 / self.w
-        lines = [l for p in paragraphs for l in self._wrap(p, size, avail)]
-        y = 0.22
-        for line in reversed(lines):
-            self.fig.text(MARGIN / self.w, y / self.h, line, color=SUB, fontsize=size,
-                          va="bottom")
-            y += size * 1.35 / 72
+            short -= self._width(t) + 0.3 / self.w
+        blocks = [self._wrap(p, size, full) for p in paragraphs]
+        probe = self.fig.text(0, 0, blocks[-1][-1], fontsize=size)
+        if self._width(probe) > short:          # bottom line would run into the credit
+            blocks[-1] = blocks[-1][:-1] + self._wrap(blocks[-1][-1], size, short)
+        probe.remove()
+        y, step = 0.22, size * 1.35 / 72
+        for bi, block in enumerate(reversed(blocks)):
+            if bi:
+                y += step * gap
+            for line in reversed(block):
+                self.fig.text(MARGIN / self.w, y / self.h, line, color=SUB, fontsize=size,
+                              va="bottom")
+                y += step
         self.footer = y + 0.25
 
     def axes(self, left=0.1, right=0.95, bottom_pad=0.55):

@@ -18,7 +18,7 @@ On November 23, 2026, Anthropic's Economics team (Nathan Wilmers, Maxim Massenko
 
 The report captures the **buyer's side** of offshore services contracts. Offshore vendors and trade data capture the **seller's side**. If US firms are replacing offshore contractors with AI at scale, it should show up there.
 
-> **Anthropic heard US firms say they're replacing offshore contractors with AI. Does it show up on the other side of the ledger?**
+> **Anthropic heard US firms say they're replacing offshore contractors with AI. Does it show up on the supply side?**
 
 ## 3. Two channels (keep them separate)
 

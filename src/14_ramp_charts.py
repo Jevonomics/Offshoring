@@ -6,6 +6,7 @@ sys.path.insert(0, "src")
 from exhibit import Exhibit, INK, SUB, GRID, ORANGE, NAVY, GRAY, BG, MARGIN
 from analysis_common import loglin_trend, POST
 import matplotlib.dates as mdates
+from matplotlib.transforms import blended_transform_factory
 
 OUT = "outputs/charts/ramp/"
 CREDIT = "Analysis: Atharv Joshi"
@@ -100,7 +101,9 @@ ex.source("Above zero = AI-exposed work growing faster. Accenture in local curre
           "implied US$ revenue (its IT & business division mixes exposed and unexposed work). "
           "Pooled change −0.4 pp (p = 0.83). Stand-ins: no firm reports revenue by type of work after 2024.",
           "Source: Accenture 8-K earnings releases; company fact sheets.", credit=CREDIT)
-ax = ex.axes(left=0.40, right=0.76, bottom_pad=0.5)
+ax = ex.axes(left=0.40, right=0.70, bottom_pad=0.5)
+COLS = blended_transform_factory(ex.fig.transFigure, ax.transData)   # columns pinned to the right margin
+X_P = 1 - (MARGIN + 0.22) / ex.w; X_CH = X_P - 0.8 / ex.w
 for i, (firm, lab, key) in enumerate(rows):
     r, y = R.loc[key], len(rows) - 1 - i
     ax.plot([r.pre_mean_pp, r.post_mean_pp], [y, y], color=GRID, lw=7, solid_capstyle="round", zorder=1)
@@ -108,10 +111,10 @@ for i, (firm, lab, key) in enumerate(rows):
     ax.scatter([r.post_mean_pp], [y], s=150, color=ORANGE, edgecolor="white", lw=1.8, zorder=3)
     ax.text(-0.04, y + 0.16, firm, transform=ax.get_yaxis_transform(), ha="right", va="center", fontsize=14, color=INK, weight="semibold")
     ax.text(-0.04, y - 0.19, lab, transform=ax.get_yaxis_transform(), ha="right", va="center", fontsize=11, color=SUB)
-    ax.text(1.20, y, f"{r.change_pp:+.1f}".replace("-", "−"), transform=ax.get_yaxis_transform(), ha="right", va="center", fontsize=14, weight="bold")
-    ax.text(1.42, y, f"{r.p:.2f}", transform=ax.get_yaxis_transform(), ha="right", va="center", fontsize=14, color=INK)
-ax.text(1.20, len(rows) - 0.35, "Change", transform=ax.get_yaxis_transform(), ha="right", va="bottom", fontsize=12.5, color=SUB, weight="semibold")
-ax.text(1.42, len(rows) - 0.35, "p", transform=ax.get_yaxis_transform(), ha="right", va="bottom", fontsize=12.5, color=SUB, weight="semibold")
+    ax.text(X_CH, y, f"{r.change_pp:+.1f}".replace("-", "−"), transform=COLS, ha="center", va="center", fontsize=14, weight="bold")
+    ax.text(X_P, y, f"{r.p:.2f}", transform=COLS, ha="center", va="center", fontsize=14, color=INK)
+ax.text(X_CH, len(rows) - 0.35, "Change", transform=COLS, ha="center", va="bottom", fontsize=12.5, color=SUB, weight="semibold")
+ax.text(X_P, len(rows) - 0.35, "p", transform=COLS, ha="center", va="bottom", fontsize=12.5, color=SUB, weight="semibold")
 ax.set_ylim(-0.6, len(rows) - 0.4); ax.set_yticks([]); ax.set_xlim(-1.5, 11); ax.set_xticks([0, 2, 4, 6, 8, 10]); ax.tick_params(axis="x", labelsize=12.5)
 ax.grid(axis="y", visible=False); ax.grid(axis="x", color=GRID, lw=1); ax.axvline(0, color=INK, lw=1.2)
 ax.spines["bottom"].set_visible(False)

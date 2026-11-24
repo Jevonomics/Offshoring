@@ -1,0 +1,19 @@
+firm,spec,n_fit,trend_growth_pct_yr,post_quarters,mean_gap_pct,latest_gap_pct,share_post_above_95pi,share_post_below_95pi,fy21_covid_gap_pct,fy17_gap_pct
+TCS,main FY16-FY22,28,-0.08,11,2.97,5.36,0.0,0.0,-1.27,-3.33
+TCS,excl. 2021-22 hiring boom,23,0.17,11,0.98,3.01,0.0,0.0,-2.05,-3.14
+TCS,from 2019,13,-1.79,11,11.81,16.86,0.36,0.0,-1.06,-9.63
+Infosys,main FY16-FY22,28,1.86,11,-0.67,-0.3,0.0,0.0,-1.34,-1.27
+Infosys,excl. 2021-22 hiring boom,23,1.52,11,2.0,2.8,0.0,0.0,-0.22,-1.46
+Infosys,from 2019,13,3.0,11,-5.24,-6.2,0.0,0.0,-0.91,3.69
+Wipro,main FY16-FY22,19,-1.2,11,1.35,0.92,0.0,0.0,-9.49,-2.16
+Wipro,excl. 2021-22 hiring boom,16,-2.21,11,9.18,10.11,0.0,0.0,-7.35,-3.36
+Wipro,from 2019,9,-0.25,11,-2.38,-3.96,0.0,0.0,-8.57,2.2
+HCLTech,main FY16-FY22,28,0.35,11,-3.55,-1.25,0.0,0.0,0.37,-1.07
+HCLTech,excl. 2021-22 hiring boom,23,1.85,11,-14.38,-13.94,0.0,0.91,-4.53,-0.12
+HCLTech,from 2019,13,-4.13,11,20.1,29.98,0.82,0.0,1.09,-16.99
+TechM,main FY16-FY22,27,1.85,11,-7.32,-4.05,0.0,0.45,-2.13,-1.57
+TechM,excl. 2021-22 hiring boom,22,1.41,11,-4.09,-0.18,0.0,0.0,-0.72,-1.85
+TechM,from 2019,13,3.14,11,-11.83,-10.14,0.0,0.55,-1.32,4.39
+LTI (standalone),main FY16-FY22,27,1.87,0,,,,,-0.72,1.96
+LTI (standalone),excl. 2021-22 hiring boom,22,2.64,0,,,,,-3.09,2.56
+LTI (standalone),from 2019,13,0.57,0,,,,,0.36,-2.08

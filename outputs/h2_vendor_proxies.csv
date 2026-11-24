@@ -1,0 +1,5 @@
+series,n,pre_mean_pp,post_mean_pp,change_pp,se,p,fy17_slowdown_pp,covid_2020_pp,post_2023_robust_pp
+Accenture: Managed svcs − Consulting (LC growth),41.0,1.19,3.5,2.31,2.21,0.3,-0.75,10.5,5.29
+HCLTech: ITBS − Engineering & R&D revenue growth (US$),25.0,0.58,-0.3,-0.88,3.22,0.78,,6.07,-0.93
+TechM: BPS − software headcount growth,42.0,9.48,6.85,-2.63,4.06,0.52,-1.17,0.83,4.82
+"POOLED (series FE, HAC)",108.0,,,-0.43,1.97,0.829,,,

@@ -1,0 +1,607 @@
+series_id,series,date,value,preliminary
+CES0000000001,Total nonfarm,2010-01-01,129802.0,False
+CES0000000001,Total nonfarm,2010-02-01,129706.0,False
+CES0000000001,Total nonfarm,2010-03-01,129866.0,False
+CES0000000001,Total nonfarm,2010-04-01,130120.0,False
+CES0000000001,Total nonfarm,2010-05-01,130642.0,False
+CES0000000001,Total nonfarm,2010-06-01,130510.0,False
+CES0000000001,Total nonfarm,2010-07-01,130415.0,False
+CES0000000001,Total nonfarm,2010-08-01,130415.0,False
+CES0000000001,Total nonfarm,2010-09-01,130341.0,False
+CES0000000001,Total nonfarm,2010-10-01,130620.0,False
+CES0000000001,Total nonfarm,2010-11-01,130749.0,False
+CES0000000001,Total nonfarm,2010-12-01,130830.0,False
+CES0000000001,Total nonfarm,2011-01-01,130837.0,False
+CES0000000001,Total nonfarm,2011-02-01,131057.0,False
+CES0000000001,Total nonfarm,2011-03-01,131283.0,False
+CES0000000001,Total nonfarm,2011-04-01,131597.0,False
+CES0000000001,Total nonfarm,2011-05-01,131703.0,False
+CES0000000001,Total nonfarm,2011-06-01,131931.0,False
+CES0000000001,Total nonfarm,2011-07-01,131992.0,False
+CES0000000001,Total nonfarm,2011-08-01,132125.0,False
+CES0000000001,Total nonfarm,2011-09-01,132344.0,False
+CES0000000001,Total nonfarm,2011-10-01,132553.0,False
+CES0000000001,Total nonfarm,2011-11-01,132690.0,False
+CES0000000001,Total nonfarm,2011-12-01,132888.0,False
+CES0000000001,Total nonfarm,2012-01-01,133246.0,False
+CES0000000001,Total nonfarm,2012-02-01,133509.0,False
+CES0000000001,Total nonfarm,2012-03-01,133748.0,False
+CES0000000001,Total nonfarm,2012-04-01,133825.0,False
+CES0000000001,Total nonfarm,2012-05-01,133932.0,False
+CES0000000001,Total nonfarm,2012-06-01,134013.0,False
+CES0000000001,Total nonfarm,2012-07-01,134157.0,False
+CES0000000001,Total nonfarm,2012-08-01,134339.0,False
+CES0000000001,Total nonfarm,2012-09-01,134517.0,False
+CES0000000001,Total nonfarm,2012-10-01,134669.0,False
+CES0000000001,Total nonfarm,2012-11-01,134825.0,False
+CES0000000001,Total nonfarm,2012-12-01,135074.0,False
+CES0000000001,Total nonfarm,2013-01-01,135257.0,False
+CES0000000001,Total nonfarm,2013-02-01,135546.0,False
+CES0000000001,Total nonfarm,2013-03-01,135689.0,False
+CES0000000001,Total nonfarm,2013-04-01,135873.0,False
+CES0000000001,Total nonfarm,2013-05-01,136096.0,False
+CES0000000001,Total nonfarm,2013-06-01,136279.0,False
+CES0000000001,Total nonfarm,2013-07-01,136391.0,False
+CES0000000001,Total nonfarm,2013-08-01,136646.0,False
+CES0000000001,Total nonfarm,2013-09-01,136821.0,False
+CES0000000001,Total nonfarm,2013-10-01,137041.0,False
+CES0000000001,Total nonfarm,2013-11-01,137317.0,False
+CES0000000001,Total nonfarm,2013-12-01,137372.0,False
+CES0000000001,Total nonfarm,2014-01-01,137561.0,False
+CES0000000001,Total nonfarm,2014-02-01,137712.0,False
+CES0000000001,Total nonfarm,2014-03-01,137985.0,False
+CES0000000001,Total nonfarm,2014-04-01,138298.0,False
+CES0000000001,Total nonfarm,2014-05-01,138513.0,False
+CES0000000001,Total nonfarm,2014-06-01,138849.0,False
+CES0000000001,Total nonfarm,2014-07-01,139072.0,False
+CES0000000001,Total nonfarm,2014-08-01,139269.0,False
+CES0000000001,Total nonfarm,2014-09-01,139563.0,False
+CES0000000001,Total nonfarm,2014-10-01,139798.0,False
+CES0000000001,Total nonfarm,2014-11-01,140089.0,False
+CES0000000001,Total nonfarm,2014-12-01,140364.0,False
+CES0000000001,Total nonfarm,2015-01-01,140568.0,False
+CES0000000001,Total nonfarm,2015-02-01,140827.0,False
+CES0000000001,Total nonfarm,2015-03-01,140923.0,False
+CES0000000001,Total nonfarm,2015-04-01,141196.0,False
+CES0000000001,Total nonfarm,2015-05-01,141538.0,False
+CES0000000001,Total nonfarm,2015-06-01,141709.0,False
+CES0000000001,Total nonfarm,2015-07-01,141991.0,False
+CES0000000001,Total nonfarm,2015-08-01,142125.0,False
+CES0000000001,Total nonfarm,2015-09-01,142275.0,False
+CES0000000001,Total nonfarm,2015-10-01,142579.0,False
+CES0000000001,Total nonfarm,2015-11-01,142808.0,False
+CES0000000001,Total nonfarm,2015-12-01,143077.0,False
+CES0000000001,Total nonfarm,2016-01-01,143210.0,False
+CES0000000001,Total nonfarm,2016-02-01,143406.0,False
+CES0000000001,Total nonfarm,2016-03-01,143662.0,False
+CES0000000001,Total nonfarm,2016-04-01,143854.0,False
+CES0000000001,Total nonfarm,2016-05-01,143900.0,False
+CES0000000001,Total nonfarm,2016-06-01,144147.0,False
+CES0000000001,Total nonfarm,2016-07-01,144520.0,False
+CES0000000001,Total nonfarm,2016-08-01,144661.0,False
+CES0000000001,Total nonfarm,2016-09-01,144967.0,False
+CES0000000001,Total nonfarm,2016-10-01,145065.0,False
+CES0000000001,Total nonfarm,2016-11-01,145183.0,False
+CES0000000001,Total nonfarm,2016-12-01,145408.0,False
+CES0000000001,Total nonfarm,2017-01-01,145628.0,False
+CES0000000001,Total nonfarm,2017-02-01,145846.0,False
+CES0000000001,Total nonfarm,2017-03-01,145970.0,False
+CES0000000001,Total nonfarm,2017-04-01,146175.0,False
+CES0000000001,Total nonfarm,2017-05-01,146380.0,False
+CES0000000001,Total nonfarm,2017-06-01,146583.0,False
+CES0000000001,Total nonfarm,2017-07-01,146772.0,False
+CES0000000001,Total nonfarm,2017-08-01,146919.0,False
+CES0000000001,Total nonfarm,2017-09-01,147008.0,False
+CES0000000001,Total nonfarm,2017-10-01,147149.0,False
+CES0000000001,Total nonfarm,2017-11-01,147372.0,False
+CES0000000001,Total nonfarm,2017-12-01,147523.0,False
+CES0000000001,Total nonfarm,2018-01-01,147660.0,False
+CES0000000001,Total nonfarm,2018-02-01,148054.0,False
+CES0000000001,Total nonfarm,2018-03-01,148280.0,False
+CES0000000001,Total nonfarm,2018-04-01,148420.0,False
+CES0000000001,Total nonfarm,2018-05-01,148742.0,False
+CES0000000001,Total nonfarm,2018-06-01,148960.0,False
+CES0000000001,Total nonfarm,2018-07-01,149020.0,False
+CES0000000001,Total nonfarm,2018-08-01,149277.0,False
+CES0000000001,Total nonfarm,2018-09-01,149358.0,False
+CES0000000001,Total nonfarm,2018-10-01,149527.0,False
+CES0000000001,Total nonfarm,2018-11-01,149617.0,False
+CES0000000001,Total nonfarm,2018-12-01,149809.0,False
+CES0000000001,Total nonfarm,2019-01-01,150060.0,False
+CES0000000001,Total nonfarm,2019-02-01,150067.0,False
+CES0000000001,Total nonfarm,2019-03-01,150295.0,False
+CES0000000001,Total nonfarm,2019-04-01,150591.0,False
+CES0000000001,Total nonfarm,2019-05-01,150618.0,False
+CES0000000001,Total nonfarm,2019-06-01,150838.0,False
+CES0000000001,Total nonfarm,2019-07-01,150937.0,False
+CES0000000001,Total nonfarm,2019-08-01,151169.0,False
+CES0000000001,Total nonfarm,2019-09-01,151365.0,False
+CES0000000001,Total nonfarm,2019-10-01,151460.0,False
+CES0000000001,Total nonfarm,2019-11-01,151667.0,False
+CES0000000001,Total nonfarm,2019-12-01,151794.0,False
+CES0000000001,Total nonfarm,2020-01-01,152031.0,False
+CES0000000001,Total nonfarm,2020-02-01,152293.0,False
+CES0000000001,Total nonfarm,2020-03-01,150895.0,False
+CES0000000001,Total nonfarm,2020-04-01,130426.0,False
+CES0000000001,Total nonfarm,2020-05-01,133040.0,False
+CES0000000001,Total nonfarm,2020-06-01,137671.0,False
+CES0000000001,Total nonfarm,2020-07-01,139255.0,False
+CES0000000001,Total nonfarm,2020-08-01,140821.0,False
+CES0000000001,Total nonfarm,2020-09-01,141770.0,False
+CES0000000001,Total nonfarm,2020-10-01,142460.0,False
+CES0000000001,Total nonfarm,2020-11-01,142733.0,False
+CES0000000001,Total nonfarm,2020-12-01,142548.0,False
+CES0000000001,Total nonfarm,2021-01-01,142863.0,False
+CES0000000001,Total nonfarm,2021-02-01,143380.0,False
+CES0000000001,Total nonfarm,2021-03-01,144232.0,False
+CES0000000001,Total nonfarm,2021-04-01,144587.0,False
+CES0000000001,Total nonfarm,2021-05-01,145065.0,False
+CES0000000001,Total nonfarm,2021-06-01,145820.0,False
+CES0000000001,Total nonfarm,2021-07-01,146762.0,False
+CES0000000001,Total nonfarm,2021-08-01,147314.0,False
+CES0000000001,Total nonfarm,2021-09-01,147771.0,False
+CES0000000001,Total nonfarm,2021-10-01,148572.0,False
+CES0000000001,Total nonfarm,2021-11-01,149230.0,False
+CES0000000001,Total nonfarm,2021-12-01,149816.0,False
+CES0000000001,Total nonfarm,2022-01-01,150006.0,False
+CES0000000001,Total nonfarm,2022-02-01,150825.0,False
+CES0000000001,Total nonfarm,2022-03-01,151315.0,False
+CES0000000001,Total nonfarm,2022-04-01,151623.0,False
+CES0000000001,Total nonfarm,2022-05-01,151924.0,False
+CES0000000001,Total nonfarm,2022-06-01,152358.0,False
+CES0000000001,Total nonfarm,2022-07-01,153072.0,False
+CES0000000001,Total nonfarm,2022-08-01,153362.0,False
+CES0000000001,Total nonfarm,2022-09-01,153582.0,False
+CES0000000001,Total nonfarm,2022-10-01,153939.0,False
+CES0000000001,Total nonfarm,2022-11-01,154242.0,False
+CES0000000001,Total nonfarm,2022-12-01,154342.0,False
+CES0000000001,Total nonfarm,2023-01-01,154776.0,False
+CES0000000001,Total nonfarm,2023-02-01,155066.0,False
+CES0000000001,Total nonfarm,2023-03-01,155134.0,False
+CES0000000001,Total nonfarm,2023-04-01,155375.0,False
+CES0000000001,Total nonfarm,2023-05-01,155655.0,False
+CES0000000001,Total nonfarm,2023-06-01,155880.0,False
+CES0000000001,Total nonfarm,2023-07-01,156043.0,False
+CES0000000001,Total nonfarm,2023-08-01,156261.0,False
+CES0000000001,Total nonfarm,2023-09-01,156417.0,False
+CES0000000001,Total nonfarm,2023-10-01,156576.0,False
+CES0000000001,Total nonfarm,2023-11-01,156703.0,False
+CES0000000001,Total nonfarm,2023-12-01,156857.0,False
+CES0000000001,Total nonfarm,2024-01-01,157032.0,False
+CES0000000001,Total nonfarm,2024-02-01,157238.0,False
+CES0000000001,Total nonfarm,2024-03-01,157466.0,False
+CES0000000001,Total nonfarm,2024-04-01,157530.0,False
+CES0000000001,Total nonfarm,2024-05-01,157608.0,False
+CES0000000001,Total nonfarm,2024-06-01,157695.0,False
+CES0000000001,Total nonfarm,2024-07-01,157748.0,False
+CES0000000001,Total nonfarm,2024-08-01,157757.0,False
+CES0000000001,Total nonfarm,2024-09-01,157912.0,False
+CES0000000001,Total nonfarm,2024-10-01,157945.0,False
+CES0000000001,Total nonfarm,2024-11-01,158079.0,False
+CES0000000001,Total nonfarm,2024-12-01,158316.0,False
+CES0000000001,Total nonfarm,2025-01-01,158268.0,False
+CES0000000001,Total nonfarm,2025-02-01,158310.0,False
+CES0000000001,Total nonfarm,2025-03-01,158377.0,False
+CES0000000001,Total nonfarm,2025-04-01,158485.0,False
+CES0000000001,Total nonfarm,2025-05-01,158498.0,False
+CES0000000001,Total nonfarm,2025-06-01,158478.0,False
+CES0000000001,Total nonfarm,2025-07-01,158542.0,False
+CES0000000001,Total nonfarm,2025-08-01,158472.0,False
+CES0000000001,Total nonfarm,2025-09-01,158548.0,False
+CES0000000001,Total nonfarm,2025-10-01,158408.0,False
+CES0000000001,Total nonfarm,2025-11-01,158449.0,False
+CES0000000001,Total nonfarm,2025-12-01,158432.0,False
+CES0000000001,Total nonfarm,2026-01-01,158592.0,False
+CES0000000001,Total nonfarm,2026-02-01,158436.0,False
+CES0000000001,Total nonfarm,2026-03-01,158650.0,False
+CES0000000001,Total nonfarm,2026-04-01,158798.0,False
+CES0000000001,Total nonfarm,2026-05-01,158861.0,False
+CES0000000001,Total nonfarm,2026-06-01,158892.0,False
+CES0000000001,Total nonfarm,2026-07-01,158882.0,False
+CES0000000001,Total nonfarm,2026-08-01,159068.0,False
+CES0000000001,Total nonfarm,2026-09-01,159128.0,True
+CES0000000001,Total nonfarm,2026-10-01,159293.0,True
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2010-01-01,7465.0,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2010-02-01,7466.2,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2010-03-01,7446.2,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2010-04-01,7467.9,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2010-05-01,7443.7,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2010-06-01,7458.1,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2010-07-01,7468.4,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2010-08-01,7498.1,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2010-09-01,7477.3,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2010-10-01,7503.0,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2010-11-01,7552.1,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2010-12-01,7569.2,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2011-01-01,7585.7,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2011-02-01,7609.9,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2011-03-01,7648.5,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2011-04-01,7674.9,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2011-05-01,7706.6,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2011-06-01,7725.2,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2011-07-01,7731.6,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2011-08-01,7747.7,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2011-09-01,7762.4,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2011-10-01,7772.3,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2011-11-01,7784.4,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2011-12-01,7806.9,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2012-01-01,7830.5,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2012-02-01,7857.8,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2012-03-01,7865.5,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2012-04-01,7888.8,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2012-05-01,7906.7,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2012-06-01,7930.2,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2012-07-01,7949.7,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2012-08-01,7969.0,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2012-09-01,7993.3,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2012-10-01,8012.5,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2012-11-01,8031.6,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2012-12-01,8047.6,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2013-01-01,8052.6,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2013-02-01,8079.3,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2013-03-01,8107.9,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2013-04-01,8137.5,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2013-05-01,8158.2,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2013-06-01,8172.1,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2013-07-01,8195.0,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2013-08-01,8203.0,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2013-09-01,8211.8,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2013-10-01,8238.9,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2013-11-01,8266.7,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2013-12-01,8233.2,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2014-01-01,8259.7,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2014-02-01,8286.9,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2014-03-01,8304.9,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2014-04-01,8328.9,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2014-05-01,8349.4,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2014-06-01,8375.1,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2014-07-01,8398.3,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2014-08-01,8416.6,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2014-09-01,8433.0,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2014-10-01,8457.6,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2014-11-01,8485.5,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2014-12-01,8513.6,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2015-01-01,8526.7,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2015-02-01,8555.9,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2015-03-01,8584.1,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2015-04-01,8610.7,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2015-05-01,8627.1,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2015-06-01,8653.9,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2015-07-01,8678.0,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2015-08-01,8690.9,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2015-09-01,8704.5,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2015-10-01,8733.2,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2015-11-01,8755.5,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2015-12-01,8765.3,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2016-01-01,8810.8,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2016-02-01,8816.5,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2016-03-01,8824.3,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2016-04-01,8840.7,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2016-05-01,8859.1,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2016-06-01,8871.0,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2016-07-01,8890.1,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2016-08-01,8894.4,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2016-09-01,8917.7,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2016-10-01,8933.5,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2016-11-01,8940.2,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2016-12-01,8956.3,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2017-01-01,8973.5,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2017-02-01,8985.2,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2017-03-01,8988.6,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2017-04-01,9019.7,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2017-05-01,9032.8,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2017-06-01,9050.8,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2017-07-01,9067.1,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2017-08-01,9088.3,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2017-09-01,9093.9,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2017-10-01,9107.6,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2017-11-01,9118.8,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2017-12-01,9137.9,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2018-01-01,9164.8,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2018-02-01,9189.4,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2018-03-01,9206.1,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2018-04-01,9226.5,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2018-05-01,9257.1,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2018-06-01,9275.5,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2018-07-01,9289.7,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2018-08-01,9314.8,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2018-09-01,9327.6,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2018-10-01,9350.3,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2018-11-01,9369.4,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2018-12-01,9385.1,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2019-01-01,9404.5,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2019-02-01,9427.6,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2019-03-01,9459.5,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2019-04-01,9476.1,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2019-05-01,9504.7,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2019-06-01,9536.6,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2019-07-01,9559.5,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2019-08-01,9577.5,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2019-09-01,9588.4,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2019-10-01,9601.6,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2019-11-01,9627.8,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2019-12-01,9637.2,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2020-01-01,9667.1,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2020-02-01,9704.8,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2020-03-01,9685.1,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2020-04-01,9161.6,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2020-05-01,9209.1,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2020-06-01,9278.1,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2020-07-01,9301.0,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2020-08-01,9351.6,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2020-09-01,9403.3,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2020-10-01,9445.5,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2020-11-01,9474.5,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2020-12-01,9534.9,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2021-01-01,9603.8,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2021-02-01,9657.0,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2021-03-01,9710.4,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2021-04-01,9762.7,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2021-05-01,9812.4,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2021-06-01,9837.6,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2021-07-01,9924.5,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2021-08-01,9980.0,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2021-09-01,10044.8,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2021-10-01,10108.7,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2021-11-01,10177.2,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2021-12-01,10225.5,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2022-01-01,10264.0,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2022-02-01,10316.4,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2022-03-01,10378.7,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2022-04-01,10411.7,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2022-05-01,10450.3,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2022-06-01,10490.6,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2022-07-01,10543.3,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2022-08-01,10569.9,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2022-09-01,10593.7,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2022-10-01,10633.0,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2022-11-01,10659.0,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2022-12-01,10677.1,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2023-01-01,10693.4,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2023-02-01,10725.0,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2023-03-01,10739.1,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2023-04-01,10754.5,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2023-05-01,10776.6,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2023-06-01,10775.8,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2023-07-01,10786.9,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2023-08-01,10787.1,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2023-09-01,10784.4,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2023-10-01,10780.3,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2023-11-01,10778.1,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2023-12-01,10800.1,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2024-01-01,10807.0,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2024-02-01,10809.2,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2024-03-01,10790.1,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2024-04-01,10793.3,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2024-05-01,10817.6,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2024-06-01,10820.6,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2024-07-01,10805.9,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2024-08-01,10793.7,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2024-09-01,10795.0,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2024-10-01,10782.6,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2024-11-01,10788.3,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2024-12-01,10813.9,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2025-01-01,10792.7,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2025-02-01,10779.9,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2025-03-01,10782.3,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2025-04-01,10786.7,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2025-05-01,10783.8,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2025-06-01,10768.0,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2025-07-01,10772.5,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2025-08-01,10765.7,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2025-09-01,10760.6,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2025-10-01,10754.1,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2025-11-01,10790.8,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2025-12-01,10784.6,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2026-01-01,10790.4,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2026-02-01,10810.0,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2026-03-01,10795.6,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2026-04-01,10808.9,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2026-05-01,10815.8,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2026-06-01,10833.6,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2026-07-01,10835.9,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2026-08-01,10843.8,False
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2026-09-01,10848.4,True
+CES6054000001,"Professional, scientific, and technical services (NAICS 54)",2026-10-01,10881.3,True
+CES6054150001,Computer systems design and related services (NAICS 5415),2010-01-01,1431.4,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2010-02-01,1436.1,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2010-03-01,1431.4,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2010-04-01,1441.9,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2010-05-01,1444.7,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2010-06-01,1446.7,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2010-07-01,1453.4,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2010-08-01,1462.0,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2010-09-01,1465.1,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2010-10-01,1478.4,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2010-11-01,1481.9,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2010-12-01,1490.7,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2011-01-01,1501.2,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2011-02-01,1506.5,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2011-03-01,1517.2,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2011-04-01,1525.8,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2011-05-01,1534.1,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2011-06-01,1541.9,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2011-07-01,1546.7,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2011-08-01,1555.8,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2011-09-01,1564.2,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2011-10-01,1566.2,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2011-11-01,1572.0,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2011-12-01,1580.0,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2012-01-01,1582.3,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2012-02-01,1595.4,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2012-03-01,1604.2,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2012-04-01,1609.6,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2012-05-01,1616.8,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2012-06-01,1624.8,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2012-07-01,1635.0,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2012-08-01,1639.6,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2012-09-01,1648.2,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2012-10-01,1654.2,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2012-11-01,1663.1,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2012-12-01,1668.6,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2013-01-01,1675.1,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2013-02-01,1683.4,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2013-03-01,1687.9,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2013-04-01,1694.6,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2013-05-01,1702.7,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2013-06-01,1710.0,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2013-07-01,1715.8,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2013-08-01,1719.1,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2013-09-01,1718.6,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2013-10-01,1729.9,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2013-11-01,1739.0,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2013-12-01,1740.7,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2014-01-01,1751.3,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2014-02-01,1757.5,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2014-03-01,1763.9,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2014-04-01,1776.4,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2014-05-01,1788.0,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2014-06-01,1793.6,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2014-07-01,1799.4,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2014-08-01,1807.7,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2014-09-01,1816.4,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2014-10-01,1828.5,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2014-11-01,1840.5,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2014-12-01,1854.7,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2015-01-01,1866.3,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2015-02-01,1878.1,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2015-03-01,1888.3,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2015-04-01,1896.9,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2015-05-01,1905.7,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2015-06-01,1913.8,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2015-07-01,1923.0,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2015-08-01,1929.6,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2015-09-01,1937.6,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2015-10-01,1944.7,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2015-11-01,1950.9,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2015-12-01,1951.7,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2016-01-01,1957.2,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2016-02-01,1963.0,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2016-03-01,1968.3,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2016-04-01,1976.6,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2016-05-01,1985.9,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2016-06-01,1993.2,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2016-07-01,1997.8,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2016-08-01,1999.9,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2016-09-01,2010.4,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2016-10-01,2016.4,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2016-11-01,2021.1,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2016-12-01,2026.1,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2017-01-01,2036.1,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2017-02-01,2040.1,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2017-03-01,2038.0,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2017-04-01,2039.2,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2017-05-01,2040.9,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2017-06-01,2045.4,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2017-07-01,2049.2,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2017-08-01,2055.8,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2017-09-01,2059.8,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2017-10-01,2066.1,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2017-11-01,2067.5,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2017-12-01,2073.5,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2018-01-01,2085.2,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2018-02-01,2091.6,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2018-03-01,2094.1,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2018-04-01,2098.3,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2018-05-01,2106.1,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2018-06-01,2113.7,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2018-07-01,2122.1,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2018-08-01,2127.7,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2018-09-01,2132.8,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2018-10-01,2142.4,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2018-11-01,2151.6,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2018-12-01,2154.4,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2019-01-01,2153.6,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2019-02-01,2156.9,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2019-03-01,2168.7,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2019-04-01,2180.7,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2019-05-01,2189.4,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2019-06-01,2199.7,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2019-07-01,2208.2,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2019-08-01,2216.4,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2019-09-01,2214.1,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2019-10-01,2213.8,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2019-11-01,2218.9,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2019-12-01,2213.6,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2020-01-01,2228.5,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2020-02-01,2234.1,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2020-03-01,2219.8,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2020-04-01,2165.8,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2020-05-01,2166.1,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2020-06-01,2167.7,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2020-07-01,2167.2,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2020-08-01,2180.6,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2020-09-01,2191.3,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2020-10-01,2202.5,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2020-11-01,2208.3,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2020-12-01,2222.1,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2021-01-01,2232.6,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2021-02-01,2249.0,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2021-03-01,2260.5,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2021-04-01,2272.3,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2021-05-01,2279.1,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2021-06-01,2296.9,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2021-07-01,2319.6,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2021-08-01,2332.0,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2021-09-01,2348.9,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2021-10-01,2361.2,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2021-11-01,2377.8,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2021-12-01,2389.5,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2022-01-01,2406.9,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2022-02-01,2413.6,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2022-03-01,2436.5,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2022-04-01,2441.6,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2022-05-01,2453.3,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2022-06-01,2458.3,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2022-07-01,2457.1,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2022-08-01,2462.0,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2022-09-01,2469.3,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2022-10-01,2479.0,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2022-11-01,2482.9,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2022-12-01,2483.0,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2023-01-01,2478.6,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2023-02-01,2481.3,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2023-03-01,2483.5,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2023-04-01,2482.4,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2023-05-01,2478.2,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2023-06-01,2472.9,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2023-07-01,2470.7,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2023-08-01,2467.0,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2023-09-01,2456.5,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2023-10-01,2454.0,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2023-11-01,2451.1,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2023-12-01,2449.8,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2024-01-01,2446.9,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2024-02-01,2444.6,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2024-03-01,2439.8,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2024-04-01,2441.0,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2024-05-01,2440.6,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2024-06-01,2444.7,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2024-07-01,2442.6,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2024-08-01,2437.2,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2024-09-01,2437.6,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2024-10-01,2433.4,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2024-11-01,2429.2,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2024-12-01,2431.4,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2025-01-01,2426.3,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2025-02-01,2416.7,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2025-03-01,2408.9,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2025-04-01,2411.3,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2025-05-01,2410.3,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2025-06-01,2399.9,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2025-07-01,2395.7,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2025-08-01,2394.0,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2025-09-01,2387.6,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2025-10-01,2379.7,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2025-11-01,2381.5,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2025-12-01,2380.6,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2026-01-01,2374.2,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2026-02-01,2379.1,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2026-03-01,2369.6,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2026-04-01,2369.5,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2026-05-01,2370.0,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2026-06-01,2368.3,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2026-07-01,2362.0,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2026-08-01,2357.6,False
+CES6054150001,Computer systems design and related services (NAICS 5415),2026-09-01,2350.9,True
+CES6054150001,Computer systems design and related services (NAICS 5415),2026-10-01,2354.1,True

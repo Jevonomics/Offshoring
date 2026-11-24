@@ -1,0 +1,13 @@
+country,bucket,types,year,actual,trend,gap_pct,outside_95,pre_years
+India,exposed,Comp+AccountAuditBookkeep+Legal,2023,15591.0,15030.7,3.7,inside,8
+India,exposed,Comp+AccountAuditBookkeep+Legal,2024,17845.0,15018.8,18.8,inside,8
+India,exposed,Comp+AccountAuditBookkeep+Legal,2025,20081.0,15006.9,33.8,above,8
+India,unexposed,ResearchAndDev+ArchEngSciAndOthTech+BusMgmtConsPubRel,2023,13262.0,11811.0,12.3,inside,8
+India,unexposed,ResearchAndDev+ArchEngSciAndOthTech+BusMgmtConsPubRel,2024,14646.0,13079.3,12.0,inside,8
+India,unexposed,ResearchAndDev+ArchEngSciAndOthTech+BusMgmtConsPubRel,2025,16124.0,14483.9,11.3,inside,8
+Philippines,exposed,TelecomCompAndInfo+AccountAuditBookkeep+Legal,2023,876.0,1163.2,-24.7,inside,6
+Philippines,exposed,TelecomCompAndInfo+AccountAuditBookkeep+Legal,2024,671.0,1139.3,-41.1,below,6
+Philippines,exposed,TelecomCompAndInfo+AccountAuditBookkeep+Legal,2025,692.0,1115.9,-38.0,below,6
+Philippines,unexposed,ResearchAndDev+ArchEngSciAndOthTech+BusMgmtConsPubRel,2023,3364.0,1633.1,106.0,above,6
+Philippines,unexposed,ResearchAndDev+ArchEngSciAndOthTech+BusMgmtConsPubRel,2024,3008.0,1761.1,70.8,above,6
+Philippines,unexposed,ResearchAndDev+ArchEngSciAndOthTech+BusMgmtConsPubRel,2025,2848.0,1899.1,50.0,above,6

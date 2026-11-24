@@ -1,0 +1,5 @@
+spec,coef_log_pts,se,p,n,clusters
+main (post=2024Q1+),-3.842,8.511,0.652,276,6
+robust: post=2023Q1+,-2.873,8.403,0.732,276,6
+robust: firm-specific linear trends,-4.696,4.245,0.269,276,6
+"robust: clean North America only (TCS, Infosys, LTI/LTIM)",-14.985,11.268,0.184,144,3

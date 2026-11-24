@@ -1,0 +1,13 @@
+series,year,months,actual_avg,trend_avg,gap_pct,below_95pi_months,above_95pi_months,trend_growth_pct_yr
+Total nonfarm,2023,12,155895.25,150658.07,3.48,0,0,0.61
+Total nonfarm,2024,12,157693.83,151569.69,4.04,0,0,0.61
+Total nonfarm,2025,12,158438.92,152486.82,3.9,0,0,0.61
+Total nonfarm,2026,10,158860.0,153332.33,3.61,0,0,0.61
+"Professional, scientific, and technical services (NAICS 54)",2023,12,10765.11,10477.98,2.74,0,0,2.47
+"Professional, scientific, and technical services (NAICS 54)",2024,12,10801.43,10736.63,0.6,0,0,2.47
+"Professional, scientific, and technical services (NAICS 54)",2025,12,10776.81,11001.67,-2.04,0,0,2.47
+"Professional, scientific, and technical services (NAICS 54)",2026,10,10826.37,11250.28,-3.77,6,0,2.47
+Computer systems design and related services (NAICS 5415),2023,12,2468.83,2484.12,-0.62,0,0,3.29
+Computer systems design and related services (NAICS 5415),2024,12,2439.08,2565.72,-4.94,12,0,3.29
+Computer systems design and related services (NAICS 5415),2025,12,2399.38,2650.0,-9.46,12,0,3.29
+Computer systems design and related services (NAICS 5415),2026,10,2365.53,2729.66,-13.34,10,0,3.29

@@ -40,14 +40,63 @@ Important: under Channel A, falling vendor revenue *is* the AI effect, not evide
 
 ## 5. Data
 
-| Layer | Source | Frequency | Variables |
-|---|---|---|---|
-| Trade flows (main test) | BEA International Services tables: US imports of telecommunications, computer, and information services and other business services, by country (India, Philippines); split by affiliated vs. unaffiliated trade if available | Annual by country; quarterly in total | Import values |
-| Vendor panel | Quarterly fact sheets and investor releases: TCS, Infosys, Wipro, HCLTech, Tech Mahindra, LTIMindtree | Quarterly, FY2016 to latest | Headcount, USD and constant-currency revenue, revenue by region and service line, attrition, utilization, fresh-graduate hires, subcontracting costs |
-| Comparison firms | Cognizant and Accenture 10-Qs | Quarterly | Same variables, where reported |
-| Philippines BPO | IBPAP industry headcount and revenue | Annual | Customer service exposure |
-| Whole industry | NASSCOM headcount | Annual | Catches movement from vendors to clients' own Indian offices |
-| US in-house jobs | BLS (employment by occupation and industry, plus computer systems design industry employment) | Monthly / annual | Signs of work moving in-house |
+### 5.1 Trade data: main test (H1, H5)
+**BEA International Services tables** (annual by country, ~2010 to latest)
+- Tables 2.1–2.4: US imports by type of service and trading partner, for India and the Philippines. Categories: "telecommunications, computer, and information services" and "other business services" (with subcategories such as management consulting and back-office services).
+- Table 3.2: ICT and potentially ICT-enabled services (services that can be delivered remotely), by type of service and by affiliation.
+- **Shows:** whether US companies are buying less offshore IT and business services. This is the seller-side test of the report's contractor cuts.
+- **Affiliated vs. unaffiliated:** affiliated trade is work a company's own foreign office does for its parent; unaffiliated is work bought from outside vendors. This split separates AI replacing contractors from work moving into companies' own offices abroad. **Gap:** the split may only be published in total or by type of service, not by country and type together. Confirm on day 1.
+- **Limit:** country detail is annual, so there are only 2–3 data points after AI adoption took off.
+
+### 5.2 Indian IT vendor quarterly panel (H2, H3, H4, H6)
+**Firms:** TCS, Infosys, Wipro, HCLTech, Tech Mahindra, LTIMindtree
+**Sources:** quarterly press releases (USD versions), investor fact sheets, TCS's downloadable data sheet. FY2016 to latest (~40 quarters per firm).
+
+| Variable | What it shows | Tests |
+|---|---|---|
+| Total headcount | Size of the offshore workforce | H4, H6 |
+| Revenue (USD and constant-currency growth) | Whether clients are buying less, with currency swings removed | H1–H3 |
+| Revenue by region | Whether US clients are pulling back more than European ones | H3 |
+| Revenue by service line or business unit | Whether the work the report names (software development and maintenance, customer service/BPO, back office) is shrinking faster than consulting and infrastructure | H2 |
+| Revenue by client industry | Secondary exposure check (e.g., BFSI vs. manufacturing) | H2 |
+| Attrition rate | How many people leave each year | H4 |
+| Fresh-graduate hires and gross hires | Whether firms are filling seats that open up | H4 |
+| Utilization rate | Share of staff billed to clients; controls for cutting idle staff after the 2021–22 over-hiring | Alternative explanation |
+| Subcontracting costs | Whether vendors are cutting their own contractors | H4 |
+| Layoff announcements | Separates one-off restructurings (e.g., TCS's ~2% cut) from steady hiring restraint | H4 |
+
+**Computed:** revenue per employee (H6); the headcount change split into revenue and productivity parts; exposed vs. unexposed service-line comparisons.
+**Gap (biggest risk to H2):** reporting by service line is inconsistent. TCS's current releases report industry and geography; its older data sheets also reported service practice. Some firms may have stopped reporting service lines or changed definitions. Check first; if it's missing, use BPO-heavy firms or units as stand-ins.
+
+### 5.3 Comparison firms
+**Cognizant and Accenture 10-Qs and 10-Ks (SEC EDGAR):** headcount, revenue by segment and region, and Accenture's operations segment (its BPO business).
+- **Shows:** whether the pattern holds for US-listed firms with large Indian workforces. If it does, the explanation isn't specific to India.
+
+### 5.4 Customer service work (H1, H2)
+**IBPAP (Philippine IT-BPM industry association):** industry headcount and revenue, ~2015 to latest (annual).
+- **Shows:** customer service is one of the report's named categories, and the Philippines is the largest offshore call-center market. Slowing growth there is the clearest sign of AI replacing contracted customer service.
+
+### 5.5 Whole Indian industry (alternative explanation)
+**NASSCOM:** total Indian tech industry headcount and revenue, plus the number of global capability centers (GCCs: companies' own offices in India) and how many people they employ.
+- **Shows:** whether work is disappearing or just moving from vendors to companies' own Indian offices. Vendor headcount falling while GCC headcount rises points to in-house offices, not AI.
+
+### 5.6 US in-house jobs (H5)
+**BLS:**
+- Current Employment Statistics: employment in computer systems design and related services (monthly).
+- Occupational Employment and Wage Statistics: computer support specialists, software developers, customer service representatives (annual).
+- **Shows:** whether some offshore work is coming back in-house. The report found 10 companies hiring more for AI implementation and IT support.
+
+### 5.7 Already collected (context)
+- Anthropic report and PDF: the findings being tested.
+- Xpheno via The Wire: combined headcount of the six firms fell from 822,144 to 797,722 (Oct 2025 to Oct 2026).
+- Business Today: Tech Mahindra's headcount fell while its deal volumes improved.
+
+### 5.8 Collection order
+1. Vendor service-line disclosures (decides whether H2 can be tested)
+2. BEA country tables (headline chart)
+3. Vendor quarterly panel: TCS first (downloadable data sheet), then Infosys (most detailed reporting)
+4. NASSCOM and IBPAP
+5. BLS, Cognizant, and Accenture
 
 ## 6. Analysis
 

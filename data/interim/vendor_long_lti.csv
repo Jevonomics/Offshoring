@@ -2,8 +2,8 @@ firm,fiscal_label,cal_quarter_end,section,variable,value,unit,basis,source_file,
 LTI,Q1FY16,2015-06-30,,revenue_usd_m,208.6,USD_m,reported,data/raw/ltim/factsheets/FY2017_Q1.pdf,p6: Revenue (USD million) 208.6 229.7 231.1 0.6% 10.8%
 LTI,Q4FY16,2016-03-31,,attrition_ltm,18.4,pct,reported,data/raw/ltim/factsheets/FY2017_Q1.pdf,p9: Attrition % (LTM) 20.1% 18.4% 19.5%
 LTI,Q1FY16,2015-06-30,,attrition_ltm,20.1,pct,reported,data/raw/ltim/factsheets/FY2017_Q1.pdf,p9: Attrition % (LTM) 20.1% 18.4% 19.5%
-LTI,Q1FY16,2015-06-30,,headcount_total,20331.0,persons,reported,data/raw/ltim/factsheets/FY2017_Q1.pdf,"p9: Total Headcount 20,331 20,072 19,292"
 LTI,Q4FY16,2016-03-31,,headcount_total,20072.0,persons,reported,data/raw/ltim/factsheets/FY2017_Q1.pdf,"p9: Total Headcount 20,331 20,072 19,292"
+LTI,Q1FY16,2015-06-30,,headcount_total,20331.0,persons,reported,data/raw/ltim/factsheets/FY2017_Q1.pdf,"p9: Total Headcount 20,331 20,072 19,292"
 LTI,Q4FY16,2016-03-31,,revenue_usd_m,229.7,USD_m,reported,data/raw/ltim/factsheets/FY2017_Q1.pdf,p6: Revenue (USD million) 208.6 229.7 231.1 0.6% 10.8%
 LTI,Q2FY16,2015-09-30,,attrition_ltm,19.7,pct,reported,data/raw/ltim/factsheets/FY2017_Q2.pdf,p10: Attrition % (LTM) 19.7% 19.5% 18.5%
 LTI,Q2FY16,2015-09-30,,headcount_total,21171.0,persons,reported,data/raw/ltim/factsheets/FY2017_Q2.pdf,"p10: Total Headcount 21,171 19,292 19,751"
@@ -12,140 +12,200 @@ LTI,Q3FY17,2016-12-31,,attrition_ltm,18.1,pct,reported,data/raw/ltim/factsheets/
 LTI,Q3FY16,2015-12-31,,attrition_ltm,18.5,pct,reported,data/raw/ltim/factsheets/FY2017_Q3.pdf,p10: Attrition % (LTM) 18.5% 18.5% 18.1%
 LTI,Q3FY16,2015-12-31,,headcount_total,21073.0,persons,reported,data/raw/ltim/factsheets/FY2017_Q3.pdf,"p10: Total Headcount 21,073 19,751 20,605"
 LTI,Q3FY16,2015-12-31,,revenue_usd_m,225.0,USD_m,reported,data/raw/ltim/factsheets/FY2017_Q3.pdf,p7: Revenue (USD million) 225.0 239.7 245.1 2.3% 9.0%
-LTI,Q4FY16,2016-03-31,,rev_share_region:North America,68.2,pct,reported,data/raw/ltim/factsheets/FY2018_Q1.pdf,p15: North America 71.0% 69.5% 67.8% 68.2% 69.4% 68.9% 68.4% 68.6%
+LTI,Q1FY16,2015-06-30,,rev_share_region:Rest of world,8.5,pct,reported,data/raw/ltim/factsheets/FY2018_Q1.pdf,p15: RoW 8.5% 8.4% 8.2% 6.2% 6.9% 6.8% 5.3% 5.7%
 LTI,Q1FY16,2015-06-30,,rev_share_region:Europe,17.3,pct,reported,data/raw/ltim/factsheets/FY2018_Q1.pdf,p15: Europe 17.3% 17.3% 16.9% 17.8% 18.0% 18.4% 18.3% 18.1%
-LTI,Q3FY16,2015-12-31,,rev_share_region:Europe,16.9,pct,reported,data/raw/ltim/factsheets/FY2018_Q1.pdf,p15: Europe 17.3% 17.3% 16.9% 17.8% 18.0% 18.4% 18.3% 18.1%
 LTI,Q4FY16,2016-03-31,,rev_share_region:Europe,17.8,pct,reported,data/raw/ltim/factsheets/FY2018_Q1.pdf,p15: Europe 17.3% 17.3% 16.9% 17.8% 18.0% 18.4% 18.3% 18.1%
-LTI,Q3FY16,2015-12-31,,rev_share_region:North America,67.8,pct,reported,data/raw/ltim/factsheets/FY2018_Q1.pdf,p15: North America 71.0% 69.5% 67.8% 68.2% 69.4% 68.9% 68.4% 68.6%
+LTI,Q3FY16,2015-12-31,,rev_share_region:Europe,16.9,pct,reported,data/raw/ltim/factsheets/FY2018_Q1.pdf,p15: Europe 17.3% 17.3% 16.9% 17.8% 18.0% 18.4% 18.3% 18.1%
 LTI,Q2FY16,2015-09-30,,rev_share_region:Europe,17.3,pct,reported,data/raw/ltim/factsheets/FY2018_Q1.pdf,p15: Europe 17.3% 17.3% 16.9% 17.8% 18.0% 18.4% 18.3% 18.1%
-LTI,Q2FY16,2015-09-30,,rev_share_region:North America,69.5,pct,reported,data/raw/ltim/factsheets/FY2018_Q1.pdf,p15: North America 71.0% 69.5% 67.8% 68.2% 69.4% 68.9% 68.4% 68.6%
-LTI,Q1FY16,2015-06-30,,rev_share_region:North America,71.0,pct,reported,data/raw/ltim/factsheets/FY2018_Q1.pdf,p15: North America 71.0% 69.5% 67.8% 68.2% 69.4% 68.9% 68.4% 68.6%
+LTI,Q2FY16,2015-09-30,,rev_share_region:Rest of world,8.4,pct,reported,data/raw/ltim/factsheets/FY2018_Q1.pdf,p15: RoW 8.5% 8.4% 8.2% 6.2% 6.9% 6.8% 5.3% 5.7%
+LTI,Q3FY16,2015-12-31,,rev_share_region:Rest of world,8.2,pct,reported,data/raw/ltim/factsheets/FY2018_Q1.pdf,p15: RoW 8.5% 8.4% 8.2% 6.2% 6.9% 6.8% 5.3% 5.7%
+LTI,Q1FY16,2015-06-30,,rev_share_region:India,3.2,pct,reported,data/raw/ltim/factsheets/FY2018_Q1.pdf,p15: India 3.2% 4.7% 7.0% 7.8% 5.7% 5.9% 8.0% 7.5%
+LTI,Q2FY16,2015-09-30,,rev_share_region:India,4.7,pct,reported,data/raw/ltim/factsheets/FY2018_Q1.pdf,p15: India 3.2% 4.7% 7.0% 7.8% 5.7% 5.9% 8.0% 7.5%
+LTI,Q3FY16,2015-12-31,,rev_share_region:India,7.0,pct,reported,data/raw/ltim/factsheets/FY2018_Q1.pdf,p15: India 3.2% 4.7% 7.0% 7.8% 5.7% 5.9% 8.0% 7.5%
+LTI,Q4FY16,2016-03-31,,rev_share_region:India,7.8,pct,reported,data/raw/ltim/factsheets/FY2018_Q1.pdf,p15: India 3.2% 4.7% 7.0% 7.8% 5.7% 5.9% 8.0% 7.5%
+LTI,Q4FY16,2016-03-31,,rev_share_region:Rest of world,6.2,pct,reported,data/raw/ltim/factsheets/FY2018_Q1.pdf,p15: RoW 8.5% 8.4% 8.2% 6.2% 6.9% 6.8% 5.3% 5.7%
+LTI,Q4FY16,2016-03-31,,rev_share_region:North America,68.2,pct,reported,data/raw/ltim/factsheets/FY2018_Q1.pdf,p15: North America 71.0% 69.5% 67.8% 68.2% 69.4% 68.9% 68.4% 68.6%
 LTI,Q1FY17,2016-06-30,,revenue_usd_m,231.1,USD_m,reported,data/raw/ltim/factsheets/FY2018_Q1.pdf,p7: Revenue (USD million) 231.1 254.1 259.2 2.0% 12.2%
 LTI,Q1FY17,2016-06-30,,rev_share_region:North America,69.4,pct,reported,data/raw/ltim/factsheets/FY2018_Q1.pdf,p8: North America 69.4% 68.6% 68.7% 2.2% 11.1%
 LTI,Q1FY17,2016-06-30,,rev_share_region:Europe,18.0,pct,reported,data/raw/ltim/factsheets/FY2018_Q1.pdf,p8: Europe 18.0% 18.1% 17.8% 0.1% 11.1%
+LTI,Q1FY17,2016-06-30,,rev_share_region:Rest of world,6.9,pct,reported,data/raw/ltim/factsheets/FY2018_Q1.pdf,p8: RoW 6.9% 5.7% 6.3% 12.4% 2.3%
+LTI,Q3FY16,2015-12-31,,rev_share_region:North America,67.8,pct,reported,data/raw/ltim/factsheets/FY2018_Q1.pdf,p15: North America 71.0% 69.5% 67.8% 68.2% 69.4% 68.9% 68.4% 68.6%
+LTI,Q1FY17,2016-06-30,,rev_share_region:India,5.7,pct,reported,data/raw/ltim/factsheets/FY2018_Q1.pdf,p8: India 5.7% 7.5% 7.1% (2.7%) 41.4%
+LTI,Q1FY16,2015-06-30,,rev_share_region:North America,71.0,pct,reported,data/raw/ltim/factsheets/FY2018_Q1.pdf,p15: North America 71.0% 69.5% 67.8% 68.2% 69.4% 68.9% 68.4% 68.6%
+LTI,Q2FY16,2015-09-30,,rev_share_region:North America,69.5,pct,reported,data/raw/ltim/factsheets/FY2018_Q1.pdf,p15: North America 71.0% 69.5% 67.8% 68.2% 69.4% 68.9% 68.4% 68.6%
 LTI,Q1FY17,2016-06-30,,headcount_total,19292.0,persons,reported,data/raw/ltim/factsheets/FY2018_Q1.pdf,"p10: Total Headcount 19,292 21,023 22,321"
 LTI,Q1FY17,2016-06-30,,attrition_ltm,19.5,pct,reported,data/raw/ltim/factsheets/FY2018_Q1.pdf,p10: Attrition % (LTM) 19.5% 16.9% 14.7%
-LTI,Q2FY17,2016-09-30,,headcount_total,19751.0,persons,reported,data/raw/ltim/factsheets/FY2018_Q2.pdf,"p10: Total Headcount 19,751 22,321 22,554"
+LTI,Q2FY17,2016-09-30,,rev_share_region:India,5.9,pct,reported,data/raw/ltim/factsheets/FY2018_Q2.pdf,p8: India 5.9% 7.1% 5.5% -19.6% 5.8%
 LTI,Q2FY17,2016-09-30,,attrition_ltm,18.5,pct,reported,data/raw/ltim/factsheets/FY2018_Q2.pdf,p10: Attrition % (LTM) 18.5% 14.7% 15.0%
-LTI,Q2FY17,2016-09-30,,rev_share_region:Europe,18.4,pct,reported,data/raw/ltim/factsheets/FY2018_Q2.pdf,p8: Europe 18.4% 17.8% 17.5% 2.5% 6.9%
-LTI,Q2FY17,2016-09-30,,rev_share_region:North America,68.9,pct,reported,data/raw/ltim/factsheets/FY2018_Q2.pdf,p8: North America 68.9% 68.7% 70.4% 6.9% 15.3%
+LTI,Q2FY17,2016-09-30,,headcount_total,19751.0,persons,reported,data/raw/ltim/factsheets/FY2018_Q2.pdf,"p10: Total Headcount 19,751 22,321 22,554"
 LTI,Q2FY17,2016-09-30,,revenue_usd_m,239.7,USD_m,reported,data/raw/ltim/factsheets/FY2018_Q2.pdf,p7: Revenue (USD million) 239.7 259.2 270.6 4.4% 12.9%
+LTI,Q2FY17,2016-09-30,,rev_share_region:North America,68.9,pct,reported,data/raw/ltim/factsheets/FY2018_Q2.pdf,p8: North America 68.9% 68.7% 70.4% 6.9% 15.3%
+LTI,Q2FY17,2016-09-30,,rev_share_region:Rest of world,6.8,pct,reported,data/raw/ltim/factsheets/FY2018_Q2.pdf,p8: RoW 6.8% 6.3% 6.7% 10.2% 10.8%
+LTI,Q2FY17,2016-09-30,,rev_share_region:Europe,18.4,pct,reported,data/raw/ltim/factsheets/FY2018_Q2.pdf,p8: Europe 18.4% 17.8% 17.5% 2.5% 6.9%
 LTI,Q3FY17,2016-12-31,,headcount_total,20605.0,persons,reported,data/raw/ltim/factsheets/FY2018_Q3.pdf,"p10: Total Headcount 20,605 22,554 23,394"
+LTI,Q3FY17,2016-12-31,,rev_share_region:India,8.0,pct,reported,data/raw/ltim/factsheets/FY2018_Q3.pdf,p8: India 8.0% 5.5% 8.4% 65.6% 25.9%
 LTI,Q3FY17,2016-12-31,,rev_share_region:Europe,18.3,pct,reported,data/raw/ltim/factsheets/FY2018_Q3.pdf,p8: Europe 18.3% 17.5% 18.0% 11.6% 17.8%
 LTI,Q3FY17,2016-12-31,,rev_share_region:North America,68.4,pct,reported,data/raw/ltim/factsheets/FY2018_Q3.pdf,p8: North America 68.4% 70.4% 67.3% 3.7% 17.7%
 LTI,Q3FY17,2016-12-31,,revenue_usd_m,245.1,USD_m,reported,data/raw/ltim/factsheets/FY2018_Q3.pdf,p7: Revenue (USD million) 245.1 270.6 293.5 8.5% 19.7%
-LTI,Q4FY17,2017-03-31,,attrition_ltm,16.9,pct,reported,data/raw/ltim/factsheets/FY2018_Q4.pdf,p10: Attrition % (LTM) 16.9% 14.6% 14.8%
+LTI,Q3FY17,2016-12-31,,rev_share_region:Rest of world,5.3,pct,reported,data/raw/ltim/factsheets/FY2018_Q3.pdf,p8: RoW 5.3% 6.7% 6.4% 3.2% 43.1%
 LTI,Q4FY17,2017-03-31,,headcount_total,21023.0,persons,reported,data/raw/ltim/factsheets/FY2018_Q4.pdf,"p10: Total Headcount 21,023 23,394 24,139"
-LTI,Q4FY17,2017-03-31,,rev_share_region:Europe,18.1,pct,reported,data/raw/ltim/factsheets/FY2018_Q4.pdf,p8: Europe 18.1% 18.0% 18.6% 9.0% 24.8%
+LTI,Q4FY17,2017-03-31,,rev_share_region:India,7.5,pct,reported,data/raw/ltim/factsheets/FY2018_Q4.pdf,p8: India 7.5% 8.4% 8.0% 0.0% 29.4%
+LTI,Q4FY17,2017-03-31,,attrition_ltm,16.9,pct,reported,data/raw/ltim/factsheets/FY2018_Q4.pdf,p10: Attrition % (LTM) 16.9% 14.6% 14.8%
 LTI,Q4FY17,2017-03-31,,rev_share_region:North America,68.6,pct,reported,data/raw/ltim/factsheets/FY2018_Q4.pdf,p8: North America 68.6% 67.3% 66.0% 3.2% 17.0%
+LTI,Q4FY17,2017-03-31,,rev_share_region:Rest of world,5.7,pct,reported,data/raw/ltim/factsheets/FY2018_Q4.pdf,p8: RoW 5.7% 6.4% 7.4% 23.0% 57.2%
 LTI,Q4FY17,2017-03-31,,revenue_usd_m,254.1,USD_m,reported,data/raw/ltim/factsheets/FY2018_Q4.pdf,p7: Revenue (USD million) 254.1 293.5 309.0 5.3% 21.6%
+LTI,Q4FY17,2017-03-31,,rev_share_region:Europe,18.1,pct,reported,data/raw/ltim/factsheets/FY2018_Q4.pdf,p8: Europe 18.1% 18.0% 18.6% 9.0% 24.8%
 LTI,Q1FY18,2017-06-30,,attrition_ltm,14.7,pct,reported,data/raw/ltim/factsheets/FY2019_Q1.pdf,p10: Attrition % (LTM) 14.7% 14.8% 15.1%
 LTI,Q1FY18,2017-06-30,,headcount_total,22321.0,persons,reported,data/raw/ltim/factsheets/FY2019_Q1.pdf,"p10: Total Headcount 22,321 24,139 25,150"
-LTI,Q1FY18,2017-06-30,,rev_share_region:Europe,17.8,pct,reported,data/raw/ltim/factsheets/FY2019_Q1.pdf,p8: Europe 17.8% 18.6% 17.9% -0.7% 23.8%
-LTI,Q1FY18,2017-06-30,,rev_share_region:North America,68.7,pct,reported,data/raw/ltim/factsheets/FY2019_Q1.pdf,p8: North America 68.7% 66.0% 66.6% 4.5% 19.6%
+LTI,Q1FY18,2017-06-30,,rev_share_region:India,7.1,pct,reported,data/raw/ltim/factsheets/FY2019_Q1.pdf,p8: India 7.1% 8.0% 6.4% -16.4% 11.2%
 LTI,Q1FY18,2017-06-30,,revenue_usd_m,259.2,USD_m,reported,data/raw/ltim/factsheets/FY2019_Q1.pdf,p7: Revenue (USD million) 259.2 309.0 319.9 3.5% 23.4%
+LTI,Q1FY18,2017-06-30,,rev_share_region:North America,68.7,pct,reported,data/raw/ltim/factsheets/FY2019_Q1.pdf,p8: North America 68.7% 66.0% 66.6% 4.5% 19.6%
+LTI,Q1FY18,2017-06-30,,rev_share_region:Rest of world,6.3,pct,reported,data/raw/ltim/factsheets/FY2019_Q1.pdf,p8: RoW 6.3% 7.4% 9.1% 26.9% 77.5%
+LTI,Q1FY18,2017-06-30,,rev_share_region:Europe,17.8,pct,reported,data/raw/ltim/factsheets/FY2019_Q1.pdf,p8: Europe 17.8% 18.6% 17.9% -0.7% 23.8%
 LTI,Q1FY19,2018-06-30,,attrition_ltm,15.1,pct,reported,data/raw/ltim/factsheets/FY2019_Q2.pdf,p10: Attrition % (LTM) 15.0% 15.1% 15.3%
 LTI,Q2FY18,2017-09-30,,attrition_ltm,15.0,pct,reported,data/raw/ltim/factsheets/FY2019_Q2.pdf,p10: Attrition % (LTM) 15.0% 15.1% 15.3%
 LTI,Q1FY19,2018-06-30,,headcount_total,25150.0,persons,reported,data/raw/ltim/factsheets/FY2019_Q2.pdf,"p10: Total Headcount 22,554 25,150 26,414"
 LTI,Q2FY18,2017-09-30,,headcount_total,22554.0,persons,reported,data/raw/ltim/factsheets/FY2019_Q2.pdf,"p10: Total Headcount 22,554 25,150 26,414"
+LTI,Q1FY19,2018-06-30,,rev_share_region:India,6.4,pct,reported,data/raw/ltim/factsheets/FY2019_Q2.pdf,p8: India 5.5% 6.4% 6.4% 1.4% 40.3%
+LTI,Q2FY18,2017-09-30,,rev_share_region:India,5.5,pct,reported,data/raw/ltim/factsheets/FY2019_Q2.pdf,p8: India 5.5% 6.4% 6.4% 1.4% 40.3%
+LTI,Q1FY19,2018-06-30,,rev_share_region:Rest of world,9.1,pct,reported,data/raw/ltim/factsheets/FY2019_Q2.pdf,p8: RoW 6.7% 9.1% 9.2% 3.3% 66.4%
 LTI,Q1FY19,2018-06-30,,rev_share_region:Europe,17.9,pct,reported,data/raw/ltim/factsheets/FY2019_Q2.pdf,p8: Europe 17.5% 17.9% 17.1% -1.5% 19.0%
 LTI,Q2FY18,2017-09-30,,rev_share_region:Europe,17.5,pct,reported,data/raw/ltim/factsheets/FY2019_Q2.pdf,p8: Europe 17.5% 17.9% 17.1% -1.5% 19.0%
 LTI,Q1FY19,2018-06-30,,rev_share_region:North America,66.6,pct,reported,data/raw/ltim/factsheets/FY2019_Q2.pdf,p8: North America 70.4% 66.6% 67.4% 3.9% 16.2%
 LTI,Q2FY18,2017-09-30,,rev_share_region:North America,70.4,pct,reported,data/raw/ltim/factsheets/FY2019_Q2.pdf,p8: North America 70.4% 66.6% 67.4% 3.9% 16.2%
 LTI,Q1FY19,2018-06-30,,revenue_usd_m,319.9,USD_m,reported,data/raw/ltim/factsheets/FY2019_Q2.pdf,p7: Revenue (USD million) 270.6 319.9 328.5 2.7% 21.4%
 LTI,Q2FY18,2017-09-30,,revenue_usd_m,270.6,USD_m,reported,data/raw/ltim/factsheets/FY2019_Q2.pdf,p7: Revenue (USD million) 270.6 319.9 328.5 2.7% 21.4%
-LTI,Q3FY18,2017-12-31,,attrition_ltm,14.6,pct,reported,data/raw/ltim/factsheets/FY2019_Q3.pdf,p9: Attrition % (LTM) 14.6% 15.3% 16.5%
+LTI,Q2FY18,2017-09-30,,rev_share_region:Rest of world,6.7,pct,reported,data/raw/ltim/factsheets/FY2019_Q2.pdf,p8: RoW 6.7% 9.1% 9.2% 3.3% 66.4%
 LTI,Q3FY18,2017-12-31,,headcount_total,23394.0,persons,reported,data/raw/ltim/factsheets/FY2019_Q3.pdf,"p9: Total Headcount 23,394 26,414 27,513"
-LTI,Q3FY18,2017-12-31,,revenue_usd_m,293.5,USD_m,reported,data/raw/ltim/factsheets/FY2019_Q3.pdf,p6: Revenue (USD million) 293.5 328.5 346.9 5.6% 18.2%
+LTI,Q3FY18,2017-12-31,,rev_share_region:India,8.4,pct,reported,data/raw/ltim/factsheets/FY2019_Q3.pdf,p7: India 8.4% 6.4% 7.8% 29.3% 9.5%
+LTI,Q3FY18,2017-12-31,,attrition_ltm,14.6,pct,reported,data/raw/ltim/factsheets/FY2019_Q3.pdf,p9: Attrition % (LTM) 14.6% 15.3% 16.5%
+LTI,Q3FY18,2017-12-31,,rev_share_region:Rest of world,6.4,pct,reported,data/raw/ltim/factsheets/FY2019_Q3.pdf,p7: RoW 6.4% 9.2% 8.8% 1.2% 63.1%
 LTI,Q3FY18,2017-12-31,,rev_share_region:Europe,18.0,pct,reported,data/raw/ltim/factsheets/FY2019_Q3.pdf,p7: Europe 18.0% 17.1% 16.7% 2.8% 9.7%
 LTI,Q3FY18,2017-12-31,,rev_share_region:North America,67.3,pct,reported,data/raw/ltim/factsheets/FY2019_Q3.pdf,p7: North America 67.3% 67.4% 66.8% 4.7% 17.3%
-LTI,Q4FY18,2018-03-31,,attrition_ltm,14.8,pct,reported,data/raw/ltim/factsheets/FY2019_Q4.pdf,p10: Attrition % (LTM) 14.8% 16.5% 17.5%
+LTI,Q3FY18,2017-12-31,,revenue_usd_m,293.5,USD_m,reported,data/raw/ltim/factsheets/FY2019_Q3.pdf,p6: Revenue (USD million) 293.5 328.5 346.9 5.6% 18.2%
 LTI,Q4FY18,2018-03-31,,headcount_total,24139.0,persons,reported,data/raw/ltim/factsheets/FY2019_Q4.pdf,"p10: Total Headcount 24,139 27,513 28,169"
+LTI,Q4FY18,2018-03-31,,attrition_ltm,14.8,pct,reported,data/raw/ltim/factsheets/FY2019_Q4.pdf,p10: Attrition % (LTM) 14.8% 16.5% 17.5%
+LTI,Q4FY18,2018-03-31,,rev_share_region:India,8.0,pct,reported,data/raw/ltim/factsheets/FY2019_Q4.pdf,p8: India 8.0% 7.8% 8.2% 7.6% 17.9%
+LTI,Q4FY18,2018-03-31,,rev_share_region:Rest of world,7.4,pct,reported,data/raw/ltim/factsheets/FY2019_Q4.pdf,p8: RoW 7.4% 8.8% 9.1% 5.3% 39.6%
+LTI,Q4FY18,2018-03-31,,rev_share_region:Europe,18.6,pct,reported,data/raw/ltim/factsheets/FY2019_Q4.pdf,p8: Europe 18.6% 16.7% 16.4% 0.2% 0.8%
 LTI,Q4FY18,2018-03-31,,rev_share_region:North America,66.0,pct,reported,data/raw/ltim/factsheets/FY2019_Q4.pdf,p8: North America 66.0% 66.8% 66.4% 1.3% 15.2%
 LTI,Q4FY18,2018-03-31,,revenue_usd_m,309.0,USD_m,reported,data/raw/ltim/factsheets/FY2019_Q4.pdf,p7: Revenue (USD million) 309.0 346.9 353.8 2.0% 14.5%
-LTI,Q4FY18,2018-03-31,,rev_share_region:Europe,18.6,pct,reported,data/raw/ltim/factsheets/FY2019_Q4.pdf,p8: Europe 18.6% 16.7% 16.4% 0.2% 0.8%
-LTI,Q2FY19,2018-09-30,,attrition_ltm,15.3,pct,reported,data/raw/ltim/factsheets/FY2020_Q2.pdf,p10: Attrition % (LTM) 15.3% 18.3% 18.4%
+LTI,Q2FY19,2018-09-30,,rev_share_region:India,6.4,pct,reported,data/raw/ltim/factsheets/FY2020_Q2.pdf,p8: India 6.4% 6.9% 6.0% (10.8%) 4.6%
 LTI,Q2FY19,2018-09-30,,headcount_total,26414.0,persons,reported,data/raw/ltim/factsheets/FY2020_Q2.pdf,"p10: Total Headcount 26,414 29,347 30,979"
+LTI,Q2FY19,2018-09-30,,attrition_ltm,15.3,pct,reported,data/raw/ltim/factsheets/FY2020_Q2.pdf,p10: Attrition % (LTM) 15.3% 18.3% 18.4%
+LTI,Q2FY19,2018-09-30,,rev_share_region:Europe,17.1,pct,reported,data/raw/ltim/factsheets/FY2020_Q2.pdf,p8: Europe 17.1% 16.0% 16.4% 4.8% 6.2%
 LTI,Q2FY19,2018-09-30,,rev_share_region:North America,67.4,pct,reported,data/raw/ltim/factsheets/FY2020_Q2.pdf,p8: North America 67.4% 68.7% 68.7% 2.0% 12.9%
 LTI,Q2FY19,2018-09-30,,revenue_usd_m,328.5,USD_m,reported,data/raw/ltim/factsheets/FY2020_Q2.pdf,p7: Revenue (USD million) 328.5 356.5 363.8 2.0% 10.8%
-LTI,Q2FY19,2018-09-30,,rev_share_region:Europe,17.1,pct,reported,data/raw/ltim/factsheets/FY2020_Q2.pdf,p8: Europe 17.1% 16.0% 16.4% 4.8% 6.2%
+LTI,Q2FY19,2018-09-30,,rev_share_region:Rest of world,9.2,pct,reported,data/raw/ltim/factsheets/FY2020_Q2.pdf,p8: RoW 9.2% 8.5% 8.9% 7.3% 7.5%
+LTI,Q3FY19,2018-12-31,,rev_share_region:India,7.8,pct,reported,data/raw/ltim/factsheets/FY2020_Q3.pdf,p7: India 7.8% 6.0% 7.6% 37.0% 10.9%
 LTI,Q3FY19,2018-12-31,,headcount_total,27513.0,persons,reported,data/raw/ltim/factsheets/FY2020_Q3.pdf,"p9: Total Headcount 27,513 30,979 31,419"
 LTI,Q3FY19,2018-12-31,,attrition_ltm,16.5,pct,reported,data/raw/ltim/factsheets/FY2020_Q3.pdf,p9: Attrition % (LTM) 16.5% 18.4% 17.7%
-LTI,Q3FY19,2018-12-31,,rev_share_region:North America,66.8,pct,reported,data/raw/ltim/factsheets/FY2020_Q3.pdf,p7: North America 66.8% 68.7% 69.5% 9.6% 18.2%
 LTI,Q3FY19,2018-12-31,,rev_share_region:Europe,16.7,pct,reported,data/raw/ltim/factsheets/FY2020_Q3.pdf,p7: Europe 16.7% 16.4% 15.6% 3.0% 6.3%
+LTI,Q3FY19,2018-12-31,,rev_share_region:North America,66.8,pct,reported,data/raw/ltim/factsheets/FY2020_Q3.pdf,p7: North America 66.8% 68.7% 69.5% 9.6% 18.2%
 LTI,Q3FY19,2018-12-31,,revenue_usd_m,346.9,USD_m,reported,data/raw/ltim/factsheets/FY2020_Q3.pdf,p6: Revenue (USD million) 346.9 363.8 394.4 8.4% 13.7%
-LTI,Q4FY19,2019-03-31,,attrition_ltm,17.5,pct,reported,data/raw/ltim/factsheets/FY2020_Q4.pdf,p9: Attrition % (LTM) 17.5% 17.7% 16.5%
+LTI,Q3FY19,2018-12-31,,rev_share_region:Rest of world,8.8,pct,reported,data/raw/ltim/factsheets/FY2020_Q3.pdf,p7: RoW 8.8% 8.9% 7.4% (10.2%) (4.6%)
 LTI,Q4FY19,2019-03-31,,headcount_total,28169.0,persons,reported,data/raw/ltim/factsheets/FY2020_Q4.pdf,"p9: Total Headcount 28,169 31,419 31,437"
+LTI,Q4FY19,2019-03-31,,attrition_ltm,17.5,pct,reported,data/raw/ltim/factsheets/FY2020_Q4.pdf,p9: Attrition % (LTM) 17.5% 17.7% 16.5%
+LTI,Q4FY19,2019-03-31,,rev_share_region:India,8.2,pct,reported,data/raw/ltim/factsheets/FY2020_Q4.pdf,p7: India 8.2% 7.6% 7.8% 7.1% 10.4%
+LTI,Q4FY19,2019-03-31,,rev_share_region:Rest of world,9.1,pct,reported,data/raw/ltim/factsheets/FY2020_Q4.pdf,p7: RoW 9.1% 7.4% 8.1% 15.0% 4.3%
+LTI,Q4FY19,2019-03-31,,rev_share_region:Europe,16.4,pct,reported,data/raw/ltim/factsheets/FY2020_Q4.pdf,p7: Europe 16.4% 15.6% 15.1% 0.8% 7.0%
 LTI,Q4FY19,2019-03-31,,rev_share_region:North America,66.4,pct,reported,data/raw/ltim/factsheets/FY2020_Q4.pdf,p7: North America 66.4% 69.5% 68.9% 3.1% 20.3%
 LTI,Q4FY19,2019-03-31,,revenue_usd_m,353.8,USD_m,reported,data/raw/ltim/factsheets/FY2020_Q4.pdf,p6: Revenue (USD million) 353.8 394.4 409.9 3.9% 15.9%
-LTI,Q4FY19,2019-03-31,,rev_share_region:Europe,16.4,pct,reported,data/raw/ltim/factsheets/FY2020_Q4.pdf,p7: Europe 16.4% 15.6% 15.1% 0.8% 7.0%
-LTI,Q1FY20,2019-06-30,,attrition_ltm,18.3,pct,reported,data/raw/ltim/factsheets/FY2021_Q1.pdf,p10: Attrition % (LTM) 18.3% 16.5% 15.2%
+LTI,Q1FY20,2019-06-30,,rev_share_region:India,6.9,pct,reported,data/raw/ltim/factsheets/FY2021_Q1.pdf,p8: India 6.9% 7.8% 6.9% (15.8%) 10.2%
 LTI,Q1FY20,2019-06-30,,headcount_total,29347.0,persons,reported,data/raw/ltim/factsheets/FY2021_Q1.pdf,"p10: Total Headcount 29,347 31,437 31,477"
+LTI,Q1FY20,2019-06-30,,attrition_ltm,18.3,pct,reported,data/raw/ltim/factsheets/FY2021_Q1.pdf,p10: Attrition % (LTM) 18.3% 16.5% 15.2%
+LTI,Q1FY20,2019-06-30,,rev_share_region:Rest of world,8.5,pct,reported,data/raw/ltim/factsheets/FY2021_Q1.pdf,p8: RoW 8.5% 8.1% 7.9% (7.5%) 2.5%
 LTI,Q1FY20,2019-06-30,,rev_share_region:North America,68.7,pct,reported,data/raw/ltim/factsheets/FY2021_Q1.pdf,p8: North America 68.7% 68.9% 70.8% (2.2%) 12.7%
 LTI,Q1FY20,2019-06-30,,revenue_usd_m,356.5,USD_m,reported,data/raw/ltim/factsheets/FY2021_Q1.pdf,p7: Revenue (USD million) 356.5 409.9 390.3 (4.8%) 9.5%
 LTI,Q1FY20,2019-06-30,,rev_share_region:Europe,16.0,pct,reported,data/raw/ltim/factsheets/FY2021_Q1.pdf,p8: Europe 16.0% 15.1% 14.4% (9.3%) (1.2%)
-LTI,Q2FY20,2019-09-30,,headcount_total,30979.0,persons,reported,data/raw/ltim/factsheets/FY2021_Q2.pdf,"p10: Total Headcount 30,979 31,477 32,455"
 LTI,Q2FY20,2019-09-30,,attrition_ltm,18.4,pct,reported,data/raw/ltim/factsheets/FY2021_Q2.pdf,p10: Attrition % (LTM) 18.4% 15.2% 13.5%
-LTI,Q2FY20,2019-09-30,,rev_share_region:Europe,16.4,pct,reported,data/raw/ltim/factsheets/FY2021_Q2.pdf,p8: Europe 16.4% 14.4% 16.1% 16.1% 9.4%
-LTI,Q2FY20,2019-09-30,,rev_share_region:North America,68.7,pct,reported,data/raw/ltim/factsheets/FY2021_Q2.pdf,p8: North America 68.7% 70.8% 68.7% 0.6% 11.2%
+LTI,Q2FY20,2019-09-30,,headcount_total,30979.0,persons,reported,data/raw/ltim/factsheets/FY2021_Q2.pdf,"p10: Total Headcount 30,979 31,477 32,455"
+LTI,Q2FY20,2019-09-30,,rev_share_region:India,6.0,pct,reported,data/raw/ltim/factsheets/FY2021_Q2.pdf,p8: India 6.0% 6.9% 6.9% 4.1% 28.7%
 LTI,Q2FY20,2019-09-30,,revenue_usd_m,363.8,USD_m,reported,data/raw/ltim/factsheets/FY2021_Q2.pdf,p7: Revenue (USD million) 363.8 390.3 404.5 3.6% 11.2%
+LTI,Q2FY20,2019-09-30,,rev_share_region:North America,68.7,pct,reported,data/raw/ltim/factsheets/FY2021_Q2.pdf,p8: North America 68.7% 70.8% 68.7% 0.6% 11.2%
+LTI,Q2FY20,2019-09-30,,rev_share_region:Rest of world,8.9,pct,reported,data/raw/ltim/factsheets/FY2021_Q2.pdf,p8: RoW 8.9% 7.9% 8.2% 7.4% 2.6%
+LTI,Q2FY20,2019-09-30,,rev_share_region:Europe,16.4,pct,reported,data/raw/ltim/factsheets/FY2021_Q2.pdf,p8: Europe 16.4% 14.4% 16.1% 16.1% 9.4%
 LTI,Q3FY20,2019-12-31,,attrition_ltm,17.7,pct,reported,data/raw/ltim/factsheets/FY2021_Q3.pdf,p10: Attrition % (LTM) 17.7% 13.5% 12.4%
 LTI,Q3FY20,2019-12-31,,headcount_total,31419.0,persons,reported,data/raw/ltim/factsheets/FY2021_Q3.pdf,"p10: Total Headcount 31,419 32,455 33,983"
+LTI,Q3FY20,2019-12-31,,rev_share_region:India,7.6,pct,reported,data/raw/ltim/factsheets/FY2021_Q3.pdf,p8: India 7.6% 6.9% 8.6% 30.4% 22.4%
+LTI,Q3FY20,2019-12-31,,rev_share_region:Europe,15.6,pct,reported,data/raw/ltim/factsheets/FY2021_Q3.pdf,p8: Europe 15.6% 16.1% 16.1% 5.5% 12.1%
 LTI,Q3FY20,2019-12-31,,rev_share_region:North America,69.5,pct,reported,data/raw/ltim/factsheets/FY2021_Q3.pdf,p8: North America 69.5% 68.7% 67.9% 4.5% 6.0%
 LTI,Q3FY20,2019-12-31,,revenue_usd_m,394.4,USD_m,reported,data/raw/ltim/factsheets/FY2021_Q3.pdf,p7: Revenue (USD million) 394.4 404.5 427.8 5.8% 8.5%
-LTI,Q3FY20,2019-12-31,,rev_share_region:Europe,15.6,pct,reported,data/raw/ltim/factsheets/FY2021_Q3.pdf,p8: Europe 15.6% 16.1% 16.1% 5.5% 12.1%
-LTI,Q4FY20,2020-03-31,,attrition_ltm,16.5,pct,reported,data/raw/ltim/factsheets/FY2021_Q4.pdf,p10: Attrition % (LTM) 16.5% 12.4% 12.3%
+LTI,Q3FY20,2019-12-31,,rev_share_region:Rest of world,7.4,pct,reported,data/raw/ltim/factsheets/FY2021_Q3.pdf,p8: RoW 7.4% 8.2% 7.4% (4.2%) 9.5%
 LTI,Q4FY20,2020-03-31,,headcount_total,31437.0,persons,reported,data/raw/ltim/factsheets/FY2021_Q4.pdf,"p10: Total Headcount 31,437 33,983 35,991"
+LTI,Q4FY20,2020-03-31,,rev_share_region:India,7.8,pct,reported,data/raw/ltim/factsheets/FY2021_Q4.pdf,p8: India 7.8% 8.6% 8.9% 8.2% 23.7%
+LTI,Q4FY20,2020-03-31,,attrition_ltm,16.5,pct,reported,data/raw/ltim/factsheets/FY2021_Q4.pdf,p10: Attrition % (LTM) 16.5% 12.4% 12.3%
+LTI,Q4FY20,2020-03-31,,rev_share_region:Rest of world,8.1,pct,reported,data/raw/ltim/factsheets/FY2021_Q4.pdf,p8: RoW 8.1% 7.4% 8.4% 18.8% 13.0%
+LTI,Q4FY20,2020-03-31,,rev_share_region:Europe,15.1,pct,reported,data/raw/ltim/factsheets/FY2021_Q4.pdf,p8: Europe 15.1% 16.1% 16.5% 6.9% 18.9%
 LTI,Q4FY20,2020-03-31,,rev_share_region:North America,68.9,pct,reported,data/raw/ltim/factsheets/FY2021_Q4.pdf,p8: North America 68.9% 67.9% 66.2% 2.0% 4.9%
 LTI,Q4FY20,2020-03-31,,revenue_usd_m,409.9,USD_m,reported,data/raw/ltim/factsheets/FY2021_Q4.pdf,p7: Revenue (USD million) 409.9 427.8 447.4 4.6% 9.1%
-LTI,Q4FY20,2020-03-31,,rev_share_region:Europe,15.1,pct,reported,data/raw/ltim/factsheets/FY2021_Q4.pdf,p8: Europe 15.1% 16.1% 16.5% 6.9% 18.9%
-LTI,Q1FY21,2020-06-30,,attrition_ltm,15.2,pct,reported,data/raw/ltim/factsheets/FY2022_Q1.pdf,p10: Attrition % (LTM) 15.2% 12.3% 15.2%
+LTI,Q1FY21,2020-06-30,,rev_share_region:India,6.9,pct,reported,data/raw/ltim/factsheets/FY2022_Q1.pdf,p8: India 6.9% 8.9% 6.7% (20.2%) 17.3%
 LTI,Q1FY21,2020-06-30,,headcount_total,31477.0,persons,reported,data/raw/ltim/factsheets/FY2022_Q1.pdf,"p10: Total Headcount 31,477 35,991 38,298"
+LTI,Q1FY21,2020-06-30,,attrition_ltm,15.2,pct,reported,data/raw/ltim/factsheets/FY2022_Q1.pdf,p10: Attrition % (LTM) 15.2% 12.3% 15.2%
+LTI,Q1FY21,2020-06-30,,rev_share_region:Europe,14.4,pct,reported,data/raw/ltim/factsheets/FY2022_Q1.pdf,p8: Europe 14.4% 16.5% 16.6% 5.9% 38.8%
 LTI,Q1FY21,2020-06-30,,rev_share_region:North America,70.8,pct,reported,data/raw/ltim/factsheets/FY2022_Q1.pdf,p8: North America 70.8% 66.2% 67.0% 6.4% 14.1%
 LTI,Q1FY21,2020-06-30,,revenue_usd_m,390.3,USD_m,reported,data/raw/ltim/factsheets/FY2022_Q1.pdf,p7: Revenue (USD million) 390.3 447.4 470.2 5.1% 20.4%
-LTI,Q1FY21,2020-06-30,,rev_share_region:Europe,14.4,pct,reported,data/raw/ltim/factsheets/FY2022_Q1.pdf,p8: Europe 14.4% 16.5% 16.6% 5.9% 38.8%
-LTI,Q1FY22,2021-06-30,,attrition_ltm,15.2,pct,reported,data/raw/ltim/factsheets/FY2022_Q2.pdf,p10: Attrition % (LTM) 13.5% 15.2% 19.6%
-LTI,Q2FY21,2020-09-30,,attrition_ltm,13.5,pct,reported,data/raw/ltim/factsheets/FY2022_Q2.pdf,p10: Attrition % (LTM) 13.5% 15.2% 19.6%
-LTI,Q1FY22,2021-06-30,,headcount_total,38298.0,persons,reported,data/raw/ltim/factsheets/FY2022_Q2.pdf,"p10: Total Headcount 32,455 38,298 42,382"
+LTI,Q1FY21,2020-06-30,,rev_share_region:Rest of world,7.9,pct,reported,data/raw/ltim/factsheets/FY2022_Q1.pdf,p8: RoW 7.9% 8.4% 9.6% 19.6% 46.3%
+LTI,Q1FY22,2021-06-30,,rev_share_region:India,6.7,pct,reported,data/raw/ltim/factsheets/FY2022_Q2.pdf,p8: India 6.9% 6.7% 6.6% 6.0% 19.4%
 LTI,Q2FY21,2020-09-30,,headcount_total,32455.0,persons,reported,data/raw/ltim/factsheets/FY2022_Q2.pdf,"p10: Total Headcount 32,455 38,298 42,382"
+LTI,Q2FY21,2020-09-30,,attrition_ltm,13.5,pct,reported,data/raw/ltim/factsheets/FY2022_Q2.pdf,p10: Attrition % (LTM) 13.5% 15.2% 19.6%
+LTI,Q1FY22,2021-06-30,,attrition_ltm,15.2,pct,reported,data/raw/ltim/factsheets/FY2022_Q2.pdf,p10: Attrition % (LTM) 13.5% 15.2% 19.6%
+LTI,Q2FY21,2020-09-30,,rev_share_region:India,6.9,pct,reported,data/raw/ltim/factsheets/FY2022_Q2.pdf,p8: India 6.9% 6.7% 6.6% 6.0% 19.4%
+LTI,Q1FY22,2021-06-30,,headcount_total,38298.0,persons,reported,data/raw/ltim/factsheets/FY2022_Q2.pdf,"p10: Total Headcount 32,455 38,298 42,382"
 LTI,Q1FY22,2021-06-30,,rev_share_region:Europe,16.6,pct,reported,data/raw/ltim/factsheets/FY2022_Q2.pdf,p8: Europe 16.1% 16.6% 16.1% 5.1% 25.7%
+LTI,Q2FY21,2020-09-30,,rev_share_region:Rest of world,8.2,pct,reported,data/raw/ltim/factsheets/FY2022_Q2.pdf,p8: RoW 8.2% 9.6% 9.8% 10.6% 50.5%
+LTI,Q2FY21,2020-09-30,,rev_share_region:Europe,16.1,pct,reported,data/raw/ltim/factsheets/FY2022_Q2.pdf,p8: Europe 16.1% 16.6% 16.1% 5.1% 25.7%
 LTI,Q1FY22,2021-06-30,,rev_share_region:North America,67.0,pct,reported,data/raw/ltim/factsheets/FY2022_Q2.pdf,p8: North America 68.7% 67.0% 67.5% 8.9% 23.5%
 LTI,Q2FY21,2020-09-30,,rev_share_region:North America,68.7,pct,reported,data/raw/ltim/factsheets/FY2022_Q2.pdf,p8: North America 68.7% 67.0% 67.5% 8.9% 23.5%
 LTI,Q1FY22,2021-06-30,,revenue_usd_m,470.2,USD_m,reported,data/raw/ltim/factsheets/FY2022_Q2.pdf,p7: Revenue (USD million) 404.5 470.2 509.0 8.3% 25.8%
 LTI,Q2FY21,2020-09-30,,revenue_usd_m,404.5,USD_m,reported,data/raw/ltim/factsheets/FY2022_Q2.pdf,p7: Revenue (USD million) 404.5 470.2 509.0 8.3% 25.8%
-LTI,Q2FY21,2020-09-30,,rev_share_region:Europe,16.1,pct,reported,data/raw/ltim/factsheets/FY2022_Q2.pdf,p8: Europe 16.1% 16.6% 16.1% 5.1% 25.7%
-LTI,Q3FY21,2020-12-31,,attrition_ltm,12.4,pct,reported,data/raw/ltim/factsheets/FY2022_Q3.pdf,p10: Attrition % (LTM) 12.4% 19.6% 22.5%
+LTI,Q1FY22,2021-06-30,,rev_share_region:Rest of world,9.6,pct,reported,data/raw/ltim/factsheets/FY2022_Q2.pdf,p8: RoW 8.2% 9.6% 9.8% 10.6% 50.5%
 LTI,Q3FY21,2020-12-31,,headcount_total,33983.0,persons,reported,data/raw/ltim/factsheets/FY2022_Q3.pdf,"p10: Total Headcount 33,983 42,382 44,200"
-LTI,Q3FY21,2020-12-31,,rev_share_region:North America,67.9,pct,reported,data/raw/ltim/factsheets/FY2022_Q3.pdf,p8: North America 67.9% 67.5% 66.0% 6.3% 25.7%
+LTI,Q3FY21,2020-12-31,,attrition_ltm,12.4,pct,reported,data/raw/ltim/factsheets/FY2022_Q3.pdf,p10: Attrition % (LTM) 12.4% 19.6% 22.5%
+LTI,Q3FY21,2020-12-31,,rev_share_region:India,8.6,pct,reported,data/raw/ltim/factsheets/FY2022_Q3.pdf,p8: India 8.6% 6.6% 9.6% 58.4% 45.1%
 LTI,Q3FY21,2020-12-31,,revenue_usd_m,427.8,USD_m,reported,data/raw/ltim/factsheets/FY2022_Q3.pdf,p7: Revenue (USD million) 427.8 509.0 553.0 8.7% 29.3%
+LTI,Q3FY21,2020-12-31,,rev_share_region:North America,67.9,pct,reported,data/raw/ltim/factsheets/FY2022_Q3.pdf,p8: North America 67.9% 67.5% 66.0% 6.3% 25.7%
+LTI,Q3FY21,2020-12-31,,rev_share_region:Rest of world,7.4,pct,reported,data/raw/ltim/factsheets/FY2022_Q3.pdf,p8: RoW 7.4% 9.8% 8.6% (4.8%) 49.5%
 LTI,Q3FY21,2020-12-31,,rev_share_region:Europe,16.1,pct,reported,data/raw/ltim/factsheets/FY2022_Q3.pdf,p8: Europe 16.1% 16.1% 15.8% 6.4% 26.7%
-LTI,Q4FY22,2022-03-31,,rev_share_region:Europe,16.2,pct,reported,data/raw/ltim/factsheets/FY2022_Q4.pdf,p8: Europe 16.5% 15.8% 16.2% 5.8% 25.3%
 LTI,Q4FY22,2022-03-31,,attrition_ltm,24.0,pct,reported,data/raw/ltim/factsheets/FY2022_Q4.pdf,p10: Attrition % (LTM) 12.3% 22.5% 24.0%
+LTI,Q3FY22,2021-12-31,,attrition_ltm,22.5,pct,reported,data/raw/ltim/factsheets/FY2022_Q4.pdf,p10: Attrition % (LTM) 12.3% 22.5% 24.0%
 LTI,Q4FY21,2021-03-31,,attrition_ltm,12.3,pct,reported,data/raw/ltim/factsheets/FY2022_Q4.pdf,p10: Attrition % (LTM) 12.3% 22.5% 24.0%
 LTI,Q4FY22,2022-03-31,,headcount_total,46648.0,persons,reported,data/raw/ltim/factsheets/FY2022_Q4.pdf,"p10: Total Headcount 35,991 44,200 46,648"
 LTI,Q3FY22,2021-12-31,,headcount_total,44200.0,persons,reported,data/raw/ltim/factsheets/FY2022_Q4.pdf,"p10: Total Headcount 35,991 44,200 46,648"
 LTI,Q4FY21,2021-03-31,,headcount_total,35991.0,persons,reported,data/raw/ltim/factsheets/FY2022_Q4.pdf,"p10: Total Headcount 35,991 44,200 46,648"
-LTI,Q3FY22,2021-12-31,,rev_share_region:Europe,15.8,pct,reported,data/raw/ltim/factsheets/FY2022_Q4.pdf,p8: Europe 16.5% 15.8% 16.2% 5.8% 25.3%
-LTI,Q3FY22,2021-12-31,,attrition_ltm,22.5,pct,reported,data/raw/ltim/factsheets/FY2022_Q4.pdf,p10: Attrition % (LTM) 12.3% 22.5% 24.0%
-LTI,Q4FY22,2022-03-31,,rev_share_region:North America,65.6,pct,reported,data/raw/ltim/factsheets/FY2022_Q4.pdf,p8: North America 66.2% 66.0% 65.6% 2.5% 26.3%
-LTI,Q3FY22,2021-12-31,,rev_share_region:North America,66.0,pct,reported,data/raw/ltim/factsheets/FY2022_Q4.pdf,p8: North America 66.2% 66.0% 65.6% 2.5% 26.3%
-LTI,Q4FY21,2021-03-31,,rev_share_region:North America,66.2,pct,reported,data/raw/ltim/factsheets/FY2022_Q4.pdf,p8: North America 66.2% 66.0% 65.6% 2.5% 26.3%
-LTI,Q4FY22,2022-03-31,,revenue_usd_m,570.4,USD_m,reported,data/raw/ltim/factsheets/FY2022_Q4.pdf,p7: Revenue (USD million) 447.4 553.0 570.4 3.1% 27.5%
+LTI,Q4FY22,2022-03-31,,rev_share_region:India,9.9,pct,reported,data/raw/ltim/factsheets/FY2022_Q4.pdf,p8: India 8.9% 9.6% 9.9% 6.0% 42.1%
+LTI,Q4FY21,2021-03-31,,rev_share_region:India,8.9,pct,reported,data/raw/ltim/factsheets/FY2022_Q4.pdf,p8: India 8.9% 9.6% 9.9% 6.0% 42.1%
+LTI,Q4FY22,2022-03-31,,rev_share_region:Rest of world,8.3,pct,reported,data/raw/ltim/factsheets/FY2022_Q4.pdf,p8: RoW 8.4% 8.6% 8.3% (0.3%) 25.5%
+LTI,Q3FY22,2021-12-31,,rev_share_region:Rest of world,8.6,pct,reported,data/raw/ltim/factsheets/FY2022_Q4.pdf,p8: RoW 8.4% 8.6% 8.3% (0.3%) 25.5%
+LTI,Q3FY22,2021-12-31,,rev_share_region:India,9.6,pct,reported,data/raw/ltim/factsheets/FY2022_Q4.pdf,p8: India 8.9% 9.6% 9.9% 6.0% 42.1%
+LTI,Q4FY22,2022-03-31,,rev_share_region:Europe,16.2,pct,reported,data/raw/ltim/factsheets/FY2022_Q4.pdf,p8: Europe 16.5% 15.8% 16.2% 5.8% 25.3%
+LTI,Q4FY21,2021-03-31,,rev_share_region:Rest of world,8.4,pct,reported,data/raw/ltim/factsheets/FY2022_Q4.pdf,p8: RoW 8.4% 8.6% 8.3% (0.3%) 25.5%
 LTI,Q3FY22,2021-12-31,,revenue_usd_m,553.0,USD_m,reported,data/raw/ltim/factsheets/FY2022_Q4.pdf,p7: Revenue (USD million) 447.4 553.0 570.4 3.1% 27.5%
+LTI,Q4FY22,2022-03-31,,revenue_usd_m,570.4,USD_m,reported,data/raw/ltim/factsheets/FY2022_Q4.pdf,p7: Revenue (USD million) 447.4 553.0 570.4 3.1% 27.5%
+LTI,Q4FY21,2021-03-31,,rev_share_region:North America,66.2,pct,reported,data/raw/ltim/factsheets/FY2022_Q4.pdf,p8: North America 66.2% 66.0% 65.6% 2.5% 26.3%
 LTI,Q4FY21,2021-03-31,,revenue_usd_m,447.4,USD_m,reported,data/raw/ltim/factsheets/FY2022_Q4.pdf,p7: Revenue (USD million) 447.4 553.0 570.4 3.1% 27.5%
+LTI,Q4FY22,2022-03-31,,rev_share_region:North America,65.6,pct,reported,data/raw/ltim/factsheets/FY2022_Q4.pdf,p8: North America 66.2% 66.0% 65.6% 2.5% 26.3%
 LTI,Q4FY21,2021-03-31,,rev_share_region:Europe,16.5,pct,reported,data/raw/ltim/factsheets/FY2022_Q4.pdf,p8: Europe 16.5% 15.8% 16.2% 5.8% 25.3%
+LTI,Q3FY22,2021-12-31,,rev_share_region:Europe,15.8,pct,reported,data/raw/ltim/factsheets/FY2022_Q4.pdf,p8: Europe 16.5% 15.8% 16.2% 5.8% 25.3%
+LTI,Q3FY22,2021-12-31,,rev_share_region:North America,66.0,pct,reported,data/raw/ltim/factsheets/FY2022_Q4.pdf,p8: North America 66.2% 66.0% 65.6% 2.5% 26.3%
+LTI,Q2FY23,2022-09-30,,rev_share_region:Rest of world,8.1,pct,reported,data/raw/ltim/factsheets/FY2023_Q2.pdf,p8: RoW 9.8% 8.0% 8.1% 5.0% (2.9%)
 LTI,Q2FY23,2022-09-30,,attrition_ltm,24.3,pct,reported,data/raw/ltim/factsheets/FY2023_Q2.pdf,p10: Attrition % (LTM) 19.6% 23.8% 24.3%
 LTI,Q1FY23,2022-06-30,,attrition_ltm,23.8,pct,reported,data/raw/ltim/factsheets/FY2023_Q2.pdf,p10: Attrition % (LTM) 19.6% 23.8% 24.3%
 LTI,Q2FY22,2021-09-30,,attrition_ltm,19.6,pct,reported,data/raw/ltim/factsheets/FY2023_Q2.pdf,p10: Attrition % (LTM) 19.6% 23.8% 24.3%
+LTI,Q2FY23,2022-09-30,,headcount_total,50981.0,persons,reported,data/raw/ltim/factsheets/FY2023_Q2.pdf,"p10: Total Headcount 42,382 48,766 50,981"
 LTI,Q1FY23,2022-06-30,,headcount_total,48766.0,persons,reported,data/raw/ltim/factsheets/FY2023_Q2.pdf,"p10: Total Headcount 42,382 48,766 50,981"
 LTI,Q2FY22,2021-09-30,,headcount_total,42382.0,persons,reported,data/raw/ltim/factsheets/FY2023_Q2.pdf,"p10: Total Headcount 42,382 48,766 50,981"
+LTI,Q1FY23,2022-06-30,,rev_share_region:India,8.2,pct,reported,data/raw/ltim/factsheets/FY2023_Q2.pdf,p8: India 6.6% 8.2% 7.4% (6.4%) 32.3%
+LTI,Q2FY22,2021-09-30,,rev_share_region:India,6.6,pct,reported,data/raw/ltim/factsheets/FY2023_Q2.pdf,p8: India 6.6% 8.2% 7.4% (6.4%) 32.3%
+LTI,Q1FY23,2022-06-30,,rev_share_region:Rest of world,8.0,pct,reported,data/raw/ltim/factsheets/FY2023_Q2.pdf,p8: RoW 9.8% 8.0% 8.1% 5.0% (2.9%)
+LTI,Q2FY23,2022-09-30,,rev_share_region:India,7.4,pct,reported,data/raw/ltim/factsheets/FY2023_Q2.pdf,p8: India 6.6% 8.2% 7.4% (6.4%) 32.3%
 LTI,Q2FY23,2022-09-30,,rev_share_region:Europe,15.5,pct,reported,data/raw/ltim/factsheets/FY2023_Q2.pdf,p8: Europe 16.1% 15.8% 15.5% 1.8% 13.6%
 LTI,Q1FY23,2022-06-30,,rev_share_region:Europe,15.8,pct,reported,data/raw/ltim/factsheets/FY2023_Q2.pdf,p8: Europe 16.1% 15.8% 15.5% 1.8% 13.6%
-LTI,Q2FY23,2022-09-30,,headcount_total,50981.0,persons,reported,data/raw/ltim/factsheets/FY2023_Q2.pdf,"p10: Total Headcount 42,382 48,766 50,981"
+LTI,Q2FY22,2021-09-30,,rev_share_region:Europe,16.1,pct,reported,data/raw/ltim/factsheets/FY2023_Q2.pdf,p8: Europe 16.1% 15.8% 15.5% 1.8% 13.6%
 LTI,Q2FY23,2022-09-30,,rev_share_region:North America,69.0,pct,reported,data/raw/ltim/factsheets/FY2023_Q2.pdf,p8: North America 67.5% 68.1% 69.0% 5.0% 20.8%
 LTI,Q1FY23,2022-06-30,,rev_share_region:North America,68.1,pct,reported,data/raw/ltim/factsheets/FY2023_Q2.pdf,p8: North America 67.5% 68.1% 69.0% 5.0% 20.8%
 LTI,Q2FY22,2021-09-30,,rev_share_region:North America,67.5,pct,reported,data/raw/ltim/factsheets/FY2023_Q2.pdf,p8: North America 67.5% 68.1% 69.0% 5.0% 20.8%
 LTI,Q2FY23,2022-09-30,,revenue_usd_m,601.0,USD_m,reported,data/raw/ltim/factsheets/FY2023_Q2.pdf,p7: Revenue (USD million) 509.0 580.2 601.0 3.6% 18.1%
 LTI,Q1FY23,2022-06-30,,revenue_usd_m,580.2,USD_m,reported,data/raw/ltim/factsheets/FY2023_Q2.pdf,p7: Revenue (USD million) 509.0 580.2 601.0 3.6% 18.1%
 LTI,Q2FY22,2021-09-30,,revenue_usd_m,509.0,USD_m,reported,data/raw/ltim/factsheets/FY2023_Q2.pdf,p7: Revenue (USD million) 509.0 580.2 601.0 3.6% 18.1%
-LTI,Q2FY22,2021-09-30,,rev_share_region:Europe,16.1,pct,reported,data/raw/ltim/factsheets/FY2023_Q2.pdf,p8: Europe 16.1% 15.8% 15.5% 1.8% 13.6%
+LTI,Q2FY22,2021-09-30,,rev_share_region:Rest of world,9.8,pct,reported,data/raw/ltim/factsheets/FY2023_Q2.pdf,p8: RoW 9.8% 8.0% 8.1% 5.0% (2.9%)

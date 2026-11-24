@@ -8,7 +8,7 @@ NUM = r"\(?-?[\d,]+(?:\.\d+)?%?\)?"
 def num(t): neg = t.startswith("("); v = float(t.strip("()%").replace(",", "")); return -v if neg else v
 LAB = [(r"^revenue\s*(\(usd (million|mn)\)|usd \$? ?mn)$", "revenue_usd_m", "USD_m"),
        (r"^north america$", "rev_share_region:North America", "pct"), (r"^europe$", "rev_share_region:Europe", "pct"),
-       (r"^rest of (the )?world$", "rev_share_region:Rest of world", "pct"),
+       (r"^(rest of (the )?world|row)$", "rev_share_region:Rest of world", "pct"), (r"^india$", "rev_share_region:India", "pct"),
        (r"^total (headcount|employees)$", "headcount_total", "persons"),
        (r"^(attrition % \(ltm\)|ttm attrition %)$", "attrition_ltm", "pct"),
        (r"^utili[sz]ation \(excl ?\. trainees\)( %)?$", "utilization_excl_trainees", "pct")]

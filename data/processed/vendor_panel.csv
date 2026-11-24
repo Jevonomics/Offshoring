@@ -1,0 +1,326 @@
+firm,cal_quarter_end,fiscal_label,fresher_hires,gross_hires,headcount_bps,headcount_software,headcount_total,net_addition,revenue_usd_m,subcontracting_cost_usd_m,utilization_excl_trainees,attrition_pct,attrition_definition,na_share_pct,na_definition,europe_share_pct
+HCLTech,2014-09-30,Q2FY15,,11631.0,,,95522.0,,1433.5,,,16.6,attrition_ltm,56.3,Americas,32.3
+HCLTech,2014-12-31,Q3FY15,,11734.0,,,100240.0,,1490.8,,,16.4,attrition_ltm,57.4,Americas,31.7
+HCLTech,2015-03-31,Q4FY15,,11041.0,,,104184.0,,1490.5,,,16.2,attrition_ltm,57.5,Americas,31.0
+HCLTech,2015-06-30,Q1FY16,,9448.0,,,106107.0,,1537.5,,,16.5,attrition_ltm,58.6,Americas,30.4
+HCLTech,2015-09-30,Q2FY16,,7889.0,,,105571.0,,1544.5,,,16.3,attrition_ltm,58.7,Americas,31.7
+HCLTech,2015-12-31,Q3FY16,,6234.0,,,103696.0,,1566.1,,,16.7,attrition_ltm,61.0,Americas,29.9
+HCLTech,2016-03-31,Q4FY16,,9280.0,,,104896.0,,1816.8,,,17.3,attrition_ltm,62.5,Americas,28.4
+HCLTech,2016-06-30,Q1FY17,,10515.0,,,107968.0,,1690.7,,,17.8,attrition_ltm,59.9,Americas,31.4
+HCLTech,2016-09-30,Q2FY17,,9083.0,,,109795.0,,1722.4,,,18.6,attrition_ltm,61.9,Americas,29.3
+HCLTech,2016-12-31,Q3FY17,,8467.0,,,111092.0,,1745.3,,,17.9,attrition_ltm,61.9,Americas,29.6
+HCLTech,2017-03-31,Q4FY17,,10605.0,,,115973.0,,1816.8,,,16.9,attrition_ltm,62.6,Americas,27.7
+HCLTech,2017-06-30,Q1FY18,,9462.0,,,117781.0,,1884.2,,,16.2,attrition_ltm,62.8,Americas,27.4
+HCLTech,2017-09-30,Q2FY18,,8645.0,,,119040.0,,1928.0,,,15.7,attrition_ltm,62.4,Americas,29.1
+HCLTech,2017-12-31,Q3FY18,,7113.0,,,119291.0,,1987.5,,,15.2,attrition_ltm,63.5,Americas,28.7
+HCLTech,2018-03-31,Q4FY18,,8476.0,,,120081.0,,2038.0,,,15.5,attrition_ltm,61.6,Americas,30.0
+HCLTech,2018-06-30,Q1FY19,,12558.0,,,124121.0,,2054.5,,,16.3,attrition_ltm,64.5,Americas,28.1
+HCLTech,2018-09-30,Q2FY19,,11683.0,,,127875.0,,2098.6,,,17.1,attrition_ltm,65.8,Americas,26.8
+HCLTech,2018-12-31,Q3FY19,,13191.0,,,132328.0,,2201.5,,,17.8,attrition_ltm,64.4,Americas,28.2
+HCLTech,2019-03-31,Q4FY19,,14249.0,,,137965.0,,2277.8,,,17.7,attrition_ltm,62.9,Americas,29.7
+HCLTech,2019-06-30,Q1FY20,,16332.0,,,143900.0,,2363.6,,,17.3,attrition_ltm,67.7,Americas,25.9
+HCLTech,2019-09-30,Q2FY20,,13430.0,,,147123.0,,2485.6,,,16.9,attrition_ltm,64.4,Americas,28.2
+HCLTech,2019-12-31,Q3FY20,,11502.0,,,149173.0,,2543.4,,,16.8,attrition_ltm,62.8,Americas,29.2
+HCLTech,2020-03-31,Q4FY20,,10278.0,,,150423.0,,2543.4,,,16.3,attrition_ltm,63.4,Americas,28.7
+HCLTech,2020-06-30,Q1FY21,,7005.0,,,150287.0,,2355.5,,,14.6,attrition_ltm,63.7,Americas,28.3
+HCLTech,2020-09-30,Q2FY21,,8390.0,,,153085.0,,2506.6,,,12.2,attrition_ltm,63.1,Americas,28.4
+HCLTech,2020-12-31,Q3FY21,,12422.0,,,159682.0,,2616.6,,,10.2,attrition_ltm,62.5,Americas,29.5
+HCLTech,2021-03-31,Q4FY21,,,,,168977.0,,2695.9,,,9.9,attrition_ltm,62.0,Americas,29.1
+HCLTech,2021-06-30,Q1FY22,,,,,176499.0,,2719.6,,,11.8,attrition_ltm,63.1,Americas,28.6
+HCLTech,2021-09-30,Q2FY22,5708.0,,,,187634.0,11135.0,2790.7,,,15.7,attrition_ltm,62.8,Americas,28.9
+HCLTech,2021-12-31,Q3FY22,6565.0,,,,197777.0,10143.0,2977.5,,,19.8,attrition_ltm,63.4,Americas,28.7
+HCLTech,2022-03-31,Q4FY22,7267.0,,,,208877.0,11100.0,2993.1,,,21.9,attrition_ltm,63.1,Americas,28.7
+HCLTech,2022-06-30,Q1FY23,6023.0,,,,210966.0,2089.0,3024.9,,,23.8,attrition_ltm,64.2,Americas,27.8
+HCLTech,2022-09-30,Q2FY23,10339.0,,,,219325.0,8359.0,3082.1,,,23.8,attrition_ltm,64.8,Americas,27.5
+HCLTech,2022-12-31,Q3FY23,5892.0,,,,222270.0,2945.0,3244.0,,,21.7,attrition_ltm,63.5,Americas,29.1
+HCLTech,2023-03-31,Q4FY23,4480.0,,,,225944.0,3674.0,3234.6,,,19.5,attrition_ltm,63.8,Americas,28.9
+HCLTech,2023-06-30,Q1FY24,1597.0,,,,223438.0,-2506.0,3200.0,,,16.3,attrition_ltm,64.5,Americas,28.7
+HCLTech,2023-09-30,Q2FY24,3630.0,,,,221139.0,-2299.0,3224.7,,,14.2,attrition_ltm,64.5,Americas,28.5
+HCLTech,2023-12-31,Q3FY24,3818.0,,,,224756.0,3617.0,3415.0,,,12.8,attrition_ltm,64.5,Americas,29.0
+HCLTech,2024-03-31,Q4FY24,3096.0,,,,227481.0,2725.0,3429.9,,,12.4,attrition_ltm,65.2,Americas,28.9
+HCLTech,2024-06-30,Q1FY25,1078.0,,,,219401.0,-8080.0,3364.0,,,12.8,attrition_ltm,66.0,Americas,25.9
+HCLTech,2024-09-30,Q2FY25,2932.0,,,,218621.0,-780.0,3445.0,,,12.9,attrition_ltm,65.1,Americas,26.7
+HCLTech,2024-12-31,Q3FY25,2014.0,,,,220755.0,2134.0,3533.0,,,13.2,attrition_ltm,65.5,Americas,26.2
+HCLTech,2025-03-31,Q4FY25,1805.0,,,,223420.0,2665.0,3498.0,,,13.0,attrition_ltm,63.9,Americas,27.5
+HCLTech,2025-06-30,Q1FY26,1984.0,,,,223151.0,-269.0,3545.0,,,12.8,attrition_ltm,56.5,USA,28.3
+HCLTech,2025-09-30,Q2FY26,5196.0,,,,226640.0,3489.0,3644.0,,,12.6,attrition_ltm,56.2,USA,28.3
+HCLTech,2025-12-31,Q3FY26,2852.0,,,,226379.0,-261.0,3793.0,,,12.4,attrition_ltm,56.3,USA,27.7
+HCLTech,2026-03-31,Q4FY26,1712.0,,,,227181.0,802.0,3682.0,,,12.5,attrition_ltm,56.3,USA,27.1
+HCLTech,2026-06-30,Q1FY27,1056.0,,,,223889.0,-3292.0,3650.0,,,12.7,attrition_ltm,56.0,USA,27.6
+HCLTech,2026-09-30,Q2FY27,6136.0,,,,230339.0,6450.0,3724.0,,,12.8,attrition_ltm,56.1,USA,26.9
+Infosys,2013-06-30,Q1FY14,,10138.0,,,157263.0,,1991.0,,74.3,16.9,attrition[Attrition % (LTM)*],61.4,North America,23.6
+Infosys,2014-03-31,Q4FY14,,10997.0,,,160405.0,,2092.0,,76.7,18.7,attrition[Attrition % (LTM)*],59.8,North America,25.2
+Infosys,2014-06-30,Q1FY15,,11506.0,,,161284.0,,2133.0,,80.1,19.5,attrition[Attrition % (LTM)*],60.8,North America,24.5
+Infosys,2014-09-30,Q2FY15,,14255.0,,,165411.0,,2201.0,,82.3,24.8,attrition[Attrition % (Annualized Consolidated)],60.8,North America,24.7
+Infosys,2015-03-31,Q4FY15,,14471.0,,,176187.0,,2159.0,,78.6,18.3,attrition[Attrition % (Annualized Consolidated)],62.8,North America,23.1
+Infosys,2015-06-30,Q1FY16,,11889.0,,,179523.0,,2256.0,,80.2,19.2,attrition[Attrition % (Annualized Consolidated)],63.2,North America,22.4
+Infosys,2015-09-30,Q2FY16,,17595.0,,,187976.0,,2392.0,,81.3,19.9,attrition[Attrition % (Annualized Consolidated)],63.3,North America,22.9
+Infosys,2015-12-31,Q3FY16,,14027.0,,,193383.0,,2407.0,,80.6,18.1,attrition[Attrition % (Annualized Consolidated)],62.5,North America,23.2
+Infosys,2016-03-31,Q4FY16,,9034.0,,,194044.0,,2446.0,,80.1,17.3,attrition[Attrition % (Annualized Consolidated)],61.9,North America,23.4
+Infosys,2016-06-30,Q1FY17,,13268.0,,,197050.0,,2501.0,,80.5,21.0,attrition[Attrition % (Annualized Consolidated)],62.0,North America,23.0
+Infosys,2016-09-30,Q2FY17,,12717.0,,,199829.0,,2587.0,,82.5,20.0,attrition[Attrition % (Annualized Consolidated)],61.5,North America,22.5
+Infosys,2016-12-31,Q3FY17,,9120.0,,,199763.0,,2551.0,,81.9,18.4,attrition[Attrition % (Annualized Consolidated)],62.0,North America,22.2
+Infosys,2017-03-31,Q4FY17,,9130.0,,,200364.0,,2569.0,,82.0,17.1,attrition[Attrition % (Annualized Consolidated)],62.3,North America,22.1
+Infosys,2017-06-30,Q1FY18,,8645.0,,,198553.0,,2651.0,,84.0,21.0,attrition[Attrition % (Annualized Consolidated)],61.1,North America,22.4
+Infosys,2017-09-30,Q2FY18,,10514.0,,,198440.0,,2728.0,,84.7,21.4,attrition[Attrition % (Annualized Consolidated)],60.6,North America,23.2
+Infosys,2017-12-31,Q3FY18,,12622.0,,,201691.0,,2755.0,,84.9,18.7,attrition[Attrition % (Annualized Consolidated)],60.4,North America,24.4
+Infosys,2018-03-31,Q4FY18,,12329.0,,,204107.0,,2805.0,,84.7,19.5,attrition[Attrition % (Annualized Consolidated)],59.4,North America,24.8
+Infosys,2018-06-30,Q1FY19,,17709.0,,,209905.0,,2831.0,,85.7,23.0,attrition[Attrition % (Annualized Consolidated)],60.0,North America,24.3
+Infosys,2018-09-30,Q2FY19,,19721.0,,,217739.0,,2921.0,,85.6,22.2,attrition[Attrition % (Annualized Consolidated)],60.3,North America,24.0
+Infosys,2018-12-31,Q3FY19,,18773.0,,,225501.0,,2987.0,,83.8,19.9,attrition[Attrition % (Annualized Consolidated)],60.4,North America,24.2
+Infosys,2019-03-31,Q4FY19,,14203.0,,,228123.0,,3060.0,,82.3,20.4,attrition[Attrition % (Annualized Consolidated)],61.2,North America,24.0
+Infosys,2019-06-30,Q1FY20,,,,,229029.0,,3131.0,,83.1,23.4,attrition[Attrition % (Annualized Consolidated)],61.6,North America,23.6
+Infosys,2019-09-30,Q2FY20,,,,,236486.0,,3210.0,,84.9,18.3,attrition[Voluntary Attrition % (Annualized - IT Services)],61.4,North America,24.1
+Infosys,2019-12-31,Q3FY20,,,,,243454.0,,3243.0,,84.4,19.6,attrition[Attrition % (Annualized Consolidated)],61.3,North America,24.4
+Infosys,2020-03-31,Q4FY20,,,,,242371.0,,3197.0,,83.5,15.3,attrition[Voluntary Attrition % (Annualized - IT Services)],61.6,North America,24.4
+Infosys,2020-06-30,Q1FY21,,,,,239233.0,,3121.0,,81.2,11.7,attrition[Voluntary Attrition % (Annualized - IT Services)],61.5,North America,24.0
+Infosys,2020-09-30,Q2FY21,,,,,240208.0,,3312.0,,83.6,12.8,attrition[Voluntary Attrition % (LTM - IT Services)],60.7,North America,24.3
+Infosys,2020-12-31,Q3FY21,,,,,249312.0,,3516.0,,86.3,10.0,attrition[Voluntary Attrition % (Annualized - IT Services)],61.6,North America,24.0
+Infosys,2021-03-31,Q4FY21,,,,,259619.0,,3613.0,,87.7,10.9,attrition[Voluntary Attrition % (LTM - IT Services)],61.6,North America,24.4
+Infosys,2021-06-30,Q1FY22,,,,,267953.0,,3782.0,,88.5,13.9,attrition[Voluntary Attrition % (LTM - IT Services)],61.7,North America,24.2
+Infosys,2021-09-30,Q2FY22,,,,,279617.0,,3998.0,,89.2,20.1,attrition[Voluntary Attrition % (LTM - IT Services)],61.9,North America,24.8
+Infosys,2021-12-31,Q3FY22,,,,,292067.0,,4250.0,,88.5,25.5,attrition[Voluntary Attrition % (LTM - IT Services)],61.8,North America,24.9
+Infosys,2022-03-31,Q4FY22,,,,,314015.0,,4280.0,,87.0,27.7,attrition[Voluntary Attrition % (LTM - IT Services)],61.4,North America,25.2
+Infosys,2022-06-30,Q1FY23,,,,,335186.0,,4444.0,,84.7,28.4,attrition[Voluntary Attrition % (LTM - IT Services)],61.8,North America,25.0
+Infosys,2022-09-30,Q2FY23,,,,,345218.0,,4555.0,,83.6,27.1,attrition[Voluntary Attrition % (LTM - IT Services)],62.5,North America,24.7
+Infosys,2022-12-31,Q3FY23,,,,,346845.0,,4659.0,,81.7,24.3,attrition[Voluntary Attrition % (LTM - IT Services)],62.0,North America,25.8
+Infosys,2023-03-31,Q4FY23,,,,,343234.0,,4554.0,,80.0,20.9,attrition[Voluntary Attrition % (LTM - IT Services)],61.0,North America,27.0
+Infosys,2023-06-30,Q1FY24,,,,,336294.0,,4617.0,,81.1,17.3,attrition[Voluntary Attrition % (LTM - IT Services)],60.8,North America,26.8
+Infosys,2023-09-30,Q2FY24,,,,,328764.0,,4718.0,,81.8,14.6,attrition[Voluntary Attrition % (LTM - IT Services)],61.1,North America,26.5
+Infosys,2023-12-31,Q3FY24,,,,,322663.0,,4663.0,,82.7,12.9,attrition[Voluntary Attrition % (LTM - IT Services)],59.0,North America,28.2
+Infosys,2024-03-31,Q4FY24,,,,,317240.0,,4564.0,,83.5,12.6,attrition[Voluntary Attrition % (LTM - IT Services)],59.6,North America,28.6
+Infosys,2024-06-30,Q1FY25,,,,,315332.0,,4714.0,,85.3,12.7,attrition[Voluntary Attrition % (LTM - IT Services)],58.9,North America,28.4
+Infosys,2024-09-30,Q2FY25,,,,,317788.0,,4894.0,,85.9,12.9,attrition[Voluntary Attrition % (LTM - IT Services)],57.4,North America,29.8
+Infosys,2024-12-31,Q3FY25,,,,,323379.0,,4939.0,,86.0,13.7,attrition[Voluntary Attrition % (LTM - IT Services)],58.4,North America,29.8
+Infosys,2025-03-31,Q4FY25,,,,,323578.0,,4730.0,,84.9,14.1,attrition[Voluntary Attrition % (LTM - IT Services)],57.1,North America,31.2
+Infosys,2025-06-30,Q1FY26,,,,,323788.0,,4941.0,,85.2,14.4,attrition[Voluntary Attrition % (LTM - IT Services)],56.5,North America,31.5
+Infosys,2025-09-30,Q2FY26,,,,,331991.0,,5076.0,,85.1,14.3,attrition[Voluntary Attrition % (LTM - IT Services)],56.3,North America,31.7
+Infosys,2025-12-31,Q3FY26,,,,,337034.0,,5099.0,,84.1,12.3,attrition[Voluntary Attrition % (LTM - IT Services)],55.9,North America,32.7
+Infosys,2026-03-31,Q4FY26,,,,,328594.0,,5040.0,,83.0,12.6,attrition[Voluntary Attrition % (LTM - IT Services)],55.7,North America,32.6
+Infosys,2026-06-30,Q1FY27,,,,,328062.0,,5082.0,,84.9,13.0,attrition[Voluntary Attrition % (LTM - IT Services)],56.4,North America,32.1
+Infosys,2026-09-30,Q2FY27,,,,,332542.0,,5145.0,,85.4,12.7,attrition[Voluntary Attrition % (LTM - IT Services)],54.6,North America,32.5
+LTI (standalone),2015-06-30,Q1FY16,,,,,20331.0,,208.6,,,20.1,attrition_ltm,71.0,North America,17.3
+LTI (standalone),2015-09-30,Q2FY16,,,,,21171.0,,223.9,,,19.7,attrition_ltm,69.5,North America,17.3
+LTI (standalone),2015-12-31,Q3FY16,,,,,21073.0,,225.0,,,18.5,attrition_ltm,67.8,North America,16.9
+LTI (standalone),2016-03-31,Q4FY16,,,,,20072.0,,229.7,,,18.4,attrition_ltm,68.2,North America,17.8
+LTI (standalone),2016-06-30,Q1FY17,,,,,19292.0,,231.1,,,19.5,attrition_ltm,69.4,North America,18.0
+LTI (standalone),2016-09-30,Q2FY17,,,,,19751.0,,239.7,,,18.5,attrition_ltm,68.9,North America,18.4
+LTI (standalone),2016-12-31,Q3FY17,,,,,20605.0,,245.1,,,18.1,attrition_ltm,68.4,North America,18.3
+LTI (standalone),2017-03-31,Q4FY17,,,,,21023.0,,254.1,,,16.9,attrition_ltm,68.6,North America,18.1
+LTI (standalone),2017-06-30,Q1FY18,,,,,22321.0,,259.2,,,14.7,attrition_ltm,68.7,North America,17.8
+LTI (standalone),2017-09-30,Q2FY18,,,,,22554.0,,270.6,,,15.0,attrition_ltm,70.4,North America,17.5
+LTI (standalone),2017-12-31,Q3FY18,,,,,23394.0,,293.5,,,14.6,attrition_ltm,67.3,North America,18.0
+LTI (standalone),2018-03-31,Q4FY18,,,,,24139.0,,309.0,,,14.8,attrition_ltm,66.0,North America,18.6
+LTI (standalone),2018-06-30,Q1FY19,,,,,25150.0,,319.9,,,15.1,attrition_ltm,66.6,North America,17.9
+LTI (standalone),2018-09-30,Q2FY19,,,,,26414.0,,328.5,,,15.3,attrition_ltm,67.4,North America,17.1
+LTI (standalone),2018-12-31,Q3FY19,,,,,27513.0,,346.9,,,16.5,attrition_ltm,66.8,North America,16.7
+LTI (standalone),2019-03-31,Q4FY19,,,,,28169.0,,353.8,,,17.5,attrition_ltm,66.4,North America,16.4
+LTI (standalone),2019-06-30,Q1FY20,,,,,29347.0,,356.5,,,18.3,attrition_ltm,68.7,North America,16.0
+LTI (standalone),2019-09-30,Q2FY20,,,,,30979.0,,363.8,,,18.4,attrition_ltm,68.7,North America,16.4
+LTI (standalone),2019-12-31,Q3FY20,,,,,31419.0,,394.4,,,17.7,attrition_ltm,69.5,North America,15.6
+LTI (standalone),2020-03-31,Q4FY20,,,,,31437.0,,409.9,,,16.5,attrition_ltm,68.9,North America,15.1
+LTI (standalone),2020-06-30,Q1FY21,,,,,31477.0,,390.3,,,15.2,attrition_ltm,70.8,North America,14.4
+LTI (standalone),2020-09-30,Q2FY21,,,,,32455.0,,404.5,,,13.5,attrition_ltm,68.7,North America,16.1
+LTI (standalone),2020-12-31,Q3FY21,,,,,33983.0,,427.8,,,12.4,attrition_ltm,67.9,North America,16.1
+LTI (standalone),2021-03-31,Q4FY21,,,,,35991.0,,447.4,,,12.3,attrition_ltm,66.2,North America,16.5
+LTI (standalone),2021-06-30,Q1FY22,,,,,38298.0,,470.2,,,15.2,attrition_ltm,67.0,North America,16.6
+LTI (standalone),2021-09-30,Q2FY22,,,,,42382.0,,509.0,,,19.6,attrition_ltm,67.5,North America,16.1
+LTI (standalone),2021-12-31,Q3FY22,,,,,44200.0,,553.0,,,22.5,attrition_ltm,66.0,North America,15.8
+LTI (standalone),2022-03-31,Q4FY22,,,,,46648.0,,570.4,,,24.0,attrition_ltm,65.6,North America,16.2
+LTI (standalone),2022-06-30,Q1FY23,,,,,48766.0,,580.2,,,23.8,attrition_ltm,68.1,North America,15.8
+LTI (standalone),2022-09-30,Q2FY23,,,,,50981.0,,601.0,,,24.3,attrition_ltm,69.0,North America,15.5
+LTIMindtree,2021-06-30,Q1FY22,,,,,63696.0,,780.3,,86.1,14.5,attrition_ltm,70.9,North America,16.5
+LTIMindtree,2021-09-30,Q2FY22,,,,,70133.0,,858.3,,85.2,18.6,attrition_ltm,69.7,North America,17.5
+LTIMindtree,2021-12-31,Q3FY22,,,,,74173.0,,918.4,,84.0,22.1,attrition_ltm,68.9,North America,16.9
+LTIMindtree,2022-03-31,Q4FY22,,,,,79594.0,,944.7,,83.2,23.8,attrition_ltm,69.5,North America,17.0
+LTIMindtree,2022-06-30,Q1FY23,,,,,84030.0,,979.5,,83.5,24.0,attrition_ltm,71.7,North America,15.3
+LTIMindtree,2022-09-30,Q2FY23,,,,,86936.0,,1021.9,,83.5,24.1,attrition_ltm,72.9,North America,14.6
+LTIMindtree,2022-12-31,Q3FY23,,,,,86462.0,,1046.7,,82.9,22.3,attrition_ltm,72.3,North America,14.9
+LTIMindtree,2023-03-31,Q4FY23,,,,,84546.0,,1057.5,,81.7,20.2,attrition_ltm,71.9,North America,15.4
+LTIMindtree,2023-06-30,Q1FY24,,,,,82738.0,,1058.7,,84.8,17.8,attrition_ltm,73.1,North America,15.2
+LTIMindtree,2023-09-30,Q2FY24,,,,,83532.0,,1075.5,,86.6,15.2,attrition_ltm,73.4,North America,15.3
+LTIMindtree,2023-12-31,Q3FY24,,,,,82471.0,,1083.7,,87.4,14.2,attrition_ltm,72.7,North America,14.5
+LTIMindtree,2024-03-31,Q4FY24,,,,,81650.0,,1069.4,,86.9,14.4,attrition_ltm,73.8,North America,14.6
+LTIMindtree,2024-06-30,Q1FY25,,,,,81934.0,,1096.2,,88.3,14.4,attrition_ltm,75.1,North America,14.4
+LTIMindtree,2024-09-30,Q2FY25,,,,,84438.0,,1126.6,,87.7,14.5,attrition_ltm,75.0,North America,14.4
+LTIMindtree,2024-12-31,Q3FY25,,,,,86800.0,,1138.7,,85.4,14.3,attrition_ltm,74.7,North America,13.8
+LTIMindtree,2025-03-31,Q4FY25,,,,,84307.0,,1131.0,,85.8,14.4,attrition_ltm,74.5,North America,13.6
+LTIMindtree,2025-06-30,Q1FY26,,,,,83889.0,,1153.3,,88.1,14.4,attrition_ltm,74.4,North America,14.7
+LTIMindtree,2025-09-30,Q2FY26,,,,,86447.0,,1180.1,,88.1,14.2,attrition_ltm,74.2,North America,14.7
+LTIMindtree,2025-12-31,Q3FY26,,,,,87958.0,,1208.0,,86.9,13.8,attrition_ltm,72.8,North America,14.8
+LTIMindtree,2026-03-31,Q4FY26,,,,,87950.0,,1222.4,,85.7,13.3,attrition_ltm,72.3,North America,15.4
+LTIMindtree,2026-06-30,Q1FY27,,,,,87886.0,,1223.5,,86.4,13.3,attrition_ltm,73.9,North America,15.0
+LTIMindtree,2026-09-30,Q2FY27,,,,,88835.0,,1235.2,,86.4,13.3,attrition_ltm,74.3,North America,14.9
+TCS,2005-06-30,Q1FY06,,,,,51792.0,,,,77.7,,,,,
+TCS,2005-09-30,Q2FY06,,,,,56311.0,,,,78.0,,,,,
+TCS,2005-12-31,Q3FY06,,,,,62249.0,,,,78.3,,,,,
+TCS,2006-03-31,Q4FY06,,,,,66480.0,,,,78.9,,,,,
+TCS,2006-06-30,Q1FY07,,,,,71190.0,,,,80.10000000000001,,,,,
+TCS,2006-09-30,Q2FY07,,,,,78028.0,,,,79.4,,,,,
+TCS,2006-12-31,Q3FY07,,,,,83500.0,,,,78.2,,,,,
+TCS,2007-03-31,Q4FY07,,,,,89419.0,,,,79.60000000000001,10.6,attrition_ltm_it,,,
+TCS,2007-06-30,Q1FY08,,,,,94902.0,,,,79.10000000000001,11.0,attrition_ltm_it,,,
+TCS,2007-09-30,Q2FY08,,,,,104347.0,,,,78.9,10.9,attrition_ltm_it,,,
+TCS,2007-12-31,Q3FY08,,,,,108229.0,,,,77.7,11.5,attrition_ltm_it,,,
+TCS,2008-03-31,Q4FY08,,,,,111407.0,,,,79.10000000000001,12.0,attrition_ltm_it,,,
+TCS,2008-06-30,Q1FY09,,,,,116308.0,,,,78.3,12.1,attrition_ltm_it,,,
+TCS,2008-09-30,Q2FY09,,,,,121610.0,,,,81.10000000000001,12.4,attrition_ltm_it,,,
+TCS,2008-12-31,Q3FY09,,,,,130343.0,,,,79.9,11.200000000000001,attrition_ltm_it,,,
+TCS,2009-03-31,Q4FY09,,,,,143761.0,,,,79.7,10.5,attrition_ltm_it,,,
+TCS,2009-06-30,Q1FY10,902.0,2828.0,,,141642.0,-2119.0,,,79.2,10.7,attrition_ltm_it,,,
+TCS,2009-09-30,Q2FY10,2387.0,5530.0,,,141962.0,320.0,,,79.5,10.8,attrition_ltm_it,,,
+TCS,2009-12-31,Q3FY10,8703.0,12854.0,,,149654.0,7692.0,,,81.10000000000001,10.8,attrition_ltm_it,,,
+TCS,2010-03-31,Q4FY10,8996.0,16851.0,,,160429.0,10775.0,,,81.8,11.0,attrition_ltm_it,,,
+TCS,2010-06-30,Q1FY11,1747.0,10849.0,,,163700.0,3271.0,1794.0,69.6,82.6,12.3,attrition_ltm_it,,,
+TCS,2010-09-30,Q2FY11,8780.0,19293.0,,,174417.0,10717.0,2004.2,93.89999999999999,83.8,13.07,attrition_ltm_it,,,
+TCS,2010-12-31,Q3FY11,8024.0,20219.0,,,186914.0,12497.0,2144.0,87.2,83.8,13.209999999999999,attrition_ltm_it,,,
+TCS,2011-03-31,Q4FY11,9082.0,19324.0,,,198614.0,11700.0,2244.5,98.8,82.39999999999999,13.13,attrition_ltm_it,,,
+TCS,2011-06-30,Q1FY12,2411.0,11988.0,,,202190.0,3576.0,2411.6,109.3,83.2,13.56,attrition_ltm_it,,,
+TCS,2011-09-30,Q2FY12,10192.0,20349.0,,,214770.0,12580.0,2525.3,125.60000000000001,83.1,12.509999999999998,attrition_ltm_it,,,
+TCS,2011-12-31,Q3FY12,10341.0,18907.0,,,226751.0,11981.0,2585.6,123.89999999999999,82.0,11.72,attrition_ltm_it,,,
+TCS,2012-03-31,Q4FY12,9790.0,19156.0,,,238583.0,11832.0,2648.2,148.6,80.60000000000001,11.05,attrition_ltm_it,,,
+TCS,2012-06-30,Q1FY13,4313.0,13831.0,,,243545.0,4962.0,2728.4,157.5,81.3,10.89,attrition_ltm_it,54.50000000000001,North America,26.900000000000002
+TCS,2012-09-30,Q2FY13,10205.0,18654.0,,,254076.0,10531.0,2852.6,168.7,81.6,10.2,attrition_ltm_it,53.800000000000004,North America,26.8
+TCS,2012-12-31,Q3FY13,9831.0,17145.0,,,263637.0,9561.0,2947.9,179.5,81.69999999999999,9.8,attrition_ltm_it,53.6,North America,26.900000000000002
+TCS,2013-03-31,Q4FY13,11420.0,20098.0,,,276196.0,12559.0,3039.5,190.1,82.0,9.4,attrition_ltm_it,53.2,North America,26.200000000000003
+TCS,2013-06-30,Q1FY14,751.0,10611.0,,,277586.0,1390.0,3164.7,207.5,82.69999999999999,9.55,attrition_ltm_it,54.1,North America,26.900000000000002
+TCS,2013-09-30,Q2FY14,6296.0,17362.0,,,285250.0,7664.0,3337.0,223.4,83.39999999999999,9.9,attrition_ltm_it,53.2,North America,28.500000000000004
+TCS,2013-12-31,Q3FY14,6342.0,14663.0,,,290713.0,5463.0,3437.9,223.8,84.3,10.299999999999999,attrition_ltm_it,52.7,North America,29.099999999999998
+TCS,2014-03-31,Q4FY14,7572.0,18564.0,,,300464.0,9751.0,3502.7,228.5,83.8,10.4,attrition_ltm_it,52.2,North America,29.9
+TCS,2014-06-30,Q1FY15,3452.0,15817.0,,,305431.0,4967.0,3694.3,242.10000000000002,85.3,11.03,attrition_ltm_it,52.2,North America,29.7
+TCS,2014-09-30,Q2FY15,7583.0,20350.0,,,313757.0,8326.0,3929.0,286.3,86.2,11.48,attrition_ltm_it,51.0,North America,28.6
+TCS,2014-12-31,Q3FY15,5529.0,16561.0,,,318625.0,4868.0,3930.6,285.0,86.7,12.080446981817,attrition_ltm_it,51.9,North America,27.800000000000004
+TCS,2015-03-31,Q4FY15,5569.0,14395.0,,,319656.0,1031.0,3900.0,271.0,85.39999999999999,13.77,attrition_ltm_it,52.400000000000006,North America,27.0
+TCS,2015-06-30,Q1FY16,6425.0,20302.0,,,324935.0,5279.0,4036.4,289.9,86.3,15.129999999999999,attrition_ltm_it,52.800000000000004,North America,27.1
+TCS,2015-09-30,Q2FY16,9943.0,25186.0,,,335620.0,10685.0,4156.4,330.2,86.0,15.52,attrition_ltm_it,52.7,North America,27.200000000000003
+TCS,2015-12-31,Q3FY16,7593.0,22118.0,,,344691.0,9071.0,4145.4,319.5,84.89999999999999,15.299999999999999,attrition_ltm_it,53.5,North America,26.8
+TCS,2016-03-31,Q4FY16,8623.0,22576.0,,,353843.0,9152.0,4206.7,340.3,,14.7,attrition_ltm_it,54.0,North America,26.1
+TCS,2016-06-30,Q1FY17,5038.0,17792.0,,,362079.0,8236.0,4362.0,342.0,,12.509999999999998,attrition_ltm_it,53.5,North America,26.3
+TCS,2016-09-30,Q2FY17,11884.0,22665.0,,,371519.0,9440.0,4374.0,336.0,,11.899999999999999,attrition_ltm_it,54.0,North America,25.6
+TCS,2016-12-31,Q3FY17,10950.0,18362.0,,,378497.0,6978.0,4387.0,330.0,,11.3,attrition_ltm_it,55.00000000000001,North America,24.4
+TCS,2017-03-31,Q4FY17,11556.0,20093.0,,,387223.0,8726.0,4452.0,310.0,,10.5,attrition_ltm_it,53.300000000000004,North America,25.5
+TCS,2017-06-30,Q1FY18,1659.0,11202.0,,,385809.0,-1414.0,4591.0,328.0,,11.600000000000001,attrition_ltm_it,52.5,North America,26.400000000000002
+TCS,2017-09-30,Q2FY18,6722.0,15868.0,,,389213.0,3404.0,4739.0,347.0,,11.3,attrition_ltm_it,51.9,North America,27.400000000000002
+TCS,2017-12-31,Q3FY18,5933.0,12534.0,,,390880.0,1667.0,4787.0,346.0,,11.1,attrition_ltm_it,52.0,North America,27.6
+TCS,2018-03-31,Q4FY18,,,,,394998.0,4118.0,4972.0,373.0,,11.0,attrition_ltm_it,50.2,North America,29.4
+TCS,2018-06-30,Q1FY19,,,,,400875.0,5877.0,5051.0,375.0,,10.9,attrition_ltm_it,51.0,North America,29.500000000000004
+TCS,2018-09-30,Q2FY19,,,,,411102.0,10227.0,5215.0,391.0,,10.9,attrition_ltm_it,51.1,North America,29.600000000000005
+TCS,2018-12-31,Q3FY19,,,,,417929.0,6827.0,5250.0,417.0,,11.200000000000001,attrition_ltm_it,51.2,North America,29.599999999999998
+TCS,2019-03-31,Q4FY19,,,,,424285.0,6356.0,5397.0,435.0,,11.3,attrition_ltm_it,50.7,North America,30.0
+TCS,2019-06-30,Q1FY20,,,,,436641.0,12356.0,5485.0,459.0,,11.5,attrition_ltm_it,50.6,North America,30.099999999999998
+TCS,2019-09-30,Q2FY20,,,,,450738.0,14097.0,5517.0,464.0,,11.600000000000001,attrition_ltm_it,50.6,North America,30.2
+TCS,2019-12-31,Q3FY20,,,,,446675.0,-4063.0,5586.0,458.0,,12.2,attrition_ltm_it,50.1,North America,30.8
+TCS,2020-03-31,Q4FY20,,,,,448464.0,1789.0,5444.0,436.0,,12.1,attrition_ltm_it,50.3,North America,31.2
+TCS,2020-06-30,Q1FY21,,,,,443676.0,-4788.0,5059.0,404.0,,11.1,attrition_ltm_it,51.4,North America,30.9
+TCS,2020-09-30,Q2FY21,,,,,453540.0,9864.0,5424.0,411.0,,8.9,attrition_ltm_it,49.9,North America,31.8
+TCS,2020-12-31,Q3FY21,,,,,469261.0,15721.0,5702.0,439.0,,7.6,attrition_ltm_it,49.1,North America,31.900000000000002
+TCS,2021-03-31,Q4FY21,,,,,488649.0,19388.0,5989.0,530.0,,7.199999999999999,attrition_ltm_it,48.6,North America,32.800000000000004
+TCS,2021-06-30,Q1FY22,,,,,509058.0,20409.0,6154.0,529.0,,8.6,attrition_ltm_it,49.4,North America,33.0
+TCS,2021-09-30,Q2FY22,,,,,528748.0,19690.0,6333.0,566.0,,11.899999999999999,attrition_ltm_it,50.3,North America,32.0
+TCS,2021-12-31,Q3FY22,,,,,556986.0,28238.0,6524.0,603.0,,15.299999999999999,attrition_ltm_it,50.7,North America,31.6
+TCS,2022-03-31,Q4FY22,,,,,592195.0,35209.0,6696.0,636.0,,17.4,attrition_ltm_it,51.6,North America,31.1
+TCS,2022-06-30,Q1FY23,,,,,606331.0,14136.0,6780.0,679.0,,19.7,attrition_ltm_it,53.2,North America,30.099999999999998
+TCS,2022-09-30,Q2FY23,,,,,616171.0,9840.0,6877.0,686.0,,21.5,attrition_ltm_it,54.300000000000004,North America,28.999999999999996
+TCS,2022-12-31,Q3FY23,,,,,613974.0,-2197.0,7075.0,666.0,,21.3,attrition_ltm_it,53.7,North America,29.7
+TCS,2023-03-31,Q4FY23,,,,,614795.0,821.0,7195.0,616.0,,20.1,attrition_ltm_it,52.400000000000006,North America,30.8
+TCS,2023-06-30,Q1FY24,,,,,615318.0,523.0,7226.0,558.0,,17.8,attrition_ltm_it,52.0,North America,31.3
+TCS,2023-09-30,Q2FY24,,,,,608985.0,-6333.0,7210.0,519.0,,14.899999999999999,attrition_ltm_it,51.7,North America,31.4
+TCS,2023-12-31,Q3FY24,,,,,603305.0,-5680.0,7281.0,477.0,,13.3,attrition_ltm_it,50.6,North America,31.4
+TCS,2024-03-31,Q4FY24,,,,,601546.0,-1759.0,7363.0,358.0,,12.5,attrition_ltm_it,50.0,North America,31.4
+TCS,2024-06-30,Q1FY25,,,,,606998.0,5452.0,7505.0,319.0,,12.1,attrition_ltm_it,49.5,North America,31.3
+TCS,2024-09-30,Q2FY25,,,,,612724.0,5726.0,7670.0,357.0,,12.3,attrition_ltm_it,47.599999999999994,North America,31.6
+TCS,2024-12-31,Q3FY25,,,,,607354.0,-5370.0,7539.0,350.0,,13.0,attrition_ltm_it,47.699999999999996,North America,30.500000000000004
+TCS,2025-03-31,Q4FY25,,,,,607979.0,625.0,7465.0,355.0,,13.3,attrition_ltm_it,48.199999999999996,North America,31.1
+TCS,2025-06-30,Q1FY26,,,,,613069.0,5090.0,7421.0,351.0,,13.8,attrition_ltm_it,48.699999999999996,North America,32.99999999999999
+TCS,2025-09-30,Q2FY26,,,,,593314.0,-19755.0,7466.0,368.0,,13.3,attrition_ltm_it_voluntary,48.8,North America,32.8
+TCS,2025-12-31,Q3FY26,,,,,582163.0,-11151.0,7509.0,391.0,,13.5,attrition_ltm_it_voluntary,48.5,North America,32.5
+TCS,2026-03-31,Q4FY26,,,,,584519.0,2356.0,7621.0,429.0,,13.700000000000001,attrition_ltm_it_voluntary,48.5,North America,32.8
+TCS,2026-06-30,Q1FY27,,,,,593798.0,9279.0,7624.0,453.0,,13.600000000000001,attrition_ltm_it_voluntary,48.3,North America,32.599999999999994
+TCS,2026-09-30,Q2FY27,,,,,598056.0,4258.0,7642.0,518.0,,13.3,attrition_ltm_it_voluntary,48.3,North America,32.99999999999999
+TechM,2015-06-30,Q1FY16,,,24394.0,73046.0,103673.0,,989.1230091760975,,74.53351143986552,18.635454782546844,attrition_ltm_it,47.722741319799326,Americas,29.42550239923723
+TechM,2015-09-30,Q2FY16,,,26513.0,72645.0,105235.0,,1011.0333649308864,,79.26539673341495,19.513110958132547,attrition_ltm_it,48.854233924655844,Americas,29.288856238966176
+TechM,2015-12-31,Q3FY16,,,28279.0,72828.0,107137.0,,1014.7136715686274,,80.34603261883693,20.364758302597473,attrition_ltm_it,47.82939932621418,Americas,28.930857558377802
+TechM,2016-03-31,Q4FY16,,,27254.0,72125.0,105432.0,,1022.5853018615701,,80.1598288679211,21.07329740553309,attrition_ltm_it,46.75710507869267,Americas,28.524020214732932
+TechM,2016-06-30,Q1FY17,,,27326.0,73590.0,107216.0,,1031.4657621951317,,80.0,20.693479975941447,attrition_ltm_it,48.96279880040897,Americas,28.267658809005187
+TechM,2016-09-30,Q2FY17,,,27669.0,78404.0,112886.0,,1072.3791928158028,,82.3,19.037030314031583,attrition_ltm_it,48.27243593051422,Americas,29.729327646494674
+TechM,2016-12-31,Q3FY17,,,29372.0,80858.0,117095.0,,1116.0922908541224,,83.0,17.74227422742274,attrition_ltm_it,46.69116780697137,Americas,29.38566941473497
+TechM,2017-03-31,Q4FY17,,,28414.0,82403.0,117693.0,,1131.1551565124032,,80.61588507997146,16.516347237880495,attrition_ltm_it,45.117719160511896,Americas,29.58391944966098
+TechM,2017-06-30,Q1FY18,,,30322.0,78996.0,115980.0,,1138.1445671469253,,80.7,16.516660351865486,attrition_ltm_it,46.76495308419125,Americas,29.81578096717587
+TechM,2017-09-30,Q2FY18,,,35287.0,75587.0,117225.0,,1179.1638734742523,,80.6371500661451,16.407080046115244,attrition_ltm_it,45.273394106749336,Americas,30.046028354837517
+TechM,2017-12-31,Q3FY18,,,35496.0,73460.0,115241.0,,1209.1212912363617,,83.0,16.914088832297207,attrition_ltm_it,46.883641730019185,Americas,29.82146186601321
+TechM,2018-03-31,Q4FY18,,,34190.0,72437.0,112807.0,,1244.3361420686356,,83.97314382537282,18.084725536992842,attrition_ltm_it,47.35577444014789,Americas,29.648269361958185
+TechM,2018-06-30,Q1FY19,,,34700.0,72462.0,113552.0,,1224.0603908232779,,83.80691427540098,19.0,attrition_ltm_it,48.18370106575659,Americas,29.951814203649047
+TechM,2018-09-30,Q2FY19,,,39407.0,72534.0,118391.0,,1218.1912139581568,,82.69999999999999,20.020786609047644,attrition_ltm_it,47.01027794051079,Americas,29.62636925290202
+TechM,2018-12-31,Q3FY19,,,43439.0,71785.0,121842.0,,1260.7541901620375,,83.23435812224164,20.834792018077085,attrition_ltm_it,47.37198332616346,Americas,28.90989763089895
+TechM,2019-03-31,Q4FY19,,,43081.0,71477.0,121082.0,,1267.517154470098,,81.89999999999999,20.8,attrition_ltm_it,46.44609188517822,Americas,28.63873176287769
+TechM,2019-06-30,Q1FY20,,,45000.0,74093.0,125773.0,,1247.1188350267985,,81.5540069090588,20.79399622363747,attrition_ltm_it,47.62029834019593,Americas,27.601349405527394
+TechM,2019-09-30,Q2FY20,,,52193.0,72597.0,131522.0,,1287.216672474093,,82.7847918495685,20.856547920535764,attrition_ltm_it,48.45150061862697,Americas,26.68242090826769
+TechM,2019-12-31,Q3FY20,,,50886.0,73079.0,130839.0,,1352.9835930486913,,85.40173821288245,19.7,attrition_ltm_it,48.407851186823784,Americas,26.982429473836074
+TechM,2020-03-31,Q4FY20,,,46816.0,71515.0,125236.0,,1294.5533120766547,,83.51489665181118,19.1,attrition_ltm_it,47.707491319312865,Americas,26.49737228354263
+TechM,2020-06-30,Q1FY21,,,45554.0,71020.0,123416.0,,1207.467722438525,,81.8,16.6,attrition_ltm_it,49.33961079004481,Americas,25.80934170214401
+TechM,2020-09-30,Q2FY21,,,48462.0,69512.0,124258.0,,1265.379389187327,,85.0,13.5,attrition_ltm_it,48.35962971803258,Americas,25.15457490803783
+TechM,2020-12-31,Q3FY21,,,46832.0,68734.0,121901.0,,1308.650499095983,,87.0,12.4,attrition_ltm_it,46.82307262542613,Americas,26.388094012767205
+TechM,2021-03-31,Q4FY21,,,46125.0,68427.0,121054.0,,1329.5656321794033,,87.4,13.3,attrition_ltm_it,45.490676621340356,Americas,26.495076565591507
+TechM,2021-06-30,Q1FY22,,,49668.0,69877.0,126263.0,,1383.5987056761269,,88.6004131128561,17.2,attrition_ltm_it,46.6674150538698,Americas,27.151817678096062
+TechM,2021-09-30,Q2FY22,,,57058.0,76800.0,141193.0,,1472.5783850438424,,89.26414391858127,21.2,attrition_ltm_it,47.8,Americas,25.925020201492778
+TechM,2021-12-31,Q3FY22,,,56297.0,81115.0,145067.0,,1533.475130470591,,86.0,23.5,attrition_ltm_it,48.88164985955304,Americas,25.544203398454933
+TechM,2022-03-31,Q4FY22,,,57315.0,85830.0,151173.0,,1608.1356426134844,,84.2,23.5,attrition_ltm_it,48.31668327450256,Americas,26.359728430549616
+TechM,2022-06-30,Q1FY23,,,61392.0,88030.0,158035.0,,1632.4503571514904,,83.33191220126217,22.2,attrition_ltm_it,49.577486777623854,Americas,25.471167990377126
+TechM,2022-09-30,Q2FY23,,,68388.0,86776.0,163912.0,,1638.1379636216266,,84.89981014289116,19.6,attrition_ltm_it,50.80343977823654,Americas,24.49329614508756
+TechM,2022-12-31,Q3FY23,,,63568.0,84874.0,157068.0,,1668.2938579207307,,86.38529217609423,17.299999999999997,attrition_ltm_it,49.687145247682274,Americas,24.435141325775703
+TechM,2023-03-31,Q4FY23,,,60102.0,83789.0,152400.0,,1667.6352141189177,,86.48121567433245,14.799999999999999,attrition_ltm_it,49.581484289196474,Americas,25.291698183703176
+TechM,2023-06-30,Q1FY24,,,58079.0,81521.0,148297.0,,1600.74,,87.17,12.8,attrition_ltm_it,51.38,Americas,24.59
+TechM,2023-09-30,Q2FY24,,,60985.0,81200.0,150604.0,,1555.15,,86.18,11.4,attrition_ltm_it,53.26,Americas,23.57
+TechM,2023-12-31,Q3FY24,,,56206.0,81705.0,146250.0,,1573.02,,87.57000000000001,10.299999999999999,attrition_ltm_it,51.870000000000005,Americas,23.77
+TechM,2024-03-31,Q4FY24,,,55492.0,80925.0,145455.0,,1548.19,,86.41,10.0,attrition_ltm_it,50.81,Americas,24.2
+TechM,2024-06-30,Q1FY25,,,58177.0,80417.0,147620.0,,1558.92,,86.14,10.100000000000001,attrition_ltm_it,52.43,Americas,23.41
+TechM,2024-09-30,Q2FY25,,,64940.0,80618.0,154273.0,,1588.72,,86.13,10.6,attrition_ltm_it,51.11,Americas,24.01
+TechM,2024-12-31,Q3FY25,,,61053.0,80865.0,150488.0,,1567.47,,85.99,11.200000000000001,attrition_ltm_it,50.839999999999996,Americas,23.61
+TechM,2025-03-31,Q4FY25,,,59636.0,80609.0,148731.0,,1548.76,,86.27,11.799999999999999,attrition_ltm_it,48.40085370259495,Americas,25.410014566040978
+TechM,2025-06-30,Q1FY26,,,60278.0,79987.0,148517.0,,1564.4110198129597,,,12.6,attrition_ltm_it,49.18641533247775,Americas,26.049581815576005
+TechM,2025-09-30,Q2FY26,,,66095.0,78528.0,152714.0,,1585.9178002005656,,,12.8,attrition_ltm_it,49.79302776062999,Americas,25.400535152138957
+TechM,2025-12-31,Q3FY26,,,65450.0,76194.0,149616.0,,1609.864479417263,,,12.3,attrition_ltm_it,50.56884823143509,Americas,25.564189140581178
+TechM,2026-03-31,Q4FY26,,,64330.0,75377.0,147623.0,,1624.671013287063,,,12.1,attrition_ltm_it,49.69679625403345,Americas,26.014256802931353
+TechM,2026-06-30,Q1FY27,,,64080.0,74689.0,146760.0,,1660.4,,,11.799999999999999,attrition_ltm_it,48.6,Americas,27.500000000000004
+TechM,2026-09-30,Q2FY27,,,67520.0,76617.0,152206.0,,1693.4,,,11.700000000000001,attrition_ltm_it,48.545047363015634,Americas,27.64641674274428
+Wipro,2016-03-31,Q4FY16,,,,,,,1882.0,,77.5,16.1,attrition_ltm_it_voluntary,52.5,Americas,25.6
+Wipro,2016-06-30,Q1FY17,,,,,158272.0,,1930.8,,79.7,16.5,attrition_ltm_it_voluntary,53.5,Americas,25.4
+Wipro,2016-09-30,Q2FY17,,,,,159791.0,,1916.3,,82.8,16.6,attrition_ltm_it_voluntary,54.8,Americas,24.0
+Wipro,2016-12-31,Q3FY17,,,,,164176.0,,1902.8,,81.9,16.3,attrition_ltm_it_voluntary,55.5,Americas,23.6
+Wipro,2017-03-31,Q4FY17,,,,,165481.0,,1954.6,,84.8,16.3,attrition_ltm_it_voluntary,54.9,Americas,24.4
+Wipro,2017-06-30,Q1FY18,,,,,161439.0,,1933.4,,82.1,15.9,attrition_ltm_it_voluntary,55.6,Americas,24.7
+Wipro,2017-09-30,Q2FY18,,,,,159300.0,,1969.7,,82.5,15.7,attrition_ltm_it_voluntary,54.8,Americas,25.6
+Wipro,2017-12-31,Q3FY18,,,,,158865.0,,1973.0,,81.9,15.9,attrition_ltm_it_voluntary,54.1,Americas,26.5
+Wipro,2018-03-31,Q4FY18,,,,,159923.0,,2019.1,,83.4,16.6,attrition_ltm_it_voluntary,53.8,Americas,27.5
+Wipro,2018-06-30,Q1FY19,,,,,160846.0,,1988.8,,85.2,17.1,attrition_ltm_it_voluntary,56.0,Americas,26.1
+Wipro,2018-09-30,Q2FY19,,,,,171451.0,,2009.5,,85.5,17.5,attrition_ltm_it_voluntary,56.1,Americas,25.7
+Wipro,2018-12-31,Q3FY19,,,,,172379.0,,2046.5,,83.2,17.9,attrition_ltm_it_voluntary,57.1,Americas,25.5
+Wipro,2019-03-31,Q4FY19,,,,,171425.0,,2075.5,,85.4,17.6,attrition_ltm_it_voluntary,58.2,Americas,24.6
+Wipro,2019-06-30,Q1FY20,,,,,174850.0,,2038.8,,85.0,17.6,attrition_ltm_it_voluntary,58.7,Americas,24.6
+Wipro,2019-09-30,Q2FY20,,,,,181453.0,,2094.8,,82.1,17.0,attrition_ltm_it_voluntary,59.6,Americas,23.5
+Wipro,2019-12-31,Q3FY20,,,,,187318.0,,2094.8,,79.6,15.7,attrition_ltm_it_voluntary,59.2,Americas,23.7
+Wipro,2020-03-31,Q4FY20,,,,,182886.0,,2073.7,,82.6,14.7,attrition_ltm_it_voluntary,59.1,Americas,24.1
+Wipro,2020-06-30,Q1FY21,,,,,181804.0,,1921.6,,84.5,13.0,attrition_ltm_it_voluntary,59.0,Americas,23.7
+Wipro,2020-09-30,Q2FY21,,,,,,,1992.4,,,,,,,
+Wipro,2021-06-30,Q1FY22,,,,,209890.0,,2414.5,,86.8,15.5,attrition_ltm_it_voluntary,58.1,Americas 1+2 (SMU),30.2
+Wipro,2021-09-30,Q2FY22,,,,,221365.0,,2580.0,,89.2,20.5,attrition_ltm_it_voluntary,58.1,Americas 1+2 (SMU),30.2
+Wipro,2021-12-31,Q3FY22,,,,,231671.0,,2639.7,,85.8,22.7,attrition_ltm_it_voluntary,58.599999999999994,Americas 1+2 (SMU),29.7
+Wipro,2022-03-31,Q4FY22,,,,,243128.0,,2721.7,,85.2,23.8,attrition_ltm_it_voluntary,59.3,Americas 1+2 (SMU),29.3
+Wipro,2022-06-30,Q1FY23,,,,,262049.0,,2756.1,,83.8,23.0,attrition_ltm_it_voluntary,59.8,Americas 1+2 (SMU),28.2
+Wipro,2022-09-30,Q2FY23,,,,,262626.0,,2817.4,,79.8,22.9,attrition_ltm_it_voluntary,59.900000000000006,Americas 1+2 (SMU),28.0
+Wipro,2022-12-31,Q3FY23,,,,,262109.0,,2821.4,,79.7,21.2,attrition_ltm_it_voluntary,59.7,Americas 1+2 (SMU),28.8
+Wipro,2023-03-31,Q4FY23,,,,,258570.0,,2839.5,,81.7,19.4,attrition_ltm_it_voluntary,59.0,Americas 1+2 (SMU),29.3
+Wipro,2023-06-30,Q1FY24,,,,,249758.0,,2778.5,,83.7,17.3,attrition_ltm_it_voluntary,58.8,Americas 1+2 (SMU),29.5
+Wipro,2023-09-30,Q2FY24,,,,,244707.0,,2713.3,,84.5,15.5,attrition_ltm_it_voluntary,59.7,Americas 1+2 (SMU),28.6
+Wipro,2023-12-31,Q3FY24,,,,,239655.0,,2656.1,,84.0,14.2,attrition_ltm_it_voluntary,61.0,Americas 1+2 (SMU),27.7
+Wipro,2024-03-31,Q4FY24,,,,,232614.0,,2657.4,,86.9,14.2,attrition_ltm_it_voluntary,61.099999999999994,Americas 1+2 (SMU),27.8
+Wipro,2024-06-30,Q1FY25,,,,,232911.0,,2625.9,,87.7,14.1,attrition_ltm_it_voluntary,61.7,Americas 1+2 (SMU),27.6
+Wipro,2024-09-30,Q2FY25,,,,,233889.0,,2660.1,,86.4,14.5,attrition_ltm_it_voluntary,61.400000000000006,Americas 1+2 (SMU),27.9
+Wipro,2024-12-31,Q3FY25,,,,,232732.0,,2629.1,,83.5,15.3,attrition_ltm_it_voluntary,62.9,Americas 1+2 (SMU),26.7
+Wipro,2025-03-31,Q4FY25,,,,,233346.0,,2596.5,,84.6,15.0,attrition_ltm_it_voluntary,63.4,Americas 1+2 (SMU),26.1
+Wipro,2025-06-30,Q1FY26,,,,,233232.0,,2587.4,,85.0,15.1,attrition_ltm_it_voluntary,63.5,Americas 1+2 (SMU),25.7
+Wipro,2025-09-30,Q2FY26,,,,,235492.0,,2604.3,,86.4,14.9,attrition_ltm_it_voluntary,62.6,Americas 1+2 (SMU),26.3
+Wipro,2025-12-31,Q3FY26,,,,,242021.0,,2635.4,,83.1,14.2,attrition_ltm_it_voluntary,62.2,Americas 1+2 (SMU),26.7
+Wipro,2026-03-31,Q4FY26,,,,,242156.0,,2651.0,,83.5,13.8,attrition_ltm_it_voluntary,61.3,Americas 1+2 (SMU),27.2
+Wipro,2026-06-30,Q1FY27,,,,,243044.0,,2614.5,,83.6,13.9,attrition_ltm_it_voluntary,60.6,Americas 1+2 (SMU),27.2
+Wipro,2026-09-30,Q2FY27,,,,,236328.0,,2611.5,,83.4,13.8,attrition_ltm_it_voluntary,60.0,Americas 1+2 (SMU),27.4

@@ -3,7 +3,7 @@ Reads the processed data and test outputs; recomputes only what the earlier scri
 import sys
 import numpy as np, pandas as pd
 sys.path.insert(0, "src")
-from exhibit import Exhibit, INK, SUB, GRID, ORANGE, NAVY, GRAY, BG
+from exhibit import Exhibit, INK, SUB, GRID, ORANGE, NAVY, GRAY, BG, MARGIN
 from analysis_common import loglin_trend, POST
 import matplotlib.dates as mdates
 
@@ -26,37 +26,66 @@ def end_label(ax, x, y, text, color=INK, dx=6, dy=0):
 
 
 def year_axis(ax):
-    ax.xaxis.set_major_locator(mdates.YearLocator(2))
-    ax.xaxis.set_major_formatter(mdates.DateFormatter("%Y"))
+    """A label for every year, two-digit style ('17) so they fit."""
+    ax.xaxis.set_major_locator(mdates.YearLocator(1))
+    ax.xaxis.set_major_formatter(mdates.DateFormatter("'%y"))
+    ax.tick_params(axis="x", labelsize=12.5)
 
 
-# 01 · H1 BEA imports: actual as % of 2015-22 trend --------------------------------------
+def year_ticks(ax, years):
+    ax.set_xticks(years); ax.set_xticklabels([f"'{y % 100:02d}" for y in years]); ax.tick_params(axis="x", labelsize=12.5)
+
+
+def align_left(ex, ax, iters=4):
+    """Shift the axes' left edge so its leftmost text (tick or row labels) lines up with the
+    headline's left margin; the right edge stays put."""
+    target = MARGIN / ex.w
+    for _ in range(iters):
+        ex.fig.canvas.draw()
+        d = target - ax.get_tightbbox(ex._r).x0 / ex.fig.bbox.width
+        if abs(d) < 2e-4: break
+        pos = ax.get_position(); ax.set_position([pos.x0 + d, pos.y0, pos.width - d, pos.height])
+
+
+def finish(ex, ax, name):
+    align_left(ex, ax); ex.save(OUT + name)
+
+
+# 01 · H1 BEA imports: one chart per country, levels vs 2015-22 trend ---------------------
 B = pd.read_csv("data/processed/bea_imports.csv")
 B = B[(B.affiliation == "AllAffiliations") & B.year.between(2015, 2025) & B.service_type.isin(["TelecomCompAndInfo", "OtherBusiness"])]
-ex = Exhibit(height=6.6)
-ex.title([[("India", ORANGE), (" runs above trend;", INK)], [("the ", INK), ("Philippines", NAVY), (" below", INK)]])
-ex.subtitle("US imports of computer & business services, % vs 2015–22 trend")
-ex.legend([("India", ORANGE), ("Philippines", NAVY), ("All countries", GRAY)])
-ex.source("Shaded: 95% prediction band around each country's trend. Nominal US$. Philippine 2022–25 values "
-          "likely affected by a BEA category change. Result is sensitive to the trend window.",
-          "Source: BEA International Services (TelecomCompAndInfo + OtherBusiness).", credit=CREDIT)
-ax = ex.axes(left=0.13, right=0.86)
-for c, col, band in [("AllCountries", GRAY, None), ("Philippines", NAVY, LIGHT_N), ("India", ORANGE, LIGHT_O)]:
+BEA_COUNTRY = {
+    "India": dict(name="01a_bea_india", title=[[("US imports from ", INK), ("India", ORANGE), (" ran", INK)], [("24% above ", INK), ("trend", NAVY), (" in 2025", INK)]],
+                  ylim=(0, 45), yt=[0, 10, 20, 30, 40],
+                  note="Above the 95% band in 2025, and further above trend than imports from all countries (+14%). "
+                       "With a pre-COVID trend (2015–19), India is on trend."),
+    "Philippines": dict(name="01b_bea_philippines", title=[[("US imports from the ", INK), ("Philippines", ORANGE)], [("fell below ", INK), ("trend", NAVY), (", inside the band", INK)]],
+                  ylim=(0, 12), yt=[0, 3, 6, 9, 12],
+                  note="−30% vs trend in 2025, but inside the 95% band, and the sign flips with other trend windows. "
+                       "A 2022 BEA category change (call-center work moving to management consulting) likely affects 2022–25."),
+}
+for c, cfg in BEA_COUNTRY.items():
     v = B[B.country == c].pivot_table(index="year", columns="service_type", values="value_usd_m")
-    s = v.sum(axis=1).where(v.notna().all(axis=1)).dropna()
-    _, tr = loglin_trend(s.index.values, s.values, s.index.values <= 2022); tr.index = s.index
-    g = 100 * (s / tr.trend - 1)
-    if band:
-        ax.fill_between(s.index, 100 * (tr.pi_lo / tr.trend - 1), 100 * (tr.pi_hi / tr.trend - 1), color=band, alpha=.28 if band == LIGHT_N else .5, lw=0, zorder=0)
-    ax.plot(g.index, g.values, color=col, lw=2.8 if band else 2.2, ls="-" if band else (0, (2, 2)), zorder=3)
-    end_label(ax, g.index[-1], g.values[-1], f"{g.values[-1]:+.0f}%", color=INK if band else SUB,
-              dy={"India": 5, "AllCountries": -6}.get(c, 0))
-ax.axhline(0, color=INK, lw=1.2, zorder=2)
-ax.set_xlim(2014.6, 2025.4); ax.set_ylim(-75, 75); ax.set_yticks([-60, -30, 0, 30, 60])
-ax.set_yticklabels(["−60", "−30", "0", "+30", "+60%"]); ax.set_xticks([2015, 2018, 2021, 2024])
-ax.spines["bottom"].set_visible(False)
-post_line(ax, 2023.5, ymax=74)
-ex.save(OUT + "01_bea_imports_trend")
+    sr = v.sum(axis=1).where(v.notna().all(axis=1)).dropna() / 1000
+    _, tr = loglin_trend(sr.index.values, sr.values, sr.index.values <= 2022); tr.index = sr.index
+    ex = Exhibit(height=6.6)
+    ex.title(cfg["title"])
+    ex.subtitle("Computer & business services, US$ billions")
+    ex.legend([("Actual", ORANGE), ("2015–22 trend", NAVY), ("95% band", LIGHT_N)])
+    ex.source(cfg["note"] + " Nominal US$.",
+              "Source: BEA International Services (telecom, computer & information + other business services).", credit=CREDIT)
+    ax = ex.axes(left=0.1, right=0.86)
+    ax.fill_between(sr.index, tr.pi_lo, tr.pi_hi, color=LIGHT_N, alpha=.6, lw=0, zorder=0)
+    ax.plot(sr.index, tr.trend, color=NAVY, lw=2, ls=(0, (4, 3)), zorder=2)
+    ax.plot(sr.index, sr.values, color=ORANGE, lw=2.8, zorder=3, marker="o", ms=5)
+    hi = sr.values[-1] > tr.trend.values[-1]
+    end_label(ax, 2025, sr.values[-1], f"{sr.values[-1]:.1f}", dy=6 if hi else -6)
+    end_label(ax, 2025, tr.trend.values[-1], f"{tr.trend.values[-1]:.1f}", color=NAVY, dy=-6 if hi else 6)
+    ax.set_ylim(*cfg["ylim"]); ax.set_yticks(cfg["yt"])
+    ax.set_yticklabels([str(t) for t in cfg["yt"][:-1]] + [f"${cfg['yt'][-1]}bn"])
+    ax.set_xlim(2014.5, 2025.5); year_ticks(ax, range(2015, 2026))
+    post_line(ax, 2023.5, ymax=cfg["ylim"][1] * 0.99)
+    finish(ex, ax, cfg["name"])
 
 # 03 · H2 exposed vs unexposed: dumbbell before/after ------------------------------------
 R = pd.read_csv("outputs/h2_vendor_proxies.csv").set_index("series")
@@ -71,7 +100,7 @@ ex.source("Above zero = AI-exposed work growing faster. Accenture in local curre
           "implied US$ revenue (its IT & business division mixes exposed and unexposed work). "
           "Pooled change −0.4 pp (p = 0.83). Stand-ins: no firm reports revenue by type of work after 2024.",
           "Source: Accenture 8-K earnings releases; company fact sheets.", credit=CREDIT)
-ax = ex.axes(left=0.40, right=0.72, bottom_pad=0.5)
+ax = ex.axes(left=0.40, right=0.76, bottom_pad=0.5)
 for i, (firm, lab, key) in enumerate(rows):
     r, y = R.loc[key], len(rows) - 1 - i
     ax.plot([r.pre_mean_pp, r.post_mean_pp], [y, y], color=GRID, lw=7, solid_capstyle="round", zorder=1)
@@ -79,14 +108,14 @@ for i, (firm, lab, key) in enumerate(rows):
     ax.scatter([r.post_mean_pp], [y], s=150, color=ORANGE, edgecolor="white", lw=1.8, zorder=3)
     ax.text(-0.04, y + 0.16, firm, transform=ax.get_yaxis_transform(), ha="right", va="center", fontsize=14, color=INK, weight="semibold")
     ax.text(-0.04, y - 0.19, lab, transform=ax.get_yaxis_transform(), ha="right", va="center", fontsize=11, color=SUB)
-    ax.text(1.12, y, f"{r.change_pp:+.1f}".replace("-", "−"), transform=ax.get_yaxis_transform(), ha="right", va="center", fontsize=14, weight="bold")
-    ax.text(1.36, y, f"{r.p:.2f}", transform=ax.get_yaxis_transform(), ha="right", va="center", fontsize=14, color=INK)
-ax.text(1.12, len(rows) - 0.35, "Change", transform=ax.get_yaxis_transform(), ha="right", va="bottom", fontsize=12.5, color=SUB, weight="semibold")
-ax.text(1.36, len(rows) - 0.35, "p", transform=ax.get_yaxis_transform(), ha="right", va="bottom", fontsize=12.5, color=SUB, weight="semibold")
-ax.set_ylim(-0.6, len(rows) - 0.4); ax.set_yticks([]); ax.set_xlim(-4, 12); ax.set_xticks([0, 5, 10])
+    ax.text(1.20, y, f"{r.change_pp:+.1f}".replace("-", "−"), transform=ax.get_yaxis_transform(), ha="right", va="center", fontsize=14, weight="bold")
+    ax.text(1.42, y, f"{r.p:.2f}", transform=ax.get_yaxis_transform(), ha="right", va="center", fontsize=14, color=INK)
+ax.text(1.20, len(rows) - 0.35, "Change", transform=ax.get_yaxis_transform(), ha="right", va="bottom", fontsize=12.5, color=SUB, weight="semibold")
+ax.text(1.42, len(rows) - 0.35, "p", transform=ax.get_yaxis_transform(), ha="right", va="bottom", fontsize=12.5, color=SUB, weight="semibold")
+ax.set_ylim(-0.6, len(rows) - 0.4); ax.set_yticks([]); ax.set_xlim(-1.5, 11); ax.set_xticks([0, 2, 4, 6, 8, 10]); ax.tick_params(axis="x", labelsize=12.5)
 ax.grid(axis="y", visible=False); ax.grid(axis="x", color=GRID, lw=1); ax.axvline(0, color=INK, lw=1.2)
 ax.spines["bottom"].set_visible(False)
-ex.save(OUT + "03_exposed_vs_unexposed")
+finish(ex, ax, "03_exposed_vs_unexposed")
 
 # 04 · H3 event study --------------------------------------------------------------------
 E = pd.read_csv("outputs/h3_event_study.csv")
@@ -101,11 +130,11 @@ ax = ex.axes(left=0.13, right=0.95)
 ax.vlines(E.year, E.coef - 1.96 * E.se, E.coef + 1.96 * E.se, color=GRAY, lw=3.5, zorder=1)
 ax.scatter(E.year, E.coef, s=90, color=np.where(E.year >= 2024, ORANGE, NAVY), edgecolor="white", lw=1.5, zorder=3)
 ax.axhline(0, color=INK, lw=1.2, zorder=2); ax.set_ylim(-25, 25); ax.set_yticks([-20, -10, 0, 10, 20])
-ax.set_yticklabels(["−20", "−10", "0", "+10", "+20"]); ax.set_xticks([2015, 2018, 2021, 2024]); ax.set_xlim(2014.4, 2026.6)
+ax.set_yticklabels(["−20", "−10", "0", "+10", "+20"]); year_ticks(ax, range(2015, 2027)); ax.set_xlim(2014.4, 2026.6)
 ax.spines["bottom"].set_visible(False)
 post_line(ax, 2023.5, ymax=24.5)
 end_label(ax, 2026, E.coef.iloc[-1], f"{E.coef.iloc[-1]:+.0f}", dx=9)
-ex.save(OUT + "04_na_vs_europe")
+finish(ex, ax, "04_na_vs_europe")
 
 # 05 · H4 hiring vs leaving --------------------------------------------------------------
 P = pd.read_csv("data/processed/vendor_panel.csv", parse_dates=["cal_quarter_end"]).sort_values(["firm", "cal_quarter_end"])
@@ -131,8 +160,8 @@ for s, col in [(l, NAVY), (h, ORANGE)]:
         seg = s[grp == k]; ax.plot(seg.index, seg.values, color=col, lw=2.8)
     end_label(ax, s.index[-1], s.values[-1], f"{s.values[-1]:.0f}%", dy=7 if col == ORANGE else -7)
 ax.set_ylim(0, 60); ax.set_yticks([0, 10, 20, 30, 40, 50]); ax.set_yticklabels(["0", "10", "20", "30", "40", "50%"])
-year_axis(ax); post_line(ax, POST - pd.Timedelta(days=80), ymax=59.5)
-ex.save(OUT + "05_hiring_pipeline")
+year_axis(ax); ax.set_xlim(right=pd.Timestamp("2026-12-15")); post_line(ax, POST - pd.Timedelta(days=80), ymax=59.5)
+finish(ex, ax, "05_hiring_pipeline")
 
 # 06 · H6 revenue per employee: gap by firm and trend window ------------------------------
 R6 = pd.read_csv("outputs/h6_rpe_gaps.csv").dropna(subset=["mean_gap_pct"])
@@ -155,9 +184,9 @@ for i, f in enumerate(firms):
         ax.scatter([v], [y], s=130 if col == ORANGE else 95, color=col, edgecolor="white", lw=1.6, zorder=3)
     ax.text(-0.03, y, f, transform=ax.get_yaxis_transform(), ha="right", va="center", fontsize=14.5, color=INK)
 ax.axvline(0, color=INK, lw=1.2); ax.set_yticks([]); ax.set_ylim(-0.6, len(firms) - 0.4)
-ax.set_xlim(-20, 25); ax.set_xticks([-15, 0, 15]); ax.set_xticklabels(["−15", "0", "+15%"])
+ax.set_xlim(-20, 25); ax.set_xticks([-15, -10, -5, 0, 5, 10, 15, 20]); ax.set_xticklabels(["−15", "−10", "−5", "0", "+5", "+10", "+15", "+20%"]); ax.tick_params(axis="x", labelsize=12.5)
 ax.grid(axis="y", visible=False); ax.grid(axis="x", color=GRID, lw=1); ax.spines["bottom"].set_visible(False)
-ex.save(OUT + "06_rev_per_employee")
+finish(ex, ax, "06_rev_per_employee")
 
 # 07 · Decomposition ----------------------------------------------------------------------
 D = pd.read_csv("outputs/h6_decomposition.csv")
@@ -174,7 +203,7 @@ ax.axhline(0, color=INK, lw=1.2, zorder=3)
 ax.set_xticks(x); ax.set_xticklabels([f"'{str(f)[2:]}" for f in D.fy]); ax.set_ylim(-5, 30)
 ax.set_yticks([0, 5, 10, 15, 20]); ax.set_yticklabels(["0", "5", "10", "15", "20%"]); ax.spines["bottom"].set_visible(False)
 post_line(ax, list(D.fy).index(2024) - 0.5, label="AI coding tools\nspread (FY24)", ymax=29.5)
-ex.save(OUT + "07_decomposition")
+finish(ex, ax, "07_decomposition")
 
 # 08 · H5 US IT services jobs -------------------------------------------------------------
 b = pd.read_csv("data/processed/bls.csv", parse_dates=["date"])
@@ -196,6 +225,6 @@ ax.plot(g.date, g.value / 1000, color=ORANGE, lw=2.8, zorder=3)
 end_label(ax, g.date.iloc[-1], g.value.iloc[-1] / 1000, f"{g.value.iloc[-1]/1000:.2f}", dy=-4)
 end_label(ax, g.date.iloc[-1], g.trend.iloc[-1] / 1000, f"{g.trend.iloc[-1]/1000:.2f}", color=NAVY, dy=4)
 ax.set_ylim(1.8, 3.0); ax.set_yticks([1.8, 2.1, 2.4, 2.7, 3.0]); ax.set_yticklabels(["1.8", "2.1", "2.4", "2.7", "3.0m"])
-year_axis(ax); post_line(ax, POST - pd.Timedelta(days=80), ymax=2.98)
-ex.save(OUT + "08_h5_us_it_jobs")
+year_axis(ax); ax.set_xlim(pd.Timestamp("2014-10-01"), pd.Timestamp("2026-12-15")); post_line(ax, POST - pd.Timedelta(days=80), ymax=2.98)
+finish(ex, ax, "08_h5_us_it_jobs")
 print("done")

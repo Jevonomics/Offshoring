@@ -16,7 +16,7 @@ Legend: ✅ verified from a downloaded document · ⚠️ partial or with caveat
 | HCLTech | ✅ | Investor releases on the site for Q3 FY22–Q2 FY27. Earlier releases aren't linked from the results page and still need to be found |
 | LTIMindtree (rebranded **LTM**, ltm.com) | ✅ | JSON document index covering FY2017–FY2027. Some older PDFs are scanned images and will need OCR. **Mindtree before the merger hasn't been checked yet** |
 | **TCS** (tcs.com) | ✅ via user | The site blocks automated access. The user supplied the cumulative **Data Sheet (Q2 FY27)**, saved as `data/raw/manual/TCS-Data-Sheet-Q2FY27.xlsx` |
-| **Infosys** (infosys.com) | ❌ 403 | Blocked for both. EDGAR 6-Ks have only the press release and Ind AS results (industry segments in ₹ crore). **The fact sheet must be downloaded manually** |
+| **Infosys** (fact sheets, user-supplied: Q1 FY15, Q2 FY19, Q2 FY24, Q2 FY27) | ⚠️ **Service offering only in early years** (Q1 FY15: App Dev, App Maintenance, Infra, Testing, BPM, Consulting…). Replaced by "Digital vs. Core" by FY19, and gone by FY24 → **no post-period data** | ✅ **North America / Europe / RoW / India** in every sample | ⚠️ gross additions in FY15 and FY19, not in FY24 or FY27 | ✅ incl. and excl. trainees | ❓ | ✅ total employees. ✅ attrition (definition shifts: LTM → annualized → voluntary LTM IT services) |
 | NASSCOM, IBPAP | ❓ | Not checked yet. These come later in the collection order |
 
 ## 2. Vendor disclosure grid (Indian FY; FY27 Q2 = Jul–Sep 2026)
@@ -47,8 +47,8 @@ Other notes:
 | Hyp. | Status | Why |
 |---|---|---|
 | H1 trade trend break | ✅ testable | Nominal, India strong. Philippines computer services weak because of suppression; use Philippines other business services and total. Only 2–3 post-period years |
-| **H2 exposed vs. unexposed** | **⚠️ LIMITED (decision rule triggered)** | Of the 4 firms checked, **none** reports clean exposed/unexposed service-line revenue in both the pre- and post-period. Wipro stopped in 2020 and LTI stopped at the merger. HCLTech's IT & Business Services segment mixes applications, infrastructure, and BPO, so the exposure map marks it ambiguous. TCS also stopped its service-practice split after FY2017. Infosys is unknown. Fewer than 3 firms → **limited** |
-| H3 North America vs. Europe | ⚠️ testable with caveats | LTIMindtree and **TCS** report North America on its own (TCS also reports YoY constant-currency growth by region). TechM and HCLTech report "Americas" (mostly the US). Wipro's regions were redefined in FY21. TCS and Infosys are unknown |
+| **H2 exposed vs. unexposed** | **⚠️ LIMITED (decision rule triggered)** | Of the 4 firms checked, **none** reports clean exposed/unexposed service-line revenue in both the pre- and post-period. Wipro stopped in 2020 and LTI stopped at the merger. HCLTech's IT & Business Services segment mixes applications, infrastructure, and BPO, so the exposure map marks it ambiguous. TCS (after FY2017) and Infosys (by FY2019) also stopped their service-line splits. So **0 of 6** firms have clean service-line revenue in the post-period. Fewer than 3 firms → **limited** |
+| H3 North America vs. Europe | ⚠️ testable with caveats | LTIMindtree, **TCS**, and **Infosys** report North America on its own (TCS also reports YoY constant-currency growth by region). TechM and HCLTech report "Americas" (mostly the US). Wipro's regions were redefined in FY21. TCS and Infosys are unknown |
 | H4 hiring pipeline | ⚠️ partly testable | Only HCLTech reports fresh-graduate hires so far. Every firm gives headcount and attrition, so hiring can be backed out as Δheadcount + attrition × headcount ÷ 4. Layoff dates come from news coverage |
 | H5 move in-house | ✅ testable | BLS verified. BEA as for H1 |
 | H6 revenue per employee | ✅ testable for 4 firms now, 6 once TCS and Infosys arrive | USD revenue and headcount are present everywhere checked. A constant-currency series needs reported CC growth, which is available |
@@ -68,3 +68,10 @@ H2 meets the runbook's "limited" rule. Fallback options, in my order of preferen
 4. **Wait for TCS and Infosys fact sheets.** If either reports service lines in the post-period, H2 strengthens. I'm not counting on this.
 
 My recommendation is **1 + 2 + 3 together**, with H2 labeled "limited" in the results. Continuing will also need the manual TCS and Infosys downloads listed in `data/raw/manual/NEEDED.md`.
+
+
+## 6. Update 2026-11-24 (after the TCS and Infosys files)
+- All 6 firms are now audited. H2 stays **limited**, using the three fallbacks the user approved.
+- H3 is now **testable on 3 firms with a clean North America split** (TCS, Infosys, LTIMindtree), plus 2 with "Americas" (TechM, HCLTech).
+- The latest Infosys fact sheet is a PDF with chart-style text: characters come out space-separated, so it needs a dedicated parser.
+- Each Infosys fact sheet shows the current quarter, the previous quarter, and the year-ago quarter. **Q2 and Q4 fact sheets for each year cover every quarter.**

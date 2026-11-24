@@ -1,0 +1,504 @@
+firm,fiscal_label,cal_quarter_end,section,variable,value,unit,basis,source_file,locator
+Wipro,Q4FY16,2016-03-31,,rev_share_region:India & Middle East business,11.0,pct,reported,data/raw/sec/wipro_datasheets/2017-04-27_0001193125-17-143454_d384232dex996.htm,table 0: India & Middle East business
+Wipro,Q1FY17,2016-06-30,,rev_share_region:India & Middle East business,10.4,pct,reported,data/raw/sec/wipro_datasheets/2017-04-27_0001193125-17-143454_d384232dex996.htm,table 0: India & Middle East business
+Wipro,Q2FY17,2016-09-30,,rev_share_region:India & Middle East business,10.4,pct,reported,data/raw/sec/wipro_datasheets/2017-04-27_0001193125-17-143454_d384232dex996.htm,table 0: India & Middle East business
+Wipro,Q3FY17,2016-12-31,,rev_share_region:India & Middle East business,10.0,pct,reported,data/raw/sec/wipro_datasheets/2017-04-27_0001193125-17-143454_d384232dex996.htm,table 0: India & Middle East business
+Wipro,Q4FY16,2016-03-31,,rev_share_region:Europe,25.6,pct,reported,data/raw/sec/wipro_datasheets/2017-04-27_0001193125-17-143454_d384232dex996.htm,table 0: Europe
+Wipro,Q2FY17,2016-09-30,,rev_share_region:Europe,24.0,pct,reported,data/raw/sec/wipro_datasheets/2017-04-27_0001193125-17-143454_d384232dex996.htm,table 0: Europe
+Wipro,Q3FY17,2016-12-31,,rev_share_region:Europe,23.6,pct,reported,data/raw/sec/wipro_datasheets/2017-04-27_0001193125-17-143454_d384232dex996.htm,table 0: Europe
+Wipro,Q4FY16,2016-03-31,,rev_share_region:APAC and Other Emerging Markets,10.9,pct,reported,data/raw/sec/wipro_datasheets/2017-04-27_0001193125-17-143454_d384232dex996.htm,table 0: APAC and Other Emerging Markets
+Wipro,Q4FY16,2016-03-31,,utilization_gross,68.1,pct,reported,data/raw/sec/wipro_datasheets/2017-04-27_0001193125-17-143454_d384232dex996.htm,table 5: Gross Utilization
+Wipro,Q4FY16,2016-03-31,,attrition_bps_post_training_qtr,9.9,pct,reported,data/raw/sec/wipro_datasheets/2017-04-27_0001193125-17-143454_d384232dex996.htm,table 5: BPS % - Post Training Quarterly
+Wipro,Q4FY16,2016-03-31,,attrition_ltm_it_voluntary,16.1,pct,reported,data/raw/sec/wipro_datasheets/2017-04-27_0001193125-17-143454_d384232dex996.htm,table 5: Voluntary TTM
+Wipro,Q4FY16,2016-03-31,,utilization_excl_trainees,77.5,pct,reported,data/raw/sec/wipro_datasheets/2017-04-27_0001193125-17-143454_d384232dex996.htm,table 5: Net Utilization (Excluding Trainees)
+Wipro,Q1FY17,2016-06-30,,rev_share_region:APAC and Other Emerging Markets,10.7,pct,reported,data/raw/sec/wipro_datasheets/2017-04-27_0001193125-17-143454_d384232dex996.htm,table 0: APAC and Other Emerging Markets
+Wipro,Q1FY17,2016-06-30,,rev_share_region:Europe,25.4,pct,reported,data/raw/sec/wipro_datasheets/2017-04-27_0001193125-17-143454_d384232dex996.htm,table 0: Europe
+Wipro,Q3FY17,2016-12-31,,rev_share_region:APAC and Other Emerging Markets,10.9,pct,reported,data/raw/sec/wipro_datasheets/2017-04-27_0001193125-17-143454_d384232dex996.htm,table 0: APAC and Other Emerging Markets
+Wipro,Q3FY17,2016-12-31,,rev_share_service_line:Business Process Services,13.3,pct,reported,data/raw/sec/wipro_datasheets/2017-04-27_0001193125-17-143454_d384232dex996.htm,table 0: Business Process Services
+Wipro,Q4FY16,2016-03-31,,rev_share_service_line:Application Services,45.3,pct,reported,data/raw/sec/wipro_datasheets/2017-04-27_0001193125-17-143454_d384232dex996.htm,table 0: Application Services
+Wipro,Q2FY17,2016-09-30,,rev_share_region:APAC and Other Emerging Markets,10.8,pct,reported,data/raw/sec/wipro_datasheets/2017-04-27_0001193125-17-143454_d384232dex996.htm,table 0: APAC and Other Emerging Markets
+Wipro,Q2FY17,2016-09-30,,rev_share_service_line:Application Services,43.8,pct,reported,data/raw/sec/wipro_datasheets/2017-04-27_0001193125-17-143454_d384232dex996.htm,table 0: Application Services
+Wipro,Q3FY17,2016-12-31,,rev_share_service_line:Application Services,44.4,pct,reported,data/raw/sec/wipro_datasheets/2017-04-27_0001193125-17-143454_d384232dex996.htm,table 0: Application Services
+Wipro,Q2FY17,2016-09-30,,rev_share_service_line:Business Process Services,13.4,pct,reported,data/raw/sec/wipro_datasheets/2017-04-27_0001193125-17-143454_d384232dex996.htm,table 0: Business Process Services
+Wipro,Q4FY16,2016-03-31,,rev_share_service_line:Analytics,7.2,pct,reported,data/raw/sec/wipro_datasheets/2017-04-27_0001193125-17-143454_d384232dex996.htm,table 0: Analytics
+Wipro,Q2FY17,2016-09-30,,rev_share_service_line:Analytics,7.3,pct,reported,data/raw/sec/wipro_datasheets/2017-04-27_0001193125-17-143454_d384232dex996.htm,table 0: Analytics
+Wipro,Q3FY17,2016-12-31,,rev_share_service_line:Analytics,7.0,pct,reported,data/raw/sec/wipro_datasheets/2017-04-27_0001193125-17-143454_d384232dex996.htm,table 0: Analytics
+Wipro,Q4FY16,2016-03-31,,revenue_it_usd_m,1882.0,USD_m,reported,data/raw/sec/wipro_datasheets/2017-04-27_0001193125-17-143454_d384232dex996.htm,table 0: IT Services Revenues ($MN)
+Wipro,Q1FY17,2016-06-30,,rev_share_service_line:Analytics,7.4,pct,reported,data/raw/sec/wipro_datasheets/2017-04-27_0001193125-17-143454_d384232dex996.htm,table 0: Analytics
+Wipro,Q1FY17,2016-06-30,,rev_share_service_line:Business Process Services,12.9,pct,reported,data/raw/sec/wipro_datasheets/2017-04-27_0001193125-17-143454_d384232dex996.htm,table 0: Business Process Services
+Wipro,Q1FY17,2016-06-30,,rev_share_service_line:Application Services,44.7,pct,reported,data/raw/sec/wipro_datasheets/2017-04-27_0001193125-17-143454_d384232dex996.htm,table 0: Application Services
+Wipro,Q4FY16,2016-03-31,,rev_share_region:Americas,52.5,pct,reported,data/raw/sec/wipro_datasheets/2017-04-27_0001193125-17-143454_d384232dex996.htm,table 0: Americas
+Wipro,Q4FY16,2016-03-31,,rev_share_service_line:Business Process Services,10.6,pct,reported,data/raw/sec/wipro_datasheets/2017-04-27_0001193125-17-143454_d384232dex996.htm,table 0: Business Process Services
+Wipro,Q2FY17,2016-09-30,,rev_share_region:Americas,54.8,pct,reported,data/raw/sec/wipro_datasheets/2017-04-27_0001193125-17-143454_d384232dex996.htm,table 0: Americas
+Wipro,Q3FY17,2016-12-31,,rev_share_region:Americas,55.5,pct,reported,data/raw/sec/wipro_datasheets/2017-04-27_0001193125-17-143454_d384232dex996.htm,table 0: Americas
+Wipro,Q4FY16,2016-03-31,,rev_share_service_line:Product Engineering,8.0,pct,reported,data/raw/sec/wipro_datasheets/2017-04-27_0001193125-17-143454_d384232dex996.htm,table 0: Product Engineering
+Wipro,Q1FY17,2016-06-30,,rev_share_region:Americas,53.5,pct,reported,data/raw/sec/wipro_datasheets/2017-04-27_0001193125-17-143454_d384232dex996.htm,table 0: Americas
+Wipro,Q2FY17,2016-09-30,,rev_share_service_line:Product Engineering,7.3,pct,reported,data/raw/sec/wipro_datasheets/2017-04-27_0001193125-17-143454_d384232dex996.htm,table 0: Product Engineering
+Wipro,Q3FY17,2016-12-31,,rev_share_service_line:Product Engineering,7.2,pct,reported,data/raw/sec/wipro_datasheets/2017-04-27_0001193125-17-143454_d384232dex996.htm,table 0: Product Engineering
+Wipro,Q4FY16,2016-03-31,,rev_share_service_line:Global Infrastructure Services,28.9,pct,reported,data/raw/sec/wipro_datasheets/2017-04-27_0001193125-17-143454_d384232dex996.htm,table 0: Global Infrastructure Services
+Wipro,Q1FY17,2016-06-30,,rev_share_service_line:Global Infrastructure Services,27.9,pct,reported,data/raw/sec/wipro_datasheets/2017-04-27_0001193125-17-143454_d384232dex996.htm,table 0: Global Infrastructure Services
+Wipro,Q2FY17,2016-09-30,,rev_share_service_line:Global Infrastructure Services,28.2,pct,reported,data/raw/sec/wipro_datasheets/2017-04-27_0001193125-17-143454_d384232dex996.htm,table 0: Global Infrastructure Services
+Wipro,Q3FY17,2016-12-31,,rev_share_service_line:Global Infrastructure Services,28.1,pct,reported,data/raw/sec/wipro_datasheets/2017-04-27_0001193125-17-143454_d384232dex996.htm,table 0: Global Infrastructure Services
+Wipro,Q1FY17,2016-06-30,,rev_share_service_line:Product Engineering,7.1,pct,reported,data/raw/sec/wipro_datasheets/2017-04-27_0001193125-17-143454_d384232dex996.htm,table 0: Product Engineering
+Wipro,Q3FY17,2016-12-31,,attrition_ltm_it_voluntary,16.3,pct,reported,data/raw/sec/wipro_datasheets/2017-07-24_0001193125-17-233916_d428195dex996.htm,table 2: Voluntary TTM
+Wipro,Q2FY17,2016-09-30,,attrition_ltm_it_voluntary,16.6,pct,reported,data/raw/sec/wipro_datasheets/2017-07-24_0001193125-17-233916_d428195dex996.htm,table 2: Voluntary TTM
+Wipro,Q1FY17,2016-06-30,,attrition_ltm_it_voluntary,16.5,pct,reported,data/raw/sec/wipro_datasheets/2017-07-24_0001193125-17-233916_d428195dex996.htm,table 2: Voluntary TTM
+Wipro,Q2FY17,2016-09-30,,attrition_bps_post_training_qtr,10.8,pct,reported,data/raw/sec/wipro_datasheets/2017-07-24_0001193125-17-233916_d428195dex996.htm,table 2: BPS % - Post Training Quarterly
+Wipro,Q3FY17,2016-12-31,,attrition_bps_post_training_qtr,8.2,pct,reported,data/raw/sec/wipro_datasheets/2017-07-24_0001193125-17-233916_d428195dex996.htm,table 2: BPS % - Post Training Quarterly
+Wipro,Q1FY17,2016-06-30,,attrition_bps_post_training_qtr,9.0,pct,reported,data/raw/sec/wipro_datasheets/2017-07-24_0001193125-17-233916_d428195dex996.htm,table 2: BPS % - Post Training Quarterly
+Wipro,Q1FY17,2016-06-30,,utilization_excl_trainees,79.7,pct,reported,data/raw/sec/wipro_datasheets/2017-07-24_0001193125-17-233916_d428195dex996.htm,table 2: Net Utilization (Excluding Trainees)
+Wipro,Q2FY17,2016-09-30,,utilization_excl_trainees,82.8,pct,reported,data/raw/sec/wipro_datasheets/2017-07-24_0001193125-17-233916_d428195dex996.htm,table 2: Net Utilization (Excluding Trainees)
+Wipro,Q3FY17,2016-12-31,,utilization_excl_trainees,81.9,pct,reported,data/raw/sec/wipro_datasheets/2017-07-24_0001193125-17-233916_d428195dex996.htm,table 2: Net Utilization (Excluding Trainees)
+Wipro,Q3FY17,2016-12-31,,utilization_gross,71.6,pct,reported,data/raw/sec/wipro_datasheets/2017-07-24_0001193125-17-233916_d428195dex996.htm,table 2: Gross Utilization
+Wipro,Q2FY17,2016-09-30,,utilization_gross,71.2,pct,reported,data/raw/sec/wipro_datasheets/2017-07-24_0001193125-17-233916_d428195dex996.htm,table 2: Gross Utilization
+Wipro,Q1FY17,2016-06-30,,utilization_gross,69.9,pct,reported,data/raw/sec/wipro_datasheets/2017-07-24_0001193125-17-233916_d428195dex996.htm,table 2: Gross Utilization
+Wipro,Q1FY17,2016-06-30,,headcount_total,158272.0,persons,reported,data/raw/sec/wipro_datasheets/2018-01-23_0001193125-18-017445_d500020dex996.htm,table 2: Closing Employee Count
+Wipro,Q2FY17,2016-09-30,,headcount_total,159791.0,persons,reported,data/raw/sec/wipro_datasheets/2018-01-23_0001193125-18-017445_d500020dex996.htm,table 2: Closing Employee Count
+Wipro,Q3FY17,2016-12-31,,headcount_total,164176.0,persons,reported,data/raw/sec/wipro_datasheets/2018-01-23_0001193125-18-017445_d500020dex996.htm,table 2: Closing Employee Count
+Wipro,Q2FY17,2016-09-30,,revenue_it_usd_m,1916.3,USD_m,reported,data/raw/sec/wipro_datasheets/2018-01-23_0001193125-18-017445_d500020dex996.htm,table 0: IT Services Revenues ($MN)
+Wipro,Q3FY17,2016-12-31,,revenue_it_usd_m,1902.8,USD_m,reported,data/raw/sec/wipro_datasheets/2018-01-23_0001193125-18-017445_d500020dex996.htm,table 0: IT Services Revenues ($MN)
+Wipro,Q1FY17,2016-06-30,,revenue_it_usd_m,1930.8,USD_m,reported,data/raw/sec/wipro_datasheets/2018-01-23_0001193125-18-017445_d500020dex996.htm,table 0: IT Services Revenues ($MN)
+Wipro,Q4FY17,2017-03-31,,rev_share_region:India & Middle East business,9.9,pct,reported,data/raw/sec/wipro_datasheets/2018-04-30_0001193125-18-143305_d579125dex996.htm,table 0: India & Middle East business
+Wipro,Q4FY17,2017-03-31,,rev_share_region:Europe,24.4,pct,reported,data/raw/sec/wipro_datasheets/2018-04-30_0001193125-18-143305_d579125dex996.htm,table 0: Europe
+Wipro,Q4FY17,2017-03-31,,headcount_total,165481.0,persons,reported,data/raw/sec/wipro_datasheets/2018-04-30_0001193125-18-143305_d579125dex996.htm,table 5: Closing Employee Count
+Wipro,Q4FY17,2017-03-31,,attrition_bps_post_training_qtr,9.0,pct,reported,data/raw/sec/wipro_datasheets/2018-04-30_0001193125-18-143305_d579125dex996.htm,table 5: BPS % - Post Training Quarterly
+Wipro,Q4FY17,2017-03-31,,attrition_ltm_it_voluntary,16.3,pct,reported,data/raw/sec/wipro_datasheets/2018-04-30_0001193125-18-143305_d579125dex996.htm,table 5: Voluntary TTM
+Wipro,Q4FY17,2017-03-31,,utilization_excl_trainees,84.8,pct,reported,data/raw/sec/wipro_datasheets/2018-04-30_0001193125-18-143305_d579125dex996.htm,table 5: Net Utilization (Excluding Trainees)
+Wipro,Q4FY17,2017-03-31,,utilization_gross,73.1,pct,reported,data/raw/sec/wipro_datasheets/2018-04-30_0001193125-18-143305_d579125dex996.htm,table 5: Gross Utilization
+Wipro,Q4FY17,2017-03-31,,rev_share_service_line:Application Services,45.7,pct,reported,data/raw/sec/wipro_datasheets/2018-04-30_0001193125-18-143305_d579125dex996.htm,table 0: Application Services
+Wipro,Q1FY18,2017-06-30,,rev_share_service_line:Application Services,45.8,pct,reported,data/raw/sec/wipro_datasheets/2018-04-30_0001193125-18-143305_d579125dex996.htm,table 0: Application Services
+Wipro,Q2FY18,2017-09-30,,rev_share_service_line:Application Services,45.5,pct,reported,data/raw/sec/wipro_datasheets/2018-04-30_0001193125-18-143305_d579125dex996.htm,table 0: Application Services
+Wipro,Q3FY18,2017-12-31,,rev_share_service_line:Application Services,45.3,pct,reported,data/raw/sec/wipro_datasheets/2018-04-30_0001193125-18-143305_d579125dex996.htm,table 0: Application Services
+Wipro,Q4FY17,2017-03-31,,rev_share_service_line:Analytics,6.9,pct,reported,data/raw/sec/wipro_datasheets/2018-04-30_0001193125-18-143305_d579125dex996.htm,table 0: Analytics
+Wipro,Q1FY18,2017-06-30,,rev_share_service_line:Analytics,7.1,pct,reported,data/raw/sec/wipro_datasheets/2018-04-30_0001193125-18-143305_d579125dex996.htm,table 0: Analytics
+Wipro,Q3FY18,2017-12-31,,rev_share_service_line:Analytics,7.0,pct,reported,data/raw/sec/wipro_datasheets/2018-04-30_0001193125-18-143305_d579125dex996.htm,table 0: Analytics
+Wipro,Q4FY18,2018-03-31,,rev_share_service_line:Analytics,7.0,pct,reported,data/raw/sec/wipro_datasheets/2018-04-30_0001193125-18-143305_d579125dex996.htm,table 0: Analytics
+Wipro,Q4FY17,2017-03-31,,revenue_it_usd_m,1954.6,USD_m,reported,data/raw/sec/wipro_datasheets/2018-04-30_0001193125-18-143305_d579125dex996.htm,table 0: IT Services Revenues ($MN)
+Wipro,Q4FY17,2017-03-31,,rev_share_region:APAC and Other Emerging Markets,10.8,pct,reported,data/raw/sec/wipro_datasheets/2018-04-30_0001193125-18-143305_d579125dex996.htm,table 0: APAC and Other Emerging Markets
+Wipro,Q2FY18,2017-09-30,,rev_share_service_line:Analytics,7.1,pct,reported,data/raw/sec/wipro_datasheets/2018-04-30_0001193125-18-143305_d579125dex996.htm,table 0: Analytics
+Wipro,Q4FY18,2018-03-31,,rev_share_service_line:Application Services,44.8,pct,reported,data/raw/sec/wipro_datasheets/2018-04-30_0001193125-18-143305_d579125dex996.htm,table 0: Application Services
+Wipro,Q4FY18,2018-03-31,,rev_share_service_line:Global Infrastructure Services,28.8,pct,reported,data/raw/sec/wipro_datasheets/2018-04-30_0001193125-18-143305_d579125dex996.htm,table 0: Global Infrastructure Services
+Wipro,Q4FY17,2017-03-31,,rev_share_service_line:Business Process Services,12.3,pct,reported,data/raw/sec/wipro_datasheets/2018-04-30_0001193125-18-143305_d579125dex996.htm,table 0: Business Process Services
+Wipro,Q4FY17,2017-03-31,,rev_share_region:Americas,54.9,pct,reported,data/raw/sec/wipro_datasheets/2018-04-30_0001193125-18-143305_d579125dex996.htm,table 0: Americas
+Wipro,Q4FY17,2017-03-31,,rev_share_service_line:Product Engineering,7.1,pct,reported,data/raw/sec/wipro_datasheets/2018-04-30_0001193125-18-143305_d579125dex996.htm,table 0: Product Engineering
+Wipro,Q3FY18,2017-12-31,,rev_share_service_line:Global Infrastructure Services,28.2,pct,reported,data/raw/sec/wipro_datasheets/2018-04-30_0001193125-18-143305_d579125dex996.htm,table 0: Global Infrastructure Services
+Wipro,Q2FY18,2017-09-30,,rev_share_service_line:Product Engineering,6.9,pct,reported,data/raw/sec/wipro_datasheets/2018-04-30_0001193125-18-143305_d579125dex996.htm,table 0: Product Engineering
+Wipro,Q3FY18,2017-12-31,,rev_share_service_line:Product Engineering,6.9,pct,reported,data/raw/sec/wipro_datasheets/2018-04-30_0001193125-18-143305_d579125dex996.htm,table 0: Product Engineering
+Wipro,Q4FY18,2018-03-31,,rev_share_service_line:Product Engineering,7.3,pct,reported,data/raw/sec/wipro_datasheets/2018-04-30_0001193125-18-143305_d579125dex996.htm,table 0: Product Engineering
+Wipro,Q4FY17,2017-03-31,,rev_share_service_line:Global Infrastructure Services,28.0,pct,reported,data/raw/sec/wipro_datasheets/2018-04-30_0001193125-18-143305_d579125dex996.htm,table 0: Global Infrastructure Services
+Wipro,Q1FY18,2017-06-30,,rev_share_service_line:Global Infrastructure Services,28.1,pct,reported,data/raw/sec/wipro_datasheets/2018-04-30_0001193125-18-143305_d579125dex996.htm,table 0: Global Infrastructure Services
+Wipro,Q2FY18,2017-09-30,,rev_share_service_line:Global Infrastructure Services,28.4,pct,reported,data/raw/sec/wipro_datasheets/2018-04-30_0001193125-18-143305_d579125dex996.htm,table 0: Global Infrastructure Services
+Wipro,Q1FY18,2017-06-30,,rev_share_service_line:Product Engineering,7.0,pct,reported,data/raw/sec/wipro_datasheets/2018-04-30_0001193125-18-143305_d579125dex996.htm,table 0: Product Engineering
+Wipro,Q1FY18,2017-06-30,,rev_share_service_line:Business Process Services,12.0,pct,reported,data/raw/sec/wipro_datasheets/2018-07-24_0001193125-18-224668_d550788dex996.htm,table 0: Business Process Services
+Wipro,Q2FY18,2017-09-30,,rev_share_service_line:Business Process Services,12.1,pct,reported,data/raw/sec/wipro_datasheets/2018-07-24_0001193125-18-224668_d550788dex996.htm,table 0: Business Process Services
+Wipro,Q4FY18,2018-03-31,,rev_share_service_line:Business Process Services,12.1,pct,reported,data/raw/sec/wipro_datasheets/2018-07-24_0001193125-18-224668_d550788dex996.htm,table 0: Business Process Services
+Wipro,Q1FY19,2018-06-30,,rev_share_service_line:Business Process Services,12.1,pct,reported,data/raw/sec/wipro_datasheets/2018-07-24_0001193125-18-224668_d550788dex996.htm,table 0: Business Process Services
+Wipro,Q3FY18,2017-12-31,,rev_share_service_line:Business Process Services,12.6,pct,reported,data/raw/sec/wipro_datasheets/2018-07-24_0001193125-18-224668_d550788dex996.htm,table 0: Business Process Services
+Wipro,Q1FY18,2017-06-30,,rev_share_service_line:Product Engineering Services,7.0,pct,reported,data/raw/sec/wipro_datasheets/2018-07-24_0001193125-18-224668_d550788dex996.htm,table 0: Product Engineering Services
+Wipro,Q3FY18,2017-12-31,,rev_share_service_line:Product Engineering Services,6.9,pct,reported,data/raw/sec/wipro_datasheets/2018-07-24_0001193125-18-224668_d550788dex996.htm,table 0: Product Engineering Services
+Wipro,Q4FY18,2018-03-31,,rev_share_service_line:Product Engineering Services,7.3,pct,reported,data/raw/sec/wipro_datasheets/2018-07-24_0001193125-18-224668_d550788dex996.htm,table 0: Product Engineering Services
+Wipro,Q1FY19,2018-06-30,,rev_share_service_line:Product Engineering Services,7.3,pct,reported,data/raw/sec/wipro_datasheets/2018-07-24_0001193125-18-224668_d550788dex996.htm,table 0: Product Engineering Services
+Wipro,Q2FY18,2017-09-30,,rev_share_service_line:Product Engineering Services,6.9,pct,reported,data/raw/sec/wipro_datasheets/2018-07-24_0001193125-18-224668_d550788dex996.htm,table 0: Product Engineering Services
+Wipro,Q1FY18,2017-06-30,,rev_share_region:India & Middle East business,10.4,pct,reported,data/raw/sec/wipro_datasheets/2018-10-29_0001193125-18-310621_d626910dex996.htm,table 0: India & Middle East business
+Wipro,Q2FY18,2017-09-30,,rev_share_region:India & Middle East business,9.9,pct,reported,data/raw/sec/wipro_datasheets/2018-10-29_0001193125-18-310621_d626910dex996.htm,table 0: India & Middle East business
+Wipro,Q3FY18,2017-12-31,,rev_share_region:India & Middle East business,10.0,pct,reported,data/raw/sec/wipro_datasheets/2018-10-29_0001193125-18-310621_d626910dex996.htm,table 0: India & Middle East business
+Wipro,Q4FY18,2018-03-31,,rev_share_region:India & Middle East business,9.4,pct,reported,data/raw/sec/wipro_datasheets/2018-10-29_0001193125-18-310621_d626910dex996.htm,table 0: India & Middle East business
+Wipro,Q1FY19,2018-06-30,,rev_share_region:India & Middle East business,8.6,pct,reported,data/raw/sec/wipro_datasheets/2018-10-29_0001193125-18-310621_d626910dex996.htm,table 0: India & Middle East business
+Wipro,Q4FY18,2018-03-31,,utilization_gross,73.1,pct,reported,data/raw/sec/wipro_datasheets/2018-10-29_0001193125-18-310621_d626910dex996.htm,table 1: Gross Utilization
+Wipro,Q3FY18,2017-12-31,,attrition_bps_post_training_qtr,11.1,pct,reported,data/raw/sec/wipro_datasheets/2018-10-29_0001193125-18-310621_d626910dex996.htm,table 1: DO&P % - Post Training Quarterly
+Wipro,Q2FY18,2017-09-30,,utilization_gross,72.9,pct,reported,data/raw/sec/wipro_datasheets/2018-10-29_0001193125-18-310621_d626910dex996.htm,table 1: Gross Utilization
+Wipro,Q1FY18,2017-06-30,,attrition_bps_post_training_qtr,11.4,pct,reported,data/raw/sec/wipro_datasheets/2018-10-29_0001193125-18-310621_d626910dex996.htm,table 1: DO&P % - Post Training Quarterly
+Wipro,Q2FY18,2017-09-30,,attrition_bps_post_training_qtr,11.9,pct,reported,data/raw/sec/wipro_datasheets/2018-10-29_0001193125-18-310621_d626910dex996.htm,table 1: DO&P % - Post Training Quarterly
+Wipro,Q4FY18,2018-03-31,,attrition_bps_post_training_qtr,9.8,pct,reported,data/raw/sec/wipro_datasheets/2018-10-29_0001193125-18-310621_d626910dex996.htm,table 1: DO&P % - Post Training Quarterly
+Wipro,Q1FY18,2017-06-30,,attrition_ltm_it_voluntary,15.9,pct,reported,data/raw/sec/wipro_datasheets/2018-10-29_0001193125-18-310621_d626910dex996.htm,table 1: Voluntary TTM
+Wipro,Q2FY18,2017-09-30,,attrition_ltm_it_voluntary,15.7,pct,reported,data/raw/sec/wipro_datasheets/2018-10-29_0001193125-18-310621_d626910dex996.htm,table 1: Voluntary TTM
+Wipro,Q3FY18,2017-12-31,,attrition_ltm_it_voluntary,15.9,pct,reported,data/raw/sec/wipro_datasheets/2018-10-29_0001193125-18-310621_d626910dex996.htm,table 1: Voluntary TTM
+Wipro,Q4FY18,2018-03-31,,attrition_ltm_it_voluntary,16.6,pct,reported,data/raw/sec/wipro_datasheets/2018-10-29_0001193125-18-310621_d626910dex996.htm,table 1: Voluntary TTM
+Wipro,Q1FY18,2017-06-30,,utilization_excl_trainees,82.1,pct,reported,data/raw/sec/wipro_datasheets/2018-10-29_0001193125-18-310621_d626910dex996.htm,table 1: Net Utilization (Excluding Trainees)
+Wipro,Q2FY18,2017-09-30,,utilization_excl_trainees,82.5,pct,reported,data/raw/sec/wipro_datasheets/2018-10-29_0001193125-18-310621_d626910dex996.htm,table 1: Net Utilization (Excluding Trainees)
+Wipro,Q3FY18,2017-12-31,,utilization_excl_trainees,81.9,pct,reported,data/raw/sec/wipro_datasheets/2018-10-29_0001193125-18-310621_d626910dex996.htm,table 1: Net Utilization (Excluding Trainees)
+Wipro,Q4FY18,2018-03-31,,utilization_excl_trainees,83.4,pct,reported,data/raw/sec/wipro_datasheets/2018-10-29_0001193125-18-310621_d626910dex996.htm,table 1: Net Utilization (Excluding Trainees)
+Wipro,Q1FY18,2017-06-30,,utilization_gross,72.0,pct,reported,data/raw/sec/wipro_datasheets/2018-10-29_0001193125-18-310621_d626910dex996.htm,table 1: Gross Utilization
+Wipro,Q3FY18,2017-12-31,,utilization_gross,71.0,pct,reported,data/raw/sec/wipro_datasheets/2018-10-29_0001193125-18-310621_d626910dex996.htm,table 1: Gross Utilization
+Wipro,Q1FY18,2017-06-30,,rev_share_region:APAC and Other Emerging Markets,10.9,pct,reported,data/raw/sec/wipro_datasheets/2018-10-29_0001193125-18-310621_d626910dex996.htm,table 0: APAC and Other Emerging Markets
+Wipro,Q3FY18,2017-12-31,,rev_share_region:APAC and Other Emerging Markets,11.0,pct,reported,data/raw/sec/wipro_datasheets/2018-10-29_0001193125-18-310621_d626910dex996.htm,table 0: APAC and Other Emerging Markets
+Wipro,Q4FY18,2018-03-31,,rev_share_region:APAC and Other Emerging Markets,10.9,pct,reported,data/raw/sec/wipro_datasheets/2018-10-29_0001193125-18-310621_d626910dex996.htm,table 0: APAC and Other Emerging Markets
+Wipro,Q1FY19,2018-06-30,,rev_share_region:APAC and Other Emerging Markets,10.9,pct,reported,data/raw/sec/wipro_datasheets/2018-10-29_0001193125-18-310621_d626910dex996.htm,table 0: APAC and Other Emerging Markets
+Wipro,Q2FY18,2017-09-30,,rev_share_region:APAC and Other Emerging Markets,11.4,pct,reported,data/raw/sec/wipro_datasheets/2018-10-29_0001193125-18-310621_d626910dex996.htm,table 0: APAC and Other Emerging Markets
+Wipro,Q1FY18,2017-06-30,,rev_share_region:Americas,55.6,pct,reported,data/raw/sec/wipro_datasheets/2019-01-23_0001193125-19-014908_d686992dex996.htm,table 0: Americas
+Wipro,Q2FY18,2017-09-30,,rev_share_region:Americas,54.8,pct,reported,data/raw/sec/wipro_datasheets/2019-01-23_0001193125-19-014908_d686992dex996.htm,table 0: Americas
+Wipro,Q3FY18,2017-12-31,,rev_share_region:Americas,54.1,pct,reported,data/raw/sec/wipro_datasheets/2019-01-23_0001193125-19-014908_d686992dex996.htm,table 0: Americas
+Wipro,Q1FY18,2017-06-30,,rev_share_service_line:Industrial & Engineering Services,7.1,pct,reported,data/raw/sec/wipro_datasheets/2019-01-23_0001193125-19-014908_d686992dex996.htm,table 0: Industrial & Engineering Services
+Wipro,Q2FY18,2017-09-30,,rev_share_service_line:Industrial & Engineering Services,7.1,pct,reported,data/raw/sec/wipro_datasheets/2019-01-23_0001193125-19-014908_d686992dex996.htm,table 0: Industrial & Engineering Services
+Wipro,Q3FY18,2017-12-31,,rev_share_service_line:Industrial & Engineering Services,7.0,pct,reported,data/raw/sec/wipro_datasheets/2019-01-23_0001193125-19-014908_d686992dex996.htm,table 0: Industrial & Engineering Services
+Wipro,Q2FY18,2017-09-30,,rev_share_region:Europe,25.6,pct,reported,data/raw/sec/wipro_datasheets/2019-01-23_0001193125-19-014908_d686992dex996.htm,table 0: Europe
+Wipro,Q1FY18,2017-06-30,,headcount_total,161439.0,persons,reported,data/raw/sec/wipro_datasheets/2019-01-23_0001193125-19-014908_d686992dex996.htm,table 1: Closing Employee Count
+Wipro,Q2FY18,2017-09-30,,headcount_total,159300.0,persons,reported,data/raw/sec/wipro_datasheets/2019-01-23_0001193125-19-014908_d686992dex996.htm,table 1: Closing Employee Count
+Wipro,Q3FY18,2017-12-31,,headcount_total,158865.0,persons,reported,data/raw/sec/wipro_datasheets/2019-01-23_0001193125-19-014908_d686992dex996.htm,table 1: Closing Employee Count
+Wipro,Q3FY18,2017-12-31,,rev_share_region:Europe,26.5,pct,reported,data/raw/sec/wipro_datasheets/2019-01-23_0001193125-19-014908_d686992dex996.htm,table 0: Europe
+Wipro,Q2FY18,2017-09-30,,rev_share_region:Rest of the World,19.6,pct,reported,data/raw/sec/wipro_datasheets/2019-01-23_0001193125-19-014908_d686992dex996.htm,table 0: Rest of the World
+Wipro,Q3FY18,2017-12-31,,rev_share_region:Rest of the World,19.4,pct,reported,data/raw/sec/wipro_datasheets/2019-01-23_0001193125-19-014908_d686992dex996.htm,table 0: Rest of the World
+Wipro,Q1FY18,2017-06-30,,rev_share_region:Europe,24.7,pct,reported,data/raw/sec/wipro_datasheets/2019-01-23_0001193125-19-014908_d686992dex996.htm,table 0: Europe
+Wipro,Q1FY18,2017-06-30,,rev_share_region:Rest of the World,19.7,pct,reported,data/raw/sec/wipro_datasheets/2019-01-23_0001193125-19-014908_d686992dex996.htm,table 0: Rest of the World
+Wipro,Q2FY18,2017-09-30,,rev_share_service_line:Modern Application Services,46.1,pct,reported,data/raw/sec/wipro_datasheets/2019-01-23_0001193125-19-014908_d686992dex996.htm,table 0: Modern Application Services
+Wipro,Q1FY18,2017-06-30,,rev_share_service_line:Digital Operations and Platforms,12.3,pct,reported,data/raw/sec/wipro_datasheets/2019-01-23_0001193125-19-014908_d686992dex996.htm,table 0: Digital Operations and Platforms
+Wipro,Q2FY18,2017-09-30,,rev_share_service_line:Digital Operations and Platforms,12.4,pct,reported,data/raw/sec/wipro_datasheets/2019-01-23_0001193125-19-014908_d686992dex996.htm,table 0: Digital Operations and Platforms
+Wipro,Q3FY18,2017-12-31,,rev_share_service_line:Digital Operations and Platforms,12.9,pct,reported,data/raw/sec/wipro_datasheets/2019-01-23_0001193125-19-014908_d686992dex996.htm,table 0: Digital Operations and Platforms
+Wipro,Q1FY18,2017-06-30,,rev_share_service_line:Modern Application Services,46.1,pct,reported,data/raw/sec/wipro_datasheets/2019-01-23_0001193125-19-014908_d686992dex996.htm,table 0: Modern Application Services
+Wipro,Q1FY18,2017-06-30,,revenue_it_usd_m,1933.4,USD_m,reported,data/raw/sec/wipro_datasheets/2019-01-23_0001193125-19-014908_d686992dex996.htm,table 0: IT services Revenues ($Mn) Revised
+Wipro,Q3FY18,2017-12-31,,revenue_it_usd_m,1973.0,USD_m,reported,data/raw/sec/wipro_datasheets/2019-01-23_0001193125-19-014908_d686992dex996.htm,table 0: IT services Revenues ($Mn) Revised
+Wipro,Q2FY18,2017-09-30,,revenue_it_usd_m,1969.7,USD_m,reported,data/raw/sec/wipro_datasheets/2019-01-23_0001193125-19-014908_d686992dex996.htm,table 0: IT services Revenues ($Mn) Revised
+Wipro,Q3FY18,2017-12-31,,rev_share_service_line:Modern Application Services,45.7,pct,reported,data/raw/sec/wipro_datasheets/2019-01-23_0001193125-19-014908_d686992dex996.htm,table 0: Modern Application Services
+Wipro,Q1FY18,2017-06-30,,"rev_share_service_line:Data, Analytics and AI",7.3,pct,reported,data/raw/sec/wipro_datasheets/2019-01-23_0001193125-19-014908_d686992dex996.htm,"table 0: Data, Analytics and AI"
+Wipro,Q2FY18,2017-09-30,,"rev_share_service_line:Data, Analytics and AI",7.2,pct,reported,data/raw/sec/wipro_datasheets/2019-01-23_0001193125-19-014908_d686992dex996.htm,"table 0: Data, Analytics and AI"
+Wipro,Q1FY18,2017-06-30,,rev_share_service_line:Cloud and Infrastructure Services,27.2,pct,reported,data/raw/sec/wipro_datasheets/2019-01-23_0001193125-19-014908_d686992dex996.htm,table 0: Cloud and Infrastructure Services
+Wipro,Q2FY18,2017-09-30,,rev_share_service_line:Cloud and Infrastructure Services,27.2,pct,reported,data/raw/sec/wipro_datasheets/2019-01-23_0001193125-19-014908_d686992dex996.htm,table 0: Cloud and Infrastructure Services
+Wipro,Q3FY18,2017-12-31,,"rev_share_service_line:Data, Analytics and AI",7.1,pct,reported,data/raw/sec/wipro_datasheets/2019-01-23_0001193125-19-014908_d686992dex996.htm,"table 0: Data, Analytics and AI"
+Wipro,Q3FY18,2017-12-31,,rev_share_service_line:Cloud and Infrastructure Services,27.3,pct,reported,data/raw/sec/wipro_datasheets/2019-01-23_0001193125-19-014908_d686992dex996.htm,table 0: Cloud and Infrastructure Services
+Wipro,Q4FY18,2018-03-31,,rev_share_region:Americas,53.8,pct,reported,data/raw/sec/wipro_datasheets/2019-04-22_0001193125-19-113361_d712130dex996.htm,table 0: Americas
+Wipro,Q4FY18,2018-03-31,,rev_share_service_line:Industrial & Engineering Services,7.4,pct,reported,data/raw/sec/wipro_datasheets/2019-04-22_0001193125-19-113361_d712130dex996.htm,table 0: Industrial & Engineering Services
+Wipro,Q4FY18,2018-03-31,,rev_share_region:Europe,27.5,pct,reported,data/raw/sec/wipro_datasheets/2019-04-22_0001193125-19-113361_d712130dex996.htm,table 0: Europe
+Wipro,Q4FY18,2018-03-31,,rev_share_region:Rest of the World,18.7,pct,reported,data/raw/sec/wipro_datasheets/2019-04-22_0001193125-19-113361_d712130dex996.htm,table 0: Rest of the World
+Wipro,Q4FY18,2018-03-31,,headcount_total,159923.0,persons,reported,data/raw/sec/wipro_datasheets/2019-04-22_0001193125-19-113361_d712130dex996.htm,table 1: Closing Employee Count
+Wipro,Q4FY18,2018-03-31,,rev_share_service_line:Modern Application Services,45.5,pct,reported,data/raw/sec/wipro_datasheets/2019-04-22_0001193125-19-113361_d712130dex996.htm,table 0: Modern Application Services
+Wipro,Q4FY18,2018-03-31,,rev_share_service_line:Digital Operations and Platforms,12.4,pct,reported,data/raw/sec/wipro_datasheets/2019-04-22_0001193125-19-113361_d712130dex996.htm,table 0: Digital Operations and Platforms
+Wipro,Q4FY18,2018-03-31,,revenue_it_usd_m,2019.1,USD_m,reported,data/raw/sec/wipro_datasheets/2019-04-22_0001193125-19-113361_d712130dex996.htm,table 0: IT services Revenues ($Mn)
+Wipro,Q4FY18,2018-03-31,,"rev_share_service_line:Data, Analytics and AI",7.1,pct,reported,data/raw/sec/wipro_datasheets/2019-04-22_0001193125-19-113361_d712130dex996.htm,"table 0: Data, Analytics and AI"
+Wipro,Q4FY18,2018-03-31,,rev_share_service_line:Cloud and Infrastructure Services,27.6,pct,reported,data/raw/sec/wipro_datasheets/2019-04-22_0001193125-19-113361_d712130dex996.htm,table 0: Cloud and Infrastructure Services
+Wipro,Q3FY19,2018-12-31,,headcount_total,172379.0,persons,reported,data/raw/sec/wipro_datasheets/2020-01-17_0001193125-20-010021_d553426dex996.htm,table 1: Closing Employee Count
+Wipro,Q1FY19,2018-06-30,,headcount_total,160846.0,persons,reported,data/raw/sec/wipro_datasheets/2020-01-17_0001193125-20-010021_d553426dex996.htm,table 1: Closing Employee Count
+Wipro,Q2FY19,2018-09-30,,headcount_total,171451.0,persons,reported,data/raw/sec/wipro_datasheets/2020-01-17_0001193125-20-010021_d553426dex996.htm,table 1: Closing Employee Count
+Wipro,Q1FY19,2018-06-30,,rev_share_region:Rest of the World,17.9,pct,reported,data/raw/sec/wipro_datasheets/2020-01-17_0001193125-20-010021_d553426dex996.htm,table 0: Rest of the World
+Wipro,Q3FY19,2018-12-31,,rev_share_region:Europe,25.5,pct,reported,data/raw/sec/wipro_datasheets/2020-01-17_0001193125-20-010021_d553426dex996.htm,table 0: Europe
+Wipro,Q3FY19,2018-12-31,,rev_share_region:Rest of the World,17.4,pct,reported,data/raw/sec/wipro_datasheets/2020-01-17_0001193125-20-010021_d553426dex996.htm,table 0: Rest of the World
+Wipro,Q1FY19,2018-06-30,,rev_share_region:Europe,26.1,pct,reported,data/raw/sec/wipro_datasheets/2020-01-17_0001193125-20-010021_d553426dex996.htm,table 0: Europe
+Wipro,Q2FY19,2018-09-30,,rev_share_region:Europe,25.7,pct,reported,data/raw/sec/wipro_datasheets/2020-01-17_0001193125-20-010021_d553426dex996.htm,table 0: Europe
+Wipro,Q2FY19,2018-09-30,,rev_share_region:Rest of the World,18.2,pct,reported,data/raw/sec/wipro_datasheets/2020-01-17_0001193125-20-010021_d553426dex996.htm,table 0: Rest of the World
+Wipro,Q2FY19,2018-09-30,,utilization_gross,74.4,pct,reported,data/raw/sec/wipro_datasheets/2020-01-17_0001193125-20-010021_d553426dex996.htm,table 1: Gross Utilization
+Wipro,Q1FY19,2018-06-30,,attrition_bps_post_training_qtr,9.5,pct,reported,data/raw/sec/wipro_datasheets/2020-01-17_0001193125-20-010021_d553426dex996.htm,table 1: DOP % - Post Training Quarterly
+Wipro,Q2FY19,2018-09-30,,attrition_bps_post_training_qtr,11.2,pct,reported,data/raw/sec/wipro_datasheets/2020-01-17_0001193125-20-010021_d553426dex996.htm,table 1: DOP % - Post Training Quarterly
+Wipro,Q3FY19,2018-12-31,,attrition_bps_post_training_qtr,9.4,pct,reported,data/raw/sec/wipro_datasheets/2020-01-17_0001193125-20-010021_d553426dex996.htm,table 1: DOP % - Post Training Quarterly
+Wipro,Q1FY19,2018-06-30,,attrition_ltm_it_voluntary,17.1,pct,reported,data/raw/sec/wipro_datasheets/2020-01-17_0001193125-20-010021_d553426dex996.htm,table 1: Voluntary TTM
+Wipro,Q2FY19,2018-09-30,,attrition_ltm_it_voluntary,17.5,pct,reported,data/raw/sec/wipro_datasheets/2020-01-17_0001193125-20-010021_d553426dex996.htm,table 1: Voluntary TTM
+Wipro,Q3FY19,2018-12-31,,attrition_ltm_it_voluntary,17.9,pct,reported,data/raw/sec/wipro_datasheets/2020-01-17_0001193125-20-010021_d553426dex996.htm,table 1: Voluntary TTM
+Wipro,Q1FY19,2018-06-30,,utilization_excl_trainees,85.2,pct,reported,data/raw/sec/wipro_datasheets/2020-01-17_0001193125-20-010021_d553426dex996.htm,table 1: Net Utilization (Excluding Trainees)
+Wipro,Q2FY19,2018-09-30,,utilization_excl_trainees,85.5,pct,reported,data/raw/sec/wipro_datasheets/2020-01-17_0001193125-20-010021_d553426dex996.htm,table 1: Net Utilization (Excluding Trainees)
+Wipro,Q3FY19,2018-12-31,,utilization_excl_trainees,83.2,pct,reported,data/raw/sec/wipro_datasheets/2020-01-17_0001193125-20-010021_d553426dex996.htm,table 1: Net Utilization (Excluding Trainees)
+Wipro,Q1FY19,2018-06-30,,utilization_gross,74.5,pct,reported,data/raw/sec/wipro_datasheets/2020-01-17_0001193125-20-010021_d553426dex996.htm,table 1: Gross Utilization
+Wipro,Q3FY19,2018-12-31,,utilization_gross,73.4,pct,reported,data/raw/sec/wipro_datasheets/2020-01-17_0001193125-20-010021_d553426dex996.htm,table 1: Gross Utilization
+Wipro,Q2FY19,2018-09-30,,rev_share_region:Americas,56.1,pct,reported,data/raw/sec/wipro_datasheets/2020-01-17_0001193125-20-010021_d553426dex996.htm,table 0: Americas
+Wipro,Q1FY19,2018-06-30,,rev_share_service_line:Cloud and Infrastructure Services,26.3,pct,reported,data/raw/sec/wipro_datasheets/2020-01-17_0001193125-20-010021_d553426dex996.htm,table 0: Cloud and Infrastructure Services
+Wipro,Q2FY19,2018-09-30,,rev_share_service_line:Cloud and Infrastructure Services,25.6,pct,reported,data/raw/sec/wipro_datasheets/2020-01-17_0001193125-20-010021_d553426dex996.htm,table 0: Cloud and Infrastructure Services
+Wipro,Q3FY19,2018-12-31,,rev_share_service_line:Cloud and Infrastructure Services,25.0,pct,reported,data/raw/sec/wipro_datasheets/2020-01-17_0001193125-20-010021_d553426dex996.htm,table 0: Cloud and Infrastructure Services
+Wipro,Q1FY19,2018-06-30,,rev_share_service_line:Digital Operations and Platforms,12.4,pct,reported,data/raw/sec/wipro_datasheets/2020-01-17_0001193125-20-010021_d553426dex996.htm,table 0: Digital Operations and Platforms
+Wipro,Q2FY19,2018-09-30,,rev_share_service_line:Digital Operations and Platforms,12.9,pct,reported,data/raw/sec/wipro_datasheets/2020-01-17_0001193125-20-010021_d553426dex996.htm,table 0: Digital Operations and Platforms
+Wipro,Q3FY19,2018-12-31,,rev_share_service_line:Digital Operations and Platforms,14.7,pct,reported,data/raw/sec/wipro_datasheets/2020-01-17_0001193125-20-010021_d553426dex996.htm,table 0: Digital Operations and Platforms
+Wipro,Q2FY19,2018-09-30,,revenue_it_usd_m,2009.5,USD_m,reported,data/raw/sec/wipro_datasheets/2020-01-17_0001193125-20-010021_d553426dex996.htm,table 0: IT services Revenues ($Mn)
+Wipro,Q3FY19,2018-12-31,,revenue_it_usd_m,2046.5,USD_m,reported,data/raw/sec/wipro_datasheets/2020-01-17_0001193125-20-010021_d553426dex996.htm,table 0: IT services Revenues ($Mn)
+Wipro,Q1FY19,2018-06-30,,rev_share_region:Americas,56.0,pct,reported,data/raw/sec/wipro_datasheets/2020-01-17_0001193125-20-010021_d553426dex996.htm,table 0: Americas
+Wipro,Q1FY19,2018-06-30,,revenue_it_usd_m,1988.8,USD_m,reported,data/raw/sec/wipro_datasheets/2020-01-17_0001193125-20-010021_d553426dex996.htm,table 0: IT services Revenues ($Mn)
+Wipro,Q3FY19,2018-12-31,,rev_share_region:Americas,57.1,pct,reported,data/raw/sec/wipro_datasheets/2020-01-17_0001193125-20-010021_d553426dex996.htm,table 0: Americas
+Wipro,Q1FY19,2018-06-30,,rev_share_service_line:Industrial & Engineering Services,7.7,pct,reported,data/raw/sec/wipro_datasheets/2020-01-17_0001193125-20-010021_d553426dex996.htm,table 0: Industrial & Engineering Services
+Wipro,Q2FY19,2018-09-30,,rev_share_service_line:Industrial & Engineering Services,7.7,pct,reported,data/raw/sec/wipro_datasheets/2020-01-17_0001193125-20-010021_d553426dex996.htm,table 0: Industrial & Engineering Services
+Wipro,Q3FY19,2018-12-31,,rev_share_service_line:Industrial & Engineering Services,7.5,pct,reported,data/raw/sec/wipro_datasheets/2020-01-17_0001193125-20-010021_d553426dex996.htm,table 0: Industrial & Engineering Services
+Wipro,Q1FY19,2018-06-30,,rev_share_service_line:Modern Application Services,46.7,pct,reported,data/raw/sec/wipro_datasheets/2020-01-17_0001193125-20-010021_d553426dex996.htm,table 0: Modern Application Services
+Wipro,Q2FY19,2018-09-30,,"rev_share_service_line:Data, Analytics and AI",7.5,pct,reported,data/raw/sec/wipro_datasheets/2020-01-17_0001193125-20-010021_d553426dex996.htm,"table 0: Data, Analytics and AI"
+Wipro,Q1FY19,2018-06-30,,"rev_share_service_line:Data, Analytics and AI",6.9,pct,reported,data/raw/sec/wipro_datasheets/2020-01-17_0001193125-20-010021_d553426dex996.htm,"table 0: Data, Analytics and AI"
+Wipro,Q3FY19,2018-12-31,,"rev_share_service_line:Data, Analytics and AI",7.2,pct,reported,data/raw/sec/wipro_datasheets/2020-01-17_0001193125-20-010021_d553426dex996.htm,"table 0: Data, Analytics and AI"
+Wipro,Q3FY19,2018-12-31,,rev_share_service_line:Modern Application Services,45.6,pct,reported,data/raw/sec/wipro_datasheets/2020-01-17_0001193125-20-010021_d553426dex996.htm,table 0: Modern Application Services
+Wipro,Q2FY19,2018-09-30,,rev_share_service_line:Modern Application Services,46.3,pct,reported,data/raw/sec/wipro_datasheets/2020-01-17_0001193125-20-010021_d553426dex996.htm,table 0: Modern Application Services
+Wipro,Q4FY19,2019-03-31,,headcount_total,171425.0,persons,reported,data/raw/sec/wipro_datasheets/2020-04-21_0001193125-20-113505_d919143dex996.htm,table 1: Closing Employee Count
+Wipro,Q4FY19,2019-03-31,,rev_share_region:Rest of the World,17.2,pct,reported,data/raw/sec/wipro_datasheets/2020-04-21_0001193125-20-113505_d919143dex996.htm,table 0: Rest of the World
+Wipro,Q4FY19,2019-03-31,,rev_share_region:Europe,24.6,pct,reported,data/raw/sec/wipro_datasheets/2020-04-21_0001193125-20-113505_d919143dex996.htm,table 0: Europe
+Wipro,Q4FY19,2019-03-31,,utilization_gross,75.4,pct,reported,data/raw/sec/wipro_datasheets/2020-04-21_0001193125-20-113505_d919143dex996.htm,table 1: Gross Utilization
+Wipro,Q4FY19,2019-03-31,,attrition_bps_post_training_qtr,10.8,pct,reported,data/raw/sec/wipro_datasheets/2020-04-21_0001193125-20-113505_d919143dex996.htm,table 1: DOP % - Post Training Quarterly
+Wipro,Q4FY19,2019-03-31,,attrition_ltm_it_voluntary,17.6,pct,reported,data/raw/sec/wipro_datasheets/2020-04-21_0001193125-20-113505_d919143dex996.htm,table 1: Voluntary TTM
+Wipro,Q4FY19,2019-03-31,,utilization_excl_trainees,85.4,pct,reported,data/raw/sec/wipro_datasheets/2020-04-21_0001193125-20-113505_d919143dex996.htm,table 1: Net Utilization (Excluding Trainees)
+Wipro,Q4FY19,2019-03-31,,rev_share_service_line:Digital Operations and Platforms,14.9,pct,reported,data/raw/sec/wipro_datasheets/2020-04-21_0001193125-20-113505_d919143dex996.htm,table 0: Digital Operations and Platforms
+Wipro,Q4FY19,2019-03-31,,rev_share_service_line:Cloud and Infrastructure Services,25.2,pct,reported,data/raw/sec/wipro_datasheets/2020-04-21_0001193125-20-113505_d919143dex996.htm,table 0: Cloud and Infrastructure Services
+Wipro,Q4FY19,2019-03-31,,revenue_it_usd_m,2075.5,USD_m,reported,data/raw/sec/wipro_datasheets/2020-04-21_0001193125-20-113505_d919143dex996.htm,table 0: IT services Revenues ($Mn)
+Wipro,Q4FY19,2019-03-31,,rev_share_region:Americas,58.2,pct,reported,data/raw/sec/wipro_datasheets/2020-04-21_0001193125-20-113505_d919143dex996.htm,table 0: Americas
+Wipro,Q4FY19,2019-03-31,,rev_share_service_line:Industrial & Engineering Services,7.6,pct,reported,data/raw/sec/wipro_datasheets/2020-04-21_0001193125-20-113505_d919143dex996.htm,table 0: Industrial & Engineering Services
+Wipro,Q1FY20,2019-06-30,,rev_share_service_line:Modern Application Services,44.6,pct,reported,data/raw/sec/wipro_datasheets/2020-04-21_0001193125-20-113505_d919143dex996.htm,table 0: Modern Application Services
+Wipro,Q2FY20,2019-09-30,,rev_share_service_line:Modern Application Services,44.8,pct,reported,data/raw/sec/wipro_datasheets/2020-04-21_0001193125-20-113505_d919143dex996.htm,table 0: Modern Application Services
+Wipro,Q3FY20,2019-12-31,,rev_share_service_line:Modern Application Services,44.2,pct,reported,data/raw/sec/wipro_datasheets/2020-04-21_0001193125-20-113505_d919143dex996.htm,table 0: Modern Application Services
+Wipro,Q4FY20,2020-03-31,,rev_share_service_line:Modern Application Services,44.7,pct,reported,data/raw/sec/wipro_datasheets/2020-04-21_0001193125-20-113505_d919143dex996.htm,table 0: Modern Application Services
+Wipro,Q4FY19,2019-03-31,,"rev_share_service_line:Data, Analytics and AI",7.2,pct,reported,data/raw/sec/wipro_datasheets/2020-04-21_0001193125-20-113505_d919143dex996.htm,"table 0: Data, Analytics and AI"
+Wipro,Q4FY19,2019-03-31,,rev_share_service_line:Modern Application Services,45.1,pct,reported,data/raw/sec/wipro_datasheets/2020-04-21_0001193125-20-113505_d919143dex996.htm,table 0: Modern Application Services
+Wipro,Q4FY20,2020-03-31,,utilization_gross,73.4,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 1: Gross Utilization
+Wipro,Q1FY21,2020-06-30,,utilization_gross,75.0,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 1: Gross Utilization
+Wipro,Q1FY20,2019-06-30,,headcount_total,174850.0,persons,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 1: Closing Employee Count
+Wipro,Q2FY20,2019-09-30,,headcount_total,181453.0,persons,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 1: Closing Employee Count
+Wipro,Q3FY20,2019-12-31,,headcount_total,187318.0,persons,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 1: Closing Employee Count
+Wipro,Q4FY20,2020-03-31,,headcount_total,182886.0,persons,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 1: Closing Employee Count
+Wipro,Q1FY21,2020-06-30,,headcount_total,181804.0,persons,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 1: Closing Employee Count
+Wipro,Q3FY20,2019-12-31,,rev_share_region:Rest of the World,17.1,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 0: Rest of the World
+Wipro,Q2FY20,2019-09-30,,rev_share_region:Rest of the World,16.9,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 0: Rest of the World
+Wipro,Q1FY21,2020-06-30,,rev_share_region:Rest of the World,17.3,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 0: Rest of the World
+Wipro,Q1FY20,2019-06-30,,rev_share_region:Europe,24.6,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 0: Europe
+Wipro,Q2FY20,2019-09-30,,rev_share_region:Europe,23.5,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 0: Europe
+Wipro,Q3FY20,2019-12-31,,rev_share_region:Europe,23.7,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 0: Europe
+Wipro,Q3FY20,2019-12-31,,utilization_gross,70.2,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 1: Gross Utilization
+Wipro,Q1FY20,2019-06-30,,rev_share_region:Rest of the World,16.7,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 0: Rest of the World
+Wipro,Q2FY20,2019-09-30,,utilization_gross,71.4,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 1: Gross Utilization
+Wipro,Q4FY20,2020-03-31,,rev_share_region:Europe,24.1,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 0: Europe
+Wipro,Q1FY21,2020-06-30,,utilization_excl_trainees,84.5,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 1: Net Utilization (Excluding Trainees)
+Wipro,Q1FY20,2019-06-30,,attrition_bps_post_training_qtr,10.0,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 1: DOP % - Post Training Quarterly
+Wipro,Q2FY20,2019-09-30,,attrition_bps_post_training_qtr,9.9,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 1: DOP % - Post Training Quarterly
+Wipro,Q3FY20,2019-12-31,,attrition_bps_post_training_qtr,9.6,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 1: DOP % - Post Training Quarterly
+Wipro,Q4FY20,2020-03-31,,attrition_bps_post_training_qtr,10.8,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 1: DOP % - Post Training Quarterly
+Wipro,Q1FY21,2020-06-30,,attrition_bps_post_training_qtr,4.4,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 1: DOP % - Post Training Quarterly
+Wipro,Q1FY20,2019-06-30,,attrition_ltm_it_voluntary,17.6,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 1: Voluntary TTM
+Wipro,Q1FY20,2019-06-30,,utilization_gross,73.9,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 1: Gross Utilization
+Wipro,Q2FY20,2019-09-30,,attrition_ltm_it_voluntary,17.0,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 1: Voluntary TTM
+Wipro,Q4FY20,2020-03-31,,attrition_ltm_it_voluntary,14.7,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 1: Voluntary TTM
+Wipro,Q1FY21,2020-06-30,,attrition_ltm_it_voluntary,13.0,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 1: Voluntary TTM
+Wipro,Q1FY20,2019-06-30,,utilization_excl_trainees,85.0,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 1: Net Utilization (Excluding Trainees)
+Wipro,Q2FY20,2019-09-30,,utilization_excl_trainees,82.1,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 1: Net Utilization (Excluding Trainees)
+Wipro,Q3FY20,2019-12-31,,utilization_excl_trainees,79.6,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 1: Net Utilization (Excluding Trainees)
+Wipro,Q4FY20,2020-03-31,,utilization_excl_trainees,82.6,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 1: Net Utilization (Excluding Trainees)
+Wipro,Q3FY20,2019-12-31,,attrition_ltm_it_voluntary,15.7,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 1: Voluntary TTM
+Wipro,Q1FY21,2020-06-30,,rev_share_region:Europe,23.7,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 0: Europe
+Wipro,Q4FY20,2020-03-31,,rev_share_region:Rest of the World,16.8,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 0: Rest of the World
+Wipro,Q2FY20,2019-09-30,,rev_share_region:Americas,59.6,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 0: Americas
+Wipro,Q3FY20,2019-12-31,,rev_share_service_line:Cloud and Infrastructure Services,25.8,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 0: Cloud and Infrastructure Services
+Wipro,Q4FY20,2020-03-31,,rev_share_service_line:Cloud and Infrastructure Services,25.8,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 0: Cloud and Infrastructure Services
+Wipro,Q1FY21,2020-06-30,,rev_share_service_line:Cloud and Infrastructure Services,25.9,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 0: Cloud and Infrastructure Services
+Wipro,Q1FY20,2019-06-30,,rev_share_service_line:Digital Operations and Platforms,14.7,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 0: Digital Operations and Platforms
+Wipro,Q2FY20,2019-09-30,,rev_share_service_line:Digital Operations and Platforms,14.7,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 0: Digital Operations and Platforms
+Wipro,Q1FY20,2019-06-30,,rev_share_service_line:Cloud and Infrastructure Services,25.7,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 0: Cloud and Infrastructure Services
+Wipro,Q3FY20,2019-12-31,,rev_share_service_line:Digital Operations and Platforms,15.3,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 0: Digital Operations and Platforms
+Wipro,Q1FY21,2020-06-30,,rev_share_service_line:Digital Operations and Platforms,14.8,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 0: Digital Operations and Platforms
+Wipro,Q4FY20,2020-03-31,,rev_share_service_line:Digital Operations and Platforms,14.6,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 0: Digital Operations and Platforms
+Wipro,Q1FY21,2020-06-30,,"rev_share_service_line:Data, Analytics and AI",7.2,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,"table 0: Data, Analytics and AI"
+Wipro,Q4FY20,2020-03-31,,"rev_share_service_line:Data, Analytics and AI",7.2,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,"table 0: Data, Analytics and AI"
+Wipro,Q4FY20,2020-03-31,,rev_share_service_line:Industrial & Engineering Services,7.7,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 0: Industrial & Engineering Services
+Wipro,Q1FY21,2020-06-30,,rev_share_region:Americas,59.0,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 0: Americas
+Wipro,Q1FY20,2019-06-30,,rev_share_service_line:Industrial & Engineering Services,7.6,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 0: Industrial & Engineering Services
+Wipro,Q2FY20,2019-09-30,,rev_share_service_line:Industrial & Engineering Services,7.5,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 0: Industrial & Engineering Services
+Wipro,Q1FY20,2019-06-30,,rev_share_region:Americas,58.7,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 0: Americas
+Wipro,Q3FY20,2019-12-31,,rev_share_service_line:Industrial & Engineering Services,7.5,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 0: Industrial & Engineering Services
+Wipro,Q3FY20,2019-12-31,,"rev_share_service_line:Data, Analytics and AI",7.2,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,"table 0: Data, Analytics and AI"
+Wipro,Q4FY20,2020-03-31,,rev_share_region:Americas,59.1,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 0: Americas
+Wipro,Q1FY21,2020-06-30,,rev_share_service_line:Industrial & Engineering Services,7.7,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 0: Industrial & Engineering Services
+Wipro,Q2FY20,2019-09-30,,rev_share_service_line:Application Services,44.8,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 0: Application Services
+Wipro,Q3FY20,2019-12-31,,rev_share_service_line:Application Services,44.2,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 0: Application Services
+Wipro,Q4FY20,2020-03-31,,rev_share_service_line:Application Services,44.7,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 0: Application Services
+Wipro,Q1FY21,2020-06-30,,rev_share_service_line:Application Services,44.4,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 0: Application Services
+Wipro,Q1FY20,2019-06-30,,"rev_share_service_line:Data, Analytics and AI",7.4,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,"table 0: Data, Analytics and AI"
+Wipro,Q2FY20,2019-09-30,,"rev_share_service_line:Data, Analytics and AI",7.3,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,"table 0: Data, Analytics and AI"
+Wipro,Q1FY20,2019-06-30,,rev_share_service_line:Application Services,44.6,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 0: Application Services
+Wipro,Q3FY20,2019-12-31,,rev_share_region:Americas,59.2,pct,reported,data/raw/sec/wipro_datasheets/2020-07-22_0001193125-20-197105_d48804dex996.htm,table 0: Americas
+Wipro,Q1FY20,2019-06-30,,revenue_it_usd_m,2038.8,USD_m,reported,data/raw/sec/wipro_datasheets/2020-10-21_0001193125-20-273638_d690360dex996.htm,table 1: IT services Revenues ($Mn)
+Wipro,Q2FY20,2019-09-30,,rev_share_service_line:Cloud and Infrastructure Services,25.87,pct,reported,data/raw/sec/wipro_datasheets/2020-10-21_0001193125-20-273638_d690360dex996.htm,table 1: Cloud and Infrastructure Services
+Wipro,Q2FY20,2019-09-30,,revenue_it_usd_m,2094.8,USD_m,reported,data/raw/sec/wipro_datasheets/2020-10-21_0001193125-20-273638_d690360dex996.htm,table 1: IT services Revenues ($Mn)
+Wipro,Q3FY20,2019-12-31,,revenue_it_usd_m,2094.8,USD_m,reported,data/raw/sec/wipro_datasheets/2020-10-21_0001193125-20-273638_d690360dex996.htm,table 1: IT services Revenues ($Mn)
+Wipro,Q4FY20,2020-03-31,,revenue_it_usd_m,2073.7,USD_m,reported,data/raw/sec/wipro_datasheets/2020-10-21_0001193125-20-273638_d690360dex996.htm,table 1: IT services Revenues ($Mn)
+Wipro,Q1FY21,2020-06-30,,revenue_it_usd_m,1921.6,USD_m,reported,data/raw/sec/wipro_datasheets/2020-10-21_0001193125-20-273638_d690360dex996.htm,table 1: IT services Revenues ($Mn)
+Wipro,Q2FY21,2020-09-30,,revenue_it_usd_m,1992.4,USD_m,reported,data/raw/sec/wipro_datasheets/2020-10-21_0001193125-20-273638_d690360dex996.htm,table 1: IT services Revenues ($Mn)
+Wipro,Q3FY22,2021-12-31,,rev_share_region:Americas 1,28.2,pct,reported,data/raw/wipro/datasheet-q3fy23.pdf,p2: Americas_One 29.4% 29.2% 29.1% 27.9% 28.3% 28.2% 27.5% 27.6%
+Wipro,Q1FY22,2021-06-30,,revenue_it_usd_m,2414.5,USD_m,reported,data/raw/wipro/datasheet-q3fy23.pdf,"p2: IT Services Revenues ($Mn) 2,803.5 2,797.7 2,735.5 10,355.9 2,721.7 2,639.7 2,58"
+Wipro,Q2FY22,2021-09-30,,revenue_it_usd_m,2580.0,USD_m,reported,data/raw/wipro/datasheet-q3fy23.pdf,"p2: IT Services Revenues ($Mn) 2,803.5 2,797.7 2,735.5 10,355.9 2,721.7 2,639.7 2,58"
+Wipro,Q3FY22,2021-12-31,,revenue_it_usd_m,2639.7,USD_m,reported,data/raw/wipro/datasheet-q3fy23.pdf,"p2: IT Services Revenues ($Mn) 2,803.5 2,797.7 2,735.5 10,355.9 2,721.7 2,639.7 2,58"
+Wipro,Q3FY22,2021-12-31,,rev_share_region:APMEA,11.7,pct,reported,data/raw/wipro/datasheet-q3fy23.pdf,p2: APMEA 11.0% 11.4% 11.3% 11.6% 11.4% 11.7% 11.7% 11.7%
+Wipro,Q2FY22,2021-09-30,,rev_share_region:Americas 1,27.5,pct,reported,data/raw/wipro/datasheet-q3fy23.pdf,p2: Americas_One 29.4% 29.2% 29.1% 27.9% 28.3% 28.2% 27.5% 27.6%
+Wipro,Q1FY22,2021-06-30,,rev_share_region:Americas 1,27.6,pct,reported,data/raw/wipro/datasheet-q3fy23.pdf,p2: Americas_One 29.4% 29.2% 29.1% 27.9% 28.3% 28.2% 27.5% 27.6%
+Wipro,Q2FY22,2021-09-30,,rev_share_region:APMEA,11.7,pct,reported,data/raw/wipro/datasheet-q3fy23.pdf,p2: APMEA 11.0% 11.4% 11.3% 11.6% 11.4% 11.7% 11.7% 11.7%
+Wipro,Q1FY22,2021-06-30,,rev_share_region:Europe,30.2,pct,reported,data/raw/wipro/datasheet-q3fy23.pdf,p2: Europe 28.8% 28.1% 28.3% 29.9% 29.3% 29.7% 30.2% 30.2%
+Wipro,Q2FY22,2021-09-30,,rev_share_region:Europe,30.2,pct,reported,data/raw/wipro/datasheet-q3fy23.pdf,p2: Europe 28.8% 28.1% 28.3% 29.9% 29.3% 29.7% 30.2% 30.2%
+Wipro,Q3FY22,2021-12-31,,rev_share_region:Europe,29.7,pct,reported,data/raw/wipro/datasheet-q3fy23.pdf,p2: Europe 28.8% 28.1% 28.3% 29.9% 29.3% 29.7% 30.2% 30.2%
+Wipro,Q1FY22,2021-06-30,,rev_share_region:Americas 2,30.5,pct,reported,data/raw/wipro/datasheet-q3fy23.pdf,p2: Americas_Two 30.8% 31.3% 31.3% 30.6% 31.0% 30.4% 30.6% 30.5%
+Wipro,Q2FY22,2021-09-30,,rev_share_region:Americas 2,30.6,pct,reported,data/raw/wipro/datasheet-q3fy23.pdf,p2: Americas_Two 30.8% 31.3% 31.3% 30.6% 31.0% 30.4% 30.6% 30.5%
+Wipro,Q3FY22,2021-12-31,,rev_share_region:Americas 2,30.4,pct,reported,data/raw/wipro/datasheet-q3fy23.pdf,p2: Americas_Two 30.8% 31.3% 31.3% 30.6% 31.0% 30.4% 30.6% 30.5%
+Wipro,Q1FY22,2021-06-30,,rev_share_region:APMEA,11.7,pct,reported,data/raw/wipro/datasheet-q3fy23.pdf,p2: APMEA 11.0% 11.4% 11.3% 11.6% 11.4% 11.7% 11.7% 11.7%
+Wipro,Q3FY22,2021-12-31,,utilization_excl_trainees,85.8,pct,reported,data/raw/wipro/datasheet-q3fy23.pdf,p3: Net Utilization (Excluding Trainees) 79.7% 79.8% 83.8% 86.8% 85.2% 85.8% 89.2% 8
+Wipro,Q2FY22,2021-09-30,,utilization_excl_trainees,89.2,pct,reported,data/raw/wipro/datasheet-q3fy23.pdf,p3: Net Utilization (Excluding Trainees) 79.7% 79.8% 83.8% 86.8% 85.2% 85.8% 89.2% 8
+Wipro,Q1FY22,2021-06-30,,utilization_excl_trainees,86.8,pct,reported,data/raw/wipro/datasheet-q3fy23.pdf,p3: Net Utilization (Excluding Trainees) 79.7% 79.8% 83.8% 86.8% 85.2% 85.8% 89.2% 8
+Wipro,Q2FY22,2021-09-30,,attrition_ltm_it_voluntary,20.5,pct,reported,data/raw/wipro/datasheet-q3fy23.pdf,p3: Voluntary TTM (IT Services excl. DOP) 21.2% 23.0% 23.3% 23.8% 23.8% 22.7% 20.5% 
+Wipro,Q1FY22,2021-06-30,,attrition_ltm_it_voluntary,15.5,pct,reported,data/raw/wipro/datasheet-q3fy23.pdf,p3: Voluntary TTM (IT Services excl. DOP) 21.2% 23.0% 23.3% 23.8% 23.8% 22.7% 20.5% 
+Wipro,Q3FY22,2021-12-31,,attrition_bps_post_training_qtr,10.0,pct,reported,data/raw/wipro/datasheet-q3fy23.pdf,p3: DOP % —Post Training Quarterly 8.7% 10.3% 11.4% 9.0% 9.0% 10.0% 8.7% 8.0%
+Wipro,Q2FY22,2021-09-30,,attrition_bps_post_training_qtr,8.7,pct,reported,data/raw/wipro/datasheet-q3fy23.pdf,p3: DOP % —Post Training Quarterly 8.7% 10.3% 11.4% 9.0% 9.0% 10.0% 8.7% 8.0%
+Wipro,Q1FY22,2021-06-30,,attrition_bps_post_training_qtr,8.0,pct,reported,data/raw/wipro/datasheet-q3fy23.pdf,p3: DOP % —Post Training Quarterly 8.7% 10.3% 11.4% 9.0% 9.0% 10.0% 8.7% 8.0%
+Wipro,Q3FY22,2021-12-31,,attrition_ltm_it_voluntary,22.7,pct,reported,data/raw/wipro/datasheet-q3fy23.pdf,p3: Voluntary TTM (IT Services excl. DOP) 21.2% 23.0% 23.3% 23.8% 23.8% 22.7% 20.5% 
+Wipro,Q3FY22,2021-12-31,,headcount_total,231671.0,persons,reported,data/raw/wipro/datasheet-q3fy23.pdf,"p3: Closing Employee Count 258,744 259,179 258,574 243,128 243,128 231,671 221,365 2"
+Wipro,Q2FY22,2021-09-30,,headcount_total,221365.0,persons,reported,data/raw/wipro/datasheet-q3fy23.pdf,"p3: Closing Employee Count 258,744 259,179 258,574 243,128 243,128 231,671 221,365 2"
+Wipro,Q1FY22,2021-06-30,,headcount_total,209890.0,persons,reported,data/raw/wipro/datasheet-q3fy23.pdf,"p3: Closing Employee Count 258,744 259,179 258,574 243,128 243,128 231,671 221,365 2"
+Wipro,Q3FY22,2021-12-31,,utilization_gross,75.6,pct,reported,data/raw/wipro/datasheet-q3fy23.pdf,p3: Gross Utilization 72.3% 72.3% 72.7% 76.8% 75.8% 75.6% 78.1% 77.7%
+Wipro,Q2FY22,2021-09-30,,utilization_gross,78.1,pct,reported,data/raw/wipro/datasheet-q3fy23.pdf,p3: Gross Utilization 72.3% 72.3% 72.7% 76.8% 75.8% 75.6% 78.1% 77.7%
+Wipro,Q1FY22,2021-06-30,,utilization_gross,77.7,pct,reported,data/raw/wipro/datasheet-q3fy23.pdf,p3: Gross Utilization 72.3% 72.3% 72.7% 76.8% 75.8% 75.6% 78.1% 77.7%
+Wipro,Q4FY22,2022-03-31,,rev_share_region:Americas 2,31.0,pct,reported,data/raw/wipro/datasheet-q4fy23.pdf,p3: Americas_Two 31.0% 30.7% 30.8% 31.3% 31.3% 30.6% 31.0%
+Wipro,Q4FY22,2022-03-31,,rev_share_region:APMEA,11.4,pct,reported,data/raw/wipro/datasheet-q4fy23.pdf,p3: APMEA 11.3% 11.2% 11.0% 11.4% 11.3% 11.6% 11.4%
+Wipro,Q4FY22,2022-03-31,,rev_share_region:Europe,29.3,pct,reported,data/raw/wipro/datasheet-q4fy23.pdf,p3: Europe 28.6% 29.3% 28.8% 28.1% 28.3% 29.9% 29.3%
+Wipro,Q4FY22,2022-03-31,,rev_share_region:Americas 1,28.3,pct,reported,data/raw/wipro/datasheet-q4fy23.pdf,p3: Americas_One 29.1% 28.8% 29.4% 29.2% 29.1% 27.9% 28.3%
+Wipro,Q4FY22,2022-03-31,,revenue_it_usd_m,2721.7,USD_m,reported,data/raw/wipro/datasheet-q4fy23.pdf,"p3: IT Services Revenues ($Mn) 11,159.7 2,823.0 2,803.5 2,797.7 2,735.5 10,355.9 2,7"
+Wipro,Q4FY22,2022-03-31,,headcount_total,243128.0,persons,reported,data/raw/wipro/datasheet-q4fy23.pdf,"p4: Closing Employee Count 256,921 256,921 258,744 259,179 258,574 243,128 243,128"
+Wipro,Q4FY22,2022-03-31,,attrition_bps_post_training_qtr,9.0,pct,reported,data/raw/wipro/datasheet-q4fy23.pdf,p4: DOP % —Post Training Quarterly 9.9% 9.0% 8.7% 10.3% 11.4% 9.0% 9.0%
+Wipro,Q4FY22,2022-03-31,,attrition_ltm_it_voluntary,23.8,pct,reported,data/raw/wipro/datasheet-q4fy23.pdf,p4: Voluntary TTM (IT Services excl. DOP) 19.2% 19.2% 21.2% 23.0% 23.3% 23.8% 23.8%
+Wipro,Q4FY22,2022-03-31,,utilization_gross,75.8,pct,reported,data/raw/wipro/datasheet-q4fy23.pdf,p4: Gross Utilization 72.8% 74.0% 72.3% 72.3% 72.7% 76.8% 75.8%
+Wipro,Q1FY23,2022-06-30,,utilization_gross,72.7,pct,reported,data/raw/wipro/datasheet-q4fy23.pdf,p4: Gross Utilization 72.8% 74.0% 72.3% 72.3% 72.7% 76.8% 75.8%
+Wipro,Q2FY23,2022-09-30,,utilization_gross,72.3,pct,reported,data/raw/wipro/datasheet-q4fy23.pdf,p4: Gross Utilization 72.8% 74.0% 72.3% 72.3% 72.7% 76.8% 75.8%
+Wipro,Q3FY23,2022-12-31,,utilization_gross,72.3,pct,reported,data/raw/wipro/datasheet-q4fy23.pdf,p4: Gross Utilization 72.8% 74.0% 72.3% 72.3% 72.7% 76.8% 75.8%
+Wipro,Q4FY22,2022-03-31,,utilization_excl_trainees,85.2,pct,reported,data/raw/wipro/datasheet-q4fy23.pdf,p4: Net Utilization (Excluding Trainees) 81.2% 81.7% 79.7% 79.8% 83.8% 86.8% 85.2%
+Wipro,Q4FY23,2023-03-31,,utilization_gross,74.0,pct,reported,data/raw/wipro/datasheet-q4fy23.pdf,p4: Gross Utilization 72.8% 74.0% 72.3% 72.3% 72.7% 76.8% 75.8%
+Wipro,Q1FY23,2022-06-30,,rev_share_region:Americas 2,31.1,pct,reported,data/raw/wipro/datasheet-q2fy24.pdf,p2: Americas_Two 29.9% 30.0% 30.8% 30.5% 30.6% 31.1% 31.1%
+Wipro,Q1FY23,2022-06-30,,rev_share_region:Europe,28.2,pct,reported,data/raw/wipro/datasheet-q2fy24.pdf,p2: Europe 28.6% 29.5% 28.6% 29.3% 28.8% 28.0% 28.2%
+Wipro,Q1FY23,2022-06-30,,rev_share_region:APMEA,12.0,pct,reported,data/raw/wipro/datasheet-q2fy24.pdf,p2: APMEA 11.7% 11.7% 11.8% 11.7% 11.5% 12.1% 12.0%
+Wipro,Q1FY23,2022-06-30,,headcount_total,262049.0,persons,reported,data/raw/wipro/datasheet-q2fy24.pdf,"p3: Closing Employee Count 244,707 249,758 258,570 258,570 262,109 262,626 262,049"
+Wipro,Q1FY23,2022-06-30,,rev_share_region:Americas 1,28.7,pct,reported,data/raw/wipro/datasheet-q2fy24.pdf,p2: Americas_One 29.8% 28.8% 28.8% 28.5% 29.1% 28.8% 28.7%
+Wipro,Q1FY23,2022-06-30,,attrition_bps_post_training_qtr,11.4,pct,reported,data/raw/wipro/datasheet-q2fy24.pdf,p3: DOP % — Post Training Quarterly 9.8% 9.2% 9.9% 9.0% 8.7% 10.3% 11.4%
+Wipro,Q1FY23,2022-06-30,,attrition_ltm_it_voluntary,23.0,pct,reported,data/raw/wipro/datasheet-q2fy24.pdf,p3: Voluntary TTM (IT Services excl. DOP) 15.5% 17.3% 19.4% 19.4% 21.2% 22.9% 23.0%
+Wipro,Q1FY23,2022-06-30,,utilization_excl_trainees,83.8,pct,reported,data/raw/wipro/datasheet-q2fy24.pdf,p3: Net Utilization (Excluding Trainees) 84.5% 83.7% 81.2% 81.7% 79.7% 79.8% 83.8%
+Wipro,Q1FY23,2022-06-30,,revenue_it_usd_m,2756.1,USD_m,reported,data/raw/wipro/datasheet-q2fy24.pdf,"p2: IT Services Revenues ($Mn) 2,713.3 2,778.5 11,234.4 2,839.5 2,821.4 2,817.4 2,75"
+Wipro,Q3FY23,2022-12-31,,headcount_total,262109.0,persons,reported,data/raw/wipro/datasheet-q3fy24.pdf,"p3: Closing Employee Count 240,234 244,707 249,758 258,570 258,570 262,109 262,626"
+Wipro,Q2FY23,2022-09-30,,headcount_total,262626.0,persons,reported,data/raw/wipro/datasheet-q3fy24.pdf,"p3: Closing Employee Count 240,234 244,707 249,758 258,570 258,570 262,109 262,626"
+Wipro,Q3FY23,2022-12-31,,utilization_excl_trainees,79.7,pct,reported,data/raw/wipro/datasheet-q3fy24.pdf,p3: Net Utilization (Excluding Trainees) 84.0% 84.5% 83.7% 81.2% 81.7% 79.7% 79.8%
+Wipro,Q2FY23,2022-09-30,,utilization_excl_trainees,79.8,pct,reported,data/raw/wipro/datasheet-q3fy24.pdf,p3: Net Utilization (Excluding Trainees) 84.0% 84.5% 83.7% 81.2% 81.7% 79.7% 79.8%
+Wipro,Q3FY23,2022-12-31,,attrition_ltm_it_voluntary,21.2,pct,reported,data/raw/wipro/datasheet-q3fy24.pdf,p3: Voluntary TTM (IT Services excl. DOP) 14.2% 15.5% 17.3% 19.4% 19.4% 21.2% 22.9%
+Wipro,Q2FY23,2022-09-30,,attrition_ltm_it_voluntary,22.9,pct,reported,data/raw/wipro/datasheet-q3fy24.pdf,p3: Voluntary TTM (IT Services excl. DOP) 14.2% 15.5% 17.3% 19.4% 19.4% 21.2% 22.9%
+Wipro,Q3FY23,2022-12-31,,attrition_bps_post_training_qtr,8.7,pct,reported,data/raw/wipro/datasheet-q3fy24.pdf,p3: DOP % —Post Training Quarterly 8.3% 9.8% 9.2% 9.9% 9.0% 8.7% 10.3%
+Wipro,Q2FY23,2022-09-30,,attrition_bps_post_training_qtr,10.3,pct,reported,data/raw/wipro/datasheet-q3fy24.pdf,p3: DOP % —Post Training Quarterly 8.3% 9.8% 9.2% 9.9% 9.0% 8.7% 10.3%
+Wipro,Q2FY23,2022-09-30,,rev_share_region:APMEA,12.1,pct,reported,data/raw/wipro/datasheet-q3fy24.pdf,p2: APMEA 11.3% 11.7% 11.7% 11.8% 11.7% 11.5% 12.1%
+Wipro,Q3FY23,2022-12-31,,rev_share_region:APMEA,11.5,pct,reported,data/raw/wipro/datasheet-q3fy24.pdf,p2: APMEA 11.3% 11.7% 11.7% 11.8% 11.7% 11.5% 12.1%
+Wipro,Q2FY23,2022-09-30,,revenue_it_usd_m,2817.4,USD_m,reported,data/raw/wipro/datasheet-q3fy24.pdf,"p2: IT Services Revenues ($Mn) 2,656.1 2,713.3 2,778.5 11,234.4 2,839.5 2,821.4 2,81"
+Wipro,Q3FY23,2022-12-31,,rev_share_region:Americas 1,29.1,pct,reported,data/raw/wipro/datasheet-q3fy24.pdf,p2: Americas_One 31.0% 29.8% 28.8% 28.8% 28.5% 29.1% 28.8%
+Wipro,Q2FY23,2022-09-30,,rev_share_region:Americas 1,28.8,pct,reported,data/raw/wipro/datasheet-q3fy24.pdf,p2: Americas_One 31.0% 29.8% 28.8% 28.8% 28.5% 29.1% 28.8%
+Wipro,Q3FY23,2022-12-31,,revenue_it_usd_m,2821.4,USD_m,reported,data/raw/wipro/datasheet-q3fy24.pdf,"p2: IT Services Revenues ($Mn) 2,656.1 2,713.3 2,778.5 11,234.4 2,839.5 2,821.4 2,81"
+Wipro,Q2FY23,2022-09-30,,rev_share_region:Europe,28.0,pct,reported,data/raw/wipro/datasheet-q3fy24.pdf,p2: Europe 27.7% 28.6% 29.5% 28.6% 29.3% 28.8% 28.0%
+Wipro,Q3FY23,2022-12-31,,rev_share_region:Americas 2,30.6,pct,reported,data/raw/wipro/datasheet-q3fy24.pdf,p2: Americas_Two 30.0% 29.9% 30.0% 30.8% 30.5% 30.6% 31.1%
+Wipro,Q2FY23,2022-09-30,,rev_share_region:Americas 2,31.1,pct,reported,data/raw/wipro/datasheet-q3fy24.pdf,p2: Americas_Two 30.0% 29.9% 30.0% 30.8% 30.5% 30.6% 31.1%
+Wipro,Q3FY23,2022-12-31,,rev_share_region:Europe,28.8,pct,reported,data/raw/wipro/datasheet-q3fy24.pdf,p2: Europe 27.7% 28.6% 29.5% 28.6% 29.3% 28.8% 28.0%
+Wipro,Q4FY23,2023-03-31,,headcount_total,258570.0,persons,reported,data/raw/wipro/datasheet-q4fy24.pdf,"p4: Closing Employee Count 234,054 234,054 240,234 244,707 249,758 258,570 258,570"
+Wipro,Q4FY23,2023-03-31,,rev_share_region:APMEA,11.7,pct,reported,data/raw/wipro/datasheet-q4fy24.pdf,p3: APMEA 11.5% 11.1% 11.3% 11.7% 11.7% 11.8% 11.7%
+Wipro,Q4FY23,2023-03-31,,utilization_excl_trainees,81.7,pct,reported,data/raw/wipro/datasheet-q4fy24.pdf,p4: Net Utilization (Excluding Trainees) 84.8% 86.9% 84.0% 84.5% 83.7% 81.2% 81.7%
+Wipro,Q4FY23,2023-03-31,,attrition_ltm_it_voluntary,19.4,pct,reported,data/raw/wipro/datasheet-q4fy24.pdf,p4: Voluntary TTM (IT Services excl. DOP) 14.2% 14.2% 14.2% 15.5% 17.3% 19.4% 19.4%
+Wipro,Q4FY23,2023-03-31,,rev_share_region:Europe,29.3,pct,reported,data/raw/wipro/datasheet-q4fy24.pdf,p3: Europe 28.4% 27.8% 27.7% 28.6% 29.5% 28.6% 29.3%
+Wipro,Q4FY23,2023-03-31,,attrition_bps_post_training_qtr,9.0,pct,reported,data/raw/wipro/datasheet-q4fy24.pdf,p4: DOP % — Post Training Quarterly 9.1% 8.9% 8.3% 9.8% 9.2% 9.9% 9.0%
+Wipro,Q4FY23,2023-03-31,,revenue_it_usd_m,2839.5,USD_m,reported,data/raw/wipro/datasheet-q4fy24.pdf,"p3: IT Services Revenues ($Mn) 10,805.3 2,657.4 2,656.1 2,713.3 2,778.5 11,234.4 2,8"
+Wipro,Q4FY23,2023-03-31,,rev_share_region:Americas 1,28.5,pct,reported,data/raw/wipro/datasheet-q4fy24.pdf,p3: Americas_One 30.0% 30.4% 31.0% 29.8% 28.8% 28.8% 28.5%
+Wipro,Q4FY23,2023-03-31,,rev_share_region:Americas 2,30.5,pct,reported,data/raw/wipro/datasheet-q4fy24.pdf,p3: Americas_Two 30.1% 30.7% 30.0% 29.9% 30.0% 30.8% 30.5%
+Wipro,Q1FY24,2023-06-30,,headcount_total,249758.0,persons,reported,data/raw/wipro/datasheet-q1fy25.pdf,"p3: Closing Employee Count 234,391 234,054 234,054 240,234 244,707 249,758 258,570"
+Wipro,Q1FY24,2023-06-30,,attrition_ltm_it_voluntary,17.3,pct,reported,data/raw/wipro/datasheet-q2fy25.pdf,p3: Voluntary TTM (IT Services excl. DOP) 14.5% 14.1% 14.2% 14.2% 14.2% 15.5% 17.3%
+Wipro,Q1FY24,2023-06-30,,utilization_excl_trainees,83.7,pct,reported,data/raw/wipro/datasheet-q2fy25.pdf,p3: Net Utilization (Excluding Trainees) 86.4% 87.7% 84.8% 86.9% 84.0% 84.5% 83.7%
+Wipro,Q1FY24,2023-06-30,,rev_share_region:Americas 1,28.8,pct,reported,data/raw/wipro/datasheet-q2fy25.pdf,p2: Americas_One 30.8% 30.9% 30.0% 30.4% 31.0% 29.8% 28.8%
+Wipro,Q1FY24,2023-06-30,,revenue_it_usd_m,2778.5,USD_m,reported,data/raw/wipro/datasheet-q2fy25.pdf,"p2: IT Services Revenues ($Mn) 2,660.1 2625.9 10,805.3 2,657.4 2,656.1 2,713.3 2,778"
+Wipro,Q1FY24,2023-06-30,,rev_share_region:APMEA,11.7,pct,reported,data/raw/wipro/datasheet-q2fy25.pdf,p2: APMEA 10.7% 10.7% 11.5% 11.1% 11.3% 11.7% 11.7%
+Wipro,Q1FY24,2023-06-30,,rev_share_region:Americas 2,30.0,pct,reported,data/raw/wipro/datasheet-q2fy25.pdf,p2: Americas_Two 30.6% 30.8% 30.1% 30.7% 30.0% 29.9% 30.0%
+Wipro,Q1FY24,2023-06-30,,attrition_bps_post_training_qtr,9.2,pct,reported,data/raw/wipro/datasheet-q2fy25.pdf,p3: DOP % — Post Training Quarterly 7.9% 8.3% 9.1% 8.9% 8.3% 9.8% 9.2%
+Wipro,Q1FY24,2023-06-30,,rev_share_region:Europe,29.5,pct,reported,data/raw/wipro/datasheet-q2fy25.pdf,p2: Europe 27.9% 27.6% 28.4% 27.8% 27.7% 28.6% 29.5%
+Wipro,Q3FY24,2023-12-31,,rev_share_region:Europe,27.7,pct,reported,data/raw/wipro/datasheet-q3fy25.pdf,p2: Europe 26.7% 27.9% 27.6% 28.4% 27.8% 27.7% 28.6%
+Wipro,Q2FY24,2023-09-30,,rev_share_region:Europe,28.6,pct,reported,data/raw/wipro/datasheet-q3fy25.pdf,p2: Europe 26.7% 27.9% 27.6% 28.4% 27.8% 27.7% 28.6%
+Wipro,Q2FY24,2023-09-30,,rev_share_region:Americas 2,29.9,pct,reported,data/raw/wipro/datasheet-q3fy25.pdf,p2: Americas_Two 30.6% 30.6% 30.8% 30.1% 30.7% 30.0% 29.9%
+Wipro,Q3FY24,2023-12-31,,rev_share_region:APMEA,11.3,pct,reported,data/raw/wipro/datasheet-q3fy25.pdf,p2: APMEA 10.4% 10.7% 10.7% 11.5% 11.1% 11.3% 11.7%
+Wipro,Q3FY24,2023-12-31,,headcount_total,239655.0,persons,reported,data/raw/wipro/datasheet-q3fy25.pdf,"p3: Closing Employee Count 232,732 233,889 232,911 232,614 232,614 239,655 244,707"
+Wipro,Q2FY24,2023-09-30,,headcount_total,244707.0,persons,reported,data/raw/wipro/datasheet-q3fy25.pdf,"p3: Closing Employee Count 232,732 233,889 232,911 232,614 232,614 239,655 244,707"
+Wipro,Q2FY24,2023-09-30,,rev_share_region:APMEA,11.7,pct,reported,data/raw/wipro/datasheet-q3fy25.pdf,p2: APMEA 10.4% 10.7% 10.7% 11.5% 11.1% 11.3% 11.7%
+Wipro,Q3FY24,2023-12-31,,rev_share_region:Americas 2,30.0,pct,reported,data/raw/wipro/datasheet-q3fy25.pdf,p2: Americas_Two 30.6% 30.6% 30.8% 30.1% 30.7% 30.0% 29.9%
+Wipro,Q2FY24,2023-09-30,,attrition_ltm_it_voluntary,15.5,pct,reported,data/raw/wipro/datasheet-q3fy25.pdf,p3: Voluntary TTM (IT Services excl. DOP) 15.3% 14.5% 14.1% 14.2% 14.2% 14.2% 15.5%
+Wipro,Q3FY24,2023-12-31,,attrition_ltm_it_voluntary,14.2,pct,reported,data/raw/wipro/datasheet-q3fy25.pdf,p3: Voluntary TTM (IT Services excl. DOP) 15.3% 14.5% 14.1% 14.2% 14.2% 14.2% 15.5%
+Wipro,Q3FY24,2023-12-31,,attrition_bps_post_training_qtr,8.3,pct,reported,data/raw/wipro/datasheet-q3fy25.pdf,p3: DOP % — Post Training Quarterly 7.1% 7.9% 8.3% 9.1% 8.9% 8.3% 9.8%
+Wipro,Q2FY24,2023-09-30,,utilization_excl_trainees,84.5,pct,reported,data/raw/wipro/datasheet-q3fy25.pdf,p3: Net Utilization (Excluding Trainees) 83.5% 86.4% 87.7% 84.8% 86.9% 84.0% 84.5%
+Wipro,Q3FY24,2023-12-31,,revenue_it_usd_m,2656.1,USD_m,reported,data/raw/wipro/datasheet-q3fy25.pdf,"p2: IT Services Revenues ($Mn) 2,629.1 2,660.1 2625.9 10,805.3 2,657.4 2,656.1 2,713"
+Wipro,Q2FY24,2023-09-30,,revenue_it_usd_m,2713.3,USD_m,reported,data/raw/wipro/datasheet-q3fy25.pdf,"p2: IT Services Revenues ($Mn) 2,629.1 2,660.1 2625.9 10,805.3 2,657.4 2,656.1 2,713"
+Wipro,Q3FY24,2023-12-31,,rev_share_region:Americas 1,31.0,pct,reported,data/raw/wipro/datasheet-q3fy25.pdf,p2: Americas_One 32.3% 30.8% 30.9% 30.0% 30.4% 31.0% 29.8%
+Wipro,Q2FY24,2023-09-30,,rev_share_region:Americas 1,29.8,pct,reported,data/raw/wipro/datasheet-q3fy25.pdf,p2: Americas_One 32.3% 30.8% 30.9% 30.0% 30.4% 31.0% 29.8%
+Wipro,Q2FY24,2023-09-30,,attrition_bps_post_training_qtr,9.8,pct,reported,data/raw/wipro/datasheet-q3fy25.pdf,p3: DOP % — Post Training Quarterly 7.1% 7.9% 8.3% 9.1% 8.9% 8.3% 9.8%
+Wipro,Q3FY24,2023-12-31,,utilization_excl_trainees,84.0,pct,reported,data/raw/wipro/datasheet-q3fy25.pdf,p3: Net Utilization (Excluding Trainees) 83.5% 86.4% 87.7% 84.8% 86.9% 84.0% 84.5%
+Wipro,Q4FY24,2024-03-31,,rev_share_region:Europe,27.8,pct,reported,data/raw/wipro/datasheet-q4fy25.pdf,p3: Europe 27.1% 26.1% 26.7% 27.9% 27.6% 28.4% 27.8%
+Wipro,Q4FY24,2024-03-31,,rev_share_region:Americas 2,30.7,pct,reported,data/raw/wipro/datasheet-q4fy25.pdf,p3: Americas_Two 30.6% 30.6% 30.6% 30.6% 30.8% 30.1% 30.7%
+Wipro,Q4FY24,2024-03-31,,attrition_bps_post_training_qtr,8.9,pct,reported,data/raw/wipro/datasheet-q4fy25.pdf,p4: DOP % — Post Training Quarterly 7.8% 7.7% 7.1% 7.9% 8.3% 9.1% 8.9%
+Wipro,Q4FY24,2024-03-31,,rev_share_region:Americas 1,30.4,pct,reported,data/raw/wipro/datasheet-q4fy25.pdf,p3: Americas_One 31.7% 32.8% 32.3% 30.8% 30.9% 30.0% 30.4%
+Wipro,Q4FY24,2024-03-31,,revenue_it_usd_m,2657.4,USD_m,reported,data/raw/wipro/datasheet-q4fy25.pdf,"p3: IT Services Revenues ($Mn) 10,511.5 2,596.5 2,629.1 2,660.1 2,625.9 10,805.3 2,6"
+Wipro,Q4FY24,2024-03-31,,attrition_ltm_it_voluntary,14.2,pct,reported,data/raw/wipro/datasheet-q4fy25.pdf,p4: Voluntary TTM (IT Services excl. DOP) 15.0% 15.0% 15.3% 14.5% 14.1% 14.2% 14.2%
+Wipro,Q4FY24,2024-03-31,,utilization_excl_trainees,86.9,pct,reported,data/raw/wipro/datasheet-q4fy25.pdf,p4: Net Utilization (Excluding Trainees) 85.6% 84.6% 83.5% 86.4% 87.7% 84.8% 86.9%
+Wipro,Q4FY24,2024-03-31,,headcount_total,232614.0,persons,reported,data/raw/wipro/datasheet-q4fy25.pdf,"p4: Closing Employee Count 233,346 233,346 232,732 233,889 232,911 232,614 232,614"
+Wipro,Q4FY24,2024-03-31,,rev_share_region:APMEA,11.1,pct,reported,data/raw/wipro/datasheet-q4fy25.pdf,p3: APMEA 10.6% 10.5% 10.4% 10.7% 10.7% 11.5% 11.1%
+Wipro,Q1FY25,2024-06-30,,rev_share_region:APMEA,10.7,pct,reported,data/raw/wipro/datasheet-q2fy26.pdf,p2: APMEA 11.1% 10.8% 10.6% 10.5% 10.4% 10.7% 10.7%
+Wipro,Q1FY25,2024-06-30,,headcount_total,232911.0,persons,reported,data/raw/wipro/datasheet-q2fy26.pdf,"p3: Closing Employee Count 235,492 233,232 233,346 233,346 232,732 233,889 232,911"
+Wipro,Q1FY25,2024-06-30,,attrition_bps_post_training_qtr,8.3,pct,reported,data/raw/wipro/datasheet-q2fy26.pdf,p3: DOP % — Post Training Quarterly 8.2% 8.2% 7.8% 7.7% 7.1% 7.9% 8.3%
+Wipro,Q1FY25,2024-06-30,,rev_share_region:Europe,27.6,pct,reported,data/raw/wipro/datasheet-q2fy26.pdf,p2: Europe 26.3% 25.7% 27.1% 26.1% 26.7% 27.9% 27.6%
+Wipro,Q1FY25,2024-06-30,,revenue_it_usd_m,2625.9,USD_m,reported,data/raw/wipro/datasheet-q2fy26.pdf,"p2: IT Services Revenues ($Mn) 2,604.3 2,587.4 10,511.5 2,596.5 2,629.1 2,660.1 2,62"
+Wipro,Q1FY25,2024-06-30,,attrition_ltm_it_voluntary,14.1,pct,reported,data/raw/wipro/datasheet-q2fy26.pdf,p3: Voluntary TTM (IT Services excl. DOP) 14.9% 15.1% 15.0% 15.0% 15.3% 14.5% 14.1%
+Wipro,Q1FY25,2024-06-30,,rev_share_region:Americas 2,30.8,pct,reported,data/raw/wipro/datasheet-q2fy26.pdf,p2: Americas_Two 29.6% 30.4% 30.6% 30.6% 30.6% 30.6% 30.8%
+Wipro,Q1FY25,2024-06-30,,rev_share_region:Americas 1,30.9,pct,reported,data/raw/wipro/datasheet-q2fy26.pdf,p2: Americas_One 33.0% 33.1% 31.7% 32.8% 32.3% 30.8% 30.9%
+Wipro,Q1FY25,2024-06-30,,utilization_excl_trainees,87.7,pct,reported,data/raw/wipro/datasheet-q2fy26.pdf,p3: Net Utilization (Excluding Trainees) 86.4% 85.0% 85.6% 84.6% 83.5% 86.4% 87.7%
+Wipro,Q2FY25,2024-09-30,,rev_share_region:Americas 1,30.8,pct,reported,data/raw/wipro/datasheet-q3fy26.pdf,p2: Americas_One 33.2% 33.0% 33.1% 31.7% 32.8% 32.3% 30.8%
+Wipro,Q3FY25,2024-12-31,,rev_share_region:Americas 2,30.6,pct,reported,data/raw/wipro/datasheet-q3fy26.pdf,p2: Americas_Two 29.0% 29.6% 30.4% 30.6% 30.6% 30.6% 30.6%
+Wipro,Q2FY25,2024-09-30,,rev_share_region:Americas 2,30.6,pct,reported,data/raw/wipro/datasheet-q3fy26.pdf,p2: Americas_Two 29.0% 29.6% 30.4% 30.6% 30.6% 30.6% 30.6%
+Wipro,Q3FY25,2024-12-31,,rev_share_region:Americas 1,32.3,pct,reported,data/raw/wipro/datasheet-q3fy26.pdf,p2: Americas_One 33.2% 33.0% 33.1% 31.7% 32.8% 32.3% 30.8%
+Wipro,Q3FY25,2024-12-31,,revenue_it_usd_m,2629.1,USD_m,reported,data/raw/wipro/datasheet-q3fy26.pdf,"p2: IT Services Revenues ($Mn) 2,635.4 2,604.3 2,587.4 10,511.5 2,596.5 2,629.1 2,66"
+Wipro,Q2FY25,2024-09-30,,revenue_it_usd_m,2660.1,USD_m,reported,data/raw/wipro/datasheet-q3fy26.pdf,"p2: IT Services Revenues ($Mn) 2,635.4 2,604.3 2,587.4 10,511.5 2,596.5 2,629.1 2,66"
+Wipro,Q3FY25,2024-12-31,,headcount_total,232732.0,persons,reported,data/raw/wipro/datasheet-q3fy26.pdf,"p3: Closing Employee Count 242,021 235,492 233,232 233,346 233,346 232,732 233,889"
+Wipro,Q2FY25,2024-09-30,,headcount_total,233889.0,persons,reported,data/raw/wipro/datasheet-q3fy26.pdf,"p3: Closing Employee Count 242,021 235,492 233,232 233,346 233,346 232,732 233,889"
+Wipro,Q3FY25,2024-12-31,,utilization_excl_trainees,83.5,pct,reported,data/raw/wipro/datasheet-q3fy26.pdf,p3: Net Utilization (Excluding Trainees) 83.1% 86.4% 85.0% 85.6% 84.6% 83.5% 86.4%
+Wipro,Q2FY25,2024-09-30,,rev_share_region:APMEA,10.7,pct,reported,data/raw/wipro/datasheet-q3fy26.pdf,p2: APMEA 11.1% 11.1% 10.8% 10.6% 10.5% 10.4% 10.7%
+Wipro,Q2FY25,2024-09-30,,attrition_ltm_it_voluntary,14.5,pct,reported,data/raw/wipro/datasheet-q3fy26.pdf,p3: Voluntary TTM (IT Services excl. DOP) 14.2% 14.9% 15.1% 15.0% 15.0% 15.3% 14.5%
+Wipro,Q3FY25,2024-12-31,,rev_share_region:Europe,26.7,pct,reported,data/raw/wipro/datasheet-q3fy26.pdf,p2: Europe 26.7% 26.3% 25.7% 27.1% 26.1% 26.7% 27.9%
+Wipro,Q2FY25,2024-09-30,,rev_share_region:Europe,27.9,pct,reported,data/raw/wipro/datasheet-q3fy26.pdf,p2: Europe 26.7% 26.3% 25.7% 27.1% 26.1% 26.7% 27.9%
+Wipro,Q3FY25,2024-12-31,,attrition_ltm_it_voluntary,15.3,pct,reported,data/raw/wipro/datasheet-q3fy26.pdf,p3: Voluntary TTM (IT Services excl. DOP) 14.2% 14.9% 15.1% 15.0% 15.0% 15.3% 14.5%
+Wipro,Q2FY25,2024-09-30,,attrition_bps_post_training_qtr,7.9,pct,reported,data/raw/wipro/datasheet-q3fy26.pdf,p3: DOP % —Post Training Quarterly 8.5% 8.2% 8.2% 7.8% 7.7% 7.1% 7.9%
+Wipro,Q3FY25,2024-12-31,,attrition_bps_post_training_qtr,7.1,pct,reported,data/raw/wipro/datasheet-q3fy26.pdf,p3: DOP % —Post Training Quarterly 8.5% 8.2% 8.2% 7.8% 7.7% 7.1% 7.9%
+Wipro,Q3FY25,2024-12-31,,rev_share_region:APMEA,10.4,pct,reported,data/raw/wipro/datasheet-q3fy26.pdf,p2: APMEA 11.1% 11.1% 10.8% 10.6% 10.5% 10.4% 10.7%
+Wipro,Q2FY25,2024-09-30,,utilization_excl_trainees,86.4,pct,reported,data/raw/wipro/datasheet-q3fy26.pdf,p3: Net Utilization (Excluding Trainees) 83.1% 86.4% 85.0% 85.6% 84.6% 83.5% 86.4%
+Wipro,Q4FY25,2025-03-31,,rev_share_region:APMEA,10.5,pct,reported,data/raw/wipro/datasheet-q4fy26.pdf,p3: APMEA 11.1% 11.5% 11.1% 11.1% 10.8% 10.6% 10.5%
+Wipro,Q4FY25,2025-03-31,,headcount_total,233346.0,persons,reported,data/raw/wipro/datasheet-q4fy26.pdf,"p4: Closing Employee Count 242,156 242,156 242,021 235,492 233,232 233,346 233,346"
+Wipro,Q4FY25,2025-03-31,,utilization_excl_trainees,84.6,pct,reported,data/raw/wipro/datasheet-q4fy26.pdf,p4: Net Utilization (Excluding Trainees) 84.5% 83.5% 83.1% 86.4% 85.0% 85.6% 84.6%
+Wipro,Q4FY25,2025-03-31,,attrition_ltm_it_voluntary,15.0,pct,reported,data/raw/wipro/datasheet-q4fy26.pdf,p4: Voluntary TTM (IT Services excl. DOP) 13.8% 13.8% 14.2% 14.9% 15.1% 15.0% 15.0%
+Wipro,Q4FY25,2025-03-31,,rev_share_region:Europe,26.1,pct,reported,data/raw/wipro/datasheet-q4fy26.pdf,p3: Europe 26.5% 27.2% 26.7% 26.3% 25.7% 27.1% 26.1%
+Wipro,Q4FY25,2025-03-31,,revenue_it_usd_m,2596.5,USD_m,reported,data/raw/wipro/datasheet-q4fy26.pdf,"p3: IT Services Revenues ($Mn) 10,478.1 2651.0 2,635.4 2,604.3 2,587.4 10,511.5 2,59"
+Wipro,Q4FY25,2025-03-31,,rev_share_region:Americas 1,32.8,pct,reported,data/raw/wipro/datasheet-q4fy26.pdf,p3: Americas_One 33.2% 33.2% 33.2% 33.0% 33.1% 31.7% 32.8%
+Wipro,Q4FY25,2025-03-31,,rev_share_region:Americas 2,30.6,pct,reported,data/raw/wipro/datasheet-q4fy26.pdf,p3: Americas_Two 29.2% 28.1% 29.0% 29.6% 30.4% 30.6% 30.6%
+Wipro,Q4FY25,2025-03-31,,attrition_bps_post_training_qtr,7.7,pct,reported,data/raw/wipro/datasheet-q4fy26.pdf,p4: DOP % — Post Training Quarterly 8.6% 9.7% 8.5% 8.2% 8.2% 7.8% 7.7%
+Wipro,Q2FY26,2025-09-30,,attrition_bps_post_training_qtr,8.2,pct,reported,data/raw/wipro/datasheet-q2fy27.pdf,p3: BPS % — Post Training Quarterly 10.7% 9.9% 8.6% 9.7% 8.5% 8.2% 8.2%
+Wipro,Q2FY27,2026-09-30,,revenue_it_usd_m,2611.5,USD_m,reported,data/raw/wipro/datasheet-q2fy27.pdf,"p2: IT Services Revenues ($Mn) 2611.5 2614.5 10,478.1 2651.0 2,635.4 2,604.3 2,587.4"
+Wipro,Q1FY27,2026-06-30,,revenue_it_usd_m,2614.5,USD_m,reported,data/raw/wipro/datasheet-q2fy27.pdf,"p2: IT Services Revenues ($Mn) 2611.5 2614.5 10,478.1 2651.0 2,635.4 2,604.3 2,587.4"
+Wipro,Q4FY26,2026-03-31,,revenue_it_usd_m,2651.0,USD_m,reported,data/raw/wipro/datasheet-q2fy27.pdf,"p2: IT Services Revenues ($Mn) 2611.5 2614.5 10,478.1 2651.0 2,635.4 2,604.3 2,587.4"
+Wipro,Q3FY26,2025-12-31,,revenue_it_usd_m,2635.4,USD_m,reported,data/raw/wipro/datasheet-q2fy27.pdf,"p2: IT Services Revenues ($Mn) 2611.5 2614.5 10,478.1 2651.0 2,635.4 2,604.3 2,587.4"
+Wipro,Q2FY27,2026-09-30,,headcount_total,236328.0,persons,reported,data/raw/wipro/datasheet-q2fy27.pdf,"p3: Closing Employee Count 236,328 243,044 242,156 242,156 242,021 235,492 233,232"
+Wipro,Q1FY27,2026-06-30,,headcount_total,243044.0,persons,reported,data/raw/wipro/datasheet-q2fy27.pdf,"p3: Closing Employee Count 236,328 243,044 242,156 242,156 242,021 235,492 233,232"
+Wipro,Q4FY26,2026-03-31,,headcount_total,242156.0,persons,reported,data/raw/wipro/datasheet-q2fy27.pdf,"p3: Closing Employee Count 236,328 243,044 242,156 242,156 242,021 235,492 233,232"
+Wipro,Q3FY26,2025-12-31,,headcount_total,242021.0,persons,reported,data/raw/wipro/datasheet-q2fy27.pdf,"p3: Closing Employee Count 236,328 243,044 242,156 242,156 242,021 235,492 233,232"
+Wipro,Q2FY26,2025-09-30,,headcount_total,235492.0,persons,reported,data/raw/wipro/datasheet-q2fy27.pdf,"p3: Closing Employee Count 236,328 243,044 242,156 242,156 242,021 235,492 233,232"
+Wipro,Q1FY26,2025-06-30,,headcount_total,233232.0,persons,reported,data/raw/wipro/datasheet-q2fy27.pdf,"p3: Closing Employee Count 236,328 243,044 242,156 242,156 242,021 235,492 233,232"
+Wipro,Q2FY27,2026-09-30,,utilization_excl_trainees,83.4,pct,reported,data/raw/wipro/datasheet-q2fy27.pdf,p3: Net Utilization (Excluding Trainees) 83.4% 83.6% 84.5% 83.5% 83.1% 86.4% 85.0%
+Wipro,Q1FY27,2026-06-30,,utilization_excl_trainees,83.6,pct,reported,data/raw/wipro/datasheet-q2fy27.pdf,p3: Net Utilization (Excluding Trainees) 83.4% 83.6% 84.5% 83.5% 83.1% 86.4% 85.0%
+Wipro,Q4FY26,2026-03-31,,utilization_excl_trainees,83.5,pct,reported,data/raw/wipro/datasheet-q2fy27.pdf,p3: Net Utilization (Excluding Trainees) 83.4% 83.6% 84.5% 83.5% 83.1% 86.4% 85.0%
+Wipro,Q3FY26,2025-12-31,,utilization_excl_trainees,83.1,pct,reported,data/raw/wipro/datasheet-q2fy27.pdf,p3: Net Utilization (Excluding Trainees) 83.4% 83.6% 84.5% 83.5% 83.1% 86.4% 85.0%
+Wipro,Q2FY26,2025-09-30,,utilization_excl_trainees,86.4,pct,reported,data/raw/wipro/datasheet-q2fy27.pdf,p3: Net Utilization (Excluding Trainees) 83.4% 83.6% 84.5% 83.5% 83.1% 86.4% 85.0%
+Wipro,Q1FY26,2025-06-30,,utilization_excl_trainees,85.0,pct,reported,data/raw/wipro/datasheet-q2fy27.pdf,p3: Net Utilization (Excluding Trainees) 83.4% 83.6% 84.5% 83.5% 83.1% 86.4% 85.0%
+Wipro,Q2FY27,2026-09-30,,attrition_ltm_it_voluntary,13.8,pct,reported,data/raw/wipro/datasheet-q2fy27.pdf,p3: Voluntary TTM (IT Services excl. BPS) 13.8% 13.9% 13.8% 13.8% 14.2% 14.9% 15.1%
+Wipro,Q1FY27,2026-06-30,,attrition_ltm_it_voluntary,13.9,pct,reported,data/raw/wipro/datasheet-q2fy27.pdf,p3: Voluntary TTM (IT Services excl. BPS) 13.8% 13.9% 13.8% 13.8% 14.2% 14.9% 15.1%
+Wipro,Q4FY26,2026-03-31,,attrition_ltm_it_voluntary,13.8,pct,reported,data/raw/wipro/datasheet-q2fy27.pdf,p3: Voluntary TTM (IT Services excl. BPS) 13.8% 13.9% 13.8% 13.8% 14.2% 14.9% 15.1%
+Wipro,Q3FY26,2025-12-31,,attrition_ltm_it_voluntary,14.2,pct,reported,data/raw/wipro/datasheet-q2fy27.pdf,p3: Voluntary TTM (IT Services excl. BPS) 13.8% 13.9% 13.8% 13.8% 14.2% 14.9% 15.1%
+Wipro,Q1FY26,2025-06-30,,attrition_ltm_it_voluntary,15.1,pct,reported,data/raw/wipro/datasheet-q2fy27.pdf,p3: Voluntary TTM (IT Services excl. BPS) 13.8% 13.9% 13.8% 13.8% 14.2% 14.9% 15.1%
+Wipro,Q2FY27,2026-09-30,,attrition_bps_post_training_qtr,10.7,pct,reported,data/raw/wipro/datasheet-q2fy27.pdf,p3: BPS % — Post Training Quarterly 10.7% 9.9% 8.6% 9.7% 8.5% 8.2% 8.2%
+Wipro,Q1FY27,2026-06-30,,attrition_bps_post_training_qtr,9.9,pct,reported,data/raw/wipro/datasheet-q2fy27.pdf,p3: BPS % — Post Training Quarterly 10.7% 9.9% 8.6% 9.7% 8.5% 8.2% 8.2%
+Wipro,Q4FY26,2026-03-31,,attrition_bps_post_training_qtr,9.7,pct,reported,data/raw/wipro/datasheet-q2fy27.pdf,p3: BPS % — Post Training Quarterly 10.7% 9.9% 8.6% 9.7% 8.5% 8.2% 8.2%
+Wipro,Q3FY26,2025-12-31,,attrition_bps_post_training_qtr,8.5,pct,reported,data/raw/wipro/datasheet-q2fy27.pdf,p3: BPS % — Post Training Quarterly 10.7% 9.9% 8.6% 9.7% 8.5% 8.2% 8.2%
+Wipro,Q1FY26,2025-06-30,,rev_share_region:APMEA,10.8,pct,reported,data/raw/wipro/datasheet-q2fy27.pdf,p2: APMEA 12.6% 12.2% 11.1% 11.5% 11.1% 11.1% 10.8%
+Wipro,Q2FY26,2025-09-30,,rev_share_region:APMEA,11.1,pct,reported,data/raw/wipro/datasheet-q2fy27.pdf,p2: APMEA 12.6% 12.2% 11.1% 11.5% 11.1% 11.1% 10.8%
+Wipro,Q3FY26,2025-12-31,,rev_share_region:APMEA,11.1,pct,reported,data/raw/wipro/datasheet-q2fy27.pdf,p2: APMEA 12.6% 12.2% 11.1% 11.5% 11.1% 11.1% 10.8%
+Wipro,Q4FY26,2026-03-31,,rev_share_region:APMEA,11.5,pct,reported,data/raw/wipro/datasheet-q2fy27.pdf,p2: APMEA 12.6% 12.2% 11.1% 11.5% 11.1% 11.1% 10.8%
+Wipro,Q2FY26,2025-09-30,,revenue_it_usd_m,2604.3,USD_m,reported,data/raw/wipro/datasheet-q2fy27.pdf,"p2: IT Services Revenues ($Mn) 2611.5 2614.5 10,478.1 2651.0 2,635.4 2,604.3 2,587.4"
+Wipro,Q1FY26,2025-06-30,,revenue_it_usd_m,2587.4,USD_m,reported,data/raw/wipro/datasheet-q2fy27.pdf,"p2: IT Services Revenues ($Mn) 2611.5 2614.5 10,478.1 2651.0 2,635.4 2,604.3 2,587.4"
+Wipro,Q2FY27,2026-09-30,,rev_share_region:Americas 1,34.4,pct,reported,data/raw/wipro/datasheet-q2fy27.pdf,p2: Americas_One 34.4% 35.2% 35.6% 35.6% 35.6% 35.6% 35.8%
+Wipro,Q1FY27,2026-06-30,,rev_share_region:Americas 1,35.2,pct,reported,data/raw/wipro/datasheet-q2fy27.pdf,p2: Americas_One 34.4% 35.2% 35.6% 35.6% 35.6% 35.6% 35.8%
+Wipro,Q4FY26,2026-03-31,,rev_share_region:Americas 1,35.6,pct,reported,data/raw/wipro/datasheet-q2fy27.pdf,p2: Americas_One 34.4% 35.2% 35.6% 35.6% 35.6% 35.6% 35.8%
+Wipro,Q3FY26,2025-12-31,,rev_share_region:Americas 1,35.6,pct,reported,data/raw/wipro/datasheet-q2fy27.pdf,p2: Americas_One 34.4% 35.2% 35.6% 35.6% 35.6% 35.6% 35.8%
+Wipro,Q2FY26,2025-09-30,,rev_share_region:Americas 1,35.6,pct,reported,data/raw/wipro/datasheet-q2fy27.pdf,p2: Americas_One 34.4% 35.2% 35.6% 35.6% 35.6% 35.6% 35.8%
+Wipro,Q1FY26,2025-06-30,,rev_share_region:Americas 1,35.8,pct,reported,data/raw/wipro/datasheet-q2fy27.pdf,p2: Americas_One 34.4% 35.2% 35.6% 35.6% 35.6% 35.6% 35.8%
+Wipro,Q2FY27,2026-09-30,,rev_share_region:Americas 2,25.6,pct,reported,data/raw/wipro/datasheet-q2fy27.pdf,p2: Americas_Two 25.6% 25.4% 26.8% 25.7% 26.6% 27.0% 27.7%
+Wipro,Q1FY27,2026-06-30,,rev_share_region:Americas 2,25.4,pct,reported,data/raw/wipro/datasheet-q2fy27.pdf,p2: Americas_Two 25.6% 25.4% 26.8% 25.7% 26.6% 27.0% 27.7%
+Wipro,Q1FY26,2025-06-30,,attrition_bps_post_training_qtr,8.2,pct,reported,data/raw/wipro/datasheet-q2fy27.pdf,p3: BPS % — Post Training Quarterly 10.7% 9.9% 8.6% 9.7% 8.5% 8.2% 8.2%
+Wipro,Q4FY26,2026-03-31,,rev_share_region:Americas 2,25.7,pct,reported,data/raw/wipro/datasheet-q2fy27.pdf,p2: Americas_Two 25.6% 25.4% 26.8% 25.7% 26.6% 27.0% 27.7%
+Wipro,Q2FY26,2025-09-30,,rev_share_region:Americas 2,27.0,pct,reported,data/raw/wipro/datasheet-q2fy27.pdf,p2: Americas_Two 25.6% 25.4% 26.8% 25.7% 26.6% 27.0% 27.7%
+Wipro,Q1FY26,2025-06-30,,rev_share_region:Americas 2,27.7,pct,reported,data/raw/wipro/datasheet-q2fy27.pdf,p2: Americas_Two 25.6% 25.4% 26.8% 25.7% 26.6% 27.0% 27.7%
+Wipro,Q2FY27,2026-09-30,,rev_share_region:Europe,27.4,pct,reported,data/raw/wipro/datasheet-q2fy27.pdf,p2: Europe 27.4% 27.2% 26.5% 27.2% 26.7% 26.3% 25.7%
+Wipro,Q1FY27,2026-06-30,,rev_share_region:Europe,27.2,pct,reported,data/raw/wipro/datasheet-q2fy27.pdf,p2: Europe 27.4% 27.2% 26.5% 27.2% 26.7% 26.3% 25.7%
+Wipro,Q4FY26,2026-03-31,,rev_share_region:Europe,27.2,pct,reported,data/raw/wipro/datasheet-q2fy27.pdf,p2: Europe 27.4% 27.2% 26.5% 27.2% 26.7% 26.3% 25.7%
+Wipro,Q3FY26,2025-12-31,,rev_share_region:Europe,26.7,pct,reported,data/raw/wipro/datasheet-q2fy27.pdf,p2: Europe 27.4% 27.2% 26.5% 27.2% 26.7% 26.3% 25.7%
+Wipro,Q2FY26,2025-09-30,,rev_share_region:Europe,26.3,pct,reported,data/raw/wipro/datasheet-q2fy27.pdf,p2: Europe 27.4% 27.2% 26.5% 27.2% 26.7% 26.3% 25.7%
+Wipro,Q1FY26,2025-06-30,,rev_share_region:Europe,25.7,pct,reported,data/raw/wipro/datasheet-q2fy27.pdf,p2: Europe 27.4% 27.2% 26.5% 27.2% 26.7% 26.3% 25.7%
+Wipro,Q2FY27,2026-09-30,,rev_share_region:APMEA,12.6,pct,reported,data/raw/wipro/datasheet-q2fy27.pdf,p2: APMEA 12.6% 12.2% 11.1% 11.5% 11.1% 11.1% 10.8%
+Wipro,Q1FY27,2026-06-30,,rev_share_region:APMEA,12.2,pct,reported,data/raw/wipro/datasheet-q2fy27.pdf,p2: APMEA 12.6% 12.2% 11.1% 11.5% 11.1% 11.1% 10.8%
+Wipro,Q3FY26,2025-12-31,,rev_share_region:Americas 2,26.6,pct,reported,data/raw/wipro/datasheet-q2fy27.pdf,p2: Americas_Two 25.6% 25.4% 26.8% 25.7% 26.6% 27.0% 27.7%
+Wipro,Q2FY26,2025-09-30,,attrition_ltm_it_voluntary,14.9,pct,reported,data/raw/wipro/datasheet-q2fy27.pdf,p3: Voluntary TTM (IT Services excl. BPS) 13.8% 13.9% 13.8% 13.8% 14.2% 14.9% 15.1%

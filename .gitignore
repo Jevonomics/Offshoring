@@ -1,0 +1,10 @@
+.env
+.venv/
+__pycache__/
+.DS_Store
+# Raw source documents are large binaries; re-download via src/ scripts (see data/raw/MANIFEST.md)
+data/raw/**/*.pdf
+data/raw/**/*.xlsx
+data/raw/**/*.xls
+data/raw/ir_pages/
+data/interim/text/

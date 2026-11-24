@@ -100,7 +100,7 @@ ex.legend([("2016–23 average", NAVY), ("2024+ average", ORANGE)])
 ex.source("Above zero = AI-exposed work growing faster. Accenture in local currency; TechM headcount; HCLTech "
           "implied US$ revenue (its IT & business division mixes exposed and unexposed work). "
           "Pooled change −0.4 pp (p = 0.83). Stand-ins: no firm reports revenue by type of work after 2024.",
-          "Source: Accenture 8-K earnings releases; company fact sheets.", credit=CREDIT)
+          "Source: Accenture 8-K earnings releases; Company fact sheets.", credit=CREDIT)
 ax = ex.axes(left=0.40, right=0.70, bottom_pad=0.5)
 COLS = blended_transform_factory(ex.fig.transFigure, ax.transData)   # columns pinned to the right margin
 X_P = 1 - (MARGIN + 0.22) / ex.w; X_CH = X_P - 0.8 / ex.w
@@ -128,7 +128,7 @@ ex.subtitle("North America ÷ Europe revenue share, vs 2023, log points")
 ex.legend([("Estimate", ORANGE), ("95% interval", GRAY)])
 ex.source("Six firms (TCS, Infosys, Wipro, HCLTech, TechM, LTI/LTIMindtree), each compared with its own average. "
           "Pooled after-2024 shift −3.8 (p = 0.65). US$ basis: a weaker dollar in 2025 inflates Europe; "
-          "TCS's constant-currency data move the other way.", "Source: company fact sheets.", credit=CREDIT)
+          "TCS's constant-currency data move the other way.", "Source: Company fact sheets.", credit=CREDIT)
 ax = ex.axes(left=0.13, right=0.95)
 ax.vlines(E.year, E.coef - 1.96 * E.se, E.coef + 1.96 * E.se, color=GRAY, lw=3.5, zorder=1)
 ax.scatter(E.year, E.coef, s=90, color=np.where(E.year >= 2024, ORANGE, NAVY), edgecolor="white", lw=1.5, zorder=3)
@@ -154,7 +154,7 @@ ex.subtitle("Six largest Indian IT firms, % of headcount per year")
 ex.legend([("Hires (implied)", ORANGE), ("Leavers (attrition)", NAVY)])
 ex.source("Hires = net change + attrition × average headcount ÷ 4; firms' attrition definitions differ, and "
           "some count only voluntary exits. Quarters with at least five firms reporting. TCS's ~12,000 layoffs "
-          "(Jul 2025–Mar 2026) fall in the post-period. Gap in 2021: too few firms report attrition.", "Source: company fact sheets.", credit=CREDIT)
+          "(Jul 2025–Mar 2026) fall in the post-period. Gap in 2021: too few firms report attrition.", "Source: Company fact sheets.", credit=CREDIT)
 ax = ex.axes(left=0.11, right=0.86)
 for s, col in [(l, NAVY), (h, ORANGE)]:
     gaps = s.index.to_series().diff() > pd.Timedelta(days=120)
@@ -175,7 +175,7 @@ ex.subtitle("Average gap vs trend since 2024, %")
 ex.legend([("Main (FY16–22)", ORANGE), ("Excl. 2021–22", NAVY), ("From 2019", GRAY)])
 ex.source("Annualized US$ revenue ÷ average headcount, compared with each firm's log-linear trend. "
           "No firm is above its 95% band in the main version, and signs flip across trend windows. "
-          "LTIMindtree excluded (history too short).", "Source: company fact sheets.", credit=CREDIT)
+          "LTIMindtree excluded (history too short).", "Source: Company fact sheets.", credit=CREDIT)
 ax = ex.axes(left=0.27, right=0.95, bottom_pad=0.5)
 specs = [("main FY16-FY22", ORANGE, 0.0), ("excl. 2021-22 hiring boom", NAVY, 0.0), ("from 2019", GRAY, 0.0)]
 for i, f in enumerate(firms):
@@ -198,7 +198,7 @@ ex.title([[("Revenue", ORANGE), (" growth slowed and", INK)], [("headcount", NAV
 ex.subtitle("TCS, Infosys, HCLTech and TechM combined, % per year")
 ex.legend([("Revenue (US$)", ORANGE), ("Year-end headcount", NAVY)])
 ex.source("Indian fiscal years (FY26 = Apr 2025–Mar 2026). Log growth. The gap between the bars is growth "
-          "in revenue per employee.", "Source: company fact sheets.", credit=CREDIT)
+          "in revenue per employee.", "Source: Company fact sheets.", credit=CREDIT)
 ax = ex.axes(left=0.11, right=0.97)
 x = np.arange(len(D)); w = 0.38
 ax.bar(x - w / 2, D.dlog_rev, w, color=ORANGE, zorder=2); ax.bar(x + w / 2, D.dlog_hc, w, color=NAVY, zorder=2)

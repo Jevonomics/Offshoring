@@ -5,7 +5,8 @@ tcs.com and infosys.com return HTTP 403 to every automated request (curl and the
 ## Round 1: finish the audit (small)
 For each of **Q2 FY27 (Jul–Sep 2026), Q2 FY24, Q2 FY20, and Q1 FY16**:
 
-**TCS**: https://www.tcs.com/investor-relations/financial-statements
+**TCS: ✅ DONE.** The user supplied the cumulative Data Sheet (`TCS-Data-Sheet-Q2FY27.xlsx`, FY05–Q2 FY27). Nothing more is needed. Original request:
+https://www.tcs.com/investor-relations/financial-statements
 - The quarterly **press release, USD / IFRS version**. The expected path, not verified, is `https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/{YYYY-YY}/q{N}/IFRS/Press%20Release%20-%20USD.pdf`
 - The **TCS Data Sheet** (Excel), if it's offered. The latest copy may include history going back several years.
 

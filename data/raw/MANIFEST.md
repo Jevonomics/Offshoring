@@ -41,3 +41,4 @@ Source URL for every raw binary file (gitignored). Generated 2026-11-24.
 
 ## BEA / BLS / SEC
 - JSON responses committed; regenerate with `src/01a`, `01b`, `01d`, `01e`, `01h`.
+- `data/raw/manual/TCS-Data-Sheet-Q2FY27.xlsx` ← supplied by user from tcs.com investor relations (2026-11-24)

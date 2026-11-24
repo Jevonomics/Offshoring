@@ -15,7 +15,7 @@ Legend: ✅ verified from a downloaded document · ⚠️ partial or with caveat
 | Tech Mahindra | ✅ | A single Excel datasheet with **FY2016 Q1–FY2027 Q2** in one file, plus a PDF fact sheet archive |
 | HCLTech | ✅ | Investor releases on the site for Q3 FY22–Q2 FY27. Earlier releases aren't linked from the results page and still need to be found |
 | LTIMindtree (rebranded **LTM**, ltm.com) | ✅ | JSON document index covering FY2017–FY2027. Some older PDFs are scanned images and will need OCR. **Mindtree before the merger hasn't been checked yet** |
-| **TCS** (tcs.com) | ❌ 403 | Blocked for curl and for the web-fetch tool. **Manual download needed** |
+| **TCS** (tcs.com) | ✅ via user | The site blocks automated access. The user supplied the cumulative **Data Sheet (Q2 FY27)**, saved as `data/raw/manual/TCS-Data-Sheet-Q2FY27.xlsx` |
 | **Infosys** (infosys.com) | ❌ 403 | Blocked for both. EDGAR 6-Ks have only the press release and Ind AS results (industry segments in ₹ crore). **The fact sheet must be downloaded manually** |
 | NASSCOM, IBPAP | ❓ | Not checked yet. These come later in the collection order |
 
@@ -23,7 +23,7 @@ Legend: ✅ verified from a downloaded document · ⚠️ partial or with caveat
 
 | Firm | Service-line revenue | Region revenue | Fresh-graduate hires | Utilization | Subcontracting | Headcount / attrition |
 |---|---|---|---|---|---|---|
-| **TCS** | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| **TCS** (Data Sheet, user-supplied, FY05–Q2 FY27) | ⚠️ **FY2006–FY2017 only** (ADM, BPS, Infrastructure, Consulting, …). Discontinued → **no post-period data** | ✅ **North America / UK / Continental Europe** shares 1Q FY13–2Q FY27, plus YoY CC growth by geography 1Q FY16–2Q FY27 | ⚠️ trainees recruited only through 3Q FY18. Net addition through 2Q FY27 | ⚠️ only through 3Q FY16 | ✅ "Fees to external consultants" in the P&L | ✅ headcount FY05–2Q FY27. ✅ IT attrition (switches to *voluntary* from 2Q FY26) |
 | **Infosys** | ❓ (fact sheet blocked) | ❓ | ❓ | ⚠️ in press-release text, e.g. Q1 FY16 "80.2% excl. trainees" | ❓ | ⚠️ attrition appears in press-release text |
 | **Wipro** | ⚠️ **FY2016–Q2 FY21 only** ("Service Line Mix": Digital Operations & Platforms = BPO, Cloud & Infra, Data/Analytics/AI, etc.). Dropped after Oct 2020 → **no post-period data** | ⚠️ regions changed in FY21 to "Americas 1 / Americas 2 / Europe / APMEA" (Americas 1+2 ≈ Americas, not North America alone) | ❌ (only occasional mentions in press text) | ✅ net utilization excl. trainees | ❓ possibly in IFRS expense notes | ✅ headcount. ✅ voluntary LTM attrition (IT excl. BPS). ✅ BPS quarterly attrition, latest datasheets |
 | **Tech Mahindra** | ❌ revenue. ⚠️ **headcount split: "Software professionals" vs "BPS professionals"**, FY16–FY27 | ⚠️ Americas / Europe / RoW (not North America alone) | ❌ | ✅ IT utilization, incl. and excl. trainees | ❌ | ✅ total, IT LTM attrition |
@@ -47,8 +47,8 @@ Other notes:
 | Hyp. | Status | Why |
 |---|---|---|
 | H1 trade trend break | ✅ testable | Nominal, India strong. Philippines computer services weak because of suppression; use Philippines other business services and total. Only 2–3 post-period years |
-| **H2 exposed vs. unexposed** | **⚠️ LIMITED (decision rule triggered)** | Of the 4 firms checked, **none** reports clean exposed/unexposed service-line revenue in both the pre- and post-period. Wipro stopped in 2020 and LTI stopped at the merger. HCLTech's IT & Business Services segment mixes applications, infrastructure, and BPO, so the exposure map marks it ambiguous. TCS and Infosys are unknown. Fewer than 3 firms → **limited** |
-| H3 North America vs. Europe | ⚠️ testable with caveats | Only LTIMindtree reports North America on its own. TechM and HCLTech report "Americas" (mostly the US). Wipro's regions were redefined in FY21. TCS and Infosys are unknown |
+| **H2 exposed vs. unexposed** | **⚠️ LIMITED (decision rule triggered)** | Of the 4 firms checked, **none** reports clean exposed/unexposed service-line revenue in both the pre- and post-period. Wipro stopped in 2020 and LTI stopped at the merger. HCLTech's IT & Business Services segment mixes applications, infrastructure, and BPO, so the exposure map marks it ambiguous. TCS also stopped its service-practice split after FY2017. Infosys is unknown. Fewer than 3 firms → **limited** |
+| H3 North America vs. Europe | ⚠️ testable with caveats | LTIMindtree and **TCS** report North America on its own (TCS also reports YoY constant-currency growth by region). TechM and HCLTech report "Americas" (mostly the US). Wipro's regions were redefined in FY21. TCS and Infosys are unknown |
 | H4 hiring pipeline | ⚠️ partly testable | Only HCLTech reports fresh-graduate hires so far. Every firm gives headcount and attrition, so hiring can be backed out as Δheadcount + attrition × headcount ÷ 4. Layoff dates come from news coverage |
 | H5 move in-house | ✅ testable | BLS verified. BEA as for H1 |
 | H6 revenue per employee | ✅ testable for 4 firms now, 6 once TCS and Infosys arrive | USD revenue and headcount are present everywhere checked. A constant-currency series needs reported CC growth, which is available |

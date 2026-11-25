@@ -49,7 +49,7 @@ def align_left(ex, ax, iters=4):
 
 
 def finish(ex, ax, name):
-    align_left(ex, ax); ex.save(OUT + name)
+    align_left(ex, ax); ex.align_axes_ink(ax); ex.save(OUT + name)
 
 
 # 01 · H1 BEA imports: one chart per country, levels vs 2015-22 trend ---------------------

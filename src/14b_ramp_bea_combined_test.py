@@ -49,14 +49,17 @@ for i, (c, ylim, yt, gap) in enumerate(panels):
     ax._heading = ex.fig.text(0, 0, "", fontsize=15, weight="bold")
     ax._heading.set_text(f"{c}  "); ax._gap = ex.fig.text(0, 0, f"{gap} vs trend in 2025", fontsize=13, color=SUB, weight="semibold")
     axes.append(ax)
-# move each plot right so its tick labels start at its slot's left edge (the left slot = headline margin)
+# move each plot so its leftmost visible ink starts at its slot's left edge (left slot = headline margin)
 ex.fig.canvas.draw(); r = ex._r; W = ex.fig.bbox.width
+slot_w_f = slot_w / ex.w
 for ax in axes:
     for _ in range(3):
         d = ax._slot_x0 - ax.get_tightbbox(r).x0 / W
         p = ax.get_position(); ax.set_position([p.x0 + d, p.y0, p.width - d, p.height]); ex.fig.canvas.draw()
+    ex.align_axes_ink(ax, x_target=ax._slot_x0, x_from=ax._slot_x0 - 0.3 / ex.w, x_to=ax.get_position().x0 + 0.02)
     top = ax.get_position().y1 + 0.22 / ex.h
-    ax._heading.set_position((ax._slot_x0, top)); ax._heading.set_va("baseline"); ex.fig.canvas.draw()
-    ax._gap.set_position((ax._slot_x0 + ax._heading.get_window_extent(r).width / W, top)); ax._gap.set_va("baseline")
+    head = ax._heading.get_text()
+    ax._heading.set_position((ax._slot_x0 - ex._lsb(head, 15, weight="bold"), top)); ax._heading.set_va("baseline"); ex.fig.canvas.draw()
+    ax._gap.set_position((ax._heading.get_position()[0] + ax._heading.get_window_extent(r).width / W, top)); ax._gap.set_va("baseline")
 ex.save("outputs/charts/ramp/test_01_bea_combined")
 print("done")

@@ -56,7 +56,7 @@ for ax in axes:
         d = ax._slot_x0 - ax.get_tightbbox(r).x0 / W
         p = ax.get_position(); ax.set_position([p.x0 + d, p.y0, p.width - d, p.height]); ex.fig.canvas.draw()
     top = ax.get_position().y1 + 0.22 / ex.h
-    ax._heading.set_position((ax._slot_x0, top)); ax._heading.set_va("bottom"); ex.fig.canvas.draw()
-    ax._gap.set_position((ax._slot_x0 + ax._heading.get_window_extent(r).width / W, top)); ax._gap.set_va("bottom")
+    ax._heading.set_position((ax._slot_x0, top)); ax._heading.set_va("baseline"); ex.fig.canvas.draw()
+    ax._gap.set_position((ax._slot_x0 + ax._heading.get_window_extent(r).width / W, top)); ax._gap.set_va("baseline")
 ex.save("outputs/charts/ramp/test_01_bea_combined")
 print("done")

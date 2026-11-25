@@ -127,8 +127,8 @@ ex.title([[("No clear shift from North", INK)], [("America toward Europe", INK)]
 ex.subtitle("North America ÷ Europe revenue share, vs 2023, log points")
 ex.legend([("Before 2024", NAVY), ("2024 onward", ORANGE), ("95% interval", GRAY)])
 ex.source("Six firms (TCS, Infosys, Wipro, HCLTech, TechM, and LTI/LTIMindtree), each compared with its own average. "
-          "Pooled after-2024 shift −3.8 (p = 0.65). US$ basis: a weaker dollar in 2025 inflates Europe; "
-          "TCS's constant-currency data move the other way.", "Source: Company fact sheets.", credit=CREDIT)
+          "Pooled after-2024 shift −3.8 (p = 0.65). US$ basis: a weaker dollar in 2025 inflates Europe.",
+          "Source: Company fact sheets.", credit=CREDIT)
 ax = ex.axes(left=0.13, right=0.95)
 ax.vlines(E.year, E.coef - 1.96 * E.se, E.coef + 1.96 * E.se, color=GRAY, lw=3.5, zorder=1)
 ax.scatter(E.year, E.coef, s=90, color=np.where(E.year >= 2024, ORANGE, NAVY), edgecolor="white", lw=1.5, zorder=3)

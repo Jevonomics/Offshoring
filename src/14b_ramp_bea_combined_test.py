@@ -11,12 +11,13 @@ B = pd.read_csv("data/processed/bea_imports.csv")
 B = B[(B.affiliation == "AllAffiliations") & B.year.between(2015, 2025) & B.service_type.isin(["TelecomCompAndInfo", "OtherBusiness"])]
 
 ex = Exhibit(width=11, height=6.4)
-ex.title([[("US imports from ", INK), ("India", INK), (" ran above ", INK), ("trend", NAVY), ("; from the Philippines, below it", INK)]])
+ex.title([[("US imports from India ran above ", INK), ("trend", NAVY), (" while the Philippines fell below", INK)]])
 ex.subtitle("Computer & business services, US$ billions")
 ex.legend([("Actual", ORANGE), ("2015–22 trend", NAVY), ("95% band", LIGHT_N)])
-ex.source("India: above the 95% band in 2025 and further above trend than imports from all countries (+14%); on trend with a "
-          "pre-COVID (2015–19) trend. Philippines: inside the band, the sign flips with other trend windows, and a 2022 BEA "
-          "category change (call-center work moving to management consulting) likely affects 2022–25. Nominal US$.",
+ex.source("India was above the 95% band in 2025 and further above its trend than imports from all countries (+14%), "
+          "though it is on trend measured against a pre-COVID trend (2015–19). The Philippines stayed inside the band, and "
+          "its shortfall turns into a surplus against the pre-COVID trend. A 2022 change in BEA categories appears to move "
+          "call-center work into management consulting, which probably lowers its 2022–25 figures. Values are nominal.",
           "Source: BEA International Services (telecom, computer, and information + other business services).",
           credit="Analysis: Atharv Joshi")
 frame = ex.axes(left=0.05, right=0.95, bottom_pad=0.55)

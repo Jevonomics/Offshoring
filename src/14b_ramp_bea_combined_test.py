@@ -17,7 +17,7 @@ ex.legend([("Actual", ORANGE), ("2015–22 trend", NAVY), ("95% band", LIGHT_N)]
 ex.source("India: above the 95% band in 2025 and further above trend than imports from all countries (+14%); on trend with a "
           "pre-COVID (2015–19) trend. Philippines: inside the band, the sign flips with other trend windows, and a 2022 BEA "
           "category change (call-center work moving to management consulting) likely affects 2022–25. Nominal US$.",
-          "Source: BEA International Services (telecom, computer & information + other business services).",
+          "Source: BEA International Services (telecom, computer, and information + other business services).",
           credit="Analysis: Atharv Joshi")
 frame = ex.axes(left=0.05, right=0.95, bottom_pad=0.55)
 _, y0, _, h = frame.get_position().bounds; frame.remove()

@@ -74,7 +74,7 @@ for c, cfg in BEA_COUNTRY.items():
     ex.subtitle("Computer & business services, US$ billions")
     ex.legend([("Actual", ORANGE), ("2015–22 trend", NAVY), ("95% band", LIGHT_N)])
     ex.source(cfg["note"] + " Nominal US$.",
-              "Source: BEA International Services (telecom, computer & information + other business services).", credit=CREDIT)
+              "Source: BEA International Services (telecom, computer, and information + other business services).", credit=CREDIT)
     ax = ex.axes(left=0.1, right=0.86)
     ax.fill_between(sr.index, tr.pi_lo, tr.pi_hi, color=LIGHT_N, alpha=.6, lw=0, zorder=0)
     ax.plot(sr.index, tr.trend, color=NAVY, lw=2, ls=(0, (4, 3)), zorder=2)
@@ -126,7 +126,7 @@ ex = Exhibit(height=6.4)
 ex.title([[("No clear shift from North", INK)], [("America toward Europe", INK)]])
 ex.subtitle("North America ÷ Europe revenue share, vs 2023, log points")
 ex.legend([("Before 2024", NAVY), ("2024 onward", ORANGE), ("95% interval", GRAY)])
-ex.source("Six firms (TCS, Infosys, Wipro, HCLTech, TechM, LTI/LTIMindtree), each compared with its own average. "
+ex.source("Six firms (TCS, Infosys, Wipro, HCLTech, TechM, and LTI/LTIMindtree), each compared with its own average. "
           "Pooled after-2024 shift −3.8 (p = 0.65). US$ basis: a weaker dollar in 2025 inflates Europe; "
           "TCS's constant-currency data move the other way.", "Source: Company fact sheets.", credit=CREDIT)
 ax = ex.axes(left=0.13, right=0.95)
@@ -195,7 +195,7 @@ finish(ex, ax, "06_rev_per_employee")
 D = pd.read_csv("outputs/h6_decomposition.csv")
 ex = Exhibit(height=6.2)
 ex.title([[("Revenue", ORANGE), (" growth slowed and", INK)], [("headcount", NAVY), (" stopped growing", INK)]])
-ex.subtitle("TCS, Infosys, HCLTech and TechM combined, % per year")
+ex.subtitle("TCS, Infosys, HCLTech, and TechM combined, % per year")
 ex.legend([("Revenue (US$)", ORANGE), ("Year-end headcount", NAVY)])
 ex.source("Indian fiscal years (FY26 = Apr 2025–Mar 2026). Log growth. The gap between the bars is growth "
           "in revenue per employee.", "Source: Company fact sheets.", credit=CREDIT)

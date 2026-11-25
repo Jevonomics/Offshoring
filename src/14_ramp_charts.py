@@ -125,7 +125,7 @@ E = pd.read_csv("outputs/h3_event_study.csv")
 ex = Exhibit(height=6.4)
 ex.title([[("No clear shift from ", INK), ("North", ORANGE)], [("America", ORANGE), (" toward Europe", INK)]])
 ex.subtitle("North America ÷ Europe revenue share, vs 2023, log points")
-ex.legend([("Estimate", ORANGE), ("95% interval", GRAY)])
+ex.legend([("Before 2024", NAVY), ("2024 onward", ORANGE), ("95% interval", GRAY)])
 ex.source("Six firms (TCS, Infosys, Wipro, HCLTech, TechM, LTI/LTIMindtree), each compared with its own average. "
           "Pooled after-2024 shift −3.8 (p = 0.65). US$ basis: a weaker dollar in 2025 inflates Europe; "
           "TCS's constant-currency data move the other way.", "Source: Company fact sheets.", credit=CREDIT)

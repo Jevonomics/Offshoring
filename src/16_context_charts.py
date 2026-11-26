@@ -163,7 +163,7 @@ print("done")
 
 # 13 · per firm: share price vs Nifty 50, revenue, and headcount, indexed to end-2023 --------------
 # Rows = firms, columns = measures. Each column has its own scale, shared by every firm in it.
-BASE = pd.Timestamp("2023-12-31"); START = pd.Timestamp("2022-01-01")
+BASE = pd.Timestamp("2023-12-31"); START = pd.Timestamp("2023-12-25")   # start at the base so every line begins on 100
 REL = P[F].div(P["Nifty 50"], axis=0).resample("W-FRI").last(); REL = REL / REL.loc[:BASE].iloc[-1] * 100
 RI = R4 / R4.loc[BASE] * 100
 HI = H / H.loc[BASE] * 100
@@ -205,7 +205,7 @@ for i, f in enumerate(order):
         ax.annotate(f"{ch:+.0f}%".replace("-", "−"), (s_.index[-1], s_.iloc[-1]), xytext=(5, 0), textcoords="offset points",
                     va="center", fontsize=12, weight="bold", color=c, annotation_clip=False)
         if i == len(order) - 1:
-            for yr in (2022, 2024, 2026):
+            for yr in (2024, 2025, 2026):
                 ax.annotate(f"'{yr % 100}", (pd.Timestamp(f"{yr}-01-01"), lims[k][0]), xytext=(0, -8), textcoords="offset points",
                             ha="center", va="top", fontsize=11, color=SUB, annotation_clip=False)
     if i < len(order) - 1:

@@ -31,12 +31,12 @@ ytd, on_ai = rel.loc["2026"].sum(), rel.loc[AI_DAYS].sum()
 S = P.loc["2023-01-01":, ["Nifty IT", "Nifty 50"]]; S = S / S.iloc[0] * 100
 ex = Exhibit(height=6.9)
 ex.title([[("Indian IT stocks", ORANGE), (" fell behind the", INK)], [("market", NAVY), (" on days of AI news", INK)]])
-ex.subtitle("Price index, 2 Jan 2023 = 100")
+ex.subtitle("Price index, 01/02/23 = 100")
 ex.legend([("Nifty IT", ORANGE), ("Nifty 50", NAVY), ("Days with Anthropic news", INK)])
 ex.source(f"In 2026, Nifty IT has trailed the Nifty 50 by {abs(ytd):.0f} log points. The five marked days account for "
           f"{abs(on_ai):.0f} of them, so all other days together were slightly positive. Press reports tied each "
-          "marked day to an Anthropic release or filing; on 12 Feb, US jobs data also weighed. Other big drops had other "
-          "causes, such as Infosys's weak guidance on 24 Apr. Prices show what investors expect, not what has happened.",
+          "marked day to an Anthropic release or filing; on 02/12/26, US jobs data also weighed. Other big drops had other "
+          "causes, such as Infosys's weak guidance on 04/24/26. Prices show what investors expect, not what has happened.",
           "Source: NSE indices via Yahoo Finance; press reports.", credit=CREDIT)
 ax = ex.axes(left=0.1, right=0.86)
 ax.plot(S.index, S["Nifty 50"], color=NAVY, lw=2)
@@ -59,9 +59,9 @@ n_trail = int((T < 0).sum())
 ex = Exhibit(height=6.6)
 W2 = {1: "One", 2: "Two", 3: "Three", 4: "Four", 5: "Five", 6: "Six", 7: "Seven"}
 ex.title([[(f"{W2[n_trail]} of {W2[len(T)].lower()} firms trail their", INK)], [("home market since 2024", INK)]])
-ex.subtitle("Share price relative to home index since 2 Jan 2024, %")
+ex.subtitle("Share price relative to home index since 01/02/24, %")
 ex.legend([("Indian firms vs Nifty 50", ORANGE), ("Accenture vs S&P 500", NAVY)])
-ex.source("Total returns (prices adjusted for dividends and splits), to 25 Nov 2026. Relative return = (1 + firm return) "
+ex.source("Total returns (prices adjusted for dividends and splits), to 11/25/26. Relative return = (1 + firm return) "
           "÷ (1 + index return) − 1, so −50% means the firm is worth half as much relative to its market as in January 2024.",
           "Source: NSE and NYSE prices via Yahoo Finance.", credit=CREDIT)
 ax = ex.axes(left=0.25, right=0.9, bottom_pad=0.5)

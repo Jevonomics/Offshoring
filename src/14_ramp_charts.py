@@ -205,14 +205,14 @@ ex.source("Revenue per employee is annualized US$ revenue divided by average hea
 base = ex.axes(left=0.115, right=0.86, bottom_pad=0.5); pos = base.get_position(); base.remove()
 TH = 0.3 / ex.h                     # room for each panel's firm name
 gap = 0.1 / ex.h; hh = (pos.height - gap * (len(firms) - 1) - TH * len(firms)) / len(firms)
-X0, X1 = pd.Timestamp("2015-04-01"), pd.Timestamp("2026-12-31")
+X0, X1 = pd.Timestamp("2015-04-01"), PT.cal_quarter_end.max() + pd.Timedelta(days=45)
 axs = []
 for i, f in enumerate(firms):
     top = pos.y1 - i * (hh + gap + TH) - TH
     ax = ex.fig.add_axes([pos.x0, top - hh, pos.width, hh]); axs.append(ax)
     g = PT[PT.firm == f]
     ax.fill_between(g.cal_quarter_end, g.pi_lo_g, g.pi_hi_g, color=LIGHT_N, lw=0, zorder=1)
-    ax.axhline(0, color=NAVY, lw=1.4, ls=(0, (4, 2.5)), zorder=2)
+    ax.plot(g.cal_quarter_end, np.zeros(len(g)), color=NAVY, lw=1.4, ls=(0, (4, 2.5)), zorder=2)   # trend only where data are
     ax.plot(g.cal_quarter_end, g.rpe_k_g, color=ORANGE, lw=2.2, zorder=3)
     ax.axvline(pd.Timestamp("2024-01-01"), color=SUB, ls=(0, (3, 3)), lw=1.1, zorder=2)
     ax.set_xlim(X0, X1); ax.set_ylim(-18, 18); ax.set_yticks([-10, 0, 10]); ax.set_yticklabels(["−10", "0", "+10"])
@@ -222,7 +222,7 @@ for i, f in enumerate(firms):
     ex.fig.text(MARGIN / ex.w - ex._lsb(f, 14, weight="semibold"), top + TH * 0.35, f, ha="left",
                 va="baseline", fontsize=14, weight="semibold", color=INK)
     m = R6[(R6.firm == f) & R6.spec.str.startswith("main")].mean_gap_pct.iloc[0]
-    ax.text(1.03, 0.5, f"{m:+.0f}%".replace("-", "−"), transform=ax.transAxes, ha="left", va="center", fontsize=14,
+    ex.fig.text(1 - MARGIN / ex.w, top - hh / 2, f"{m:+.0f}%".replace("-", "−"), ha="right", va="center", fontsize=14,
             weight="bold", color=ORANGE)
     if i == 0:
         ax.annotate("AI proliferates (2024)", (__import__("matplotlib.dates").dates.date2num(pd.Timestamp("2024-01-01")), 1), xycoords=ax.get_xaxis_transform(),

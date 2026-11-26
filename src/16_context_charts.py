@@ -162,7 +162,7 @@ grid(ex, draw_g, "12_revenue_growth_by_firm")
 print("done")
 
 # 13 · per firm: share price vs Nifty 50, revenue, and headcount, indexed to end-2023 --------------
-# Rows = firms, columns = measures. Each column has its own scale, shared by every firm in it.
+# Indexed series feed the end-point bars below.
 BASE = pd.Timestamp("2023-12-31"); START = pd.Timestamp("2023-12-25")   # start at the base so every line begins on 100
 REL = P[F].div(P["Nifty 50"], axis=0).resample("W-FRI").last(); REL = REL / REL.loc[:BASE].iloc[-1] * 100
 RI = R4 / R4.loc[BASE] * 100
@@ -171,46 +171,34 @@ HC = "#7d7c78"
 COLS = [("Price vs Nifty 50", REL, ORANGE), ("Revenue", RI, NAVY), ("Headcount", HI, HC)]
 order = REL.iloc[-1].sort_values().index.tolist()          # biggest share-price fall first
 
-ex = Exhibit(width=8.2, height=8.6)
-n_fell = int((REL.iloc[-1] < 100).sum())
-ex.title([[("Share prices fell while revenue", INK)], [("and headcount barely moved", INK)]])
-ex.subtitle("Change since Dec 31, 2023; dark line = no change, light lines = ±50%")
-ex.source(f"Share price is relative to the Nifty 50, weekly to Nov 25, 2026; it fell at {n_fell} of 6 firms. Revenue is US$, "
-          "summed over the last four quarters. Headcount is at quarter end, net of all exits, so it includes layoffs. "
-          "Company data run to Sep 30, 2026. Every panel uses the same scale. "
-          "LTIMindtree uses its restated combined figures.",
+# Grouped bars of the end-point change: the time paths added little and squeezed revenue and headcount into
+# flat lines on a scale set by prices. One shared % axis makes the size gap between the three measures direct.
+last = pd.DataFrame({lab: D.ffill().iloc[-1] - 100 for lab, D, _ in COLS})
+order = last["Price vs Nifty 50"].sort_values().index.tolist()      # biggest share-price fall on top
+n_fell = int((last["Price vs Nifty 50"] < 0).sum())
+ex = Exhibit(width=7.0, height=8.4)
+ex.title([[("Share prices", ORANGE), (" fell while ", INK), ("revenue", NAVY)], [("and ", INK), ("headcount", HC), (" barely moved", INK)]])
+ex.subtitle("Change from Dec 31, 2023 to latest, %")
+ex.legend([("Price vs Nifty 50", ORANGE), ("Revenue", NAVY), ("Headcount", HC)])
+ex.source(f"Share price is relative to the Nifty 50, to Nov 25, 2026; it fell at {n_fell} of 6 firms. Revenue is US$, "
+          "summed over the last four quarters, to Sep 30, 2026. Headcount is at Sep 30, 2026, net of all exits, so it "
+          "includes layoffs. LTIMindtree uses its restated combined figures.",
           "Source: Company fact sheets; NSE prices via Yahoo Finance.", credit=CREDIT)
-top_in = ex.cursor + 0.15; bot_in = ex.footer + 0.45
-NAME_W, LAB_W, GAP = 1.35, 0.62, 0.28                       # inches
-col_w = (ex.w - 2 * MARGIN - NAME_W - 3 * (LAB_W + GAP) + GAP) / 3
-HEAD = 0.42; row_h = (ex.h - top_in - bot_in - HEAD) / len(order)
-x0s = [MARGIN + NAME_W + k * (col_w + LAB_W + GAP) for k in range(3)]
+ax = ex.axes(left=0.25, right=0.92, bottom_pad=0.5)
+ax.grid(axis="y", visible=False); ax.grid(axis="x", color=GRID, lw=1); ax.spines["bottom"].set_visible(False)
+ys = np.arange(len(order))[::-1] * 1.25
 for k, (lab, _, c) in enumerate(COLS):
-    ex.fig.text((x0s[k] - 0) / ex.w, 1 - (top_in + 0.25) / ex.h, lab, fontsize=12.5, weight="bold", color=c, va="baseline")
-allv = np.concatenate([D[order].loc[START:].values.ravel() for _, D, _ in COLS]); allv = allv[~np.isnan(allv)]
-lims = [(min(allv.min(), 50) - 4, max(allv.max(), 150) + 4)] * 3        # one scale for every panel
-for i, f in enumerate(order):
-    y_top = top_in + HEAD + i * row_h
-    yb = 1 - (y_top + row_h * 0.85) / ex.h; hh = row_h * 0.72 / ex.h
-    t = ex.fig.text(MARGIN / ex.w - ex._lsb(f, 14, weight="semibold"), yb + hh / 2, f, fontsize=14, weight="semibold",
-                    color=INK, va="center")
-    for k, (lab, D, c) in enumerate(COLS):
-        ax = ex.fig.add_axes([x0s[k] / ex.w, yb, col_w / ex.w, hh]); ax.axis("off")
-        s_ = D[f].loc[START:].dropna()
-        for g in (50, 150): ax.axhline(g, color=GRID, lw=0.8, zorder=0)
-        ax.axhline(100, color=INK, lw=0.9, zorder=1)
-        ax.plot(s_.index, s_.values, color=c, lw=1.8, zorder=2)
-        ax.set_ylim(*lims[k]); ax.set_xlim(START, pd.Timestamp("2026-12-31"))
-        ch = s_.iloc[-1] - 100
-        # Label sits past the right edge of the panel (where the reference lines stop), not at the line's last point.
-        ax.annotate(f"{ch:+.0f}%".replace("-", "−"), (1, s_.iloc[-1]), xycoords=ax.get_yaxis_transform(), xytext=(7, 0), textcoords="offset points",
-                    va="center", fontsize=12, weight="bold", color=c, annotation_clip=False)
-        if i == len(order) - 1:
-            for yr in (2024, 2025, 2026):
-                ax.annotate(f"'{yr % 100}", (pd.Timestamp(f"{yr}-01-01"), lims[k][0]), xytext=(0, -8), textcoords="offset points",
-                            ha="center", va="top", fontsize=11, color=SUB, annotation_clip=False)
-    if i < len(order) - 1:
-        yl = 1 - (y_top + row_h * 0.98) / ex.h
-        ex.fig.add_artist(__import__("matplotlib").lines.Line2D([MARGIN / ex.w, 1 - MARGIN / ex.w], [yl, yl], color=GRID, lw=0.8))
+    off = 0.32 - k * 0.32
+    v = last.loc[order, lab].values
+    ax.barh(ys + off, v, height=0.28, color=c, zorder=2)
+    for yi, vi in zip(ys + off, v):
+        ax.annotate(f"{vi:+.0f}%".replace("-", "−"), (vi, yi), xytext=(5 if vi >= 0 else -5, 0), textcoords="offset points",
+                    ha="left" if vi >= 0 else "right", va="center", fontsize=11, weight="bold", color=c)
+ax.axvline(0, color=INK, lw=1.4, zorder=3)
+ax.set_yticks(ys); ax.set_yticklabels(order, fontsize=14, color=INK); ax.tick_params(axis="y", pad=12)
+ax.set_xlim(-50, 40); ax.set_xticks(range(-40, 41, 20))
+ax.set_xticklabels([f"{x:+d}".replace("-", "−") if x else "0" for x in range(-40, 41, 20)])
+ax.set_ylim(ys.min() - 0.7, ys.max() + 0.7)
+align_left(ex, ax); ex.align_axes_ink(ax)
 ex.save(OUT + "13_price_revenue_headcount")
 print("13 done")

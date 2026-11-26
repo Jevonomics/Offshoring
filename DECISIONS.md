@@ -62,3 +62,4 @@ This log is append-only. Each entry is dated and gives its reason.
 
 ## 2026-11-26 — Label for the 2024 line
 - Charts labeled the start of the post period "AI coding tools spread (2024)", following the pre-registration's wording ("when coding agents spread"). That overstated 2024: AI assistants (Copilot, ChatGPT) were in wide use by then, but coding agents went mainstream in 2025. At the user's request the label is now "AI proliferates (2024)" on every chart. The post-period start itself is unchanged (pre-registered).
+- **Chart 13 redesign (2026-11-26):** the grid of small line charts made revenue and headcount look like flat lines on a scale set by share prices, and the labels crowded the lines. Replaced with grouped horizontal bars of the total change from Dec 31, 2023 (price vs Nifty 50, revenue, headcount) on one % axis, firms sorted by share-price change. Numbers unchanged.

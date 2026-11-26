@@ -18,7 +18,7 @@ The data do **not** show the pattern the Anthropic report's mechanism predicts. 
 |---|---|---|---|
 | **Channel A** | H1 Imports fall below trend | **Contrary (India) / fragile (Philippines)** | India computer & business services +24% above trend in 2025, outside the 95% band. Philippines −30%, inside the band, and the sign flips with the trend window |
 | | H2 Exposed work lags (**limited data**) | **No support; India trade data contrary** | Pooled vendor proxies: −0.4 pp, p = 0.83. Accenture managed services grew *faster* than consulting. India's exposed trade categories +34% above trend vs +11% for unexposed |
-| | H3 North America lags Europe | **No support** | −3.8 log points, p = 0.65. Clean North America firms only: −15, p = 0.18. TCS constant-currency gap moved *toward* North America |
+| | H3 North America lags Europe | **No support** | −3.8 log points, p = 0.65. Clean North America firms only: −15, p = 0.18. The 2025–26 drift (−9 in 2026) mostly disappears at a fixed euro rate (−2). TCS constant-currency gap moved *toward* North America |
 | | H4 Hiring restraint, not layoffs | **Support, but not diagnostic** | All 20 post-2024 headcount declines outside TCS come from low hiring with normal or low attrition |
 | | H5 Partial move in-house | **Contrary** | US computer systems design jobs −13% below trend (all 10 months of 2026 below the band) while India imports are above trend |
 | **Channel B** | H6 Revenue per employee rises | **No support** | 0 of 5 firms above the 95% band in the main specification. Average gaps range from −7% (TechM) to +3% (TCS) |
@@ -65,7 +65,7 @@ Each line is "exposed growth minus unexposed growth" (percentage points, YoY). I
 - Pre-registered verdict: **no support**. The BEA India split leans contrary.
 
 ### H3. North America vs. Europe
-*Chart 04. Files: `outputs/h3_regression.csv`, `outputs/h3_event_study.csv`, `outputs/h3_per_firm.csv`, `outputs/h3_tcs_constant_currency.csv`.*
+*Chart 04. Files: `outputs/h3_regression.csv`, `outputs/h3_currency_regression.csv`, `outputs/h3_currency_event_study.csv`, `outputs/h3_event_study.csv`, `outputs/h3_per_firm.csv`, `outputs/h3_tcs_constant_currency.csv`.*
 
 - **Regression:** log(North America share ÷ Europe share) on `post`, with firm × definition fixed effects. This is equivalent to the pre-registered segment specification. Standard errors are clustered by firm (6 clusters).
 
@@ -79,7 +79,16 @@ Each line is "exposed growth minus unexposed growth" (percentage points, YoY). I
 - **Event study:** the coefficients drift negative in 2025 (−4.9) and 2026 (−8.8), but every 95% interval includes zero.
 - **Per firm:** 5 of 6 firms show North America growing more slowly than Europe after 2024 than before. HCLTech is the exception.
 - **Currency confounds this.** The dollar weakened in 2025, which mechanically raises Europe's US$ revenue. TCS reports constant-currency growth by region, which removes that effect: North America's gap vs. Europe went from **−4.0 pp before to −1.5 pp after**, i.e. North America *improved*.
-- Verdict: **no support.** There is a direction worth watching, but it is not significant and the currency-neutral check points the other way.
+- **Fixed euro rate check** (`src/10b_h3_currency.py`; files `outputs/h3_currency_regression.csv`, `outputs/h3_currency_event_study.csv`). Europe revenue is converted at a constant euro–dollar rate (ECB reference rate, quarterly average). This assumes all Europe revenue is in euros. The firms don't report the euro/pound/other split, and the pound rose less than the euro in 2025, so this may over-correct.
+
+| Event study, log pts vs 2023 | Reported US$ | Half in euros | All in euros |
+|---|---|---|---|
+| 2025 | −4.9 | −2.8 | −0.8 |
+| 2026 | −8.8 | −5.4 | −2.0 |
+
+  - The 2025–26 drift mostly disappears: it lines up with the euro's rise from about $1.05 (2025 Q1) to $1.17 (2025 Q3).
+  - The post-2024 average barely moves (−3.8, p = 0.66; clean North America firms −14.6, p = 0.22). At a fixed rate the pre-period years sit *above* 2023 (+3 to +8), so the decline vs. the 2015–22 average comes mainly from 2021–22, before AI coding tools spread.
+- Verdict: **no support.** The 2025–26 drift is mostly the exchange rate, and the currency-neutral checks (TCS's own figures and the fixed euro rate) don't show North America falling behind after 2024.
 
 ### H4. Hiring restraint vs. layoffs
 *Chart 05. Files: `outputs/h4_quarter_classification.csv`, `outputs/h4_period_summary.csv`. Layoff dates: `data/processed/layoff_events.csv`.*

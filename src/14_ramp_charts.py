@@ -130,23 +130,31 @@ ax.spines["bottom"].set_visible(False)
 finish(ex, ax, "03_exposed_vs_unexposed")
 
 # 04 · H3 event study --------------------------------------------------------------------
-E = pd.read_csv("outputs/h3_event_study.csv")
-ex = Exhibit(height=6.4)
-ex.title([[("No clear shift from North", INK)], [("America toward Europe", INK)]])
+EC = pd.read_csv("outputs/h3_currency_event_study.csv")
+RC = pd.read_csv("outputs/h3_currency_regression.csv").query("spec == 'main (post=2024Q1+)'").set_index("adjustment")
+ex = Exhibit(height=6.6)
+ex.title([[("Most of the 2025–26 drift goes", INK)], [("away at a fixed euro rate", INK)]])
 ex.subtitle("North America ÷ Europe revenue share, vs 2023, log points")
-ex.legend([("Before 2024", NAVY), ("2024 onward", ORANGE), ("95% interval", GRAY)])
+ex.legend([("Reported in US$", NAVY), ("Fixed euro rate", ORANGE), ("95% interval", "#c9c7c1")])
+r0, r1 = RC.loc["reported US$"], RC.loc["all Europe in euros (main)"]
 ex.source("Covers TCS, Infosys, Wipro, HCLTech, Tech Mahindra, and LTI/LTIMindtree, each compared with its own average. "
-          "Across all six, the shift after 2024 is −3.8 (p = 0.65). Shares are based on US$ revenue, so the weaker "
-          "dollar in 2025 makes Europe look larger.",
-          "Source: Company fact sheets.", credit=CREDIT)
+          "The fixed-rate version converts all Europe revenue at a constant euro–dollar rate. The firms don't say how much "
+          "is in euros, pounds, or other currencies, so it may over-correct. " +
+          (f"Across all six, the shift after 2024 is {r0.coef_log_pts:+.1f} (p = {r0.p:.2f}) reported and "
+           f"{r1.coef_log_pts:+.1f} (p = {r1.p:.2f}) at a fixed rate.").replace("-", "−"),
+          "Source: Company fact sheets and the ECB.", credit=CREDIT)
 ax = ex.axes(left=0.13, right=0.95)
-ax.vlines(E.year, E.coef - 1.96 * E.se, E.coef + 1.96 * E.se, color=GRAY, lw=3.5, zorder=1)
-ax.scatter(E.year, E.coef, s=90, color=np.where(E.year >= 2024, ORANGE, NAVY), edgecolor="white", lw=1.5, zorder=3)
-ax.axhline(0, color=INK, lw=1.2, zorder=2); ax.set_ylim(-25, 25); ax.set_yticks([-20, -10, 0, 10, 20])
-ax.set_yticklabels(["−20", "−10", "0", "+10", "+20"]); year_ticks(ax, range(2015, 2027)); ax.set_xlim(2014.4, 2026.6)
+for lab, color, off in [("reported US$", NAVY, -0.17), ("all Europe in euros (main)", ORANGE, 0.17)]:
+    E = EC[EC.adjustment == lab]
+    ax.vlines(E.year + off, E.coef - 1.96 * E.se, E.coef + 1.96 * E.se, color="#c9c7c1", lw=3, zorder=1)
+    ax.scatter(E.year + off, E.coef, s=70, color=color, edgecolor="white", lw=1.3, zorder=3)
+ax.axhline(0, color=INK, lw=1.2, zorder=2); ax.set_ylim(-25, 36); ax.set_yticks([-20, -10, 0, 10, 20])
+ax.set_yticklabels(["−20", "−10", "0", "+10", "+20"]); year_ticks(ax, range(2015, 2027)); ax.set_xlim(2014.4, 2026.9)
 ax.spines["bottom"].set_visible(False)
-post_line(ax, 2023.5, ymax=24.5)
-end_label(ax, 2026, E.coef.iloc[-1], f"{E.coef.iloc[-1]:+.0f}", dx=9)
+post_line(ax, 2023.5, ymax=35.5)
+for lab, color, off in [("reported US$", NAVY, -0.17), ("all Europe in euros (main)", ORANGE, 0.17)]:
+    v = EC[(EC.adjustment == lab) & (EC.year == 2026)].coef.iloc[0]
+    end_label(ax, 2026 + off, v, f"{v:+.0f}", color=color, dx=8)
 finish(ex, ax, "04_na_vs_europe")
 
 # 05 · H4 hiring vs leaving --------------------------------------------------------------

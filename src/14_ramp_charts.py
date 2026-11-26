@@ -89,35 +89,42 @@ for c, cfg in BEA_COUNTRY.items():
     post_line(ax, 2023.5, ymax=cfg["ylim"][1] * 0.99)
     finish(ex, ax, cfg["name"])
 
-# 03 · H2 exposed vs unexposed: dumbbell before/after ------------------------------------
+# 03 · H2 exposed vs unexposed: change after 2024 with 95% ranges -------------------------
 R = pd.read_csv("outputs/h2_vendor_proxies.csv").set_index("series")
-rows = [("Accenture", "Managed services − consulting", "Accenture: Managed svcs − Consulting (LC growth)"),
-        ("TechM", "BPO − software staff", "TechM: BPS − software headcount growth"),
-        ("HCLTech", "IT & business − engineering", "HCLTech: ITBS − Engineering & R&D revenue growth (US$)")]
-ex = Exhibit(height=6.6)
+rows = [("Accenture", "Managed services − consulting", "Accenture: Managed svcs − Consulting (LC growth)", NAVY),
+        ("TechM", "BPO − software staff", "TechM: BPS − software headcount growth", NAVY),
+        ("HCLTech", "IT & business − engineering", "HCLTech: ITBS − Engineering & R&D revenue growth (US$)", NAVY),
+        ("All three", "Main result", "POOLED (series FE, HAC)", ORANGE),
+        ("Without TechM", "Robustness check", "POOLED without TechM (robustness)", ORANGE)]
+ex = Exhibit(width=7.0, height=7.6)
 ex.title([[("Work exposed to AI didn't", INK)], [("lose ground after 2024", INK)]])
-ex.subtitle("Growth of exposed minus other work, points per year")
-ex.legend([("2016–23 average", NAVY), ("2024+ average", ORANGE)])
-ex.source("Above zero means exposed work grew faster. No firm reports revenue by type of work after 2024, so each row "
-          "uses a proxy. Accenture compares revenue in local currency, Tech Mahindra compares headcount, and HCLTech "
-          "compares US$ revenue, though its IT and business services division includes some unexposed work. "
-          "Across all three, the change is −0.4 points (p = 0.83).",
+ex.subtitle("Change in exposed minus other growth after 2024, points")
+ex.legend([("Single firm", NAVY), ("Firms combined", ORANGE), ("95% range", "#c9c7c1")])
+ex.source("Each row compares 2024 onward with 2016–23. A range that crosses zero means the data can't rule out no change; "
+          "exposed work falling behind would put the whole range left of zero. No firm reports revenue by type of work after "
+          "2024, so each row uses a proxy: Accenture's revenue in local currency, Tech Mahindra's headcount, and HCLTech's "
+          "US$ revenue. Tech Mahindra's software staff are arguably exposed too.",
           "Source: Accenture 8-K earnings releases; Company fact sheets.", credit=CREDIT)
-ax = ex.axes(left=0.40, right=0.70, bottom_pad=0.5)
+ax = ex.axes(left=0.38, right=0.76, bottom_pad=0.85)
 COLS = blended_transform_factory(ex.fig.transFigure, ax.transData)   # columns pinned to the right margin
 X_P = 1 - (MARGIN + 0.22) / ex.w; X_CH = X_P - 0.8 / ex.w
-for i, (firm, lab, key) in enumerate(rows):
-    r, y = R.loc[key], len(rows) - 1 - i
-    ax.plot([r.pre_mean_pp, r.post_mean_pp], [y, y], color=GRID, lw=7, solid_capstyle="round", zorder=1)
-    ax.scatter([r.pre_mean_pp], [y], s=150, color=NAVY, edgecolor="white", lw=1.8, zorder=3)
-    ax.scatter([r.post_mean_pp], [y], s=150, color=ORANGE, edgecolor="white", lw=1.8, zorder=3)
+ys = [6.6, 5.4, 4.2, 2.3, 1.1]
+for (firm, lab, key, c), y in zip(rows, ys):
+    r = R.loc[key]; lo, hi = r.change_pp - 1.96 * r.se, r.change_pp + 1.96 * r.se
+    ax.plot([lo, hi], [y, y], color="#c9c7c1", lw=7, solid_capstyle="round", zorder=1)
+    ax.scatter([r.change_pp], [y], s=150, color=c, edgecolor="white", lw=1.8, zorder=3)
     ax.text(-0.04, y + 0.16, firm, transform=ax.get_yaxis_transform(), ha="right", va="center", fontsize=14, color=INK, weight="semibold")
-    ax.text(-0.04, y - 0.19, lab, transform=ax.get_yaxis_transform(), ha="right", va="center", fontsize=11, color=SUB)
+    ax.text(-0.04, y - 0.24, lab, transform=ax.get_yaxis_transform(), ha="right", va="center", fontsize=11, color=SUB)
     ax.text(X_CH, y, f"{r.change_pp:+.1f}".replace("-", "−"), transform=COLS, ha="center", va="center", fontsize=14, weight="bold")
     ax.text(X_P, y, f"{r.p:.2f}", transform=COLS, ha="center", va="center", fontsize=14, color=INK)
-ax.text(X_CH, len(rows) - 0.35, "Change", transform=COLS, ha="center", va="bottom", fontsize=12.5, color=SUB, weight="semibold")
-ax.text(X_P, len(rows) - 0.35, "p", transform=COLS, ha="center", va="bottom", fontsize=12.5, color=SUB, weight="semibold")
-ax.set_ylim(-0.6, len(rows) - 0.4); ax.set_yticks([]); ax.set_xlim(-1.5, 11); ax.set_xticks([0, 2, 4, 6, 8, 10]); ax.tick_params(axis="x", labelsize=12.5)
+ax.axhline(3.25, color=GRID, lw=1)
+ax.text(X_CH, 7.35, "Change", transform=COLS, ha="center", va="bottom", fontsize=12.5, color=SUB, weight="semibold")
+ax.text(X_P, 7.35, "p", transform=COLS, ha="center", va="bottom", fontsize=12.5, color=SUB, weight="semibold")
+XB = blended_transform_factory(ax.transData, ax.transAxes)
+ax.text(-0.6, -0.15, "← Exposed fell behind", transform=XB, ha="right", va="top", fontsize=11.5, color=SUB)
+ax.text(0.6, -0.15, "Grew faster →", transform=XB, ha="left", va="top", fontsize=11.5, color=SUB)
+ax.set_ylim(0.4, 7.3); ax.set_yticks([]); ax.set_xlim(-12, 12); ax.set_xticks([-10, -5, 0, 5, 10])
+ax.set_xticklabels(["−10", "−5", "0", "+5", "+10"]); ax.tick_params(axis="x", labelsize=12.5)
 ax.grid(axis="y", visible=False); ax.grid(axis="x", color=GRID, lw=1); ax.axvline(0, color=INK, lw=1.2)
 ax.spines["bottom"].set_visible(False)
 finish(ex, ax, "03_exposed_vs_unexposed")

@@ -162,36 +162,54 @@ grid(ex, draw_g, "12_revenue_growth_by_firm")
 print("done")
 
 # 13 · per firm: share price vs Nifty 50, revenue, and headcount, indexed to end-2023 --------------
-BASE = pd.Timestamp("2023-12-31")
-REL = P[F].div(P["Nifty 50"], axis=0).resample("W-FRI").last()
-REL = REL / REL.loc[:BASE].iloc[-1] * 100
+# Rows = firms, columns = measures. Each column has its own scale, shared by every firm in it.
+BASE = pd.Timestamp("2023-12-31"); START = pd.Timestamp("2022-01-01")
+REL = P[F].div(P["Nifty 50"], axis=0).resample("W-FRI").last(); REL = REL / REL.loc[:BASE].iloc[-1] * 100
 RI = R4 / R4.loc[BASE] * 100
-HI = (H * 1000) / (H.loc[BASE] * 1000) * 100
-HC_COLOR = "#9a9994"
+HI = H / H.loc[BASE] * 100
+HC = "#7d7c78"
+COLS = [("Share price vs Nifty 50", REL, ORANGE), ("Revenue", RI, NAVY), ("Headcount", HI, HC)]
+order = REL.iloc[-1].sort_values().index.tolist()          # biggest share-price fall first
 
-def draw_all(ax, f):
-    ax.axhline(100, color=INK, lw=1.1, zorder=1)
-    for s, c, lw in [(HI[f], HC_COLOR, 2), (RI[f], NAVY, 2), (REL[f], ORANGE, 2)]:
-        s = s.loc["2022-01-01":]; ax.plot(s.index, s, color=c, lw=lw, zorder=3)
-    e = REL[f].dropna()
-    ax.annotate(f"{e.iloc[-1]:.0f}", (e.index[-1], e.iloc[-1]), xytext=(5, 0), textcoords="offset points",
-                va="center", fontsize=11.5, weight="bold", color=ORANGE)
-    ax.set_ylim(40, 190); ax.set_yticks([50, 100, 150])
-    ax.set_xlim(pd.Timestamp("2022-01-01"), pd.Timestamp("2027-02-15"))
-    ax.set_xticks([pd.Timestamp(f"{y}-07-01") for y in range(2022, 2027)])
-    ax.set_xticklabels([f"'{y % 100}" for y in range(2022, 2027)])
-    ax.spines["bottom"].set_visible(False)
-
+ex = Exhibit(width=8.2, height=8.6)
 n_fell = int((REL.iloc[-1] < 100).sum())
-W2 = {1: "One", 2: "Two", 3: "Three", 4: "Four", 5: "Five", 6: "Six"}
-ex = Exhibit(height=9.1)
-ex.title([[(f"{W2[n_fell]} of six firms' ", INK), ("shares fell", ORANGE), (" while", INK)],
-          [("revenue", NAVY), (" and ", INK), ("headcount", HC_COLOR), (" held steady", INK)]])
-ex.subtitle("Index, Dec 31, 2023 = 100")
-ex.legend([("Share price vs Nifty 50", ORANGE), ("Revenue", NAVY), ("Headcount", HC_COLOR)])
-ex.source("Share price is relative to the Nifty 50 (weekly, to Nov 25, 2026; labeled at the end). Revenue is US$, "
-          "summed over the last four quarters. Headcount is at quarter end, net of all exits. Company data run to "
-          "Sep 30, 2026. LTIMindtree uses its restated combined figures.",
+ex.title([[("Share prices fell while revenue", INK)], [("and headcount barely moved", INK)]])
+ex.subtitle("Change since Dec 31, 2023; dark line = no change, light lines = ±50%")
+ex.source(f"Share price is relative to the Nifty 50, weekly to Nov 25, 2026; it fell at {n_fell} of 6 firms. Revenue is US$, "
+          "summed over the last four quarters. Headcount is at quarter end, net of all exits, so it includes layoffs. "
+          "Company data run to Sep 30, 2026. Every panel uses the same scale. "
+          "LTIMindtree uses its restated combined figures.",
           "Source: Company fact sheets; NSE prices via Yahoo Finance.", credit=CREDIT)
-grid(ex, draw_all, "13_price_revenue_headcount")
+top_in = ex.cursor + 0.15; bot_in = ex.footer + 0.45
+NAME_W, LAB_W, GAP = 1.35, 0.62, 0.28                       # inches
+col_w = (ex.w - 2 * MARGIN - NAME_W - 3 * (LAB_W + GAP) + GAP) / 3
+HEAD = 0.42; row_h = (ex.h - top_in - bot_in - HEAD) / len(order)
+x0s = [MARGIN + NAME_W + k * (col_w + LAB_W + GAP) for k in range(3)]
+for k, (lab, _, c) in enumerate(COLS):
+    ex.fig.text((x0s[k] - 0) / ex.w, 1 - (top_in + 0.25) / ex.h, lab, fontsize=12.5, weight="bold", color=c, va="baseline")
+allv = np.concatenate([D[order].loc[START:].values.ravel() for _, D, _ in COLS]); allv = allv[~np.isnan(allv)]
+lims = [(min(allv.min(), 50) - 4, max(allv.max(), 150) + 4)] * 3        # one scale for every panel
+for i, f in enumerate(order):
+    y_top = top_in + HEAD + i * row_h
+    yb = 1 - (y_top + row_h * 0.85) / ex.h; hh = row_h * 0.72 / ex.h
+    t = ex.fig.text(MARGIN / ex.w - ex._lsb(f, 14, weight="semibold"), yb + hh / 2, f, fontsize=14, weight="semibold",
+                    color=INK, va="center")
+    for k, (lab, D, c) in enumerate(COLS):
+        ax = ex.fig.add_axes([x0s[k] / ex.w, yb, col_w / ex.w, hh]); ax.axis("off")
+        s_ = D[f].loc[START:].dropna()
+        for g in (50, 150): ax.axhline(g, color=GRID, lw=0.8, zorder=0)
+        ax.axhline(100, color=INK, lw=0.9, zorder=1)
+        ax.plot(s_.index, s_.values, color=c, lw=1.8, zorder=2)
+        ax.set_ylim(*lims[k]); ax.set_xlim(START, pd.Timestamp("2026-12-31"))
+        ch = s_.iloc[-1] - 100
+        ax.annotate(f"{ch:+.0f}%".replace("-", "−"), (s_.index[-1], s_.iloc[-1]), xytext=(5, 0), textcoords="offset points",
+                    va="center", fontsize=12, weight="bold", color=c, annotation_clip=False)
+        if i == len(order) - 1:
+            for yr in (2022, 2024, 2026):
+                ax.annotate(f"'{yr % 100}", (pd.Timestamp(f"{yr}-01-01"), lims[k][0]), xytext=(0, -8), textcoords="offset points",
+                            ha="center", va="top", fontsize=11, color=SUB, annotation_clip=False)
+    if i < len(order) - 1:
+        yl = 1 - (y_top + row_h * 0.98) / ex.h
+        ex.fig.add_artist(__import__("matplotlib").lines.Line2D([MARGIN / ex.w, 1 - MARGIN / ex.w], [yl, yl], color=GRID, lw=0.8))
+ex.save(OUT + "13_price_revenue_headcount")
 print("13 done")

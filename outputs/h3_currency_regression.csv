@@ -1,0 +1,13 @@
+adjustment,spec,coef_log_pts,se,p,n
+reported US$,main (post=2024Q1+),-3.842,8.511,0.652,276
+reported US$,robust: post=2023Q1+,-2.873,8.403,0.732,276
+reported US$,robust: firm-specific linear trends,-4.696,4.245,0.269,276
+reported US$,"robust: clean North America only (TCS, Infosys, LTI/LTIM)",-14.985,11.268,0.184,144
+half of Europe in euros,main (post=2024Q1+),-3.813,8.591,0.657,276
+half of Europe in euros,robust: post=2023Q1+,-3.648,8.423,0.665,276
+half of Europe in euros,robust: firm-specific linear trends,-4.299,4.222,0.309,276
+half of Europe in euros,"robust: clean North America only (TCS, Infosys, LTI/LTIM)",-14.767,11.557,0.201,144
+all Europe in euros (main),main (post=2024Q1+),-3.784,8.684,0.663,276
+all Europe in euros (main),robust: post=2023Q1+,-4.424,8.453,0.601,276
+all Europe in euros (main),robust: firm-specific linear trends,-3.902,4.226,0.356,276
+all Europe in euros (main),"robust: clean North America only (TCS, Infosys, LTI/LTIM)",-14.55,11.848,0.219,144

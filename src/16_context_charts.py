@@ -168,7 +168,7 @@ REL = P[F].div(P["Nifty 50"], axis=0).resample("W-FRI").last(); REL = REL / REL.
 RI = R4 / R4.loc[BASE] * 100
 HI = H / H.loc[BASE] * 100
 HC = "#7d7c78"
-COLS = [("Share price vs Nifty 50", REL, ORANGE), ("Revenue", RI, NAVY), ("Headcount", HI, HC)]
+COLS = [("Price vs Nifty 50", REL, ORANGE), ("Revenue", RI, NAVY), ("Headcount", HI, HC)]
 order = REL.iloc[-1].sort_values().index.tolist()          # biggest share-price fall first
 
 ex = Exhibit(width=8.2, height=8.6)

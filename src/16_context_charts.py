@@ -202,7 +202,8 @@ for i, f in enumerate(order):
         ax.plot(s_.index, s_.values, color=c, lw=1.8, zorder=2)
         ax.set_ylim(*lims[k]); ax.set_xlim(START, pd.Timestamp("2026-12-31"))
         ch = s_.iloc[-1] - 100
-        ax.annotate(f"{ch:+.0f}%".replace("-", "−"), (s_.index[-1], s_.iloc[-1]), xytext=(5, 0), textcoords="offset points",
+        # Label sits past the right edge of the panel (where the reference lines stop), not at the line's last point.
+        ax.annotate(f"{ch:+.0f}%".replace("-", "−"), (1, s_.iloc[-1]), xycoords=ax.get_yaxis_transform(), xytext=(7, 0), textcoords="offset points",
                     va="center", fontsize=12, weight="bold", color=c, annotation_clip=False)
         if i == len(order) - 1:
             for yr in (2024, 2025, 2026):

@@ -13,7 +13,7 @@ CREDIT = "Analysis: Atharv Joshi"
 LIGHT_O, LIGHT_N = "#f4c9ad", "#c3cde6"
 
 
-def post_line(ax, x, label="AI coding tools\nspread (2024)", ymax=None):
+def post_line(ax, x, label="AI proliferates\n(2024)", ymax=None):
     ax.axvline(x, color=SUB, ls=(0, (3, 3)), lw=1.1, zorder=1)
     if label:
         y = ax.get_ylim()[1] if ymax is None else ymax
@@ -225,7 +225,7 @@ ax.bar(x - w / 2, D.dlog_rev, w, color=ORANGE, zorder=2); ax.bar(x + w / 2, D.dl
 ax.axhline(0, color=INK, lw=1.2, zorder=3)
 ax.set_xticks(x); ax.set_xticklabels([f"'{str(f)[2:]}" for f in D.fy]); ax.set_ylim(-5, 30)
 ax.set_yticks([0, 5, 10, 15, 20]); ax.set_yticklabels(["0", "5", "10", "15", "20%"]); ax.spines["bottom"].set_visible(False)
-post_line(ax, list(D.fy).index(2024) - 0.5, label="AI coding tools\nspread (FY24)", ymax=29.5)
+post_line(ax, list(D.fy).index(2024) - 0.5, label="AI proliferates\n(FY24)", ymax=29.5)
 finish(ex, ax, "07_decomposition")
 
 # 08 · H5 US IT services jobs -------------------------------------------------------------

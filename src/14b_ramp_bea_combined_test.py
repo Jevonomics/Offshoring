@@ -44,7 +44,7 @@ for i, (c, ylim, yt, gap) in enumerate(panels):
     ax.set_xlim(2014.5, 2025.5); ax.set_xticks(range(2015, 2026)); ax.set_xticklabels([f"'{y % 100:02d}" for y in range(2015, 2026)])
     ax.tick_params(axis="x", labelsize=12); ax.tick_params(axis="y", labelsize=13)
     ax.axvline(2023.5, color=SUB, ls=(0, (3, 3)), lw=1.1, zorder=1)
-    ax.annotate("AI coding tools\nspread (2024)", (2023.5, ylim[1] * 0.99), xytext=(-6, 0), textcoords="offset points",
+    ax.annotate("AI proliferates\n(2024)", (2023.5, ylim[1] * 0.99), xytext=(-6, 0), textcoords="offset points",
                 ha="right", va="top", color=SUB, fontsize=11.5, linespacing=1.15)
     # panel heading: country + 2025 gap, left-aligned with the panel's tick labels (aligned below)
     ax._heading = ex.fig.text(0, 0, "", fontsize=15, weight="bold")

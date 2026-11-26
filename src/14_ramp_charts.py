@@ -186,30 +186,53 @@ ax.set_ylim(0, 60); ax.set_yticks([0, 10, 20, 30, 40, 50]); ax.set_yticklabels([
 year_axis(ax); ax.set_xlim(right=pd.Timestamp("2026-12-15")); post_line(ax, POST - pd.Timedelta(days=80), ymax=59.5)
 finish(ex, ax, "05_hiring_pipeline")
 
-# 06 · H6 revenue per employee: gap by firm and trend window ------------------------------
+# 06 · H6 revenue per employee: gap from the FY16–22 trend over time, one panel per firm --------------
+# Shows the test itself: "broke above trend" means the line leaves the shaded 95% band upward after 2024.
 R6 = pd.read_csv("outputs/h6_rpe_gaps.csv").dropna(subset=["mean_gap_pct"])
-firms = ["TCS", "Wipro", "Infosys", "HCLTech", "TechM"]
-ex = Exhibit(height=6.0)
+PT = pd.read_csv("outputs/h6_rpe_paths.csv", parse_dates=["cal_quarter_end"])
+PT = PT[PT.cal_quarter_end >= "2015-06-30"]
+for c in ("rpe_k", "pi_lo", "pi_hi"): PT[c + "_g"] = 100 * (PT[c] / PT.trend - 1)
+firms = ["TCS", "Infosys", "Wipro", "HCLTech", "TechM"]
+alt = R6[~R6.spec.str.startswith("main") & R6.firm.isin(firms)].mean_gap_pct
+ex = Exhibit(width=7.0, height=9.0)
 ex.title([[("No firm's revenue per", INK)], [("employee broke above trend", INK)]])
-ex.subtitle("Average gap from trend since 2024, %")
-ex.legend([("FY16–22 trend", ORANGE), ("Trend without 2021–22", NAVY), ("Trend from 2019", GRAY)])
-ex.source("Revenue per employee is annualized US$ revenue divided by average headcount. No firm is above its 95% "
-          "band using the FY16–22 trend, and the results change direction depending on which years the trend uses. "
-          "LTIMindtree's combined history is too short to include.", "Source: Company fact sheets.", credit=CREDIT)
-ax = ex.axes(left=0.27, right=0.95, bottom_pad=0.5)
-specs = [("main FY16-FY22", ORANGE, 0.0), ("excl. 2021-22 hiring boom", NAVY, 0.0), ("from 2019", GRAY, 0.0)]
+ex.subtitle("Revenue per employee, % above or below its FY16–22 trend")
+ex.legend([("Actual", ORANGE), ("Trend", NAVY), ("95% band", LIGHT_N)])
+ex.source("Revenue per employee is annualized US$ revenue divided by average headcount. The numbers on the right are each "
+          "firm's average gap since 2024. Fitting the trend to other years changes the direction: averages range from "
+          f"{alt.min():+.0f}% to {alt.max():+.0f}%.".replace("-", "−") + " LTIMindtree's combined history is too short to include.",
+          "Source: Company fact sheets.", credit=CREDIT)
+base = ex.axes(left=0.115, right=0.86, bottom_pad=0.5); pos = base.get_position(); base.remove()
+TH = 0.3 / ex.h                     # room for each panel's firm name
+gap = 0.1 / ex.h; hh = (pos.height - gap * (len(firms) - 1) - TH * len(firms)) / len(firms)
+X0, X1 = pd.Timestamp("2015-04-01"), pd.Timestamp("2026-12-31")
+axs = []
 for i, f in enumerate(firms):
-    y = len(firms) - 1 - i; vals = []
-    for spec, col, _ in specs:
-        v = R6[(R6.firm == f) & (R6.spec == spec)].mean_gap_pct.iloc[0]; vals.append(v)
-    ax.plot([min(vals), max(vals)], [y, y], color=GRID, lw=6, solid_capstyle="round", zorder=1)
-    for (spec, col, _), v in zip(specs[::-1], vals[::-1]):
-        ax.scatter([v], [y], s=130 if col == ORANGE else 95, color=col, edgecolor="white", lw=1.6, zorder=3)
-    ax.text(-0.03, y, f, transform=ax.get_yaxis_transform(), ha="right", va="center", fontsize=14.5, color=INK)
-ax.axvline(0, color=INK, lw=1.2); ax.set_yticks([]); ax.set_ylim(-0.6, len(firms) - 0.4)
-ax.set_xlim(-20, 25); ax.set_xticks([-15, -10, -5, 0, 5, 10, 15, 20]); ax.set_xticklabels(["−15", "−10", "−5", "0", "+5", "+10", "+15", "+20%"]); ax.tick_params(axis="x", labelsize=12.5)
-ax.grid(axis="y", visible=False); ax.grid(axis="x", color=GRID, lw=1); ax.spines["bottom"].set_visible(False)
-finish(ex, ax, "06_rev_per_employee")
+    top = pos.y1 - i * (hh + gap + TH) - TH
+    ax = ex.fig.add_axes([pos.x0, top - hh, pos.width, hh]); axs.append(ax)
+    g = PT[PT.firm == f]
+    ax.fill_between(g.cal_quarter_end, g.pi_lo_g, g.pi_hi_g, color=LIGHT_N, lw=0, zorder=1)
+    ax.axhline(0, color=NAVY, lw=1.4, ls=(0, (4, 2.5)), zorder=2)
+    ax.plot(g.cal_quarter_end, g.rpe_k_g, color=ORANGE, lw=2.2, zorder=3)
+    ax.axvline(pd.Timestamp("2024-01-01"), color=SUB, ls=(0, (3, 3)), lw=1.1, zorder=2)
+    ax.set_xlim(X0, X1); ax.set_ylim(-18, 18); ax.set_yticks([-10, 0, 10]); ax.set_yticklabels(["−10", "0", "+10"])
+    ax.tick_params(axis="y", labelsize=11.5)
+    for sp in ("top", "right", "left", "bottom"): ax.spines[sp].set_visible(False)
+    ax.grid(axis="y", color=GRID, lw=0.8); ax.set_axisbelow(True)
+    ex.fig.text(MARGIN / ex.w - ex._lsb(f, 14, weight="semibold"), top + TH * 0.35, f, ha="left",
+                va="baseline", fontsize=14, weight="semibold", color=INK)
+    m = R6[(R6.firm == f) & R6.spec.str.startswith("main")].mean_gap_pct.iloc[0]
+    ax.text(1.03, 0.5, f"{m:+.0f}%".replace("-", "−"), transform=ax.transAxes, ha="left", va="center", fontsize=14,
+            weight="bold", color=ORANGE)
+    if i == 0:
+        ax.annotate("AI proliferates (2024)", (__import__("matplotlib.dates").dates.date2num(pd.Timestamp("2024-01-01")), 1), xycoords=ax.get_xaxis_transform(),
+                    xytext=(-6, 6), textcoords="offset points", ha="right", va="bottom", fontsize=11, color=SUB)
+    if i < len(firms) - 1: ax.set_xticks([])
+    else:
+        ax.set_xticks([pd.Timestamp(f"{y}-01-01") for y in range(2016, 2027, 2)])
+        ax.set_xticklabels([f"'{y % 100}" for y in range(2016, 2027, 2)]); ax.tick_params(axis="x", labelsize=12.5)
+ex.fig.text(1 - MARGIN / ex.w, pos.y1 - TH * 0.65, "Avg since 2024", ha="right", va="baseline", fontsize=10.5, color=SUB)
+ex.save(OUT + "06_rev_per_employee")
 
 # 07 · Decomposition ----------------------------------------------------------------------
 D = pd.read_csv("outputs/h6_decomposition.csv")

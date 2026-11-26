@@ -23,6 +23,8 @@ for f in FIRMS:
             fy21_covid_gap_pct=100 * (h[h.cal_quarter_end.between("2020-06-30", "2021-03-31")].rpe_k / h[h.cal_quarter_end.between("2020-06-30", "2021-03-31")].trend - 1).mean(),
             fy17_gap_pct=100 * (h[h.cal_quarter_end.between("2016-06-30", "2017-03-31")].rpe_k / h[h.cal_quarter_end.between("2016-06-30", "2017-03-31")].trend - 1).mean()))
 R = pd.DataFrame(rows).round(2); R.to_csv("outputs/h6_rpe_gaps.csv", index=False); print(R.to_string(index=False))
+pd.concat([h.assign(firm=f)[["firm", "cal_quarter_end", "rpe_k", "trend", "pi_lo", "pi_hi"]] for f, h in paths.items()]).round(3) \
+    .to_csv("outputs/h6_rpe_paths.csv", index=False)   # main-spec paths, for the Ramp chart
 # Chart 6: small multiples, main spec (LTIMindtree too short to fit -> LTI shown)
 show = [f for f in FIRMS if f in paths]
 fig, axes = plt.subplots(2, 3, figsize=(12, 6.4), sharex=True); axes = axes.ravel()

@@ -160,3 +160,38 @@ ex.source("Before COVID (2016–19), annual growth averaged about 8% at TCS, Inf
           "Source: Company fact sheets.", credit=CREDIT)
 grid(ex, draw_g, "12_revenue_growth_by_firm")
 print("done")
+
+# 13 · per firm: share price vs Nifty 50, revenue, and headcount, indexed to end-2023 --------------
+BASE = pd.Timestamp("2023-12-31")
+REL = P[F].div(P["Nifty 50"], axis=0).resample("W-FRI").last()
+REL = REL / REL.loc[:BASE].iloc[-1] * 100
+RI = R4 / R4.loc[BASE] * 100
+HI = (H * 1000) / (H.loc[BASE] * 1000) * 100
+HC_COLOR = "#9a9994"
+
+def draw_all(ax, f):
+    ax.axhline(100, color=INK, lw=1.1, zorder=1)
+    for s, c, lw in [(HI[f], HC_COLOR, 2), (RI[f], NAVY, 2), (REL[f], ORANGE, 2)]:
+        s = s.loc["2022-01-01":]; ax.plot(s.index, s, color=c, lw=lw, zorder=3)
+    e = REL[f].dropna()
+    ax.annotate(f"{e.iloc[-1]:.0f}", (e.index[-1], e.iloc[-1]), xytext=(5, 0), textcoords="offset points",
+                va="center", fontsize=11.5, weight="bold", color=ORANGE)
+    ax.set_ylim(40, 190); ax.set_yticks([50, 100, 150])
+    ax.set_xlim(pd.Timestamp("2022-01-01"), pd.Timestamp("2027-02-15"))
+    ax.set_xticks([pd.Timestamp(f"{y}-07-01") for y in range(2022, 2027)])
+    ax.set_xticklabels([f"'{y % 100}" for y in range(2022, 2027)])
+    ax.spines["bottom"].set_visible(False)
+
+n_fell = int((REL.iloc[-1] < 100).sum())
+W2 = {1: "One", 2: "Two", 3: "Three", 4: "Four", 5: "Five", 6: "Six"}
+ex = Exhibit(height=9.1)
+ex.title([[(f"{W2[n_fell]} of six firms' ", INK), ("shares fell", ORANGE), (" while", INK)],
+          [("revenue", NAVY), (" and ", INK), ("headcount", HC_COLOR), (" held steady", INK)]])
+ex.subtitle("Index, Dec 31, 2023 = 100")
+ex.legend([("Share price vs Nifty 50", ORANGE), ("Revenue", NAVY), ("Headcount", HC_COLOR)])
+ex.source("Share price is relative to the Nifty 50 (weekly, to Nov 25, 2026; labeled at the end). Revenue is US$, "
+          "summed over the last four quarters. Headcount is at quarter end, net of all exits. Company data run to "
+          "Sep 30, 2026. LTIMindtree uses its restated combined figures.",
+          "Source: Company fact sheets; NSE prices via Yahoo Finance.", credit=CREDIT)
+grid(ex, draw_all, "13_price_revenue_headcount")
+print("13 done")

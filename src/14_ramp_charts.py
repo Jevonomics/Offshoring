@@ -135,7 +135,8 @@ RC = pd.read_csv("outputs/h3_currency_regression.csv").query("spec == 'main (pos
 ex = Exhibit(height=6.6)
 ex.title([[("Most of the 2025–26 drift goes", INK)], [("away at a fixed euro rate", INK)]])
 ex.subtitle("North America ÷ Europe revenue share, vs 2023, log points")
-ex.legend([("Reported in US$", NAVY), ("Fixed euro rate", ORANGE), ("95% interval", "#c9c7c1")])
+FADED = "#9fb0d6"   # reported US$: kept for comparison, de-emphasized
+ex.legend([("Fixed euro rate", ORANGE), ("Reported in US$", FADED), ("95% interval", "#c9c7c1")])
 r0, r1 = RC.loc["reported US$"], RC.loc["all Europe in euros (main)"]
 ex.source("Covers TCS, Infosys, Wipro, HCLTech, Tech Mahindra, and LTI/LTIMindtree, each compared with its own average. "
           "The fixed-rate version converts all Europe revenue at a constant euro–dollar rate. The firms don't say how much "
@@ -144,15 +145,15 @@ ex.source("Covers TCS, Infosys, Wipro, HCLTech, Tech Mahindra, and LTI/LTIMindtr
            f"{r1.coef_log_pts:+.1f} (p = {r1.p:.2f}) at a fixed rate.").replace("-", "−"),
           "Source: Company fact sheets and the ECB.", credit=CREDIT)
 ax = ex.axes(left=0.13, right=0.95)
-for lab, color, off in [("reported US$", NAVY, -0.17), ("all Europe in euros (main)", ORANGE, 0.17)]:
+for lab, color, off, band, size in [("reported US$", FADED, -0.17, "#e4e2dd", 50), ("all Europe in euros (main)", ORANGE, 0.17, "#c9c7c1", 80)]:
     E = EC[EC.adjustment == lab]
-    ax.vlines(E.year + off, E.coef - 1.96 * E.se, E.coef + 1.96 * E.se, color="#c9c7c1", lw=3, zorder=1)
-    ax.scatter(E.year + off, E.coef, s=70, color=color, edgecolor="white", lw=1.3, zorder=3)
+    ax.vlines(E.year + off, E.coef - 1.96 * E.se, E.coef + 1.96 * E.se, color=band, lw=3, zorder=1)
+    ax.scatter(E.year + off, E.coef, s=size, color=color, edgecolor="white", lw=1.3, zorder=3)
 ax.axhline(0, color=INK, lw=1.2, zorder=2); ax.set_ylim(-25, 36); ax.set_yticks([-20, -10, 0, 10, 20])
 ax.set_yticklabels(["−20", "−10", "0", "+10", "+20"]); year_ticks(ax, range(2015, 2027)); ax.set_xlim(2014.4, 2026.9)
 ax.spines["bottom"].set_visible(False)
 post_line(ax, 2023.5, ymax=35.5)
-for lab, color, off in [("reported US$", NAVY, -0.17), ("all Europe in euros (main)", ORANGE, 0.17)]:
+for lab, color, off in [("reported US$", FADED, -0.17), ("all Europe in euros (main)", ORANGE, 0.17)]:
     v = EC[(EC.adjustment == lab) & (EC.year == 2026)].coef.iloc[0]
     end_label(ax, 2026 + off, v, f"{v:+.0f}", color=color, dx=8)
 finish(ex, ax, "04_na_vs_europe")

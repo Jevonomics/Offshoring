@@ -26,6 +26,10 @@ def per(d):
 R = G.groupby("series").apply(per, include_groups=False).round(2); print(R.to_string())
 pool = smf.ols("gap ~ post + C(series)", G).fit(cov_type="HAC", cov_kwds={"maxlags": 4})
 R.loc["POOLED (series FE, HAC)", ["n", "change_pp", "se", "p"]] = [len(G), round(pool.params["post"], 2), round(pool.bse["post"], 2), round(pool.pvalues["post"], 3)]
+# Robustness (DECISIONS 2026-11-26): TechM's software staff are arguably exposed too, so pool without it.
+G2 = G[~G.series.str.startswith("TechM")]
+pool2 = smf.ols("gap ~ post + C(series)", G2).fit(cov_type="HAC", cov_kwds={"maxlags": 4})
+R.loc["POOLED without TechM (robustness)", ["n", "change_pp", "se", "p"]] = [len(G2), round(pool2.params["post"], 2), round(pool2.bse["post"], 2), round(pool2.pvalues["post"], 3)]
 R.to_csv("outputs/h2_vendor_proxies.csv"); print(R.tail(1).to_string())
 # (d) BEA by type
 B = pd.read_csv("data/processed/bea_imports.csv"); B = B[(B.affiliation == "AllAffiliations") & B.year.between(2015, 2025)]

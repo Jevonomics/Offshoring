@@ -59,6 +59,7 @@ Each line is "exposed growth minus unexposed growth" (percentage points, YoY). I
 
 - **Accenture**, the cleanest exposed/unexposed split available: its outsourcing-type work kept growing faster than consulting. The 2023–24 slump was in *consulting*, the unexposed side.
 - **TechM and HCLTech:** small negative changes, nowhere near significant.
+- **Robustness, without TechM:** software staff are arguably exposed too (software development is on the report's list), so TechM's pair compares two exposed kinds of work. Dropping it, the pooled change is **+0.88 pp (p = 0.66)**, so exposed work still did not fall behind.
 - **BEA India by type:** exposed categories (computer services + accounting + legal) are **+34% above trend in 2025**, outside the band. Unexposed categories (R&D + engineering + management consulting) are +11% above. Exposed grew *faster*.
 - **BEA Philippines:** exposed categories are far below trend and unexposed far above. Given the apparent 2022 reclassification, I don't treat this as evidence.
 - Pre-registered verdict: **no support**. The BEA India split leans contrary.

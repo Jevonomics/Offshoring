@@ -59,3 +59,6 @@ This log is append-only. Each entry is dated and gives its reason.
 - **Chart 04** now shows reported and fixed-rate estimates side by side. The original `src/10_h3_region.py` outputs are unchanged.
 - **Chart 04 emphasis (2026-11-26):** at the user's request the fixed euro rate is the main series (orange, larger dots). The reported US$ series stays, faded to light blue, because the euro-only adjustment is an assumption (it may over-correct) and US$ was the pre-registered measure.
 - **Chart 13 start date (2026-11-26):** lines now start at the Dec 31, 2023 base instead of Jan 2022, so every line begins on the no-change line. Starting in 2022 made the lines cross it at end-2023, which read as if they hadn't started at 100.
+
+## 2026-11-26 — Label for the 2024 line
+- Charts labeled the start of the post period "AI coding tools spread (2024)", following the pre-registration's wording ("when coding agents spread"). That overstated 2024: AI assistants (Copilot, ChatGPT) were in wide use by then, but coding agents went mainstream in 2025. At the user's request the label is now "AI proliferates (2024)" on every chart. The post-period start itself is unchanged (pre-registered).

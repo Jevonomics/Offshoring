@@ -87,7 +87,7 @@ Each line is "exposed growth minus unexposed growth" (percentage points, YoY). I
 | 2026 | −8.8 | −5.4 | −2.0 |
 
   - The 2025–26 drift mostly disappears: it lines up with the euro's rise from about $1.05 (2025 Q1) to $1.17 (2025 Q3).
-  - The post-2024 average barely moves (−3.8, p = 0.66; clean North America firms −14.6, p = 0.22). At a fixed rate the pre-period years sit *above* 2023 (+3 to +8), so the decline vs. the 2015–22 average comes mainly from 2021–22, before AI coding tools spread.
+  - The post-2024 average barely moves (−3.8, p = 0.66; clean North America firms −14.6, p = 0.22). At a fixed rate the pre-period years sit *above* 2023 (+3 to +8), so the decline vs. the 2015–22 average comes mainly from 2021–22, before AI proliferated (2024).
 - Verdict: **no support.** The 2025–26 drift is mostly the exchange rate, and the currency-neutral checks (TCS's own figures and the fixed euro rate) don't show North America falling behind after 2024.
 
 ### H4. Hiring restraint vs. layoffs

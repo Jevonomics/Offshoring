@@ -50,31 +50,34 @@ ax.set_xlim(pd.Timestamp("2022-12-20"), pd.Timestamp("2026-12-31"))
 align_left(ex, ax); ex.align_axes_ink(ax); ex.save(OUT + "09_stocks_vs_market")
 print(f"09: YTD {ytd:.1f}, AI days {on_ai:.1f}")
 
-# 10 · each firm vs its home index ------------------------------------------------------------
+# 10 · each firm vs its home index, since Jan 2024 -----------------------------------------------
 home = {f: "Nifty 50" for f in F}; home["Accenture"] = "S&P 500"
-def rel_ret(a, f):
-    s = P.loc[a:]; return (s[f].iloc[-1] / s[f].iloc[0] - s[home[f]].iloc[-1] / s[home[f]].iloc[0]) * 100
-T = pd.DataFrame({"since24": {f: rel_ret("2024-01-01", f) for f in home}, "ytd": {f: rel_ret("2026-01-01", f) for f in home}}).sort_values("since24")
-ex = Exhibit(height=6.9)
-ex.title([[("Six of seven firms trail their", INK)], [("home market since 2024", INK)]])
-ex.subtitle("Share price return minus home index, percentage points")
-ex.legend([("Since Jan 2024", NAVY), ("2026 so far", ORANGE)])
-ex.source("Total returns (prices adjusted for dividends and splits), to 25 Nov 2026. Indian firms are compared with the "
-          "Nifty 50 and Accenture with the S&P 500.",
+s24 = P.loc["2024-01-01":]
+T = pd.Series({f: ((s24[f].iloc[-1] / s24[f].iloc[0]) / (s24[home[f]].iloc[-1] / s24[home[f]].iloc[0]) - 1) * 100
+               for f in home}).sort_values(ascending=False)
+n_trail = int((T < 0).sum())
+ex = Exhibit(height=6.6)
+W2 = {1: "One", 2: "Two", 3: "Three", 4: "Four", 5: "Five", 6: "Six", 7: "Seven"}
+ex.title([[(f"{W2[n_trail]} of {W2[len(T)].lower()} firms trail their", INK)], [("home market since 2024", INK)]])
+ex.subtitle("Share price relative to home index since 2 Jan 2024, %")
+ex.legend([("Indian firms vs Nifty 50", ORANGE), ("Accenture vs S&P 500", NAVY)])
+ex.source("Total returns (prices adjusted for dividends and splits), to 25 Nov 2026. Relative return = (1 + firm return) "
+          "÷ (1 + index return) − 1, so −50% means the firm is worth half as much relative to its market as in January 2024.",
           "Source: NSE and NYSE prices via Yahoo Finance.", credit=CREDIT)
-ax = ex.axes(left=0.25, right=0.95, bottom_pad=0.5)
+ax = ex.axes(left=0.25, right=0.9, bottom_pad=0.5)
 ax.grid(axis="y", visible=False); ax.grid(axis="x", color=GRID, lw=1); ax.spines["bottom"].set_visible(False)
-for i, (f, row) in enumerate(T.iterrows()):
-    ax.plot([row.since24, row.ytd], [i, i], color=GRID, lw=5, zorder=1, solid_capstyle="round")
-    ax.scatter(row.since24, i, s=150, color=NAVY, zorder=3, edgecolor="white", lw=1.5)
-    ax.scatter(row.ytd, i, s=150, color=ORANGE, zorder=3, edgecolor="white", lw=1.5)
-ax.axvline(0, color=INK, lw=1.4, zorder=2)
-ax.set_yticks(range(len(T))); ax.set_yticklabels(T.index, fontsize=14.5, color=INK); ax.tick_params(axis="y", pad=12)
-ax.set_xlim(-90, 40); ax.set_xticks(range(-80, 41, 20))
-ax.set_xticklabels([f"{x:+d}".replace("-", "−") if x else "0" for x in range(-80, 41, 20)])
+y = np.arange(len(T))[::-1]
+ax.barh(y, T.values, height=0.62, color=[NAVY if f == "Accenture" else ORANGE for f in T.index], zorder=2)
+for yi, v in zip(y, T.values):
+    ax.annotate(f"{v:+.0f}%".replace("-", "−"), (v, yi), xytext=(6 if v >= 0 else -6, 0), textcoords="offset points",
+                ha="left" if v >= 0 else "right", va="center", fontsize=13.5, weight="bold", color=INK)
+ax.axvline(0, color=INK, lw=1.4, zorder=3)
+ax.set_yticks(y); ax.set_yticklabels(T.index, fontsize=14.5, color=INK); ax.tick_params(axis="y", pad=12)
+ax.set_xlim(-75, 45); ax.set_xticks(range(-60, 41, 20))
+ax.set_xticklabels([f"{x:+d}".replace("-", "−") if x else "0" for x in range(-60, 41, 20)])
 ax.set_ylim(-0.6, len(T) - 0.4)
 align_left(ex, ax); ex.align_axes_ink(ax); ex.save(OUT + "10_stocks_by_firm")
-print("10:", T.round(0).to_dict())
+print("10:", T.round(1).to_dict())
 
 # 11 & 12 · small multiples ---------------------------------------------------------------------
 V = pd.read_csv("data/processed/vendor_panel.csv", parse_dates=["cal_quarter_end"])

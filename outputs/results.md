@@ -155,3 +155,33 @@ Average gap vs. trend, 2024 onward:
   - TechM's datasheet has an FY16 row offset.
   - Some HCLTech segment-margin tables shared labels with share tables. They are now screened by a sum-to-100 rule.
   - HCLTech's 2024 region scheme is kept separate from the old one.
+
+---
+
+## Context: where did the extra imports from India go? (not a pre-registered test)
+*Script: `src/17_reconcile_imports.py`. Files: `outputs/reconcile_imports_vs_vendors.csv`, `outputs/us_affiliates_india.csv`, `data/manual/midtier_revenue.csv`.*
+
+US imports of computer & business services from India grew far faster than the six vendors' North American revenue:
+
+| 2022 → 2025, US$ bn | 2022 | 2025 | Change |
+|---|---|---|---|
+| BEA imports from India | 27.5 | 38.9 | **+11.5 (+42%)** |
+| Six firms' North America revenue | 46.3 | 47.9 | **+1.6 (+3.5%)** |
+
+(Vendor revenue includes onsite work in the US and Canada/Latin America for "Americas" firms, so the levels aren't comparable; only the changes are. HCLTech's 2025 "USA" share is scaled to its old "Americas" basis.)
+
+About **$10 bn** of new imports did not go to the six firms. Candidates:
+
+- **US companies' own offices in India (GCCs) and US-owned vendors.** BEA's data on majority-owned Indian affiliates of US multinationals (which cover GCCs and firms like Cognizant) show strong growth that ran *above* its 2015–22 trend:
+
+  | US-owned affiliates in India | 2022 | 2024 | Change | 2024 vs 2015–22 trend |
+  |---|---|---|---|---|
+  | Employees, all industries | 1.76M | 2.01M | +14% | +7% |
+  | Employees, professional & technical services | 877k | 1,030k | +17% | +15% |
+  | Pay, all industries | $37.8bn | $49.2bn | +30% | +12% |
+
+  Over the same period the six firms' headcount fell 4% (1.69M → 1.62M). Caveats: these affiliates also serve the Indian market and other countries; the data end in 2024; and they include US-owned vendors, so in-house offices can't be separated from vendors like Cognizant. BEA's trade data split affiliated vs. unaffiliated imports by country only for IP charges, so the direct test isn't available.
+- **Mid-tier Indian vendors** grew fast but are small: Persistent $1.04bn (FY23) → $1.65bn (FY26); Coforge $1.45bn (FY25) → $1.87bn (FY26); Mphasis $1.80bn and Hexaware $1.54bn (CY25, +7.6%) grew slowly. Even generously, their combined global gain is a few $bn at most, well short of $10 bn. FY23 figures for Coforge, Mphasis and Hexaware were not found (NA).
+- **Not tested:** vendors shifting work from onsite (in the US, not an import) to offshore (an import) would raise imports without raising revenue; multinational vendors that aren't US-owned (Accenture, Capgemini) delivering from India.
+
+**Reading:** the pattern fits work staying in India but moving away from the six big vendors, mostly toward US companies' own Indian operations. That is a shift in *who* does offshore work, not a cut in offshore work. It says nothing about AI as the cause: GCC growth was already fast before 2022.
